@@ -10,6 +10,8 @@ description: Functional requirements for the Scatter Peerplays plugin.
 
 ### 1.2 Scope
 
+The scope is defined in the [project scope document](project-scope.md).
+
 ### 1.3 Assumptions and Constraints
 
 
