@@ -14,3 +14,7 @@
 
 * [GPOS](project-management/gpos.md)
 
+## Peerplays Wallet
+
+* [Peerplays wallet feature list](peerplays-wallet/peerplays-wallet-feature-list.md)
+
