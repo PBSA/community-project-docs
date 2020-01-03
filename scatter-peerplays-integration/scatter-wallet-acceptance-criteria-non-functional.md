@@ -1,8 +1,4 @@
----
-description: non-functional requirements
----
-
-# Scatter wallet Acceptance Criteria
+# Scatter wallet Acceptance Criteria \(non-functional\)
 
 ### Traceability Matrix
 
@@ -13,7 +9,7 @@ description: non-functional requirements
 | **Stakeholders** | @Jonathan Baha'i |
 | **Approver** | @Jonathan Baha'i |
 | **Technical Writers** |  |
-| **Contributors** |   @bobinson  |
+| **Contributors** |  @Adrian Metzler @bobinson  |
 
 Tickets or the PRs provide the following information. This in addition to the functional requirements and acceptance.
 

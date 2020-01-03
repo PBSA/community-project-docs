@@ -4,13 +4,19 @@ description: Functional requirements for the Scatter Peerplays plugin.
 
 # Functional Requirements
 
+## 1.0 Introduction
+
+### 1.1 Objective
+
+### 1.2 Scope
+
+### 1.3 Assumptions and Constraints
 
 
-‌
 
-This document will provide a tabular listing of the Peerplays Scatter Wallet Integration feeatures. The target features for the Scatter Wallet Peerplays plugin will be based on this document.
+This document will provide a tabular listing of the Peerplays Scatter Wallet Integration features. The target features for the Scatter Wallet Peerplays plugin will be based on this document. The features that Peerplays Scatter integration will provide is going to be a sub-set of the P[eerplays Wallet Features](https://app.gitbook.com/@peerplays/s/community-project-docs/peerplays-wallet/peerplays-wallet-feature-list).
 
-**Requirements:**
+## **2.0 Requirements**
 
 | Requirement | User Story |
 | :--- | :--- |
@@ -20,4 +26,8 @@ This document will provide a tabular listing of the Peerplays Scatter Wallet Int
 | Retrieve PPY Balance | As a user I should be able to see my PPY balance within the Scatter wallet. |
 | Send PPY | As a user I should be able to send PPY via the Scatter wallet. |
 | Receive PPY | As a user I should be able to receive PPY via the Scatter wallet. |
+
+## 3.0 Functional Requirements
+
+This section will provide detailed description, mockups/wireframes/screenshots of requiremetns provided in section 2. The Quality assurance team will prepare the test plan based on this section.
 
