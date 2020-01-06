@@ -98,22 +98,18 @@ The minimum size of the window is 800x720.
 
 ### 4. Code Quality
 
-* Codequality related requirements set by product sponsor [Jonathan Baha'i](https://peerplays.atlassian.net/wiki/people/557058:10859e4a-36e5-4aa3-9b54-82b9cb247baf?ref=confluence) are given below:
+Sonarcloud reports should be available for all the PRs & they should be acceptable.
 
-6e827d89-1b4a-408a-9ae1-9ad4563fd321DECIDEDa4719ae7-c03c-4d39-8f50-e9693ae416a3Sonarcloud reports should be available for all the PRs & they should be acceptableDECIDED4868850c-dbfe-47af-9f0e-412b998f42f1Codeclimate code quality and complexity rules must be tested via Gitlab and available for all the PRs
+Codeclimate code quality and complexity rules must be tested via Gitlab and available for all the PRs
 
 * Sonarcloud reports should be available for all the PRs & they should be acceptable
 * Codeclimate code quality and complexity rules must be tested via Gitlab and available for all the PRs
 
+Ideally, newly written functions should include comments if possible. This is especially true for the Peerplays plugin. This will make future changes much easier.
+
 ### 5. Security
 
-* Security requirements set and expected by the product sponsor/owner [Jonathan Baha'i](https://peerplays.atlassian.net/wiki/people/557058:10859e4a-36e5-4aa3-9b54-82b9cb247baf?ref=confluence) are given below:
-
-702638ee-30db-49b2-863d-3441e27d1fc9DECIDEDebe835b2-c6f3-4d28-a869-d668b1324f2fMinimal OWASP security checklist compliance must be achieved by performing OWASP ZAP or Gitlab SAST based scanning of the application.DECIDED66aa22e6-31e6-4845-9c52-714f7f3588feNo Vulnerabilities should be reported in the code base and it must be verified with with [Gitlab CI Vulnerability report.](https://gitlab.com/PBSA/streamersedge/StreamersEdge/security/dashboard/?project_id=12046101&scope=dismissed&page=1&days=90)DECIDED36708255-022f-4b60-b28b-550c4c76e000ELK based logging must be available for anyone performing feature testing and PR review \( Implement Security Logging and Monitoring\)
-
-* Minimal OWASP security checklist compliance must be achieved by performing OWASP ZAP or Gitlab SAST based scanning of the application.
-* No Vulnerabilities should be reported in the code base and it must be verified with with [Gitlab CI Vulnerability report.](https://gitlab.com/PBSA/streamersedge/StreamersEdge/security/dashboard/?project_id=12046101&scope=dismissed&page=1&days=90)
-* ELK based logging must be available for anyone performing feature testing and PR review \( Implement Security Logging and Monitoring\)
+* No Vulnerabilities should be reported in the code base and it must be verified with with [Gitlab CI Vulnerability report.](https://gitlab.com/PBSA/streamersedge/StreamersEdge/security/dashboard/?project_id=12046101&scope=dismissed&page=1&days=90) Any existing vulnerabilities should be addressed ASAP.
 
 ### 6. Performance
 
