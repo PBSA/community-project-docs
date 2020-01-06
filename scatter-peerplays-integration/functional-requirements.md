@@ -33,3 +33,15 @@ This document will provide a tabular listing of the Peerplays Scatter Wallet Int
 
 This section will provide detailed description, mockups/wireframes/screenshots of requiremetns provided in section 2. The Quality assurance team will prepare the test plan based on this section.
 
+* Connect to Peerplays blockchain:
+
+![The list of networks can be added and removed here.](../.gitbook/assets/image.png)
+
+* Generate Keypair
+
+![Screen 1](../.gitbook/assets/image%20%282%29.png)
+
+![Screen 2](../.gitbook/assets/image%20%281%29.png)
+
+
+

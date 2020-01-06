@@ -10,7 +10,7 @@ description: 'sprints, status, deliverables'
 
 ### ​ <a id="undefined"></a>
 
-## GPOS Sprint Jan2-Jan16 \(dummy content\) <a id="gpos-sprint-jan-2-jan16"></a>
+## GPOS Sprint Jan2-Jan9 \(dummy content\) <a id="gpos-sprint-jan-2-jan16"></a>
 
 **The Sprint goal** : Deliver fully functional GPOS enabled GPOS wallet to Public Testnet Beatrice
 
