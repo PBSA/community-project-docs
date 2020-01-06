@@ -1,4 +1,8 @@
-# Scatter wallet Acceptance Criteria \(non-functional\)
+---
+description: non-functional requirements
+---
+
+# Scatter wallet Acceptance Criteria
 
 ### Traceability Matrix
 
@@ -9,7 +13,7 @@
 | **Stakeholders** | @Jonathan Baha'i |
 | **Approver** | @Jonathan Baha'i |
 | **Technical Writers** |  |
-| **Contributors** |  @Adrian Metzler @bobinson  |
+| **Contributors** |   @bobinson  |
 
 Tickets or the PRs provide the following information. This in addition to the functional requirements and acceptance.
 
@@ -18,14 +22,15 @@ Tickets or the PRs provide the following information. This in addition to the fu
 #### Node Packages
 
 * Babel
-  * @babel/core: 6.25.0
-  * @babel/preset-react: v6.24.1
-  * @babel/preset-env: v1.6.1
-  * @babel/runtime: v6.23.0
-* React: v16.5.0
-* Redux: v3.7.1
-* Webpack: v3.10.0
+  * @babel/core: v7.5.4
+  * @babel/preset-env: v7.5.4
+  * @babel/runtime: v8.06.0
+* Webpack: v4.35.3
 * Node: v8.16.1
+* Vue: v2.6.10
+* Vuex: v3.0.1
+
+Note: Upon installation, all dependencies are bumped to the latest minor \(backwards compatible\) version.
 
 | The packages used must be verified against the [dependency list provided by Gitlab](https://gitlab.com/PBSA/streamersedge/streamersedge-gui/dependencies) in every build. |
 | :--- |
@@ -35,54 +40,61 @@ Refer [Application Security with GitLab](https://peerplays.atlassian.net/wiki/sp
 
 ### 2. Browsers & Versions
 
-2ba1fdc6-50bf-4610-a195-aab24de9c020DECIDED584197b8-cd3e-48a3-826a-0a7cf7f67535Browsers & their Versions for V2 is decided.
+As the Scatter project is delivered via Electron, browser support will be handled by the Electron package, and therefore be Electron/Chromium only.
 
-* Browsers & their Versions for V2 is decided.
-* [Jonathan Baha'i](https://peerplays.atlassian.net/wiki/people/557058:10859e4a-36e5-4aa3-9b54-82b9cb247baf?ref=confluence) : The browser and OS versions 5050 V2.0 to be support the following browsers & OSs
+Operating System support will be the minimum required to run Electron.
+
+Electron version: v5.0.6^ \(bumped to latest minor version\).
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Supported Browsers</b>
+      <th style="text-align:left"><b>Supported Operating Systems</b>
       </th>
-      <th style="text-align:left"><b>OS Versions</b>
-      </th>
+      <th style="text-align:left">Details</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">
         <ul>
-          <li><b>Google Chrome Stable</b> (chromium based)</li>
-          <li>&gt;= 70</li>
-        </ul>
-      </td>
-      <td style="text-align:left">Windows 10 (&gt;= 1803)</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <ul>
-          <li><b>Firefox Stable</b>
-            <ul>
-              <li>&gt;= 70</li>
-            </ul>
+          <li><b>Windows</b>
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Windows 10 (&gt;= 1803)</td>
+      <td style="text-align:left">Windows 7 and later are supported, older operating systems are not supported
+        (and do not work).</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><b>macOS</b>
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Only 64bit binaries are provided for macOS, and the minimum macOS version
+        supported is macOS 10.10 (Yosemite).</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p></p>
+        <ul>
+          <li><b>Linux</b>
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <p></p>
+        <p>Ubuntu 12.04 and newer</p>
+      </td>
     </tr>
   </tbody>
-</table>### 3. Screen Resolutions to be supported in 5050 V2
+</table>### 3. Screen Resolutions Support
 
-* Resolutions related requirements by [Jonathan Baha'i](https://peerplays.atlassian.net/wiki/people/557058:10859e4a-36e5-4aa3-9b54-82b9cb247baf?ref=confluence) are given below.
+The Electron window can be resized and the elements within should be responsive.
 
-382ef26b-71d7-467b-bdcc-1b18e21effe7DECIDED7acff6ee-d603-41a7-8c86-d0c2cb7a6d50We will be using the same UI design for all the resolutions in V2DECIDEDbbd17b50-617d-445b-b63f-179ae8b58ec4For smaller screens, no re-arrangement or components, buttons or icons will be madeDECIDEDb3ad67b7-8527-46cd-8b60-29bb744f97ebSmallest Screen size supported should be 1020x400
-
-* We will be using the same UI design for all the resolutions in V2
-* For smaller screens, no re-arrangement or components, buttons or icons will be made
-* Smallest Screen size supported should be 1020x400
-
-Supporting document is [Twitch UI behaviour](https://peerplays.atlassian.net/wiki/spaces/PIX/pages/361463869/Twitch+UI+behaviour)
+The minimum size of the window is 800x720.
 
 ### 4. Code Quality
 
@@ -106,6 +118,4 @@ Supporting document is [Twitch UI behaviour](https://peerplays.atlassian.net/wik
 ### 6. Performance
 
 Optional and nice to have action item.
-
-Frontend developers are to make use of the newer React Dev Tools add-ons for their browsers and make use of the [profiling tools](https://scotch.io/tutorials/use-the-react-profiler-for-performance) to ensure their code is performant.
 
