@@ -16,7 +16,7 @@ The scope is defined in the [project scope document](project-scope.md).
 
 
 
-This document will provide a tabular listing of the Peerplays Scatter Wallet Integration features. The target features for the Scatter Wallet Peerplays plugin will be based on this document. The features that Peerplays Scatter integration will provide is going to be a sub-set of the [Peerplays Wallet Features](https://app.gitbook.com/@peerplays/s/community-project-docs/peerplays-wallet/peerplays-wallet-feature-list).
+This document will provide a tabular listing of the Peerplays Scatter Wallet Integration features. The target features for the Scatter Wallet Peerplays plugin will be based on this document. The features that Peerplays Scatter integration will provide is going to be a sub-set of the P[eerplays Wallet Features](https://app.gitbook.com/@peerplays/s/community-project-docs/peerplays-wallet/peerplays-wallet-feature-list).
 
 ## **2.0 High Level Requirements**
 
@@ -31,13 +31,13 @@ This document will provide a tabular listing of the Peerplays Scatter Wallet Int
 
 ## 3.0 Functional Requirements
 
-This section will provide detailed description, mockups/wireframes/screenshots of requiremetns provided in section 2. The Quality assurance team will prepare the test plan based on this section.
+This section will provide detailed description, mockups/wireframes/screenshots of requirements provided in section 2. The Quality assurance team will prepare the test plan based on this section.
 
-* Connect to Peerplays blockchain:
+### 3.1 Connect to Peerplays blockchain:
 
 ![The list of networks can be added and removed here.](../.gitbook/assets/image.png)
 
-* Generate Keypair
+### 3.2 Generate Keypair
 
 ![Screen 1](../.gitbook/assets/image%20%282%29.png)
 
