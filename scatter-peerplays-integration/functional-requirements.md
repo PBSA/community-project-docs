@@ -43,5 +43,15 @@ This section will provide detailed description, mockups/wireframes/screenshots o
 
 ![Screen 2](../.gitbook/assets/image%20%281%29.png)
 
+### 3.3 Support for PPY Asset/Retrieve PPY Balance
 
+![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%284%29.png)
+
+### 3.4 Send PPY
+
+![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%285%29.png)
+
+### 3.5 Receive PPY
+
+![](../.gitbook/assets/image%20%286%29.png)
 
