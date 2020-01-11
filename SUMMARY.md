@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+* [Gitbook Howto](gitbook-howto.md)
 
 ## Projects
 
