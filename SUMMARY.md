@@ -24,6 +24,5 @@
 
 ## QA
 
-* [Home-QA](qa/home-qa/README.md)
-  * [Untitled](qa/home-qa/untitled.md)
+* [Home-QA](qa/home-qa.md)
 
