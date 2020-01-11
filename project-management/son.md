@@ -1,14 +1,24 @@
 # SON
 
-## SON Sprint Jan2-Jan16 \(dummy content\) <a id="gpos-sprint-jan-2-jan16"></a>
+## SON Sprint Jan3-Jan17 \(in progress\) <a id="gpos-sprint-jan-2-jan16"></a>
 
-**The Sprint goal** : Deliver fully functional GPOS enabled GPOS wallet to Public Testnet Beatrice
+**The Sprint goal** : Deliver tasks in the sprint
 
-**Expected deliverables:** PeerplaysJS-lib alpha and beta releases, Peerplays-GUI-Wallet beta release
+**Expected deliverables:** SON heart beat, state changes
 
-There are x items in the backlog
+There are 33 items in the backlog
 
-​![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LpttMORkEqt0ggYP_Oo%2F-LxamTEuIcHlVDud36G9%2F-LxaoM2XcK04-AmGgIw9%2Fimage.png?alt=media&token=2f186146-f8a5-459a-94fe-6888dd3f1e86)
+​
+
+![\(SON total progress...\)](https://lh6.googleusercontent.com/wQEHP6P69CLLhvvuPXR9K0lh6r6T_d5EdyhWduEdOfClBxX4k1ARmyRN8iHcIFkdZbqOIs_RngQeDumvLdv1O0uB755hO-lOw-wh29n2xklpjrJ6go8d63mheOb8YY0ePBVrNaXTm18)
+
+
+
+![SON progress \(number of tasks\)-according to JIRA](https://lh5.googleusercontent.com/1o33pS7WpFY6jAW6VuQlYBsaVQRU_I4VZQ_-B0qyq3fZZPj4VrDZL8JHVeJKhkM9TczXKXE_v-kPSuKw3jpqXvPjbASobSjfAgnUu3WqcOiDkMkr6_EFOUw84XM7dqvsjDz9MLko00A)
+
+
+
+![burn down chart - vacation time](https://lh3.googleusercontent.com/tRgxbl2IIzPK6rCf7UyJLJMyFLfxtYFjjiGIN1Cg7NhiyvdqkuPASDZ5C22GAN5QkpvSRnR5ERj4aVV4zVItipdZWF3X2v1Lo-WMJvrRNkqGgIGXRBYnEVxJZ5siU9ULd6qZ6ZOkF3I)
 
 ### QA Report <a id="qa-report"></a>
 
