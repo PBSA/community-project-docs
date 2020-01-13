@@ -40,7 +40,7 @@ Refer [Application Security with GitLab](https://peerplays.atlassian.net/wiki/sp
 
 ### 2. Browsers & Versions
 
-As the Scatter project is delivered via Electron, browser support will be handled by the Electron package, and therefore be Electron/Chromium only.
+As the Scatter project is delivered via Electron, browser support will be handled by the Electron package, and therefore be Electron/Chromium only. x64 support only.
 
 Operating System support will be the minimum required to run Electron.
 
