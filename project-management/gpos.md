@@ -20,9 +20,11 @@ There are 10 items in the backlog.
 
 ## Sprint Retrospect <a id="sprint-retrospect"></a>
 
-#### Sprint burn up <a id="sprint-burn-up"></a>
+####  <a id="sprint-burn-up"></a>
 
 &lt;Insert chart&gt;
+
+![](../.gitbook/assets/gpos_jan13_burndown.jpg)
 
 #### **Progress** <a id="progress"></a>
 
