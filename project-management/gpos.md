@@ -8,11 +8,7 @@ description: 'sprints, status, deliverables'
 
 ## GPOS Sprint Jan16-Jan30 <a id="gpos-sprint-jan-16-jan30"></a>
 
-### ​ <a id="undefined"></a>
-
-## GPOS Sprint Jan2-Jan9 <a id="gpos-sprint-jan-2-jan16"></a>
-
-**The Sprint goal** : Deliver fully functional GPOS enabled GPOS wallet to Public Testnet Beatrice
+### ​**The Sprint goal** : Deliver fully functional GPOS enabled GPOS wallet to Public Testnet Beatrice <a id="undefined"></a>
 
 **Expected deliverables:** PeerplaysJS-lib alpha and beta releases, Peerplays-GUI-Wallet beta release
 
