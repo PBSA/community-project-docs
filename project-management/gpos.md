@@ -18,11 +18,15 @@ There are 10 items in the backlog.
 
 ####  <a id="sprint-burn-up"></a>
 
-&lt;Insert chart&gt;
+Sprint Burn Down Chart
+
+
 
 ![](../.gitbook/assets/gpos_jan13_burndown.jpg)
 
 #### **Progress** <a id="progress"></a>
+
+![](../.gitbook/assets/gpos_jan13_piechart.jpg)
 
 ​
 
