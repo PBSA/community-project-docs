@@ -37,7 +37,7 @@ This section will provide detailed description, mockups/wireframes/screenshots o
 
 ### 3.1 Connect to Peerplays blockchain:
 
-![The list of networks can be added and removed here.](../.gitbook/assets/image%20%288%29.png)
+![The list of networks can be added and removed here.](../.gitbook/assets/image%20%2810%29.png)
 
 ### 3.2 Generate Keypair
 
@@ -45,7 +45,7 @@ The generate keypair option will generate a Public-Private Key pair and display 
 
 ![Screen 1](../.gitbook/assets/image%20%283%29.png)
 
-![Screen 2](../.gitbook/assets/image%20%2812%29.png)
+![Screen 2](../.gitbook/assets/image%20%2814%29.png)
 
 ### 3.3 Support for PPY Asset/Retrieve PPY Balance
 
@@ -53,7 +53,7 @@ The generate keypair option will generate a Public-Private Key pair and display 
 
 ### 3.4 Send PPY
 
-![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2811%29.png)
+![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2813%29.png)
 
 ### 3.5 Receive PPY
 
