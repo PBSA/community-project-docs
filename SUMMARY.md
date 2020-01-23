@@ -5,6 +5,11 @@
 
 ## Projects
 
+## SON
+
+* [QA - SON](son/untitled/README.md)
+  * [JAN20-Peerplays-Release0.2Build1](son/untitled/jan20-peerplays-release0.2build1.md)
+
 ## Scatter Peerplays Integration
 
 * [Functional Requirements](scatter-peerplays-integration/functional-requirements.md)
@@ -26,9 +31,4 @@
 ## QA
 
 * [Home-QA](qa/home-qa.md)
-
-## SON
-
-* [QA - SON](son/untitled/README.md)
-  * [JAN20-Peerplays-Release0.2Build1](son/untitled/jan20-peerplays-release0.2build1.md)
 
