@@ -1,24 +1,16 @@
 # SON
 
-## SON Sprint Jan3-Jan17 \(in progress\) <a id="gpos-sprint-jan-2-jan16"></a>
-
-**The Sprint goal** : Deliver tasks in the sprint
-
-**Expected deliverables:** SON heart beat, state changes
-
-There are 33 items in the backlog
+## SON Sprint Jan20-Jan31 \(in progress\) <a id="gpos-sprint-jan-2-jan16"></a>
 
 ![](../.gitbook/assets/son_burndoen_jan29.jpg)
 
 ​
 
-![](../.gitbook/assets/son_sprint_pie_jira-_jan16.jpg)
+![](../.gitbook/assets/son_pie_jan29_sprint.jpg)
 
 
 
-![](../.gitbook/assets/son_progress__jira-_jan16.jpg)
-
-
+![](../.gitbook/assets/son_progress_jira_jan29.jpg)
 
 ### QA Report <a id="qa-report"></a>
 
