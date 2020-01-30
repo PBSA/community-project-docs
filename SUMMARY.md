@@ -5,7 +5,8 @@
 
 ## Projects
 
-* [Block Explorer](block-explorer.md)
+* [Block Explorer](block-explorer/README.md)
+  * [Setting up the Explorer](block-explorer/setting-up-the-explorer.md)
 
 ## SON
 
