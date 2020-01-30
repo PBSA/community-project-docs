@@ -5,9 +5,13 @@
 
 ## Projects
 
+* [Block Explorer](block-explorer.md)
+
 ## SON
 
+* [How To](son/how-to.md)
 * [QA - SON](son/untitled/README.md)
+  * [Installing Block Exploerer](son/untitled/installing-block-exploerer.md)
   * [JAN20-Peerplays-Release0.2Build1](son/untitled/jan20-peerplays-release0.2build1.md)
 
 ## Scatter Peerplays Integration
@@ -31,4 +35,8 @@
 ## QA
 
 * [Home-QA](qa/home-qa.md)
+
+## SON <a id="son-1"></a>
+
+* [Untitled](son-1/untitled.md)
 
