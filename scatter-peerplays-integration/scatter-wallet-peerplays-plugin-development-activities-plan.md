@@ -112,7 +112,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />build transaction (#13 &amp; #15)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />set transaction fees (#13 &amp; #14)</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />set transaction fees (#13 &amp; #14)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />sign transaction (#13 &amp; #14)</li>
@@ -242,7 +243,7 @@ Store account keys after they have been generated \(and authenticated\) as [mult
 Requires porting of several functions from peerplaysjs-lib to support fetch calls instead of a constant WS connection route via exclusive usage of TransactionBuilder \(see low-level section below for details\).
 
 * [x] build transfer transaction
-* [ ] set transaction fees for memo/no memo
+* [x] set transaction fees for memo/no memo
 * [x] sign a built transfer transaction
 * [x] broadcast a signed transfer transaction
 
@@ -410,8 +411,8 @@ Request `username` and `password` from user. Check that `username` has not alrea
 * [x] broadcast → once the transaction is ready, send it to the blockchain to be processed
 * [x] getAsset → get asset information from chain
 * [x] getFees → get fees required for operation \(some fee schedule items have a price/KB as well as a flat fee\)
-* [ ] getRequiredFees → determine what fees are necessary for the operation \(if we don't add anything or the wrong fees, the transaction will be rejected by the blockchain\)
-* [ ] setRequiredFees → once the required fees are determined, set them on the transaction object
+* [x] getRequiredFees → determine what fees are necessary for the operation \(if we don't add anything or the wrong fees, the transaction will be rejected by the blockchain\)
+* [x] setRequiredFees → once the required fees are determined, set them on the transaction object
 
 #### Generic Object Data Retrieval
 
