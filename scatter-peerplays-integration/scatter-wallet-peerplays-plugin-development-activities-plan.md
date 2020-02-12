@@ -50,7 +50,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />Define MVP for QA</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Determine how to compile application</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Determine how to compile application with PPY plugin operable</li>
         </ul>
       </td>
       <td style="text-align:left">What QA environment is expected? Full binary testing or unit test running?</td>
