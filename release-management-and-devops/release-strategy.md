@@ -32,10 +32,10 @@ All steps outlined below are mandatory.
    1. create a new release branch with the name format: `release/vX.X.X-alpha` from `pbsa-develop`
    2. create a new git pre-release **draft** from the branch created in step _6.1._ \(this will create a new git tag\)
       1. **no binaries are to be attached** to this git release as these binaries are pointing to private Peerplays test-nets
-   3. produce the binaries from the new release generated in step six pointing to private Peerplays test-nets
+   3. produce the binaries from the new release generated in step six pointing to **private Peerplays test-nets**
       1. these binaries are sent to the Quality Assurance team directly
    4. publish the drafted git pre-release created in step _6.2._
-   5. Complete step _0_ for the QA team for a private alpha release
+   5. Complete step _0_ for the QA team for a **private alpha** release
 7. After QA process has been completed:
    1. Peerplays developer or DevOps engineer will open pull requests to merge the release branch generated in step six into:
       1. `master`
@@ -44,17 +44,17 @@ All steps outlined below are mandatory.
    3. Peerplays developer or DevOps engineer will:
       1. create a new release branch with the name format: `release/vX.X.X-beta` from `master`
       2. create a new git pre-release **draft** from the branch created in step 7_.3.1._ with the name format: `vX.X.X-beta` \(this will create a new git tag\)
-      3. produce the binaries from the new branch generated in step _7.3.1._ pointing to the public Peerplays test-net \(Beatrice\)
+      3. produce the binaries from the new branch generated in step _7.3.1._ pointing to the **public Peerplays test-net** \(Beatrice\)
       4. attach the produced binaries to the newly drafted git pre-release in step _7.3.2._
       5. publish the drafted git pre-release created in step _7.3.2._
-      6. Complete step _0_ for the Marketing team for a public beta release
+      6. Complete step _0_ for the Marketing team for a **public beta** release
 8. Two weeks after the step _7_ beta pre-release has been completed, Peerplays developer or DevOps engineer will:
    1. create a new release branch with the name format: `release/X.X.X` from `master`
    2. create a new git release **draft** with the name format: `vX.X.X` \(this will create a new git tag\)
    3. produce the binaries from the new branch generated in step _8.1._ pointing to the Peerplays main-net \(Alice\)
    4. attach the produced binaries to the newly drafted git release in step _8.2._
    5. publish the drafted git release created in step _8.2._
-   6. Complete step _0_ for the Marketing team for a public main-net release
+   6. Complete step _0_ for the Marketing team for a **public main-net release**
 
 ### Steps for 3rd Party Developers
 
