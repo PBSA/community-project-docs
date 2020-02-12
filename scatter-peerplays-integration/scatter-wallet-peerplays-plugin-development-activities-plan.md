@@ -328,17 +328,21 @@ Most of these are done but I can’t run the tests on my macOS \(as we discovere
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />defaultExplorer</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />accountFormatter</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />accountFormatter</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />returnableAccount</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />returnableAccount</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />contractPlaceholder</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />checkNetwork</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />getEndorsedNetwork</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />getEndorsedNetwork</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />isEndorsedNetwork</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />isEndorsedNetwork</li>
         </ul>
       </th>
       <th style="text-align:left">
@@ -347,11 +351,14 @@ Most of these are done but I can’t run the tests on my macOS \(as we discovere
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />getChainIdusesResources</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />hasAccountActions</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />hasAccountActions</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />accountsAreImported</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />accountsAreImported</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />isValidRecipient</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />isValidRecipient</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />privateFromWif</li>
@@ -359,23 +366,30 @@ Most of these are done but I can’t run the tests on my macOS \(as we discovere
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />privateToPublic</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />validPrivateKey</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />validPrivateKey</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />validPublicKey</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />validPublicKey</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />bufferToHexPrivate</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />bufferToHexPrivate</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />hexPrivateToBuffer</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />hexPrivateToBuffer</li>
         </ul>
       </th>
       <th style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />hasUntouchableTokens</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />hasUntouchableTokens</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />defaultDecimals</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />defaultDecimals</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />defaultToken</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />defaultToken</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />actionParticipants</li>
           <li class="task-list-item">
