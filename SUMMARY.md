@@ -5,7 +5,8 @@
 
 ## Projects
 
-* [Release Management & DevOps](release-management-and-devops.md)
+* [Release Management & DevOps](release-management-and-devops/README.md)
+  * [Release Strategy](release-management-and-devops/release-strategy.md)
 * [Block Explorer](block-explorer/README.md)
   * [Setting up the Explorer](block-explorer/setting-up-the-explorer.md)
 
