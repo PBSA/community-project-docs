@@ -172,7 +172,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">21 Feb 2020</td>
       <td style="text-align:left">
         <p><b>FILL ME IN</b>
         </p>
@@ -185,7 +185,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Investigate CORS issues (#18)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Incorporate unit tests provided by Scatter Team (#28)</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Incorporate unit tests provided by Scatter Team (#28)</li>
         </ul>
       </td>
       <td style="text-align:left">Miscellaneous tasks/issues that come up during development.</td>
@@ -199,7 +200,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">21 Feb 2020</td>
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
@@ -277,7 +278,11 @@ Account authorization and key generation involved for Peerplays \(form\) \[added
 
 This task likely won’t be done by Peerplays but rather, by Nathan/Scatter team
 
-* [ ] Integration of code functionality from plugin with scatter frontend
+Integration of code functionality from plugin with scatter frontend
+
+* [ ] Transfer functionality integrated with UI
+* [ ] Import Peerplays Account \(authUser function in Peerplays plugin\)
+* [ ] Create Peerplays Account \(register function in Peerplays plugin\) 
 
 ## Low-Level 
 
