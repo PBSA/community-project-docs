@@ -44,6 +44,20 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">ASAP</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Define MVP for QA</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Determine how to compile application</li>
+        </ul>
+      </td>
+      <td style="text-align:left">What QA environment is expected? Full binary testing or unit test running?</td>
+      <td
+      style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">07 Feb 2020</td>
       <td style="text-align:left">
         <ul class="contains-task-list">
@@ -202,9 +216,35 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
     <tr>
       <td style="text-align:left">21 Feb 2020</td>
       <td style="text-align:left">
+        <p></p>
+        <p>Required Items for a Scatter Plugin</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Presentation layer work (plugin integration with UI)</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Define default blockchain explorer</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />required functions</li>
+        </ul>
+      </td>
+      <td style="text-align:left">See &quot;required functions&quot; within Low-Level &gt; Application Layer
+        &gt; Required Scatter functions/declarations</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">28 Feb 2020</td>
+      <td style="text-align:left">
+        <p>Presentation layer work (plugin integration with UI)</p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Balance Retrieval</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Transfer functionality integrated with UI</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Import Peerplays Account</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Create Peerplays Account</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -280,6 +320,7 @@ This task likely won’t be done by Peerplays but rather, by Nathan/Scatter team
 
 Integration of code functionality from plugin with scatter frontend
 
+* [x] Balance Retrieval
 * [ ] Transfer functionality integrated with UI
 * [ ] Import Peerplays Account \(authUser function in Peerplays plugin\)
 * [ ] Create Peerplays Account \(register function in Peerplays plugin\) 
@@ -490,6 +531,16 @@ Modify to return a promise `resolve` or `reject`. The `resolve` must return a tr
 
 * [ ] determine what the transaction ID represents \(block number?\)
 * [x] modify return value to be compatible with UI
+
+Create Peerplays Account
+
+* [ ] TBD
+* [ ] modify functions to return expected data for UI
+
+Import Peerplays Account
+
+* [ ] TBD
+* [ ] modify functions to return expected data for UI
 
 
 
