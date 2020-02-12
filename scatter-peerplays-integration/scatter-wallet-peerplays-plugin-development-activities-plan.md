@@ -305,16 +305,14 @@ Configuration of test-suite to support mainnet and testnet testing accounts
 
 * [x] broadcast\_transaction\_with\_callback
 
-### Required Scatter functions
+### Required Scatter functions/declarations
 
 Re-create the base/required functions by any Scatter plugin
 
-{% hint style="danger" %}
-Justin:  
-Most of these are done but I can’t run the tests on my macOS \(as we discovered\) nor do I know what all of these are for ~Michael.
+* [ ] Define default blockchain explorer
 
-* if not needed, remove a task entry
-* if completed, check task entry
+{% hint style="danger" %}
+These functions are tested via a unit test suite provided by Nathan. This does not mean that these functionalities will work with the various UI repositories.
 {% endhint %}
 
 <table>
@@ -326,11 +324,14 @@ Most of these are done but I can’t run the tests on my macOS \(as we discovere
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />constructor</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />bip</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />bip</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />bustCache</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />bustCache</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />defaultExplorer</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />defaultExplorer</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />accountFormatter</li>
@@ -338,9 +339,11 @@ Most of these are done but I can’t run the tests on my macOS \(as we discovere
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />returnableAccount</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />contractPlaceholder</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />contractPlaceholder</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />checkNetwork</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />checkNetwork</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />getEndorsedNetwork</li>
@@ -395,15 +398,24 @@ Most of these are done but I can’t run the tests on my macOS \(as we discovere
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />defaultToken</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />actionParticipants</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />actionParticipants</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />balancesFor</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />balancesFor</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />balanceFor</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />balanceFor</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />signerWithPopup</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />signerWithPopup</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />requestParser</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />requestParser</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />transfer</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />signer</li>
         </ul>
       </th>
     </tr>
