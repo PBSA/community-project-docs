@@ -484,7 +484,7 @@ Many functions from Low-level Application Layer may require changes to account f
 Modify to return a promise `resolve` or `reject`. The `resolve` must return a transaction ID.
 
 * [ ] determine what the transaction ID represents \(block number?\)
-* [ ] modify return value to be compatible with UI
+* [x] modify return value to be compatible with UI
 
 
 
