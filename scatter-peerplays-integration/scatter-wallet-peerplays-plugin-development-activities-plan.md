@@ -279,19 +279,21 @@ This task likely won’t be done by Peerplays but rather, by Nathan/Scatter team
 
 * [ ] Integration of code functionality from plugin with scatter frontend
 
-## Low-Level \(Application Layer\)
+## Low-Level 
+
+### Application Layer
 
 {% hint style="warning" %}
 All functionality defined in this section are verified as "working" via unit tests as we have no working binary production method yet. \(presentation layer work may result in changes to one or more of these functionalities\)
 {% endhint %}
 
-### Test Suite
+#### Test Suite
 
 Configuration of test-suite to support mainnet and testnet testing accounts
 
 * [x] multi-chain/account supported test suite
 
-### API/RESTFUL-like function to make fetch calls to the blockchain instead of using constant WS connection
+#### API/RESTFUL-like function to make fetch calls to the blockchain instead of using constant WS connection
 
 `database` API calls:
 
@@ -305,7 +307,7 @@ Configuration of test-suite to support mainnet and testnet testing accounts
 
 * [x] broadcast\_transaction\_with\_callback
 
-### Required Scatter functions/declarations
+#### Required Scatter functions/declarations
 
 Re-create the base/required functions by any Scatter plugin
 
@@ -413,24 +415,26 @@ These functions are tested via a unit test suite provided by Nathan. This does n
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />requestParser</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />transfer</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />transfer</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />signer</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />signer</li>
         </ul>
       </th>
     </tr>
   </thead>
   <tbody></tbody>
-</table>### Port from `peerplays-core-gui` and/or `peerplaysjs-lib`
+</table>#### Port from `peerplays-core-gui` and/or `peerplaysjs-lib`
 
-#### New account registration
+**New account registration**
 
 Request `username` and `password` from user. Check that `username` has not already been claimed via `getFullAccount()`. Send register request to chain faucet if form data is valid \(`register()`\).
 
 * [x] getFullAccount
 * [x] register
 
-#### Transfer of funds with memo support \(required function: `transfer`\)
+**Transfer of funds with memo support \(required function: `transfer`\)**
 
 * [x] getTransferTransaction → build the transaction with memo support → other required functions: `getAsset`, `getFees`, `getRequiredFees`, `setRequiredFees`
 * [x] signer → part one of two for signing a transaction, this adds the keys required to the peerplays transaction object to allow us to later sign the transaction
@@ -442,17 +446,17 @@ Request `username` and `password` from user. Check that `username` has not alrea
 * [x] getRequiredFees → determine what fees are necessary for the operation \(if we don't add anything or the wrong fees, the transaction will be rejected by the blockchain\)
 * [x] setRequiredFees → once the required fees are determined, set them on the transaction object
 
-#### Generic Object Data Retrieval
+**Generic Object Data Retrieval**
 
 * [x] getObjects
 
-#### Key Generation/Conversion
+**Key Generation/Conversion**
 
 * [x] privateFromWif → convert the PrivateKey class instantiated object from the Wallet Import Format \(WIF\) key
 * [x] wifFromPrivate → convert the PrivateKey class instantiated object into the Wallet Import Format \(WIF\) key
 * [x] privateToPublic → convert the Wallet Import Format \(WIF\) key into its public key
 
-#### Peerplays Account Authorization
+**Peerplays Account Authorization**
 
 Peerplays account authentication \(logging in\) is done by:
 
@@ -468,4 +472,19 @@ Peerplays account authentication \(logging in\) is done by:
 
 * [x] getAccountKeys → will retrieve an accounts public keys \(owner, active, memo\) from the blockchain
 * [x] authUser
+
+### Presentation Layer
+
+{% hint style="info" %}
+Many functions from Low-level Application Layer may require changes to account for specific formats of returned data for UI repositories making use of the Peerplays Scatter Plugin.
+{% endhint %}
+
+#### Transfer & Sign
+
+Modify to return a promise `resolve` or `reject`. The `resolve` must return a transaction ID.
+
+* [ ] determine what the transaction ID represents \(block number?\)
+* [ ] modify return value to be compatible with UI
+
+
 
