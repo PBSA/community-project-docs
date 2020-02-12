@@ -5,6 +5,7 @@
 
 ## Projects
 
+* [Release Management & DevOps](release-management-and-devops.md)
 * [Block Explorer](block-explorer/README.md)
   * [Setting up the Explorer](block-explorer/setting-up-the-explorer.md)
 
