@@ -188,7 +188,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" disabled />Incorporate unit tests provided by Scatter Team (#28)</li>
         </ul>
       </td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Miscellaneous tasks/issues that come up during development.</td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/19">#19 SC-10</a>
         </p>
@@ -379,11 +379,9 @@ Most of these are done but I can’t run the tests on my macOS \(as we discovere
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />actionParticipants</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />balancesFor</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />balancesFor</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />balanceFor</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />balanceFor</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />signerWithPopup</li>
           <li class="task-list-item">
