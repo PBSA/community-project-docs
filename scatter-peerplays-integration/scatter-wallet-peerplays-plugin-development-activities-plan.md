@@ -281,6 +281,10 @@ This task likely won’t be done by Peerplays but rather, by Nathan/Scatter team
 
 ## Low-Level \(Application Layer\)
 
+{% hint style="warning" %}
+All functionality defined in this section are verified as "working" via unit tests as we have no working binary production method yet. \(presentation layer work may result in changes to one or more of these functionalities\)
+{% endhint %}
+
 ### Test Suite
 
 Configuration of test-suite to support mainnet and testnet testing accounts
