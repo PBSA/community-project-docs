@@ -50,7 +50,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />Define MVP for QA</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Determine how to compile application with PPY plugin operable</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Determine how to compile application with PPY plugin operable for MVP</li>
         </ul>
       </td>
       <td style="text-align:left">What QA environment is expected? Full binary testing or unit test running?</td>
@@ -64,27 +64,22 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Determine if a JavaScript fetch data layer is feasible</li>
-        </ul>
-      </td>
-      <td style="text-align:left">We can port all the necessary calls to fetch calls and avoid maintaining
-        a constant connection to the Peerplays blockchain.</td>
-      <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/11">#11 SC-1</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">07 Feb 2020</td>
-      <td style="text-align:left">
-        <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Key utility functions</li>
         </ul>
       </td>
       <td style="text-align:left">
+        <p>Connect to Peerplays blockchain:</p>
+        <p>We can port all the necessary calls to fetch calls and avoid maintaining
+          a constant connection to the Peerplays blockchain.</p>
+        <p></p>
         <p>Conversion of keys, generation of keys, key validation, etc.</p>
-        <p>See within Low-Level tasks.</p>
+        <p>See within Low-Level tasks</p>
       </td>
       <td style="text-align:left">
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/11">#11 SC-1</a> 
+        </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/24">#24 SC-12</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/25">#25 SC-11</a>
@@ -98,28 +93,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Data Layer</li>
-        </ul>
-      </td>
-      <td style="text-align:left">See Data Layer below</td>
-      <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/pull/29">#29 SC-16</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">14 Feb 2020</td>
-      <td style="text-align:left">
-        <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Balance(s) retrieval</li>
         </ul>
-      </td>
-      <td style="text-align:left">See within Application Layer below</td>
-      <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/pull/17">#17 SC-2</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">14 Feb 2020</td>
-      <td style="text-align:left">
         <p>Transfer Funds</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
@@ -136,8 +113,15 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />broadcast transaction (#13 &amp; #14)</li>
         </ul>
       </td>
-      <td style="text-align:left">See within Application Layer below</td>
       <td style="text-align:left">
+        <p>See Data Layer below</p>
+        <p>See within Application Layer below</p>
+      </td>
+      <td style="text-align:left">
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/pull/29">#29 SC-16</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/pull/17">#17 SC-2</a>
+        </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/13">#13 SC-5</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/14">#14 SC-3</a>
@@ -147,49 +131,29 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
     <tr>
       <td style="text-align:left">21 Feb 2020</td>
       <td style="text-align:left">
+        <p>Functional Requirements</p>
         <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            /> <del>Connect to Peerplays blockchain</del>
+          </li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Generate keypair</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Support for PPY asset</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Retrieve PPY Balance</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Create a new Peerplays Account (#15)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />Store/Import Keys after creation (#26)</li>
-        </ul>
-      </td>
-      <td style="text-align:left">See within Application Layer below</td>
-      <td style="text-align:left">
-        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/15">#15 SC-4</a>
-        </p>
-        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/26">#26 SC-15</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">21 Feb 2020</td>
-      <td style="text-align:left">
-        <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Authorize a Peerplays account with a standard login form (#45 &amp; #21)</li>
-          <li
-          class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Store/Import keys after authorizing user (#26)</li>
         </ul>
-      </td>
-      <td style="text-align:left">See within Application Layer below</td>
-      <td style="text-align:left">
-        <p><a href="https://github.com/peerplays-network/peerplaysjs-lib/issues/45">#45 SC-7</a>
-        </p>
-        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/21">#21 SC-14</a>
-        </p>
-        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/26">#26 SC-15</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">21 Feb 2020</td>
-      <td style="text-align:left">
-        <p><b>FILL ME IN</b>
-        </p>
         <p>Other tasks/issues from GitHub.</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
@@ -197,14 +161,41 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />Remove hardcoded asset info (#19)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />Investigate CORS issues (#18)</li>
+            />investigate CORS issues (#18)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />Incorporate unit tests provided by Scatter Team (#28)</li>
+            />incorporate unit tests provided by Scatter Team(#28)</li>
         </ul>
+        <p>Required items for a Scatter Plugin</p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Define default blockchain explorer</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />[required functions]</li>
+        </ul>
+        <p></p>
       </td>
-      <td style="text-align:left">Miscellaneous tasks/issues that come up during development.</td>
       <td style="text-align:left">
+        <p>Other functional requirements not listed here will be done on another
+          deadline.</p>
+        <p>See within Application Layer below</p>
+        <p></p>
+        <p>See &quot;required functions&quot; within:
+          <br />Low-Level
+          <br />&gt; Application Layer
+          <br />&gt; Required Scatter functions/declarations</p>
+      </td>
+      <td style="text-align:left">
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/15">#15 SC-4</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/26">#26 SC-15</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/peerplaysjs-lib/issues/45">#45 SC-7</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/peerplaysjs-lib/issues/45">#21 SC-14</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/26">#26 SC-15</a>
+        </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/19">#19 SC-10</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/18">#18</a>
@@ -212,23 +203,6 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/28">#28 SC-13</a>
         </p>
       </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">21 Feb 2020</td>
-      <td style="text-align:left">
-        <p></p>
-        <p>Required Items for a Scatter Plugin</p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Define default blockchain explorer</li>
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />required functions</li>
-        </ul>
-      </td>
-      <td style="text-align:left">See &quot;required functions&quot; within Low-Level &gt; Application Layer
-        &gt; Required Scatter functions/declarations</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">28 Feb 2020</td>
@@ -249,7 +223,12 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
       <td style="text-align:left">
         <p>TBD who will be adding forms or tweaking anything in the Scatter UI (ScatterDesktop/ScatterBridge)
-          but they require all Data and Application layer tasks to be complete.</p>
+          but they require all Data and Application layer tasks to be complete.
+          <br
+          /><b>Balance</b>: &quot;Receive PPY&quot; functional requirement
+          <br /><b>Transfer</b>: &quot;Send PPY&quot; functional requirement
+          <br /><b>Import</b>: &quot;Import Key&quot; functional requirement
+          <br /><b>Create</b>: &quot;Create Peerplays account&quot; functional requirement</p>
         <p>See within Presentation Layer below</p>
       </td>
       <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/16">#16 SC-6</a>
