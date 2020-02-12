@@ -20,6 +20,7 @@
 * [Functional Requirements](scatter-peerplays-integration/functional-requirements.md)
 * [Project Scope](scatter-peerplays-integration/project-scope.md)
 * [Scatter wallet Acceptance Criteria](scatter-peerplays-integration/scatter-wallet-acceptance-criteria-non-functional.md)
+* [Scatter Wallet Peerplays Plugin Development Activities Plan](scatter-peerplays-integration/scatter-wallet-peerplays-plugin-development-activities-plan.md)
 
 ## Project Management
 
