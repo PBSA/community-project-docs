@@ -86,8 +86,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />Data Layer</li>
         </ul>
       </td>
-      <td style="text-align:left"><a href="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/498302981/Scatter+Wallet+Peerplays+Plugin+Development+Activities+Plan#Data-Layer">See Data Layer below</a>
-      </td>
+      <td style="text-align:left">See Data Layer below</td>
       <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/pull/29">#29 SC-16</a>
       </td>
     </tr>
@@ -100,8 +99,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />Balance(s) retrieval</li>
         </ul>
       </td>
-      <td style="text-align:left"><a href="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/498302981/Scatter+Wallet+Peerplays+Plugin+Development+Activities+Plan#Application-Layer">See within Application Layer below</a>
-      </td>
+      <td style="text-align:left">See within Application Layer below</td>
       <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/pull/17">#17 SC-2</a>
       </td>
     </tr>
@@ -123,8 +121,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />broadcast transaction (#13 &amp; #14)</li>
         </ul>
       </td>
-      <td style="text-align:left"><a href="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/498302981/Scatter+Wallet+Peerplays+Plugin+Development+Activities+Plan#Application-Layer">See within Application Layer below</a>
-      </td>
+      <td style="text-align:left">See within Application Layer below</td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/13">#13 SC-5</a>
         </p>
@@ -143,8 +140,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" disabled />Store/Import Keys after creation (#26)</li>
         </ul>
       </td>
-      <td style="text-align:left"><a href="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/498302981/Scatter+Wallet+Peerplays+Plugin+Development+Activities+Plan#Application-Layer">See within Application Layer below</a>
-      </td>
+      <td style="text-align:left">See within Application Layer below</td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/15">#15 SC-4</a>
         </p>
@@ -164,8 +160,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" disabled />Store/Import keys after authorizing user (#26)</li>
         </ul>
       </td>
-      <td style="text-align:left"><a href="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/498302981/Scatter+Wallet+Peerplays+Plugin+Development+Activities+Plan#Application-Layer">See within Application Layer below</a>
-      </td>
+      <td style="text-align:left">See within Application Layer below</td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/peerplaysjs-lib/issues/45">#45 SC-7</a>
         </p>
@@ -213,8 +208,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       <td style="text-align:left">
         <p>TBD who will be adding forms or tweaking anything in the Scatter UI (ScatterDesktop/ScatterBridge)
           but they require all Data and Application layer tasks to be complete.</p>
-        <p><a href="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/498302981/Scatter+Wallet+Peerplays+Plugin+Development+Activities+Plan#Presentation-Layer">See within Presentation Layer below</a>
-        </p>
+        <p>See within Presentation Layer below</p>
       </td>
       <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/16">#16 SC-6</a>
       </td>
