@@ -127,8 +127,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />parse UI numbers to blockchain numbers (#36)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />add support to hold all of a Peerplays account WIFs under a single Scatter
-            KeyPair</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M0-UwMJVMl0F_WONrnb/v/master/scatter-peerplays-integration/scatter-wallet-peerplays-plugin-development-activities-plan">3.2</a>]
+            Handling multiple Peerplays keys within
+            <br />a single Scatter KeyPair
+            <br />(#38)</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -505,6 +507,35 @@ These functions are tested via a unit test suite provided by Nathan. This does n
   </thead>
   <tbody></tbody>
 </table>#### Port from `peerplays-core-gui` and/or `peerplaysjs-lib`
+
+**\[**[**3.2**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-1-connect-to-peerplays-blockchain)**\] Handling multiple Peerplays keys within a single Scatter KeyPair**
+
+Scatter has multiple repositories with one of them being deprecated in favour of the newer ScatterBridge. ScatterBridge has a new issue regarding the prior unsolved issue of key management:
+
+* you can only have a single key-pair within the Scatter KeyPair which is used for accounts and identification.
+
+Solution:
+
+Pre-requsites:
+
+* form\(s\) to retrieve a Peerplays username & password from to generate keys and authorize account import requests with
+
+Given the pre-requisites:
+
+* we can generate all of a Peerplays accounts Wallet Import Format \(WIF\) keys
+* convert an object representing the WIF data into a JSON string.
+
+  ```text
+  const wifs = {
+      owner: 'ownerWIF',
+      active: 'activeWIF',
+      memo: 'memoWIF'
+  };
+  ```
+
+* encrypt the JSON string using the owner public key as the "secret"
+  * the "secret" is used to decrypt the WIFs again later
+* store the "secret" \(owner public key\) under the Scatter `KeyPair.publicKeys[0].key`
 
 **\[**[**3.2**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-1-connect-to-peerplays-blockchain)**\] New account registration**
 
