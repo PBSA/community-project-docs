@@ -124,7 +124,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />broadcast transaction (#13 &amp; #14)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />parse UI numbers to blockchain numbers (#36)</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />parse UI numbers to blockchain numbers (#36)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />add support to hold all of a Peerplays account WIFs under a single Scatter
             KeyPair</li>
