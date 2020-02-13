@@ -24,9 +24,12 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">todo: check date was completed</td>
+      <td style="text-align:left">20 Dec 2020</td>
       <td style="text-align:left">
         <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Define project scope (#3)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Define functional requirements (#4)</li>
@@ -37,6 +40,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/3">#3</a>
+        </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/4">#4</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/5">#5</a>
