@@ -123,6 +123,9 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />broadcast transaction (#13 &amp; #14)</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />parse UI numbers to blockchain numbers</li>
         </ul>
       </td>
       <td style="text-align:left">
