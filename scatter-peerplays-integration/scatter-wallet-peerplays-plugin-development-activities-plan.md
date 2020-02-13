@@ -1,7 +1,3 @@
----
-description: 'DOCUMENT STATUS: DRAFT'
----
-
 # Scatter Wallet Peerplays Plugin Development Activities Plan
 
 {% hint style="warning" %}
