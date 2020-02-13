@@ -214,10 +214,6 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <br />Low-Level
           <br />&gt; Application Layer
           <br />&gt; Required Scatter functions/declarations</p>
-        <p></p>
-        <p>Tweaks to existing code in lieu of discovery that
-          <br />UI that has been used for plugin development is going to be deprecated.
-          Tweaks required to ensure plugin will work with new UI (bridge)</p>
       </td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/15">#15 SC-4</a>
