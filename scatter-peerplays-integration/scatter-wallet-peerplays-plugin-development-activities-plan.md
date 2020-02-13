@@ -124,8 +124,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />broadcast transaction (#13 &amp; #14)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />parse UI numbers to blockchain numbers</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />parse UI numbers to blockchain numbers (#36)</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -141,20 +140,18 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/14">#14 SC-3</a>
         </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/36">#36</a>
+        </p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">21 Feb 2020</td>
       <td style="text-align:left">
-        <p>Functional Requirements</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             /> <del>[</del><a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements"><del>2.0</del></a><del>] Connect to Peerplays blockchain</del>
           </li>
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair">3.2</a>]
-            Generate keypair</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance">3.3</a>]
@@ -163,6 +160,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance">3.3</a>]
             Retrieve PPY Balance</li>
+        </ul>
+        <p>[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair">3.2</a>]
+          Generate Keypair</p>
+        <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements">2.0</a>]
@@ -192,9 +193,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />Define default blockchain explorer</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />[required functions]</li>
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />tweaks to existing code</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />[required functions]</li>
         </ul>
         <p></p>
       </td>
@@ -236,13 +236,14 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/28">#28 SC-13</a>
         </p>
+        <p></p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">28 Feb 2020</td>
       <td style="text-align:left">
-        <p>Presentation layer work (plugin integration with UI)</p>
-        <p></p>
+        <p>Presentation layer work (<b>plugin integration with UI</b>)</p>
+        <p>Integrate with Scatter Bridge (#34)</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
@@ -250,13 +251,14 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             Support for PPY Asset/Retrieve PPY Balance</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-4-send-ppy">3.4</a>]
-            Transfer functionality integrated with UI</li>
+            Transfer functionality integrated with UI
+            <br />- debug sign/transfer within ScatterBridge (#35)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements">2.0</a>]
-            Import Peerplays Account</li>
+            Import Peerplays Account (form)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements">2.0</a>]
-            Create Peerplays Account</li>
+            Create Peerplays Account (form)</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -274,7 +276,13 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <br />functional requirement</p>
         <p>See within Presentation Layer below</p>
       </td>
-      <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/16">#16 SC-6</a>
+      <td style="text-align:left">
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/16">#16 SC-6</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/34">#34</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/35">#35</a>
+        </p>
       </td>
     </tr>
   </tbody>
@@ -381,7 +389,7 @@ Configuration of test-suite to support mainnet and testnet testing accounts
 Re-create the base/required functions by any Scatter plugin
 
 * [ ] Define default blockchain explorer
-* [ ] tweaks to existing code in lieu of to-be-deprecated Scatter UI in favor of new Scatter UI \(bridge\)
+* [ ] tweaks to existing code in lieu of to-be-deprecated Scatter UI in favour of new Scatter UI \(bridge\)
 
 {% hint style="danger" %}
 These functions are tested via a unit test suite provided by Nathan. This does not mean that these functionalities will work with the various UI repositories.
