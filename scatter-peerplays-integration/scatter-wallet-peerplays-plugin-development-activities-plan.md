@@ -125,6 +125,9 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />broadcast transaction (#13 &amp; #14)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />parse UI numbers to blockchain numbers (#36)</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />add support to hold all of a Peerplays account WIFs under a single Scatter
+            KeyPair</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -141,6 +144,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/14">#14 SC-3</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/36">#36</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/pull/38">#38</a>
         </p>
       </td>
     </tr>
@@ -206,8 +211,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <br />It will instead use a fetch based approach similar to a restful
           <br />server call.</p>
         <p>
-          <br />Other functional requirements not listed
-          <br />here will be done on another deadline.
+          <br />Other functional requirements not listed here will be done on another
+          deadline.
           <br />See within Application Layer below</p>
         <p></p>
         <p>See &quot;required functions&quot; within:
@@ -259,10 +264,9 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
       <td style="text-align:left">
         <p>TBD who will be adding forms or tweaking
-          <br />anything in the Scatter UI (ScatterDesktop/ScatterBridge) but they
-          <br
-          />require all Data and Application layer tasks
-          <br />to be complete.
+          <br />anything in the Scatter UI (ScatterDesktop/ScatterBridge) but they require
+          all Data and Application
+          <br />layer tasks to be complete.
           <br /><b>Balance</b>: &quot;Receive PPY&quot; functional
           <br />requirement
           <br /><b>Transfer</b>: &quot;Send PPY&quot; functional
