@@ -190,6 +190,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" disabled />Define default blockchain explorer</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[required functions]</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />tweaks to existing code</li>
         </ul>
         <p></p>
       </td>
@@ -209,6 +211,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <br />Low-Level
           <br />&gt; Application Layer
           <br />&gt; Required Scatter functions/declarations</p>
+        <p></p>
+        <p>Tweaks to existing code in lieu of discovery that
+          <br />UI that has been used for plugin development is going to be deprecated.
+          Tweaks required to ensure plugin will work with new UI (bridge)</p>
       </td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/15">#15 SC-4</a>
@@ -372,6 +378,7 @@ Configuration of test-suite to support mainnet and testnet testing accounts
 Re-create the base/required functions by any Scatter plugin
 
 * [ ] Define default blockchain explorer
+* [ ] tweaks to existing code in lieu of to-be-deprecated Scatter UI in favor of new Scatter UI \(bridge\)
 
 {% hint style="danger" %}
 These functions are tested via a unit test suite provided by Nathan. This does not mean that these functionalities will work with the various UI repositories.
