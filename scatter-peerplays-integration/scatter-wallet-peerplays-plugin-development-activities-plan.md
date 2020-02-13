@@ -330,9 +330,9 @@ Integration of code functionality from plugin with scatter frontend
 
 * [x] \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance)\] Support for PPY Asset/Retrieve PPY Balance
 * [ ] \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-4-send-ppy)\] Transfer functionality integrated with UI
-* [ ] \[[2.0](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)\] Import Peerplays Account \(authUser function in Peerplays plugin\)
-* [ ] \[[2.0](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)\] Create Peerplays Account \(register function in Peerplays plugin\)
-* [ ] \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-5-receive-ppy)\]Receive PPY
+* [ ] \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Import Peerplays Account \(authUser function in Peerplays plugin\)
+* [ ] \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Create Peerplays Account \(register function in Peerplays plugin\)
+* [ ] \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-5-receive-ppy)\] Receive PPY
 
 ## Low-Level 
 
@@ -348,7 +348,7 @@ Configuration of test-suite to support mainnet and testnet testing accounts
 
 * [x] multi-chain/account supported test suite
 
-#### API/RESTFUL-like function to make fetch calls to the blockchain instead of using constant WS connection \[[2.0](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)\]
+#### API/RESTFUL-like function to make fetch calls to the blockchain instead of using constant WS connection \[[2.0](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)\] \[[3.1](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-1-connect-to-peerplays-blockchain)\]
 
 `database` API calls:
 
@@ -482,14 +482,14 @@ These functions are tested via a unit test suite provided by Nathan. This does n
   <tbody></tbody>
 </table>#### Port from `peerplays-core-gui` and/or `peerplaysjs-lib`
 
-**New account registration \[**[**2.0**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)**\]**
+**New account registration \[**[**2.0**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)**\] \[**[**3.2**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-1-connect-to-peerplays-blockchain)**\]**
 
 Request `username` and `password` from user. Check that `username` has not already been claimed via `getFullAccount()`. Send register request to chain faucet if form data is valid \(`register()`\).
 
 * [x] getFullAccount
 * [x] register
 
-**Transfer of funds with memo support \(required function: `transfer`\) \[**[**2.0**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)**\]**
+**Transfer of funds with memo support \(required function: `transfer`\) \[**[**2.0**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)**\] \[**[**3.4**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-1-connect-to-peerplays-blockchain)**\]**
 
 * [x] getTransferTransaction → build the transaction with memo support → other required functions: `getAsset`, `getFees`, `getRequiredFees`, `setRequiredFees`
 * [x] signer → part one of two for signing a transaction, this adds the keys required to the peerplays transaction object to allow us to later sign the transaction
@@ -511,7 +511,7 @@ Request `username` and `password` from user. Check that `username` has not alrea
 * [x] wifFromPrivate → convert the PrivateKey class instantiated object into the Wallet Import Format \(WIF\) key
 * [x] privateToPublic → convert the Wallet Import Format \(WIF\) key into its public key
 
-**Peerplays Account Authorization \[**[**2.0**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)**\]**
+**Peerplays Account Authorization \[**[**2.0**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements)**\] \[**[**3.2**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)**\]**
 
 Peerplays account authentication \(logging in\) is done by:
 
