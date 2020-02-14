@@ -46,21 +46,6 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">ASAP</td>
-      <td style="text-align:left">
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Define MVP for QA</li>
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Determine how to compile application with PPY plugin operable for MVP</li>
-        </ul>
-      </td>
-      <td style="text-align:left">What QA environment is
-        <br />expected? Full binary testing or
-        <br />unit test running?</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/milestone/2">07 Feb 2020</a>
       </td>
       <td style="text-align:left">
@@ -205,6 +190,13 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />[required functions]</li>
         </ul>
+        <p>Documentation/QA</p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Define MVP/requirements for Quality Assurance (#41)</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
+        </ul>
         <p></p>
       </td>
       <td style="text-align:left">
@@ -223,6 +215,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <br />Low-Level
           <br />&gt; Application Layer
           <br />&gt; Required Scatter functions/declarations</p>
+        <p></p>
+        <p>Documentation: Define any requirements for QA activities to be possible.</p>
       </td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/15">#15 SC-4</a>
@@ -239,7 +233,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/28">#28 SC-13</a>
         </p>
-        <p></p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/41">#41</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/40">#40</a>
+        </p>
       </td>
     </tr>
     <tr>
@@ -360,6 +357,15 @@ Integration of code functionality from plugin with scatter frontend
 * [x] \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance)\] Support for PPY Asset/Retrieve PPY Balance
 * [ ] \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-4-send-ppy)\] Transfer functionality integrated with UI
 * [ ] \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-5-receive-ppy)\] Receive PPY
+
+### Quality Assurance
+
+Quality Assurance \(QA\) will not be possible until there is presentation layer work complete. The resource from the Scatter team has instructed that so long as our unit tests are passing, the plugin should operate fine. However, for QA efforts to be possible, we will be required to make the GUI changes ourselves \(2 additional forms\) and discover a method of reliably viewing the Scatter application.
+
+Recent communications have revealed that ScatterEmbed will soon be reaching the end of its official life in favour of a new Scatter UI called ScatterBridge. This will put some delays on QA deliveries while we learn this new UI and how it uses the other Scatter repositories to breath life into a Scatter blockchain plugin. Some tasks associated with this:
+
+* [ ] Define MVP/requirements for Quality Assurance
+* [ ] Get QA Environment Configured
 
 ## Low-Level 
 
