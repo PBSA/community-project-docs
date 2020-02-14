@@ -300,6 +300,12 @@ Only support the required functions. Support JavaScript fetch calls asynchronous
 
 ### Application Layer
 
+#### \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Generate/Store Keypair
+
+Generate Scatter Keypair to associate with a Peerplays account and store it.
+
+* [ ] storeKeys\(\)
+
 #### \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)\] Register/Create Peerplays Account
 
 Sends register request to chain faucet and then imports/stores \(`import(…)`\) the keys to the Scatter encrypted storage.
@@ -313,6 +319,11 @@ Store account keys after they have been generated \(and authenticated\) as [mult
 * [ ] import\(\)
 * [x] authUser\(username, password\)
 
+#### \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Retrieve account balance\(s\)
+
+* [x] single asset retrieval
+* [x] multiple asset retrieval
+
 #### \[[3.6](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)\] Transfer Funds
 
 Requires porting of several functions from peerplaysjs-lib to support fetch calls instead of a constant WS connection route via exclusive usage of TransactionBuilder \(see low-level section below for details\).
@@ -321,11 +332,6 @@ Requires porting of several functions from peerplaysjs-lib to support fetch call
 * [x] set transaction fees for memo/no memo
 * [x] sign a built transfer transaction
 * [x] broadcast a signed transfer transaction
-
-#### \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Retrieve account balance\(s\)
-
-* [x] single asset retrieval
-* [x] multiple asset retrieval
 
 ### Presentation Layer
 
@@ -550,12 +556,40 @@ Given the pre-requisites:
   * the "secret" is used to decrypt the WIFs again later
 * store the "secret" \(owner public key\) under the Scatter `KeyPair.publicKeys[0].key`
 
+Finally, store the keypair via Scatter so it can be retrieved later for other Peerplays actions.
+
+* [ ] storeKeys\(\)
+
 **\[**[**3.3**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)**\] New account registration**
 
-Request `username` and `password` from user. Check that `username` has not already been claimed via `getFullAccount()`. Send register request to chain faucet if form data is valid \(`register()`\).
+Request `username` and `password` from user. Check that `username` has not already been claimed via `getFullAccount()`. Send register request to chain faucet if form data is valid \(`register()`\). Once registration is complete, store the keys \(see end of 3.2\).
 
 * [x] getFullAccount
 * [x] register
+
+**\[**[**3.4**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)**\] Peerplays Account Authorization \(Import\)**
+
+Peerplays account authentication \(logging in\) is done by:
+
+1. requesting a `username` & `password` from the user
+2. using the peerplaysjs-lib key generator, generate keys from the input provided in step 1
+3. request the public keys from the blockchain for `username` retrieved in step 1
+4. compare the active public key generated in step 2 with the active public key retrieved in step 3. One of two must match to consider a user "logged in" or "authenticated":
+
+   * active public key generated must match the chain retrieved active public key
+   * owner public key generated must match the chain retrieved active public key
+
+   \[In the past, some accounts were registered with their owner & active keys swapped\]
+
+* [x] getAccountKeys → will retrieve an accounts public keys \(owner, active, memo\) from the blockchain
+* [x] authUser
+
+#### \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Support for PPY Asset/Retrieve PPY Balance
+
+Retrieve a users' Peerplays balance\(s\).
+
+* [x] balanceFor
+* [x] balancesFor
 
 **\[**[**3.6**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)**\] Transfer of funds with memo support \(required function: `transfer`\)**
 
@@ -573,28 +607,11 @@ Request `username` and `password` from user. Check that `username` has not alrea
 
 * [x] getObjects
 
-**\[**[**3.2**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)**\] Key Generation/Conversion**
+**Peerplays Key Generation/Conversion**
 
 * [x] privateFromWif → convert the PrivateKey class instantiated object from the Wallet Import Format \(WIF\) key
 * [x] wifFromPrivate → convert the PrivateKey class instantiated object into the Wallet Import Format \(WIF\) key
 * [x] privateToPublic → convert the Wallet Import Format \(WIF\) key into its public key
-
-**\[**[**3.2**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)**\] Peerplays Account Authorization**
-
-Peerplays account authentication \(logging in\) is done by:
-
-1. requesting a `username` & `password` from the user
-2. using the peerplaysjs-lib key generator, generate keys from the input provided in step 1
-3. request the public keys from the blockchain for `username` retrieved in step 1
-4. compare the active public key generated in step 2 with the active public key retrieved in step 3. One of two must match to consider a user "logged in" or "authenticated":
-
-   * active public key generated must match the chain retrieved active public key
-   * owner public key generated must match the chain retrieved active public key
-
-   \[In the past, some accounts were registered with their owner & active keys swapped\]
-
-* [x] getAccountKeys → will retrieve an accounts public keys \(owner, active, memo\) from the blockchain
-* [x] authUser
 
 ### Presentation Layer
 
