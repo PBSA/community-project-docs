@@ -341,6 +341,7 @@ Requires a form \[added by _TBD_\] that will retrieve a `username` from the end 
 * 1 read-only field \(generated password\)
 * 1 password field \(generated password pasted here by end-user\)
 * 1 submit/register/create button
+* relevant helper text \(see functional requirements for more info\)
 * [ ] register form
 
 #### \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Authorize/Import Peerplays Account
@@ -350,6 +351,7 @@ Account authorization and key generation involved for Peerplays \(form\) \[added
 * 1 username field
 * 1 password field
 * 1 submit/login/import button
+* relevant helper text \(see functional requirements for more info\)
 * [ ] account import form
 
 #### Plugin Integration
