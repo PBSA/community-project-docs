@@ -258,10 +258,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <br />- debug sign/transfer within ScatterBridge (#35)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements">2.0</a>]
-            Import Peerplays Account (form)</li>
+            Import Peerplays Account (#16) [form]</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements">2.0</a>]
-            Create Peerplays Account (form)</li>
+            Create Peerplays Account (#39) [form]</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -284,6 +284,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/34">#34</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/35">#35</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/39">#39</a>
         </p>
       </td>
     </tr>
