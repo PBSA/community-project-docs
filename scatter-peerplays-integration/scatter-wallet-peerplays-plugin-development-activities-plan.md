@@ -631,7 +631,7 @@ Many functions from Low-level Application Layer may require changes to account f
 
 #### **\[**[**3.5**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)**\] Support for PPY Asset/Retrieve PPY Balance**
 
-* [ ] Displays PPY account Balance
+* [x] Displays PPY account Balance
 
 #### \[[3.6](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)\] Transfer & Sign
 
