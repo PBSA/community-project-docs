@@ -152,7 +152,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">21 Feb 2020</td>
+      <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/milestone/4">21 Feb 2020</a> 
+      </td>
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
@@ -230,8 +231,6 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/peerplaysjs-lib/issues/45">#45 SC-7</a>
         </p>
         <p><a href="https://github.com/peerplays-network/peerplaysjs-lib/issues/45">#21 SC-14</a>
-        </p>
-        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/26">#26 SC-15</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/19">#19 SC-10</a>
         </p>
