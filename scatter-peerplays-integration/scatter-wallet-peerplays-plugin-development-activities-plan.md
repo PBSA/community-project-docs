@@ -333,7 +333,7 @@ Requires porting of several functions from peerplaysjs-lib to support fetch call
 
 ### Presentation Layer
 
-#### \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Register/Create Peerplays Account
+#### \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)\] Register/Create Peerplays Account
 
 Requires a form \[added by _TBD_\] that will retrieve a `username` from the end user. The `password` field is generated for them and they just need to verify it by copy and pasting it into another password text field.
 
@@ -343,7 +343,7 @@ Requires a form \[added by _TBD_\] that will retrieve a `username` from the end 
 * 1 submit/register/create button
 * [ ] register form
 
-#### \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Authorize/Import Peerplays Account
+#### \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Authorize/Import Peerplays Account
 
 Account authorization and key generation involved for Peerplays \(form\) \[added by _TBD_\]
 
