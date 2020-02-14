@@ -25,7 +25,7 @@ This document will provide a tabular listing of the Peerplays Scatter Wallet Int
 | Connect to Peerplays blockchain | As a user I should be able to connect to the Peerplays main net. |
 | Generate keypair | As a user I should be able to generate a Peerplays keypair. |
 | Create Peerplays account | The user must be directed to a faucet to create the peerplays account |
-| Import Key | A Given Peerplays private key should be imported by Scatter wallet |
+| Import Peerplays Keys | A Given Peerplays private key should be imported by Scatter wallet |
 | Support for PPY asset | As a user I should have PPY asset support within the Scatter wallet. |
 | Retrieve PPY Balance | As a user I should be able to see my PPY balance within the Scatter wallet. |
 | Send PPY | As a user I should be able to send PPY via the Scatter wallet. |
@@ -47,15 +47,19 @@ The generate keypair option will generate a Public-Private Key pair and display 
 
 ![Screen 2](../.gitbook/assets/image%20%2814%29.png)
 
-### 3.3 Support for PPY Asset/Retrieve PPY Balance
+### 3.3 Create Peerplays Account
+
+### 3.4 Import Peerplays Keys
+
+### 3.5 Support for PPY Asset/Retrieve PPY Balance
 
 ![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%282%29.png)
 
-### 3.4 Send PPY
+### 3.6 Send PPY
 
 ![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2813%29.png)
 
-### 3.5 Receive PPY
+### 3.7 Receive PPY
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
