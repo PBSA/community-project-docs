@@ -314,7 +314,7 @@ Sends register request to chain faucet and then imports/stores \(`import(…)`\)
 
 #### \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Authorize/Import Peerplays Account
 
-Store account keys after they have been generated \(and authenticated\) as [multiple KeyPair objects](https://gitter.im/GetScatter-Peerplays-Integration/community?at=5e3e0947340a8019bbabbf5d) attached to a single Scatter identity.
+Store account keys after they have been generated \(and authenticated\) as a single KeyPair attached to a single Scatter identity. ScatterBridge does not support multiple Keypairs per key so we have opted to encrypt the three Peerplays authority keys into a single new "master" key that is decrypted with the Peerplays accounts owner public key within Scatter.
 
 * [ ] import\(\)
 * [x] authUser\(username, password\)
