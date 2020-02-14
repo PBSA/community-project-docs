@@ -20,7 +20,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">20 Dec 2020</td>
+      <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/milestone/1">20 Dec 2020</a> 
+      </td>
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
