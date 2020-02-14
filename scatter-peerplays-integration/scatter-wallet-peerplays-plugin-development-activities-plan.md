@@ -89,10 +89,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             Data Layer</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance">3.3</a>]
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance">3.5</a>]
             Balance(s) retrieval</li>
         </ul>
-        <p>[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-4-send-ppy">3.4</a>]
+        <p>[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy">3.6</a>]
           Transfer Funds</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
@@ -148,11 +148,11 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           </li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance">3.3</a>]
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance">3.5</a>]
             Support for PPY asset</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance">3.3</a>]
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance">3.5</a>]
             Retrieve PPY Balance</li>
         </ul>
         <p>[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair">3.2</a>]
@@ -248,12 +248,15 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance">3.3</a>]
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance">3.5</a>]
             Support for PPY Asset/Retrieve PPY Balance</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-4-send-ppy">3.4</a>]
+            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy">3.6</a>]
             Transfer functionality integrated with UI
             <br />- debug sign/transfer within ScatterBridge (#35)</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-7-receive-ppy">3.7</a>]
+            Receive PPY (show username)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#2-0-high-level-requirements">2.0</a>]
             Import Peerplays Account (#16) [form]</li>
@@ -272,6 +275,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <br /><b>Transfer</b>: &quot;Send PPY&quot; functional
           <br />requirement
           <br /><b>Import</b>: &quot;Import Key&quot; functional requirement
+          <br /><b>Receive</b>: &quot;Receive PPY&quot; functional requirement
           <br /><b>Create</b>: &quot;Create Peerplays account&quot;
           <br />functional requirement</p>
         <p>See within Presentation Layer below</p>
@@ -313,7 +317,7 @@ Store account keys after they have been generated \(and authenticated\) as [mult
 * [ ] import\(\)
 * [x] authUser\(username, password\)
 
-#### \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-4-send-ppy)\] Transfer Funds
+#### \[[3.6](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)\] Transfer Funds
 
 Requires porting of several functions from peerplaysjs-lib to support fetch calls instead of a constant WS connection route via exclusive usage of TransactionBuilder \(see low-level section below for details\).
 
@@ -322,7 +326,7 @@ Requires porting of several functions from peerplaysjs-lib to support fetch call
 * [x] sign a built transfer transaction
 * [x] broadcast a signed transfer transaction
 
-#### \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance)\] Retrieve account balance\(s\)
+#### \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Retrieve account balance\(s\)
 
 * [x] single asset retrieval
 * [x] multiple asset retrieval
@@ -354,9 +358,9 @@ Integration of code functionality from plugin with scatter frontend
 
 * [ ] \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Import Peerplays Account \(authUser function in Peerplays plugin\) \(new/tweak form required\)
 * [ ] \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Create Peerplays Account \(register function in Peerplays plugin\) \(new/tweak form required\)
-* [x] \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance)\] Support for PPY Asset/Retrieve PPY Balance
-* [ ] \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-4-send-ppy)\] Transfer functionality integrated with UI
-* [ ] \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-5-receive-ppy)\] Receive PPY
+* [x] \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Support for PPY Asset/Retrieve PPY Balance
+* [ ] \[[3.6](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)\] Transfer functionality integrated with UI
+* [ ] \[[3.7](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-7-receive-ppy)\] Receive PPY \(show account username\)
 
 ### Quality Assurance
 
@@ -555,7 +559,7 @@ Request `username` and `password` from user. Check that `username` has not alrea
 * [x] getFullAccount
 * [x] register
 
-**\[**[**3.4**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-1-connect-to-peerplays-blockchain)**\] Transfer of funds with memo support \(required function: `transfer`\)**
+**\[**[**3.6**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)**\] Transfer of funds with memo support \(required function: `transfer`\)**
 
 * [x] getTransferTransaction → build the transaction with memo support → other required functions: `getAsset`, `getFees`, `getRequiredFees`, `setRequiredFees`
 * [x] signer → part one of two for signing a transaction, this adds the keys required to the peerplays transaction object to allow us to later sign the transaction
@@ -610,18 +614,18 @@ Many functions from Low-level Application Layer may require changes to account f
 * [ ] "Import Key" via Peerplays' familiar username and password login: `username` and `password` form which will authorize `username` if keys generated from form data are authentic
 * [ ] modify functions to return expected data for UI
 
-#### **\[**[**3.3**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-support-for-ppy-asset-retrieve-ppy-balance)**\] Support for PPY Asset/Retrieve PPY Balance**
+#### **\[**[**3.5**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)**\] Support for PPY Asset/Retrieve PPY Balance**
 
 * [ ] Displays PPY account Balance
 
-#### \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-4-send-ppy)\] Transfer & Sign
+#### \[[3.6](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)\] Transfer & Sign
 
 Modify to return a promise `resolve` or `reject`. The `resolve` must return a transaction ID.
 
 * [ ] determine what the transaction ID represents \(block number?\)
 * [x] modify return value to be compatible with UI
 
-#### \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-5-receive-ppy)\] Receive PPY
+#### \[[3.7](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-7-receive-ppy)\] Receive PPY \(show username\)
 
 * [ ] Displays Peerplays username to give others
 
