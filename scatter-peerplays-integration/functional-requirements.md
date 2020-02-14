@@ -37,15 +37,15 @@ This section will provide detailed description, mockups/wireframes/screenshots o
 
 ### 3.1 Connect to Peerplays blockchain:
 
-![The list of networks can be added and removed here.](../.gitbook/assets/image%20%2813%29.png)
+![The list of networks can be added and removed here.](../.gitbook/assets/image%20%2817%29.png)
 
 ### 3.2 Generate Keypair
 
 The generate keypair option will generate a Public-Private Key pair and display under a group. The keypair generation itself doesn't mean any linking with the Peerplays blockchain. Once the keypair is created, a faucet can be used to create a Peerplays blockchain account with a unique user name \(NAI\). The username will be subject to the Peerplays account creation [guidelines](https://github.com/peerplays-network/peerplays/wiki/Account-Names).
 
-![Screen 1](../.gitbook/assets/image%20%285%29.png)
+![Screen 1](../.gitbook/assets/image%20%287%29.png)
 
-![Screen 2](../.gitbook/assets/image%20%2819%29.png)
+![Screen 2](../.gitbook/assets/image%20%2828%29.png)
 
 ### 3.3 Create Peerplays Account
 
@@ -53,15 +53,15 @@ By default, a new Scatter user will not have any Peerplays accounts/keys associa
 
 We will assume that the end-user has already created a Scatter account and is logged into their Scatter wallet with said account.
 
-![Figure 3.3.1: Logged in Scatter user screen](../.gitbook/assets/image%20%2818%29.png)
+![Figure 3.3.1: Logged in Scatter user screen](../.gitbook/assets/image%20%2825%29.png)
 
 The first course of action to create a Peerplays account is to click the cog wheel icon in the top right of the ScatterBridge user interface \(UI\).
 
-![Figure 3.3.2: Scatter settings screen](../.gitbook/assets/image%20%2815%29.png)
+![Figure 3.3.2: Scatter settings screen](../.gitbook/assets/image%20%2820%29.png)
 
 From the Scatter settings screen, the Scatter user must then click the "ACCOUNTS" tab header.
 
-![Figure 3.3.3: Scatter Accounts setting screen](../.gitbook/assets/image%20%288%29.png)
+![Figure 3.3.3: Scatter Accounts setting screen](../.gitbook/assets/image%20%2810%29.png)
 
 If the Peerplays section is greyed out, click the switch to enable Peerplays account\(s\). From this screen, the Scatter user will have to click "Edit Accounts" beside the blockchain they want to alter/add an account to: Peerplays in this case.
 
@@ -69,7 +69,33 @@ If the Peerplays section is greyed out, click the switch to enable Peerplays acc
 
 A new Scatter user account should see no keys here when they go to create a Peerplays account. From this screen, the Scatter user will have to click the plus icon blue button in the top right of the foremost visible window.
 
-_more coming_...
+![Figure 3.3.5: Pick Import Method](../.gitbook/assets/image%20%2827%29.png)
+
+On the new modal that appears, we see the first **new** screen required to be added. This modal is based on the original but we show three buttons instead:
+
+#### Login to Import Peerplays Account
+
+![Figure 3.3.6: Login to Import Peerplays Account \[empty\]](../.gitbook/assets/image%20%283%29.png)
+
+![Figure 3.3.7: Login to Import Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%284%29.png)
+
+![Figure 3.3.8: Login to Import Peerplays Account \[filled\]](../.gitbook/assets/image%20%2829%29.png)
+
+_more details coming_...
+
+#### Create New Peerplays Account
+
+![Figure 3.3.9: Create New Peerplays Account \[empty\]](../.gitbook/assets/image%20%2824%29.png)
+
+![Figure 3.3.9: Create New Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%2811%29.png)
+
+![Figure 3.3.9: Create New Peerplays Account \[filled\]](../.gitbook/assets/image%20%2815%29.png)
+
+_more details coming_...
+
+#### Cancel
+
+No change in behaviour or appearance for this button.
 
 ### 3.4 Import Peerplays Keys
 
@@ -79,13 +105,13 @@ _more coming..._
 
 ### 3.5 Support for PPY Asset/Retrieve PPY Balance
 
-![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%284%29.png)
+![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%286%29.png)
 
 ### 3.6 Send PPY
 
-![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2817%29.png)
+![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2823%29.png)
 
 ### 3.7 Receive PPY
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
