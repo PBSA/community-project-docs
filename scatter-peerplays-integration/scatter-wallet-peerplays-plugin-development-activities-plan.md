@@ -637,7 +637,7 @@ Many functions from Low-level Application Layer may require changes to account f
 
 Modify to return a promise `resolve` or `reject`. The `resolve` must return a transaction ID.
 
-* [ ] determine what the transaction ID represents \(block number?\)
+* [x] determine what the transaction ID represents \(block number?\)
 * [x] modify return value to be compatible with UI
 
 #### \[[3.7](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-7-receive-ppy)\] Receive PPY \(show username\)
