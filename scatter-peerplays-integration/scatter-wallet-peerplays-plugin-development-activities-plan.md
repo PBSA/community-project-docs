@@ -244,7 +244,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
       <td style="text-align:left">
         <p>Presentation layer work (<b>plugin integration with UI</b>)</p>
-        <p>Integrate with Scatter Bridge (#34)</p>
+        <p>Integrate with ScatterBridge (#34)</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
