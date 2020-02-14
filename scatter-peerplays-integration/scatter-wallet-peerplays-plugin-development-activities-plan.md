@@ -126,7 +126,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />parse UI numbers to blockchain numbers (#36)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M0-UwMJVMl0F_WONrnb/v/master/scatter-peerplays-integration/scatter-wallet-peerplays-plugin-development-activities-plan">3.2</a>]
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M0-UwMJVMl0F_WONrnb/v/master/scatter-peerplays-integration/scatter-wallet-peerplays-plugin-development-activities-plan">3.2</a>]
             Handling multiple Peerplays keys within
             <br />a single Scatter KeyPair
             <br />(#38)</li>
@@ -510,6 +511,9 @@ These functions are tested via a unit test suite provided by Nathan. This does n
 </table>#### Port from `peerplays-core-gui` and/or `peerplaysjs-lib`
 
 **\[**[**3.2**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-1-connect-to-peerplays-blockchain)**\] Handling multiple Peerplays keys within a single Scatter KeyPair**
+
+* [x] crypto functions \(encrypt/decrypt\)
+* [x] keypair helper class \(returns Scatter Keypair with single "master" key\)
 
 Scatter has multiple repositories with one of them being deprecated in favour of the newer ScatterBridge. ScatterBridge has a new issue regarding the prior unsolved issue of key management:
 
