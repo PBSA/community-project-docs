@@ -242,7 +242,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">28 Feb 2020</td>
+      <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/milestone/5">28 Feb 2020</a>
+      </td>
       <td style="text-align:left">
         <p>Presentation layer work (<b>plugin integration with UI</b>)</p>
         <p>Integrate with Scatter Bridge (#34)</p>
