@@ -356,8 +356,8 @@ Account authorization and key generation involved for Peerplays \(form\) \[added
 
 Integration of code functionality from plugin with scatter frontend
 
-* [ ] \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Import Peerplays Account \(authUser function in Peerplays plugin\) \(new/tweak form required\)
-* [ ] \[[3.2](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-2-generate-keypair)\] Create Peerplays Account \(register function in Peerplays plugin\) \(new/tweak form required\)
+* [ ] \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Create Peerplays Account \(register function in Peerplays plugin\) \(new/tweak form required\)
+* [ ] \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Import Peerplays Account \(authUser function in Peerplays plugin\) \(new/tweak form required\)
 * [x] \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Support for PPY Asset/Retrieve PPY Balance
 * [ ] \[[3.6](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)\] Transfer functionality integrated with UI
 * [ ] \[[3.7](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-7-receive-ppy)\] Receive PPY \(show account username\)
