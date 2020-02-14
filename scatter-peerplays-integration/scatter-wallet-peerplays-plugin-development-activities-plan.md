@@ -317,7 +317,7 @@ Sends register request to chain faucet and then imports/stores \(`import(…)`\)
 
 Store account keys after they have been generated \(and authenticated\) as a single KeyPair attached to a single Scatter identity. ScatterBridge does not support multiple Keypairs per key so we have opted to encrypt the three Peerplays authority keys into a single new "master" key that is decrypted with the Peerplays accounts owner public key within Scatter.
 
-* [ ] import\(\)
+* [ ] storeKeys\(\)
 * [x] authUser\(username, password\)
 
 #### \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Retrieve account balance\(s\)
