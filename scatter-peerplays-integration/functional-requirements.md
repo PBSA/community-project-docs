@@ -135,9 +135,13 @@ Clicking this button will download a `.txt` file type that contains only one thi
 
 _more details coming_...
 
-#### Cancel
+#### "Cancel" Button
 
-No change in behaviour or appearance for this button.
+No change in behaviour or appearance for this button. Clicking this button will close the modal.
+
+**"Create" Button**
+
+When one or more of the form input fields, excluding generated password, have some content in them; the "Cancel" button will turn into a form submit button.
 
 ### 3.4 Import Peerplays Keys
 
@@ -187,6 +191,14 @@ If an "error" occurs within this field, a red error text will appear below the f
 If an "error" occurs within this field, a red error text will appear below the field as seen in Figure 3.4.2 with the error text of:
 
 * "Password should be at least 22 symbols \(alphanumeric\)"
+
+**"Cancel" Button**
+
+No change in behaviour or appearance for this button. Clicking this button will close the modal.
+
+**"Login" Button**
+
+When one or more of the form input fields ****have some content in them; the "Cancel" button will turn into a form submit button.
 
 _more details coming_...
 
