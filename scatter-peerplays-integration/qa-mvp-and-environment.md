@@ -23,7 +23,7 @@ All functional requirements are implemented as per documentation with accommodat
 
 The Scatter project\(s\) are numerous and only specific ones are required in order to test/develop a plugin. In light of recent conversations, the ScatterBridge project is to be favoured over the ScatterEmbed.
 
-For adequate testing of the Peerplays Scatter plugin, three code bases are required to be compiled:
+For adequate testing of the Peerplays Scatter plugin, three codebases are required to be compiled:
 
 1. [walletpack](https://github.com/GetScatter/walletpack)
 2. [Bridge](https://github.com/GetScatter/Bridge)
