@@ -73,17 +73,7 @@ A new Scatter user account should see no keys here when they go to create a Peer
 
 On the new modal that appears, we see the first **new** screen required to be added. This modal is based on the original but we show three buttons instead:
 
-#### Login to Import Peerplays Account
-
-![Figure 3.3.6: Login to Import Peerplays Account \[empty\]](../.gitbook/assets/image%20%284%29.png)
-
-![Figure 3.3.7: Login to Import Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%286%29.png)
-
-![Figure 3.3.8: Login to Import Peerplays Account \[filled\]](../.gitbook/assets/image%20%2832%29.png)
-
-_more details coming_...
-
-#### Create New Peerplays Account
+#### "Create New Peerplays Account"
 
 ![Figure 3.3.9: Create New Peerplays Account \[empty\]](../.gitbook/assets/image%20%282%29.png)
 
@@ -150,9 +140,54 @@ No change in behaviour or appearance for this button.
 
 ### 3.4 Import Peerplays Keys
 
-Importing Peerplays keys will have the same user flow from part 3.2 up till figure 3.3.4.
+{% hint style="warning" %}
+Importing Peerplays keys will have the same user flow from part 3.2 up till figure 3.3.5.
+{% endhint %}
 
-_more coming..._
+The following outline the flow of importing keys into a Scatter account if the end-user opted for the "Login to Import Peerplays Account" button route.
+
+#### Login to Import Peerplays Account
+
+![Figure 3.4.1: Login to Import Peerplays Account \[empty\]](../.gitbook/assets/image%20%284%29.png)
+
+![Figure 3.4.2: Login to Import Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%286%29.png)
+
+![Figure 3.4.3: Login to Import Peerplays Account \[filled\]](../.gitbook/assets/image%20%2832%29.png)
+
+Peerplays account importing into Scatter will appear the end-user like any other Peerplays dapp login form:
+
+* account name input field
+* account password input field
+* form submit/login button
+
+**Errors**
+
+If any form component has an error, their appearance will change to match that of Figure 3.4.2.
+
+**"Account Name" Field**
+
+* string input field
+* character limit of 52
+* only lower-case characters
+* username restrictions:
+  * must start with a letter
+  * must contain at least one dash, a number, or not contain any vowels
+
+If an "error" occurs within this field, a red error text will appear below the field as seen in Figure 3.4.2 with the error text of:
+
+* "Must start with a letter and contain at least one dash, a number, or no vowels"
+
+**"Password" Field**
+
+* string input field
+* character limit of 52
+* only lower-case alphanumeric characters
+
+If an "error" occurs within this field, a red error text will appear below the field as seen in Figure 3.4.2 with the error text of:
+
+* "Password should be at least 22 symbols \(alphanumeric\)"
+
+_more details coming_...
 
 ### 3.5 Support for PPY Asset/Retrieve PPY Balance
 
