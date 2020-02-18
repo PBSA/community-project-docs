@@ -143,6 +143,17 @@ No change in behaviour or appearance for this button. Clicking this button will 
 
 When one or more of the form input fields, excluding generated password, have some content in them; the "Cancel" button will turn into a form submit button.
 
+Only when all form fields are error free will clicking the "Create" button have an effect.
+
+Once the form has been submitted, the following actions occur programatically:
+
+1. Generate Peerplays owner, active, and memo keys using form values: "account name" and "re-enter generated password" \(account name + password\)
+2. Attach public keys generated to the registration request to be sent
+3. Send request \(with public keys attached\) to a Peerplays faucet to handle creation of the account
+4. If registration was successful, a response from the faucet will return the public keys for the account that was created on the Peerplays blockchain
+
+Assuming step four has a positive result, the final step is to take the keys generated in step one and provide these generated keys to Scatter for storage.
+
 ### 3.4 Import Peerplays Keys
 
 {% hint style="warning" %}
@@ -200,7 +211,18 @@ No change in behaviour or appearance for this button. Clicking this button will 
 
 When one or more of the form input fields ****have some content in them; the "Cancel" button will turn into a form submit button.
 
-_more details coming_...
+Only when all form fields are error free will clicking the "Login" button have an effect.
+
+Once the form has been submitted, account authorization for the user supplied account name will begin. Peerplays account authorization flow is as follows:
+
+1. supply a Peerplays account name and its matching password
+2. request from Peerplays blockchain for account object by account name provided by user
+3. generate owner, active, an memo keys from user provided account name and password
+4. compare generated active and/or owner key with the blockchain returned public keys
+   1. some legacy accounts had their owner and active keys swapped at one point during their registration procedure so it is necessary to swap and check so these accounts retain login access
+5. if a match is found, the account that the end-user tried to authorize is authorized.
+
+During this process, we generate all of the keys required by Scatter. If after step five, the Peerplays account in question is authorized, we can then provide these generated keys to Scatter for storage.
 
 ### 3.5 Support for PPY Asset/Retrieve PPY Balance
 
