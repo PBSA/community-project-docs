@@ -191,7 +191,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />Define MVP/requirements for Quality Assurance (#41)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Design mockups and associated documentation for new required forms (#43)</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Design mockups and associated documentation for new required forms (#43)</li>
           <li
           class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
