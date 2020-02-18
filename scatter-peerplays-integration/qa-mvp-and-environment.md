@@ -14,7 +14,8 @@ Click on the header to view the content you desire.
 {% tab title="MVP" %}
 All functional requirements are implemented as per documentation with accommodation for the following:
 
-* Without Font Awesome Pro, there will several missing icons throughout the application the QA team will be working with
+* lack of Font Awesome Pro, there will several missing icons throughout the application the QA team will be working with
+  * some code changes are required to allow the application to compile without it
 {% endtab %}
 
 {% tab title="Environment" %}
@@ -33,6 +34,19 @@ ScatterBridge will point to a local location of walletpack until it has been pub
 ### Instruction for Compiling
 
 Justin: add specifics to compiling the application correctly below \(branches, node version, npm version, code changes, etc.\)
+
+#### walletpack
+
+1. switch branch to `peerplays-plugin`
+2. open `package.json`
+3. change &lt;package&gt; to &lt;package&gt;
+4. install node packages: `npm i`
+5. etc.
+
+#### Bridge
+
+1. 
+#### ScatterDesktop
 
 1. 
 {% endtab %}
