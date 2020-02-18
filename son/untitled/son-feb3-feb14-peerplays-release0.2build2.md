@@ -2,7 +2,7 @@
 
 ### **User Stories/Defects Testing** <a id="SON-FEB3-FEB14-Peerplays-Release0.2Build1-UserStories/DefectsTesting"></a>
 
- Release details : [https://peerplays.atlassian.net/projects/SON/versions/10105/tab/release-report-in-progress](https://peerplays.atlassian.net/projects/SON/versions/10100/tab/release-report-in-progress)
+ Release details : [ https://peerplays.atlassian.net/projects/SON/versions/10105/tab/release-report-in-progress](%20https://peerplays.atlassian.net/projects/SON/versions/10105/tab/release-report-in-progress)
 
 
 
