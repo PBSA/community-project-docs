@@ -349,24 +349,15 @@ Requires porting of several functions from peerplaysjs-lib to support fetch call
 
 #### \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)\] Register/Create Peerplays Account
 
-Requires a form \[added by _TBD_\] that will retrieve a `username` from the end user. The `password` field is generated for them and they just need to verify it by copy and pasting it into another password text field.
+Refer to Functional Requirements.
 
-* 1 username field
-* 1 read-only field \(generated password\)
-* 1 password field \(generated password pasted here by end-user\)
-* 1 submit/register/create button
-* relevant helper text \(see functional requirements for more info\)
-* [ ] register form
+* [ ] [register form](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)
 
 #### \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Authorize/Import Peerplays Account
 
-Account authorization and key generation involved for Peerplays \(form\) \[added by _TBD_\]
+Refer to Functional Requirements.
 
-* 1 username field
-* 1 password field
-* 1 submit/login/import button
-* relevant helper text \(see functional requirements for more info\)
-* [ ] account import form
+* [ ] [account import form](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)
 
 #### Plugin Integration
 
