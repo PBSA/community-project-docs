@@ -83,10 +83,11 @@ On the new modal that appears, we see the first **new** screen required to be ad
 
 Peerplays account creation will have a similar process as it does on any other Peerplays dapp:
 
-* the user provides a username
-* the user re-enters a provided password into the "re-enter" field
-* the user optionally download a text file containing their password
-* the user submits the account creation/registration form
+* username field
+* code generated password read-only field
+* password re-entry field
+* download recovery file button
+* form submit/create button
 
 However, there are some rules and conditions to this form:
 
