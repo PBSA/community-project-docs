@@ -62,8 +62,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       <td style="text-align:left">
         <p>Connect to Peerplays blockchain:</p>
         <p>We can port all the necessary calls to fetch calls and avoid maintaining
-          a constant
-          <br />connection to the Peerplays blockchain.</p>
+          a constant connection to the Peerplays blockchain.</p>
         <p></p>
         <p>Conversion of keys, generation of
           <br />keys, key validation, etc.</p>
@@ -201,12 +200,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p></p>
       </td>
       <td style="text-align:left">
-        <p>Constant connection via websocket (WS) like our other
-          <br />dapps has not been chosen for
-          <br />usage in the Peerplays Scatter
-          <br />plugin.
-          <br />It will instead use a fetch based approach similar to a restful
-          <br />server call.</p>
+        <p>Constant connection via websocket (WS) like our other dapps has not been
+          chosen for usage in the Peerplays Scatter plugin.
+          <br />It will instead use a fetch based approach similar to a restful server
+          call.</p>
         <p>
           <br />Other functional requirements not listed here will be done on another
           deadline.
