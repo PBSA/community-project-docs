@@ -21,7 +21,7 @@ All functional requirements are implemented as per documentation with accommodat
 {% tab title="Environment" %}
 ### What to Compile
 
-The Scatter project\(s\) are numerous and only specific ones are required in order to test/develop a plugin. In light of recent conversations, the ScatterBridge project is to be favoured over the ScatterEmbed.
+The Scatter project\(s\) are numerous and only specific ones are required in order to test/develop a plugin. In light of recent conversations, the ScatterBridge project is to be favoured over the ScatterEmbed one.
 
 For adequate testing of the Peerplays Scatter plugin, three codebases are required to be compiled:
 
