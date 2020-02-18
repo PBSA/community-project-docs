@@ -189,8 +189,13 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p>Documentation/QA</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Define MVP/requirements for Quality Assurance (#41)</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Define <a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/qa-mvp-and-environment">MVP/requirements</a> for
+            Quality Assurance (#41)</li>
           <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Design mockups and associated documentation for new required forms (#43)</li>
+          <li
+          class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
         </ul>
         <p></p>
@@ -233,6 +238,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/40">#40</a>
         </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/43">#43</a>
+        </p>
       </td>
     </tr>
     <tr>
@@ -246,6 +253,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance">3.5</a>]
             Support for PPY Asset/Retrieve PPY Balance</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Retrieve keys from Scatter storage (#44)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy">3.6</a>]
             Transfer functionality integrated with UI
@@ -285,6 +294,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/35">#35</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/39">#39</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/44">#44</a>
         </p>
       </td>
     </tr>
