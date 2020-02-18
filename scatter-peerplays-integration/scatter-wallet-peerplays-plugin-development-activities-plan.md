@@ -62,7 +62,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       <td style="text-align:left">
         <p>Connect to Peerplays blockchain:</p>
         <p>We can port all the necessary calls to fetch calls and avoid maintaining
-          a constant connection to the Peerplays blockchain.</p>
+          a constant
+          <br />connection to the Peerplays blockchain.</p>
         <p></p>
         <p>Conversion of keys, generation of
           <br />keys, key validation, etc.</p>
@@ -200,10 +201,12 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p></p>
       </td>
       <td style="text-align:left">
-        <p>Constant connection via websocket (WS) like our other dapps has not been
-          chosen for usage in the Peerplays Scatter plugin.
-          <br />It will instead use a fetch based approach similar to a restful server
-          call.</p>
+        <p>Constant connection via websocket (WS) like our other
+          <br />dapps has not been chosen for
+          <br />usage in the Peerplays Scatter
+          <br />plugin.
+          <br />It will instead use a fetch based approach similar to a restful
+          <br />server call.</p>
         <p>
           <br />Other functional requirements not listed here will be done on another
           deadline.
@@ -269,12 +272,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </ul>
       </td>
       <td style="text-align:left">
-        <p>The Peerplays team will be
-          <br />making modifications to their fork of the Scatter Bridge repository. These
-          modifications will encompass the two new forms required for Peerplays users
-          to be able to &quot;import&quot;
-          <br />their accounts and/or create a new Peerplays account that is then imported
-          into Scatter.
+        <p>TBD who will be adding forms or tweaking
+          <br />anything in the Scatter UI (ScatterDesktop/ScatterBridge) but they require
+          all Data and Application
+          <br />layer tasks to be complete.
           <br /><b>Balance</b>: &quot;Receive PPY&quot; functional
           <br />requirement
           <br /><b>Transfer</b>: &quot;Send PPY&quot; functional
