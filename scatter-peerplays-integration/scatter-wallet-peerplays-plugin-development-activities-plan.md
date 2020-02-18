@@ -384,7 +384,7 @@ Quality Assurance \(QA\) will not be possible until there is presentation layer 
 
 Recent communications have revealed that ScatterEmbed will soon be reaching the end of its official life in favour of a new Scatter UI called ScatterBridge. This will put some delays on QA deliveries while we learn this new UI and how it uses the other Scatter repositories to breath life into a Scatter blockchain plugin. Some tasks associated with this:
 
-* [ ] Define MVP/requirements for Quality Assurance
+* [ ] Define [MVP/requirements](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/qa-mvp-and-environment) for Quality Assurance
 * [ ] Get QA Environment Configured
 
 ## Low-Level 
