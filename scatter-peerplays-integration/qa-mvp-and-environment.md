@@ -1,7 +1,7 @@
 ---
 description: >-
-  This document outlines the Quality Assurance Minimum Viable Product and
-  Environment
+  This document outlines the Quality Assurance (QA) Minimum Viable Product (MVP)
+  and Environment needed for QA to operate.
 ---
 
 # QA MVP and Environment
