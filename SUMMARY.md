@@ -17,6 +17,7 @@
   * [Installing Block Exploerer](son/untitled/installing-block-exploerer.md)
   * [SON-FEB3-FEB14-Peerplays-Release0.2Build1](son/untitled/son-feb3-feb14-peerplays-release0.2build1.md)
   * [JAN20-Peerplays-Release0.2Build1](son/untitled/jan20-peerplays-release0.2build1.md)
+  * [SON-FEB3-FEB14-Peerplays-Release0.2Build2](son/untitled/son-feb3-feb14-peerplays-release0.2build2.md)
 
 ## Scatter Peerplays Integration
 
