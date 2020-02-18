@@ -272,10 +272,12 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </ul>
       </td>
       <td style="text-align:left">
-        <p>TBD who will be adding forms or tweaking
-          <br />anything in the Scatter UI (ScatterDesktop/ScatterBridge) but they require
-          all Data and Application
-          <br />layer tasks to be complete.
+        <p>The Peerplays team will be
+          <br />making modifications to their fork of the Scatter Bridge repository. These
+          modifications will encompass the two new forms required for Peerplays users
+          to be able to &quot;import&quot;
+          <br />their accounts and/or create a new Peerplays account that is then imported
+          into Scatter.
           <br /><b>Balance</b>: &quot;Receive PPY&quot; functional
           <br />requirement
           <br /><b>Transfer</b>: &quot;Send PPY&quot; functional
