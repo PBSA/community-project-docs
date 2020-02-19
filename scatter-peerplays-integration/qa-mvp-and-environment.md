@@ -37,18 +37,29 @@ Justin: add specifics to compiling the application correctly below \(branches, n
 
 #### walletpack \(plugins\)
 
+Node Version: `10.15.3`
+
 1. switch branch to `peerplays-plugin`
-2. open `package.json`
-3. change &lt;package&gt; to &lt;package&gt;
-4. install node packages: `npm i`
-5. etc.
+2. install node packages: `npm i`
+3. create the production files of the peerplays plugin with `npm run build` in the root
 
 #### Bridge \(UI\)
 
-1. 
-#### ScatterDesktop \(electron, encryption\)
+Node Version: `10.15.3`
 
-1. 
+1. switch branch to `peerplays-support`
+2. install node packages: `npm i`
+3. create a new `peerplays` directory inside `node_modules > @walletpack`
+4. **copy** the output files within the `dist` directory within `packages > peerplays > dist` **\(**in the walletpack repository\) into `node_modules > @walletpack > peerplays`
+5. **copy** the other required files from the wallet pack repository into `node_modules > @walletpack > peerplays`: - prepare.js - README.md - package.json
+6. install packages within the directory you just finished copying files into \(`node_modules > @walletpack > peerplays`\): `npm i`
+7. ... ****
+
+#### **ScatterDesktop \(electron, encryption\)**
+
+Node Version: `10.15.3`
+
+1. ...
 {% endtab %}
 {% endtabs %}
 
