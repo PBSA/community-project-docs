@@ -47,28 +47,6 @@ The generate keypair option will generate a Public-Private Key pair and display 
 
 ![Screen 2](../.gitbook/assets/image%20%2832%29.png)
 
-Due to restrictions place upon the Scatter Keypair object that contains the private Wallet Import Format \(WIF\) and public key string, the Peerplays plugin cannot use typical keys. Reason number one for this is that the Peerplays blockchain operates with various authorization levels that are attached to various keys. 
-
-As an example, user "login" on the Peerplays Core GUI wallet is done by comparing a client-side generated active public key with a blockchain retrieved active public key. However, there are instances where we need to also compare a public owner key due to an event where _some_ Peerplays accounts were created with their owner and active keys swapped.
-
-As another example, to send a transfer of funds on the Peerplays blockchain, you are required to have both the active private key and the memo private key. 
-
-To circumvent the requirement for multiple keys but only the ability to store one private key, and its public key counterpart, the Peerplays Scatter plugin will encrypt all three keys into a single new "master" key for exclusive use within Scatter. The result will be a Scatter Keypair with the following format:
-
-```text
-Keypair = {
-  privateKey: 'encryptedWifKeysHere`,
-  publicKeys: [{
-    key: 'ownerPublicKeyHere',
-    blockchain: 'ppy'
-  }]
-}
-```
-
-`Keypair.privateKey` contains all three authority level keys in WIF for a Peerplays account \(owner, active, memo\) in an encrypted format.
-
-`Keypair.publicKeys[0].key` is the owner public key which acts as the encryption secret key that allows us to encrypt and decrypt `Keypair.privateKey` on demand to get any of the other keys.
-
 ### 3.3 Create Peerplays Account
 
 By default, a new Scatter user will not have any Peerplays accounts/keys associated with their Scatter account. In this use-case, the Scatter user either does not have a Peerplays account at all \(will need to make one\) or wishes to create a new one and then import the keys \([3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\) into their Scatter account.
