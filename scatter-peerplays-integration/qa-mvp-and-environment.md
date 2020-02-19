@@ -53,7 +53,9 @@ Node Version: `10.15.3`
 4. **copy** the output files within the `dist` directory within `packages > peerplays > dist` **\(**in the walletpack repository\) into `node_modules > @walletpack > peerplays`
 5. **copy** the other required files from the wallet pack repository into `node_modules > @walletpack > peerplays`: - prepare.js - README.md - package.json
 6. install packages within the directory you just finished copying files into \(`node_modules > @walletpack > peerplays`\): `npm i`
-7. ... ****
+7. **copy** the `.env.example` root file contents to a new root file called `.env` 
+8. edit the `VUE_APP_NO_WALLET` parameter in root file `.env` : `VUE_APP_NO_WALLET=1`
+9. run the application in dev mode with `npm run start`
 
 #### **ScatterDesktop \(electron, encryption\)**
 
