@@ -56,6 +56,7 @@ Node Version: `10.15.3`
 7. **copy** the `.env.example` root file contents to a new root file called `.env` 
 8. edit the `VUE_APP_NO_WALLET` parameter in root file `.env` : `VUE_APP_NO_WALLET=1`
 9. run the application in dev mode with `npm run start`
+10. you can view the application in a chrome web browser at this location for the host machine: [http://localhost:8081/](http://localhost:8081/)
 
 #### **ScatterDesktop \(electron, encryption\)**
 
