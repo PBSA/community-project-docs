@@ -52,7 +52,7 @@ Node Version: `10.15.3`
 3. create a new `peerplays` directory inside `node_modules > @walletpack`
 4. **copy** the output files within the `dist` directory within `packages > peerplays > dist` **\(**in the walletpack repository\) into `node_modules > @walletpack > peerplays`
 5. **copy** the other required files from the wallet pack repository into `node_modules > @walletpack > peerplays`: - prepare.js - README.md - package.json
-6. install packages within the directory you just finished copying files into \(`node_modules > @walletpack > peerplays`\): `npm i`
+6. install node packages within the directory you just finished copying files into \(`node_modules > @walletpack > peerplays`\): `npm i`
 7. **copy** the `.env.example` root file contents to a new root file called `.env` 
 8. edit the `VUE_APP_NO_WALLET` parameter in root file `.env` : `VUE_APP_NO_WALLET=1`
 9. run the application in dev mode with `npm run start`
@@ -60,9 +60,7 @@ Node Version: `10.15.3`
 
 #### **ScatterDesktop \(electron, encryption\)**
 
-Node Version: `10.15.3`
-
-1. ...
+No Electron binary production method provided and this process appears to still be under development based on GitHub repository activity. So, only the local development method outlined above is available at this time.
 {% endtab %}
 {% endtabs %}
 
