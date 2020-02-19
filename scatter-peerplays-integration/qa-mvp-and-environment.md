@@ -27,7 +27,7 @@ For adequate testing of the Peerplays Scatter plugin, three codebases are requir
 
 1. [walletpack](https://github.com/GetScatter/walletpack)
 2. [Bridge](https://github.com/GetScatter/Bridge)
-3. [ScatterDesktop](https://github.com/GetScatter/ScatterDesktop)
+3. ~~~~[~~ScatterDesktop~~](https://github.com/GetScatter/ScatterDesktop)~~~~
 
 ScatterBridge will point to a local location of walletpack until it has been published on NPM.
 
