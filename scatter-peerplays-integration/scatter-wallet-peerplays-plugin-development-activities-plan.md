@@ -189,7 +189,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p>Documentation/QA</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Define <a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/qa-mvp-and-environment">MVP/requirements</a> for
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Define <a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/qa-mvp-and-environment">MVP/requirements</a> for
             Quality Assurance (#41)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
@@ -378,7 +379,7 @@ Quality Assurance \(QA\) will not be possible until there is presentation layer 
 
 Recent communications have revealed that ScatterEmbed will soon be reaching the end of its official life in favour of a new Scatter UI called ScatterBridge. This will put some delays on QA deliveries while we learn this new UI and how it uses the other Scatter repositories to breath life into a Scatter blockchain plugin. Some tasks associated with this:
 
-* [ ] Define [MVP/requirements](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/qa-mvp-and-environment) for Quality Assurance
+* [x] Define [MVP/requirements](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/qa-mvp-and-environment) for Quality Assurance
 * [ ] Get QA Environment Configured
 
 ## Low-Level 
