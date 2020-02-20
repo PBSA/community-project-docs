@@ -62,8 +62,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       <td style="text-align:left">
         <p>Connect to Peerplays blockchain:</p>
         <p>We can port all the necessary calls to fetch calls and avoid maintaining
-          a constant
-          <br />connection to the Peerplays blockchain.</p>
+          a constant connection to the Peerplays blockchain.</p>
         <p></p>
         <p>Conversion of keys, generation of
           <br />keys, key validation, etc.</p>
@@ -159,7 +158,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account">3.3</a>]
             Create a new Peerplays Account (#15)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys">3.4</a>]
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys">3.4</a>]
             Store/Import Keys after creation (#26)</li>
         </ul>
         <p>Other tasks/issues from GitHub.</p>
@@ -201,12 +201,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p></p>
       </td>
       <td style="text-align:left">
-        <p>Constant connection via websocket (WS) like our other
-          <br />dapps has not been chosen for
-          <br />usage in the Peerplays Scatter
-          <br />plugin.
-          <br />It will instead use a fetch based approach similar to a restful
-          <br />server call.</p>
+        <p>Constant connection via websocket (WS) like our other dapps has not been
+          chosen for usage in the Peerplays Scatter plugin.
+          <br />It will instead use a fetch based approach similar to a restful server
+          call.</p>
         <p>
           <br />Other functional requirements not listed here will be done on another
           deadline.
@@ -246,6 +244,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/milestone/5">28 Feb 2020</a>
       </td>
       <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Retrieve keys from Scatter storage (#44)</li>
+        </ul>
         <p>Presentation layer work (<b>plugin integration with UI</b>)</p>
         <p>Integrate with ScatterBridge (#34)</p>
         <ul class="contains-task-list">
@@ -253,8 +255,6 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance">3.5</a>]
             Support for PPY Asset/Retrieve PPY Balance</li>
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Retrieve keys from Scatter storage (#44)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy">3.6</a>]
             Transfer functionality integrated with UI
@@ -272,10 +272,12 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </ul>
       </td>
       <td style="text-align:left">
-        <p>TBD who will be adding forms or tweaking
-          <br />anything in the Scatter UI (ScatterDesktop/ScatterBridge) but they require
-          all Data and Application
-          <br />layer tasks to be complete.
+        <p>The Peerplays team will be
+          <br />making modifications to their fork of the Scatter Bridge repository. These
+          modifications will encompass the two new forms required for Peerplays users
+          to be able to &quot;import&quot;
+          <br />their accounts and/or create a new Peerplays account that is then imported
+          into Scatter.
           <br /><b>Balance</b>: &quot;Receive PPY&quot; functional
           <br />requirement
           <br /><b>Transfer</b>: &quot;Send PPY&quot; functional
@@ -316,7 +318,7 @@ Only support the required functions. Support JavaScript fetch calls asynchronous
 
 Generate Scatter Keypair to associate with a Peerplays account and store it.
 
-* [ ] storeKeys\(\)
+* [x] storeKeys\(\)
 
 #### \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)\] Register/Create Peerplays Account
 
@@ -328,7 +330,7 @@ Sends register request to chain faucet and then imports/stores \(`import(…)`\)
 
 Store account keys after they have been generated \(and authenticated\) as a single KeyPair attached to a single Scatter identity. ScatterBridge does not support multiple Keypairs per key so we have opted to encrypt the three Peerplays authority keys into a single new "master" key that is decrypted with the Peerplays accounts owner public key within Scatter.
 
-* [ ] storeKeys\(\)
+* [x] storeKeys\(\)
 * [x] authUser\(username, password\)
 
 #### \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Retrieve account balance\(s\)
@@ -411,7 +413,6 @@ Configuration of test-suite to support mainnet and testnet testing accounts
 Re-create the base/required functions by any Scatter plugin
 
 * [ ] Define default blockchain explorer
-* [ ] tweaks to existing code in lieu of to-be-deprecated Scatter UI in favour of new Scatter UI \(bridge\)
 
 {% hint style="danger" %}
 These functions are tested via a unit test suite provided by Nathan. This does not mean that these functionalities will work with the various UI repositories.
@@ -561,7 +562,7 @@ Given the pre-requisites:
 
 Finally, store the keypair via Scatter so it can be retrieved later for other Peerplays actions.
 
-* [ ] storeKeys\(\)
+* [x] storeKeys\(\)
 
 **\[**[**3.3**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)**\] New account registration**
 
