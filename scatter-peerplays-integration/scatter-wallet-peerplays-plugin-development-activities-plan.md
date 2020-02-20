@@ -197,7 +197,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />Design mockups and associated documentation for new required forms (#43)</li>
           <li
           class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Spike Integration of ScatterDesktop (#34)</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Spike Integration of ScatterDesktop (#46)</li>
             <li class="task-list-item">
               <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
         </ul>
@@ -245,7 +245,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/43">#43</a>
         </p>
-        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/34">#34</a>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/46">#46</a>
         </p>
       </td>
     </tr>
