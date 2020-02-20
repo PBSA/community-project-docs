@@ -246,7 +246,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Retrieve keys from Scatter storage (#44)</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Retrieve keys from Scatter storage (#44)</li>
         </ul>
         <p>Presentation layer work (<b>plugin integration with UI</b>)</p>
         <p>Integrate with ScatterBridge (#34)</p>
