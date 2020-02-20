@@ -197,7 +197,9 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />Design mockups and associated documentation for new required forms (#43)</li>
           <li
           class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Spike Integration of ScatterDesktop (#34)</li>
+            <li class="task-list-item">
+              <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
         </ul>
         <p></p>
       </td>
@@ -217,6 +219,10 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
           <br />&gt; Required Scatter functions/declarations</p>
         <p></p>
         <p>Documentation: Define any requirements for QA activities to be possible.</p>
+        <p></p>
+        <p>See Spike within:</p>
+        <p>High-level</p>
+        <p>&gt; Application Layer</p>
       </td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/15">#15 SC-4</a>
@@ -238,6 +244,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/40">#40</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/43">#43</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/34">#34</a>
         </p>
       </td>
     </tr>
@@ -348,6 +356,12 @@ Requires porting of several functions from peerplaysjs-lib to support fetch call
 * [x] set transaction fees for memo/no memo
 * [x] sign a built transfer transaction
 * [x] broadcast a signed transfer transaction
+
+#### Spike Integration of ScatterDesktop
+
+Discern how much effort is required to incorporate ScatterDesktop into our QA environment. This is not a mandatory step but would be beneficial knowledge for future development and understanding  
+of how Scatter works as a whole.  
+If the spike results show that there is not a lot of work involved \(won't effect next milestone completion date\), ScatterDesktop will be added to the QA Environment.
 
 ### Presentation Layer
 
