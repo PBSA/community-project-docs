@@ -32,9 +32,13 @@ Release details : [https://peerplays.atlassian.net/projects/SON/versions/10100/t
 
 **New Bug Reported**
 
-{% embed url="https://peerplays.atlassian.net/browse/SON-242" caption="list\_active\_sons throws exception after deleting an active son" %}
+\*\*\*\*[**SON-241** SON's owner account's private active wif key is removed from the wallet when a son is deregistered](https://peerplays.atlassian.net/browse/SON-241)
 
-{% embed url="https://peerplays.atlassian.net/browse/SON-241" caption="SON\'s owner account\'s private active wif key is removed from the wallet when a son is deregistered" %}
+\*\*\*\*[**SON-242** list\_active\_sons throws exception after deleting an active son](https://peerplays.atlassian.net/browse/SON-242)
+
+
+
+**Test Execution Report**
 
 ![Test Execution Report](../../.gitbook/assets/image%20%2811%29.png)
 

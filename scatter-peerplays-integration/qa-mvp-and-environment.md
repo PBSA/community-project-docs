@@ -53,11 +53,12 @@ Node Version: `10.15.3`
 4. **copy** the output files within the `dist` directory within `packages > peerplays > dist` **\(**in the walletpack repository\) into `node_modules > @walletpack > peerplays`
 5. **copy** the other required files from the wallet pack repository into `node_modules > @walletpack > peerplays`: - prepare.js - README.md - package.json
 6. **replace** the files within `node_modules > @walletpack > core` with the dist directory files from the walletpack project: `// 1. delete the existing one to ensure it gets replaced rm -rf node_modules/@walletpack/core` `// 2. recursive copy to new location cp -R ../getscatter-walletpack/packages/core/dist/ ./node_modules/@walletpack/core/`
-7. install node packages within the directory you just finished copying files into \(`node_modules > @walletpack > peerplays`\): `npm i`
-8. **rename** the `.env.example` root file to `.env` 
-9. edit the `VUE_APP_NO_WALLET` parameter in root file `.env` : `VUE_APP_NO_WALLET=1`
-10. run the application in dev mode with `npm run start`
-11. you can view the application in a chrome web browser at this location for the host machine: [http://localhost:8081/](http://localhost:8081/)
+7. create a new directory within `node_modules > @walletpack > peerplays` called `dist`
+8. install node packages within the directory you just finished copying files into \(`node_modules > @walletpack > peerplays`\): `npm i`
+9. **rename** the `.env.example` root file to `.env` 
+10. edit the `VUE_APP_NO_WALLET` parameter in root file `.env` : `VUE_APP_NO_WALLET=1`
+11. run the application in dev mode with `npm run start`
+12. you can view the application in a chrome web browser at this location for the host machine: [http://localhost:8081/](http://localhost:8081/)
 
 #### **ScatterDesktop \(electron, encryption\)**
 
