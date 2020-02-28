@@ -53,21 +53,21 @@ As an example, user "login" on the Peerplays Core GUI wallet is done by comparin
 
 As another example, to send a transfer of funds on the Peerplays blockchain, you are required to have both the active private key and the memo private key. 
 
-To circumvent the requirement for multiple keys but only the ability to store one private key, and its public key counterpart, the Peerplays Scatter plugin will encrypt all three keys into a single new "master" key for exclusive use within Scatter. The result will be a Scatter Keypair with the following format:
+To circumvent the requirement for multiple keys but only the ability to store one private key, and its public key counterpart, the Peerplays Scatter plugin will encode all three keys into a single new "master" key for exclusive use within Scatter. The result will be a Scatter Keypair with the following format:
 
 ```text
 Keypair = {
-  privateKey: 'encryptedWifKeysHere`,
+  privateKey: 'encodedWifKeysHere`,
   publicKeys: [{
-    key: 'ownerPublicKeyHere',
+    key: 'activePublicKeyHere',
     blockchain: 'ppy'
   }]
 }
 ```
 
-`Keypair.privateKey` contains all three authority level keys in WIF for a Peerplays account \(owner, active, memo\) in an encrypted format.
+`Keypair.privateKey` contains all three authority level keys in WIF for a Peerplays account \(owner, active, memo\) in an encoded format using "[little endian encoded Unicode characters](https://millermedeiros.github.io/mdoc/examples/node_api/doc/buffers.html)" \(`Buffer.from('stringtexthere').toString('ucs2')`\) which essentially cuts the resulting string size in half. This format is required as the Scatter wallet will not encrypt the `Keypair.privateKey` if its length is greater than 100 characters.
 
-`Keypair.publicKeys[0].key` is the owner public key which acts as the encryption secret key that allows us to encrypt and decrypt `Keypair.privateKey` on demand to get any of the other keys.
+`Keypair.publicKeys[0].key` is the active public key which is just a required item for a Scatter wallet Keypair object.
 
 ### 3.3 Create Peerplays Account
 

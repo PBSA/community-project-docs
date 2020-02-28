@@ -63,6 +63,21 @@ Node Version: `10.15.3`
 #### **ScatterDesktop \(electron, encryption\)**
 
 No Electron binary production method provided and this process appears to still be under development based on GitHub repository activity. So, only the local development method outlined above is available at this time.
+
+Node Version: `10.15.3`
+
+1. Install node packages: `yarn install` \(README.md file recommends using yarn on this repository\)
+2. Uncomment the first line in the `.env` file in the root:`LOCAL_TESTING=http://localhost:8081/` 
+
+{% hint style="warning" %}
+Before continuing, ensure you have completed the above two sections \(walletpack & Bridge\).
+{% endhint %}
+
+1. Inside the Bridge project, update an entry within the `.env` file; `VUE_APP_NO_WALLET=` should be the new line text \(remove the `1` you added earlier\)
+2. Still inside the Bridge project, start up the dev server with `npm run start`
+3. Enter the Desktop project until instructed otherwise moving forward.
+4. In `node_modules > @walletpack > ethereum > package.json` , update the `"main"` entry to : `"dist/ethereum.js"`
+5. Copy the `peerplays` directory within the Bridge project \(`node_modules > @walletpack > peerplays`\) into `node_modules > @walletpack` in the Desktop project.
 {% endtab %}
 {% endtabs %}
 
