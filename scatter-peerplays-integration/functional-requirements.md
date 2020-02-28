@@ -65,7 +65,9 @@ Keypair = {
 }
 ```
 
-`Keypair.privateKey` contains all three authority level keys in WIF for a Peerplays account \(owner, active, memo\) in an encoded format using "[little endian encoded Unicode characters](https://millermedeiros.github.io/mdoc/examples/node_api/doc/buffers.html)" \(`Buffer.from('stringtexthere').toString('ucs2')`\) which essentially cuts the resulting string size in half. This format is required as the Scatter wallet will not encrypt the `Keypair.privateKey` if its length is greater than 100 characters.
+`Keypair.privateKey` contains all three authority level keys in WIF for a Peerplays account \(owner, active, memo\) in an encoded format using "[little endian encoded Unicode characters](https://millermedeiros.github.io/mdoc/examples/node_api/doc/buffers.html)":`Buffer.from('stringtexthere').toString('ucs2')`
+
+This encoding method essentially cuts the resulting string size in half. This format is required as the Scatter wallet will not encrypt the `Keypair.privateKey` if its length is greater than 100 characters.
 
 `Keypair.publicKeys[0].key` is the active public key which is just a required item for a Scatter wallet Keypair object.
 
