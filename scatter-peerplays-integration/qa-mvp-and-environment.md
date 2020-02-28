@@ -49,11 +49,11 @@ Node Version: `10.15.3`
 
 1. switch branch to `peerplays-support`
 2. install node packages: `npm i`
-3. create a new `peerplays` directory inside `node_modules > @walletpack`
-4. **copy** the output files within the `dist` directory within `packages > peerplays > dist` **\(**in the walletpack repository\) into `node_modules > @walletpack > peerplays`
+3. create a new `peerplays` directory inside `node_modules > @walletpack` with another child directory called `dist`
+4. **copy** the output files within the `dist` directory within `packages > peerplays > dist` **\(**in the walletpack repository\) into `node_modules > @walletpack > peerplays > dist`
 5. **copy** the other required files from the wallet pack repository into `node_modules > @walletpack > peerplays`: - prepare.js - README.md - package.json
-6. **replace** the files within `node_modules > @walletpack > core` with the dist directory files from the walletpack project: `// 1. delete the existing one to ensure it gets replaced rm -rf node_modules/@walletpack/core` `// 2. recursive copy to new location cp -R ../getscatter-walletpack/packages/core/dist/ ./node_modules/@walletpack/core/`
-7. create a new directory within `node_modules > @walletpack > peerplays` called `dist`
+6. **replace** the files within `node_modules > @walletpack > core` with the `dist` directory files from the walletpack project: `// 1. delete the existing one to ensure it gets replaced rm -rf node_modules/@walletpack/core` `// 2. recursive copy to new location cp -R ../getscatter-walletpack/packages/core/dist/ ./node_modules/@walletpack/core/`
+7. Your new `peerplays` directory within the Bridge project inside `node_modules > @walletpack` should now look like this: `node_modules --- @walletpack ------ bitcoin ------ core ------ eosio ------ ethereum ------ peerplays --------- dist ------------ _PPY.js ------------ peerplays.js ------------ PPYKeypairService.js --------- package.json --------- prepare.js --------- README.md`
 8. install node packages within the directory you just finished copying files into \(`node_modules > @walletpack > peerplays`\): `npm i`
 9. **rename** the `.env.example` root file to `.env` 
 10. edit the `VUE_APP_NO_WALLET` parameter in root file `.env` : `VUE_APP_NO_WALLET=1`
