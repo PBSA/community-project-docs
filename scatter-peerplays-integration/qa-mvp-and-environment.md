@@ -74,10 +74,6 @@ Before continuing, ensure you have completed the above two sections \(walletpack
 {% endhint %}
 
 1. Inside the Bridge project, update an entry within the `.env` file; `VUE_APP_NO_WALLET=` should be the new line text \(remove the `1` you added earlier\)
-2. Still inside the Bridge project, start up the dev server with `npm run start`
-3. Enter the Desktop project until instructed otherwise moving forward.
-4. In `node_modules > @walletpack > ethereum > package.json` , update the `"main"` entry to : `"dist/ethereum.js"`
-5. Copy the `peerplays` directory within the Bridge project \(`node_modules > @walletpack > peerplays`\) into `node_modules > @walletpack` in the Desktop project.
 {% endtab %}
 {% endtabs %}
 
