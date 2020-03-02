@@ -197,7 +197,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />Design mockups and associated documentation for new required forms (#43)</li>
           <li
           class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Spike Integration of ScatterDesktop (#46)</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Spike Integration of ScatterDesktop (#46)</li>
             <li class="task-list-item">
               <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
         </ul>
@@ -274,7 +275,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-7-receive-ppy">3.7</a>]
             Receive PPY (show username)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys">3.4</a>]
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys">3.4</a>]
             Import Peerplays Account (#16) [form]</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account">3.3</a>]
