@@ -239,6 +239,8 @@ The following outline the flow of importing keys into a Scatter account if the e
 
 #### Login to Import Peerplays Account
 
+If you are choosing to import an existing Peerplays account, you will have opted for this route and will see this modal in front of you. Fill in this form with your Peerplays account name and password. If any errors exist within the form, they will be displayed \(Figure 3.4.2\). A valid form will look like Figure 3.4.3.
+
 ![Figure 3.4.1: Login to Import Peerplays Account \[empty\]](../.gitbook/assets/image%20%285%29.png)
 
 ![Figure 3.4.2: Login to Import Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%287%29.png)
@@ -288,7 +290,7 @@ When one or more of the form input fields ****have some content in them; the "Ca
 
 Only when all form fields are error free will clicking the "Login" button have an effect.
 
-Once the form has been submitted, account authorization for the user supplied account name will begin. Peerplays account authorization flow is as follows:
+Once the form has been submitted, account authorization for the user supplied account name will begin. Peerplays account authorization flow is as follows and happens in the background \(programatically\):
 
 1. supply a Peerplays account name and its matching password
 2. request from Peerplays blockchain for account object by account name provided by user
@@ -297,7 +299,7 @@ Once the form has been submitted, account authorization for the user supplied ac
    1. some legacy accounts had their owner and active keys swapped at one point during their registration procedure so it is necessary to swap and check so these accounts retain login access
 5. if a match is found, the account that the end-user tried to authorize is authorized.
 
-During this process, we generate all of the keys required by Scatter. If after step five, the Peerplays account in question is authorized, we can then provide these generated keys to Scatter for storage.
+During this process,  keys required for Scatter are programatically generated and if the process above \(1-5\) completes successfully, those keys are stored by Scatter.
 
 ### 3.5 Support for PPY Asset/Retrieve PPY Balance
 
