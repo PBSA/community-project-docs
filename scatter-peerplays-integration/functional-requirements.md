@@ -50,25 +50,39 @@ A user should be able to "connect" to the Peerplays blockchain. This process is 
 
 To view networks and their connectivity status, a user must login to the Scatter wallet and navigate to their account settings via the cogwheel icon in the top right of the UI.
 
-![Figure 3.1.1: Scatter home screen](../.gitbook/assets/image%20%2827%29.png)
+![Figure 3.1.1: Scatter home screen](../.gitbook/assets/image%20%2828%29.png)
 
 On the next screen that shows, you want to navigate to the "Accounts" tab.
 
-![Figure 3.1.2: Scatter settings screen](../.gitbook/assets/image%20%2823%29.png)
+![Figure 3.1.2: Scatter settings screen](../.gitbook/assets/image%20%2824%29.png)
 
 The next screen will display the networks you have on your Scatter account broken down into two sections: "Enabled networks" and "Default networks". The enabled networks area contains a list of blockchain networks that are enabled and of these, there will be connectivity tests run against. If connections succeed, the screen should contain no errors. If one or more of the networks fails to connect: red error text \("Connection error!"\) prefixed with a warning label as seen in Figure 3.1.4
 
-![Figure 3.1.3: Scatter Accounts screen \(no connection errors\)](../.gitbook/assets/image%20%2815%29.png)
+![Figure 3.1.3: Scatter Accounts screen \(no connection errors\)](../.gitbook/assets/image%20%2816%29.png)
 
-![Figure 3.1.4: Scatter Accounts Screen \(connection error\)](../.gitbook/assets/image%20%288%29.png)
+![Figure 3.1.4: Scatter Accounts Screen \(connection error\)](../.gitbook/assets/image%20%289%29.png)
 
 ### 3.2 Generate Keypair
 
 The generate keypair option will generate a Public-Private Key pair and display under a group. The keypair generation itself doesn't mean any linking with the Peerplays blockchain. Once the keypair is created, a faucet can be used to create a Peerplays blockchain account with a unique user name \(NAI\). The username will be subject to the Peerplays account creation [guidelines](https://github.com/peerplays-network/peerplays/wiki/Account-Names).
 
-![Screen 1](../.gitbook/assets/image%20%2811%29.png)
+To generate a Scatter keypair:
 
-![Screen 2](../.gitbook/assets/image%20%2838%29.png)
+* Login to the Scatter application
+* Navigate to the Settings screen
+* Click on "Edit Accounts" in the Peerplays row \(Figure 3.2.1\)
+
+![Figure 3.2.1: Scatter settings screen](../.gitbook/assets/image%20%2833%29.png)
+
+* Click the + button in the top right of the modal that displays after clicking "Edit Accounts" \(Figure 3.2.2\)
+
+![Figure 3.2.2: Scatter Select account screen](../.gitbook/assets/image%20%283%29.png)
+
+* On the new screen that appears, click one of the two blue buttons to start the keypair generation process. Each button ties to an individual flow with their own section further down in this document: "Login to Import Peerplays Account": Section 3.4 "Create New Peerplays Account": Section 3.3
+
+![](../.gitbook/assets/screen-shot-2020-03-04-at-11.33.22-am%20%281%29.png)
+
+#### Details of how a Peerplays keypair is generated programmatically within Scatter:
 
 Due to restrictions place upon the Scatter Keypair object that contains the private Wallet Import Format \(WIF\) and public key string, the Peerplays plugin cannot use typical keys. Reason number one for this is that the Peerplays blockchain operates with various authorization levels that are attached to various keys. 
 
@@ -100,15 +114,15 @@ By default, a new Scatter user will not have any Peerplays accounts/keys associa
 
 We will assume that the end-user has already created a Scatter account and is logged into their Scatter wallet with said account.
 
-![Figure 3.3.1: Logged in Scatter user screen](../.gitbook/assets/image%20%2834%29.png)
+![Figure 3.3.1: Logged in Scatter user screen](../.gitbook/assets/image%20%2836%29.png)
 
 The first course of action to create a Peerplays account is to click the cog wheel icon in the top right of the ScatterBridge user interface \(UI\).
 
-![Figure 3.3.2: Scatter settings screen](../.gitbook/assets/image%20%2829%29.png)
+![Figure 3.3.2: Scatter settings screen](../.gitbook/assets/image%20%2830%29.png)
 
 From the Scatter settings screen, the Scatter user must then click the "ACCOUNTS" tab header.
 
-![Figure 3.3.3: Scatter Accounts setting screen](../.gitbook/assets/image%20%2817%29.png)
+![Figure 3.3.3: Scatter Accounts setting screen](../.gitbook/assets/image%20%2818%29.png)
 
 If the Peerplays section is greyed out, click the switch to enable Peerplays account\(s\). From this screen, the Scatter user will have to click "Edit Accounts" beside the blockchain they want to alter/add an account to: Peerplays in this case.
 
@@ -116,17 +130,17 @@ If the Peerplays section is greyed out, click the switch to enable Peerplays acc
 
 A new Scatter user account should see no keys here when they go to create a Peerplays account. From this screen, the Scatter user will have to click the plus icon blue button in the top right of the foremost visible window.
 
-![Figure 3.3.5: Pick Import Method](../.gitbook/assets/image%20%2837%29.png)
+![Figure 3.3.5: Pick Import Method](../.gitbook/assets/screen-shot-2020-03-04-at-11.33.22-am.png)
 
 On the new modal that appears, we see the first **new** screen required to be added. This modal is based on the original but we show three buttons instead:
 
 #### "Create New Peerplays Account"
 
-![Figure 3.3.9: Create New Peerplays Account \[empty\]](../.gitbook/assets/image%20%282%29.png)
+![Figure 3.3.6: Create New Peerplays Account \[empty\]](../.gitbook/assets/image%20%282%29.png)
 
-![Figure 3.3.10: Create New Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%285%29.png)
+![Figure 3.3.7: Create New Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%286%29.png)
 
-![Figure 3.3.11: Create New Peerplays Account \[filled\]](../.gitbook/assets/image%20%2814%29.png)
+![Figure 3.3.8: Create New Peerplays Account \[filled\]](../.gitbook/assets/image%20%2815%29.png)
 
 Peerplays account creation will have a similar process as it does on any other Peerplays dapp:
 
@@ -211,11 +225,11 @@ The following outline the flow of importing keys into a Scatter account if the e
 
 #### Login to Import Peerplays Account
 
-![Figure 3.4.1: Login to Import Peerplays Account \[empty\]](../.gitbook/assets/image%20%284%29.png)
+![Figure 3.4.1: Login to Import Peerplays Account \[empty\]](../.gitbook/assets/image%20%285%29.png)
 
-![Figure 3.4.2: Login to Import Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%286%29.png)
+![Figure 3.4.2: Login to Import Peerplays Account \[filled - errors\]](../.gitbook/assets/image%20%287%29.png)
 
-![Figure 3.4.3: Login to Import Peerplays Account \[filled\]](../.gitbook/assets/image%20%2839%29.png)
+![Figure 3.4.3: Login to Import Peerplays Account \[filled\]](../.gitbook/assets/image%20%2841%29.png)
 
 Peerplays account importing into Scatter will appear the end-user like any other Peerplays dapp login form:
 
@@ -273,13 +287,13 @@ During this process, we generate all of the keys required by Scatter. If after s
 
 ### 3.5 Support for PPY Asset/Retrieve PPY Balance
 
-![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2810%29.png)
+![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2811%29.png)
 
 ### 3.6 Send PPY
 
-![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2832%29.png)
+![Note: Screenshot not yet available for PPY. This is the screenshot for BTC. ](../.gitbook/assets/image%20%2834%29.png)
 
 ### 3.7 Receive PPY
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
