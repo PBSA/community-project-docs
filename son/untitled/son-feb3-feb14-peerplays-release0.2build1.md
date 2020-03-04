@@ -40,5 +40,5 @@ Release details : [https://peerplays.atlassian.net/projects/SON/versions/10100/t
 
 **Test Execution Report**
 
-![Test Execution Report](../../.gitbook/assets/image%20%2812%29.png)
+![Test Execution Report](../../.gitbook/assets/image%20%2813%29.png)
 

@@ -267,7 +267,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance">3.5</a>]
             Support for PPY Asset/Retrieve PPY Balance</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy">3.6</a>]
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy">3.6</a>]
             Transfer functionality integrated with UI
             <br />- debug sign/transfer within ScatterBridge (#35)</li>
           <li class="task-list-item">
