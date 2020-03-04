@@ -22,6 +22,7 @@ Assumptions:
 
 * The production version of the application will be built with Electron.
 * The production version of the application will use ScatterDesktop for encryption.
+* Unless specified otherwise, all features/functions described in this document assume the end-user is logged into the Scatter application.
 
 Constraints:
 
