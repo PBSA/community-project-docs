@@ -78,7 +78,7 @@ To generate a Scatter keypair:
 
 ![Figure 3.2.2: Scatter Select account screen](../.gitbook/assets/image%20%283%29.png)
 
-* On the new screen that appears, click one of the two blue buttons to start the keypair generation process. Each button ties to an individual flow with their own section further down in this document: "Login to Import Peerplays Account": Section 3.4 "Create New Peerplays Account": Section 3.3
+* On the new screen that appears, click one of the two blue buttons to start the keypair generation process. Each button ties to an individual flow with their own section further down in this document: "Login to Import Peerplays Account": [Section 3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M1aC-V3ASbUAMy9Wl1b/v/master/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys) "Create New Peerplays Account": [Section 3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)
 
 ![Figure 3.2.3: Scatter Peerplays Import account screen](../.gitbook/assets/screen-shot-2020-03-04-at-11.33.22-am%20%281%29.png)
 
