@@ -113,29 +113,41 @@ This encoding method essentially cuts the resulting string size in half. This fo
 
 By default, a new Scatter user will not have any Peerplays accounts/keys associated with their Scatter account. In this use-case, the Scatter user either does not have a Peerplays account at all \(will need to make one\) or wishes to create a new one and then import the keys \([3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\) into their Scatter account.
 
-We will assume that the end-user has already created a Scatter account and is logged into their Scatter wallet with said account.
+To start the process of creating a Peerplays account, which results in its keys being imported into Scatter, perform the following steps:
 
-![Figure 3.3.1: Logged in Scatter user screen](../.gitbook/assets/image%20%2836%29.png)
+* The first course of action to create a Peerplays account is to click the cog wheel icon in the top right of the ScatterBridge user interface \(UI\).
 
-The first course of action to create a Peerplays account is to click the cog wheel icon in the top right of the ScatterBridge user interface \(UI\).
+![Figure 3.3.1: Logged in Scatter user screen](../.gitbook/assets/image%20%2828%29.png)
 
-![Figure 3.3.2: Scatter settings screen](../.gitbook/assets/image%20%2830%29.png)
+* From the Scatter settings screen, the Scatter user must then click the "ACCOUNTS" tab header
 
-From the Scatter settings screen, the Scatter user must then click the "ACCOUNTS" tab header.
+![Figure 3.3.2: Scatter settings screen](../.gitbook/assets/image%20%2824%29.png)
+
+* If the Peerplays section is greyed out, click the switch to enable Peerplays account\(s\). From this screen, the Scatter user will have to click "Edit Accounts" beside the blockchain they want to alter/add an account to: Peerplays in this case.
 
 ![Figure 3.3.3: Scatter Accounts setting screen](../.gitbook/assets/image%20%2818%29.png)
 
-If the Peerplays section is greyed out, click the switch to enable Peerplays account\(s\). From this screen, the Scatter user will have to click "Edit Accounts" beside the blockchain they want to alter/add an account to: Peerplays in this case.
+* A new Scatter user account should see no keys here when they go to create a Peerplays account. From this screen, the Scatter user will have to click the plus \(+\) icon blue button in the top right of the foremost visible window.
 
 ![Figure 3.3.4: Edit Accounts screen](../.gitbook/assets/image.png)
 
-A new Scatter user account should see no keys here when they go to create a Peerplays account. From this screen, the Scatter user will have to click the plus icon blue button in the top right of the foremost visible window.
+* On the new modal that appears, select one of the two options and follow the subsequent section to perform that buttons associated user flow.
+  * "Login to Import Peerplays Account": keep going in this section
+  * "Create New Peerplays Account": skip to section 3.4
 
 ![Figure 3.3.5: Pick Import Method](../.gitbook/assets/screen-shot-2020-03-04-at-11.33.22-am.png)
 
-On the new modal that appears, we see the first **new** screen required to be added. This modal is based on the original but we show three buttons instead:
+**"Create New Peerplays Account"**
 
-#### "Create New Peerplays Account"
+After clicking "Create New Peerplays Account", you will see the modal just below \(Figure 3.3.6\).
+
+1. Enter a username
+   1. only lowercase alphanumeric and symbols should be able to be entered
+2. copy the provided password into the "Re-enter generated password" field.
+   1. You can click the "COPY" button to copy the password to your computers clipboard or manually copy it
+3. Optionally download your password to a `.txt` file by clicking the "DOWNLOAD RECOVERY FILE".
+4. Click "Create" at the bottom of the modal
+   1. If you do not see "Create", then please check the error displays \(Figure 3.3.7\). They indicate errors within the form that must be resolved for you to be able to submit the form. A valid form will look like the one in Figure 3.3.8
 
 ![Figure 3.3.6: Create New Peerplays Account \[empty\]](../.gitbook/assets/image%20%282%29.png)
 
@@ -145,11 +157,12 @@ On the new modal that appears, we see the first **new** screen required to be ad
 
 Peerplays account creation will have a similar process as it does on any other Peerplays dapp:
 
-* username field
-* code generated password read-only field
-* password re-entry field
-* download recovery file button
-* form submit/create button
+* username fie \(Account Name\)
+* code generated password read-only field \(Your account password is
+* password re-entry field \(Re-enter generated password\)
+* copy password button \(COPY\)
+* download recovery file button \(DOWNLOAD RECOVERY FILE\)
+* form submit/create button \(Create\)
 
 However, there are some rules and conditions to this form:
 
