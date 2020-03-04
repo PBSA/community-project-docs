@@ -80,7 +80,7 @@ To generate a Scatter keypair:
 
 * On the new screen that appears, click one of the two blue buttons to start the keypair generation process. Each button ties to an individual flow with their own section further down in this document: "Login to Import Peerplays Account": Section 3.4 "Create New Peerplays Account": Section 3.3
 
-![](../.gitbook/assets/screen-shot-2020-03-04-at-11.33.22-am%20%281%29.png)
+![Figure 3.2.3: Scatter Peerplays Import account screen](../.gitbook/assets/screen-shot-2020-03-04-at-11.33.22-am%20%281%29.png)
 
 #### Details of how a Peerplays keypair is generated programmatically within Scatter:
 
