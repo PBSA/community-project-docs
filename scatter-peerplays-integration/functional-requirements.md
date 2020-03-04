@@ -10,13 +10,22 @@ description: Functional requirements for the Scatter Peerplays plugin.
 
 ### 1.2 Scope
 
-The scope is defined in the [project scope document](project-scope.md).
+The scope of this document is to list the functional requirements for the Scatter Project.
+
+This document will provide a tabular listing of the Peerplays Scatter Wallet Integration features. The target features for the Scatter Wallet Peerplays plugin will be based on this document. The features that Peerplays Scatter integration will provide is going to be a sub-set of the [Peerplays Wallet Features](https://app.gitbook.com/@peerplays/s/community-project-docs/peerplays-wallet/peerplays-wallet-feature-list).
+
+The scope of the entire project defined in the [project scope document](project-scope.md).
 
 ### 1.3 Assumptions and Constraints
 
+Assumptions:
 
+* The production version of the application will be built with Electron.
+* The production version of the application will use ScatterDesktop for encryption.
 
-This document will provide a tabular listing of the Peerplays Scatter Wallet Integration features. The target features for the Scatter Wallet Peerplays plugin will be based on this document. The features that Peerplays Scatter integration will provide is going to be a sub-set of the P[eerplays Wallet Features](https://app.gitbook.com/@peerplays/s/community-project-docs/peerplays-wallet/peerplays-wallet-feature-list).
+Constraints:
+
+* The application will not run on outdated operating systems. Specific versions can be found in the acceptance criteria document.
 
 ## **2.0 High Level Requirements**
 
