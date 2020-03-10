@@ -324,17 +324,30 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Debug sig/transfer within ScatterBridge</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Debug sig/transfer within ScatterBridge (#35)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Retrieve keys from Scatter Storage</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Retrieve keys from Scatter Storage (#44)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Integrate with ScatterBridge (new) UI</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Integrate with ScatterBridge (new) UI (#34)</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Fix unit tests (CI/CD Failing)</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Fix unit tests (CI/CD Failing) (#50)</li>
         </ul>
       </td>
-      <td style="text-align:left">tbd</td>
-      <td style="text-align:left">tbd</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/35">#35</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/44">#44</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/34">#34</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/50">#50</a>
+        </p>
+      </td>
     </tr>
   </tbody>
 </table>## High-Level
