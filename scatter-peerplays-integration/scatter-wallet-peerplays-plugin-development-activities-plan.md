@@ -201,7 +201,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Spike Integration of ScatterDesktop (#46)</li>
             <li class="task-list-item">
-              <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
+              <input type="checkbox" class="task-list-item-checkbox" disabled /> <del>Get QA Environment Configured (#40)</del>
+            </li>
         </ul>
         <p></p>
       </td>
@@ -225,6 +226,9 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p>See Spike within:</p>
         <p>High-level</p>
         <p>&gt; Application Layer</p>
+        <p></p>
+        <p>QA Environment required Electron executable compilation which will take
+          more time.</p>
       </td>
       <td style="text-align:left">
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/15">#15 SC-4</a>
@@ -243,8 +247,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/41">#41</a>
         </p>
-        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/40">#40</a>
-        </p>
+        <p>&lt;del&gt;&lt;/del&gt;<a href="https://github.com/peerplays-network/getscatter-walletpack/issues/40"><del>#40</del></a>&lt;del&gt;&lt;/del&gt;</p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/43">#43</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/46">#46</a>
