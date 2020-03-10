@@ -181,7 +181,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p>Required items for a Scatter Plugin</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Define default blockchain explorer</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Define default blockchain explorer</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />[required functions]</li>
@@ -280,8 +281,8 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys">3.4</a>]
             Import Peerplays Account (#16) [form]</li>
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account">3.3</a>]
-            Create Peerplays Account (#39) [form]</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />[<a href="https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account">3.3</a>]</li>
         </ul>
       </td>
       <td style="text-align:left">
@@ -313,6 +314,24 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/44">#44</a>
         </p>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><a href="https://github.com/peerplays-network/getscatter-walletpack/milestone/5">06 March 2020</a>
+      </td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Debug sig/transfer within ScatterBridge</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Retrieve keys from Scatter Storage</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Integrate with ScatterBridge (new) UI</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Fix unit tests (CI/CD Failing)</li>
+        </ul>
+      </td>
+      <td style="text-align:left">tbd</td>
+      <td style="text-align:left">tbd</td>
     </tr>
   </tbody>
 </table>## High-Level
@@ -372,22 +391,22 @@ If the spike results show that there is not a lot of work involved \(won't effec
 
 Refer to Functional Requirements.
 
-* [ ] [register form](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)
+* [x] [register form](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)
 
 #### \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Authorize/Import Peerplays Account
 
 Refer to Functional Requirements.
 
-* [ ] [account import form](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)
+* [x] [account import form](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)
 
 #### Plugin Integration
 
 Integration of code functionality from plugin with scatter frontend
 
-* [ ] \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Create Peerplays Account \(register function in Peerplays plugin\) \(new/tweak form required\)
-* [ ] \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Import Peerplays Account \(authUser function in Peerplays plugin\) \(new/tweak form required\)
+* [x] \[[3.3](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Create Peerplays Account \(register function in Peerplays plugin\) \(new/tweak form required\)
+* [x] \[[3.4](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)\] Import Peerplays Account \(authUser function in Peerplays plugin\) \(new/tweak form required\)
 * [x] \[[3.5](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)\] Support for PPY Asset/Retrieve PPY Balance
-* [ ] \[[3.6](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)\] Transfer functionality integrated with UI
+* [x] \[[3.6](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-6-send-ppy)\] Transfer functionality integrated with UI
 * [x] \[[3.7](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-7-receive-ppy)\] Receive PPY \(show account username\)
 
 ### Quality Assurance
@@ -431,7 +450,16 @@ Configuration of test-suite to support mainnet and testnet testing accounts
 
 Re-create the base/required functions by any Scatter plugin
 
-* [ ] Define default blockchain explorer
+* [x] Define default blockchain explorer
+
+  ```javascript
+  const EXPLORER = {
+    name: 'PeerplaysBlockchain',
+    account: 'https://peerplaysblockchain.info/account/{x}',
+    transaction: 'https://peerplaysblockchain.info/explorer/transactions/{x}',
+    block: 'https://peerplaysblockchain.info/block/{x}',
+  };
+  ```
 
 {% hint style="danger" %}
 These functions are tested via a unit test suite provided by Nathan. This does not mean that these functionalities will work with the various UI repositories.
@@ -644,13 +672,13 @@ Many functions from Low-level Application Layer may require changes to account f
 
 #### **\[**[**3.3**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-3-create-peerplays-account)**\] Create Peerplays Account**
 
-* [ ] "Generate Keypair" via `username`, `generated_password` , and `password_confirm` fields that ultimately register a new account and store the keys for this new account \(once created\) within Scatter
-* [ ] modify functions \(`register`\) to return expected data for UI
+* [x] "Generate Keypair" via `username`, `generated_password` , and `password_confirm` fields that ultimately register a new account and store the keys for this new account \(once created\) within Scatter
+* [x] modify functions \(`register`\) to return expected data for UI
 
 #### **\[**[**3.4**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-4-import-peerplays-keys)**\] Import Peerplays Account**
 
-* [ ] "Import Key" via Peerplays' familiar username and password login: `username` and `password` form which will authorize `username` if keys generated from form data are authentic
-* [ ] modify functions to return expected data for UI
+* [x] "Import Key" via Peerplays' familiar username and password login: `username` and `password` form which will authorize `username` if keys generated from form data are authentic
+* [x] modify functions to return expected data for UI
 
 #### **\[**[**3.5**](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/functional-requirements#3-5-support-for-ppy-asset-retrieve-ppy-balance)**\] Support for PPY Asset/Retrieve PPY Balance**
 
