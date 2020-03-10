@@ -12,11 +12,11 @@ G**itbook Editor**: [https://app.gitbook.com/@peerplays/s/community-project-docs
 2. Signin/Signup with your Github id
 3. follow the step in the diagram
 
-![](.gitbook/assets/image%20%2829%29.png)
+![](.gitbook/assets/image%20%2834%29.png)
 
 4. We have a sandbox area / space where you can test out things. Check below and when you are confident, select the correct space that you want to contribute.
 
-![](.gitbook/assets/image%20%2823%29.png)
+![](.gitbook/assets/image%20%2828%29.png)
 
 5. Sprint reports can be updated in the below location  \(example\)
 
@@ -26,13 +26,13 @@ Once updated, click save. Depending upon the workflow invite someone to review t
 
 6. Where is the save option ?
 
-![](.gitbook/assets/image%20%2838%29.png)
+![](.gitbook/assets/image%20%2844%29.png)
 
 7. Where is the comment option ?
 
-![](.gitbook/assets/image%20%2841%29.png)
+![](.gitbook/assets/image%20%2847%29.png)
 
 8. How to copy content from Confluence to Gitbook ?
 
-![](.gitbook/assets/image%20%2832%29.png)
+![](.gitbook/assets/image%20%2838%29.png)
 
