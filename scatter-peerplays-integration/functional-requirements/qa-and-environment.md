@@ -18,9 +18,9 @@ A refer to the [Functional Requirements](https://app.gitbook.com/@peerplays/s/co
   * connection is passive
   * no UI errors should appear related to connections within a Scatter account settings page
 * Generate keypair
-  * passive
-  * * [ ] Peerplays account login
-    * [ ] Peerplays account registration
+  * passive, verified with successful:
+    * Peerplays account login
+    * Peerplays account registration
 * Create Peerplays account
   * no errors and Peerplays account can be seen as "imported" if it appears in Scatter account settings page &gt; Peerplays &gt; edit accounts
 * Import Peerplays Keys

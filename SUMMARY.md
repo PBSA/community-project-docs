@@ -24,7 +24,7 @@
 ## Scatter Peerplays Integration
 
 * [Functional Requirements](scatter-peerplays-integration/functional-requirements/README.md)
-  * [QA Scope and Environment](scatter-peerplays-integration/functional-requirements/qa-mvp-and-environment.md)
+  * [QA Scope and Environment](scatter-peerplays-integration/functional-requirements/qa-and-environment.md)
   * [Questions \(QA\)](scatter-peerplays-integration/functional-requirements/questions-qa.md)
 * [Project Scope](scatter-peerplays-integration/project-scope.md)
 * [Scatter wallet Acceptance Criteria](scatter-peerplays-integration/scatter-wallet-acceptance-criteria-non-functional.md)
