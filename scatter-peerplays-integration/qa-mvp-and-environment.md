@@ -4,18 +4,15 @@ description: >-
   and Environment needed for QA to operate.
 ---
 
-# QA MVP and Environment
+# QA Scope and Environment
 
 The Quality Assurance team will be testing the Scatter Peerplays plugin via a hosted develop-mode environment. This is due to lack of various pieces of information on how to produce the binaries for the various Scatter code bases \(several are needed to produce a single binary under certain conditions\). As such, the MVP will not be the MVP for Scatter as a whole but rather, just for the Peerplays plugin itself with two accompanying custom forms.
 
 Click on the header to view the content you desire.
 
 {% tabs %}
-{% tab title="MVP" %}
-All functional requirements are implemented as per documentation with accommodation for the following:
-
-* lack of Font Awesome Pro, there will several missing icons throughout the application the QA team will be working with
-  * some code changes are required to allow the application to compile without it
+{% tab title="Scope" %}
+A refer to the [Functional Requirements](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M23Hq7zBNFDpF_nvv14/scatter-peerplays-integration/functional-requirements) for scope of testing.
 {% endtab %}
 
 {% tab title="Environment" %}
@@ -27,7 +24,7 @@ For adequate testing of the Peerplays Scatter plugin, three codebases are requir
 
 1. [walletpack](https://github.com/GetScatter/walletpack)
 2. [Bridge](https://github.com/GetScatter/Bridge)
-3. ~~~~[~~ScatterDesktop~~](https://github.com/GetScatter/ScatterDesktop)~~~~
+3. ~~~~[ScatterDesktop](https://github.com/GetScatter/ScatterDesktop)
 
 ScatterBridge will point to a local location of walletpack until it has been published on NPM.
 
@@ -62,7 +59,8 @@ Node Version: `10.15.3`
 
 #### **ScatterDesktop \(electron, encryption\)**
 
-No Electron binary production method provided and this process appears to still be under development based on GitHub repository activity. So, only the local development method outlined above is available at this time.
+~~No Electron binary production method provided and this process appears to still be under development based on GitHub repository activity. So, only the local development method outlined above is available at this time.~~  
+Recent communications reveal that we required production environment emulation and thus requires pipelines for Electron compilation.
 
 Node Version: `10.15.3`
 
