@@ -12,7 +12,27 @@ Click on the header to view the content you desire.
 
 {% tabs %}
 {% tab title="Scope" %}
-A refer to the [Functional Requirements](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M23Hq7zBNFDpF_nvv14/scatter-peerplays-integration/functional-requirements) for scope of testing.
+A refer to the [Functional Requirements](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M23Hq7zBNFDpF_nvv14/scatter-peerplays-integration/functional-requirements) for details of testing.
+
+* Connect to Peerplays blockchain
+  * connection is passive
+  * no UI errors should appear related to connections within a Scatter account settings page
+* Generate keypair
+  * passive
+  * * [ ] Peerplays account login
+    * [ ] Peerplays account registration
+* Create Peerplays account
+  * no errors and Peerplays account can be seen as "imported" if it appears in Scatter account settings page &gt; Peerplays &gt; edit accounts
+* Import Peerplays Keys
+  * see "Create Peerplays account" above
+* Support for PPY asset
+  * PPY logo can be seen \(functional requirements needs update to indicate which image\)
+* Retrieve PPY Balance
+  * Peerplays account balance can be seen
+    * must have imported a Peerplays account first
+* Send PPY
+* Receive PPY
+  * see "Retrieve PPY Balance" above
 {% endtab %}
 
 {% tab title="Environment" %}
@@ -74,4 +94,6 @@ Before continuing, ensure you have completed the above two sections \(walletpack
 1. Inside the Bridge project, update an entry within the `.env` file; `VUE_APP_NO_WALLET=` should be the new line text \(remove the `1` you added earlier\)
 {% endtab %}
 {% endtabs %}
+
+
 
