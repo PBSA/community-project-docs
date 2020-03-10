@@ -5,16 +5,23 @@
 All tasks/issues status' can be viewed on the GitHub project** [**here**](https://github.com/orgs/peerplays-network/projects/1)**.**
 {% endhint %}
 
+{% hint style="info" %}
+#### GitHub Issues & Card
+
+`#`: The \# symbol denotes a GitHub issue.  
+`c.`: "c." denotes a GitHub project board note card.
+{% endhint %}
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Date</b>
+      <th style="text-align:left"><b>Due Date</b>
       </th>
       <th style="text-align:left"><b>Dev Activities</b>
       </th>
       <th style="text-align:left"><b>Remarks</b>
       </th>
-      <th style="text-align:left"><b>GitHub Issue(s)</b>
+      <th style="text-align:left"><b>GitHub Issues/Cards</b>
       </th>
     </tr>
   </thead>
@@ -346,6 +353,39 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/34">#34</a>
         </p>
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/50">#50</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">20 March 2020</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Update documentation for QA (c.1)</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Scatter Desktop integration (production client encryption) (c.2)</li>
+          <li
+          class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Add PPY icon to Scatter Bridge UI (#57)</li>
+            <li class="task-list-item">
+              <input type="checkbox" class="task-list-item-checkbox" disabled />Update Unit Tests (#58)</li>
+            <li class="task-list-item">
+              <input type="checkbox" class="task-list-item-checkbox" disabled />Update CD to account for Scatter Desktop integration(#40)</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Scatter Desktop is indeed required to properly emulate the Peerplays plugin
+        within a production environment. Currently, the plugin is not compatible
+        with Desktop so this is a high priority dev. task.</td>
+      <td style="text-align:left">
+        <p><a href="https://github.com/orgs/peerplays-network/projects/1#card-33953859">c.1</a>
+        </p>
+        <p><a href="https://github.com/orgs/peerplays-network/projects/1#card-34148518">c.2</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/57">#57</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/58">#58</a>
+        </p>
+        <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/40">#40</a>
         </p>
       </td>
     </tr>
