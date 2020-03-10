@@ -28,6 +28,7 @@
 * [Scatter wallet Acceptance Criteria](scatter-peerplays-integration/scatter-wallet-acceptance-criteria-non-functional.md)
 * [Scatter Wallet Peerplays Plugin Development Activities Plan](scatter-peerplays-integration/scatter-wallet-peerplays-plugin-development-activities-plan.md)
 * [QA Scope and Environment](scatter-peerplays-integration/qa-mvp-and-environment.md)
+* [Untitled](scatter-peerplays-integration/untitled.md)
 
 ## Project Management
 
