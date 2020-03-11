@@ -5,6 +5,10 @@
 
 ## Projects
 
+* [BOS](bos.md)
+* [Development](development/README.md)
+  * [development plan - BOS](development/development-plan-bos.md)
+* [QA](qa-1.md)
 * [Release Management & DevOps](release-management-and-devops/README.md)
   * [Release Strategy](release-management-and-devops/release-strategy.md)
 * [Block Explorer](block-explorer/README.md)
@@ -46,8 +50,4 @@
 ## QA
 
 * [Home-QA](qa/home-qa.md)
-
-## SON <a id="son-1"></a>
-
-* [Untitled](son-1/untitled.md)
 
