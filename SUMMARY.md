@@ -16,6 +16,13 @@
 
 ## SON
 
+* [Functional Specifications](son/functional-pecs/README.md)
+  * [Functional Specifications - SON Multisig Bitcoin Wallet](son/functional-pecs/son-multisig-bitcoin.md)
+  * [Functional Specification - SON Configuration](son/functional-pecs/son-configuration.md)
+  * [Functional Specifications - SON rewards](son/functional-pecs/untitled-1.md)
+  * [Functional Specifications - SON Voting and Consensus](son/functional-pecs/untitled-1-1.md)
+  * [Functional Specification - SONs switchover scenarios](son/functional-pecs/untitled-1-2.md)
+  * [Functional Specifications - SON Smart Contracts](son/functional-pecs/untitled-1-3.md)
 * [How To](son/how-to.md)
 * [QA - SON](son/untitled/README.md)
   * [Installing Block Exploerer](son/untitled/installing-block-exploerer.md)
