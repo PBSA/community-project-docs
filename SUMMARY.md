@@ -36,10 +36,11 @@
 ## Scatter Peerplays Integration
 
 * [Functional Requirements](scatter-peerplays-integration/generate-keypair/README.md)
-  * [Create Peerplays Account](scatter-peerplays-integration/generate-keypair/create-peerplays-account.md)
   * [Traceability Matrix](scatter-peerplays-integration/generate-keypair/traceability-matrix.md)
   * [Connect to Peerplays blockchain](scatter-peerplays-integration/generate-keypair/connect-to-peerplays-blockchain.md)
   * [Generate Keypair](scatter-peerplays-integration/generate-keypair/generate-keypair-1.md)
+  * [Create Peerplays Account](scatter-peerplays-integration/generate-keypair/create-peerplays-account.md)
+  * [Import Peerplays Keys](scatter-peerplays-integration/generate-keypair/import-peerplays-keys.md)
 * [Questions \(QA\)](scatter-peerplays-integration/questions-qa.md)
 * [QA Scope and Environment](scatter-peerplays-integration/qa-and-environment.md)
 * [Project Scope](scatter-peerplays-integration/project-scope.md)
