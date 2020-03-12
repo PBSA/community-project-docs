@@ -18,7 +18,7 @@ Release details : [https://peerplays.atlassian.net/projects/SON/versions/10124/t
 | ![Low](https://peerplays.atlassian.net/images/icons/priorities/low.svg) | ![Task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype) | [SON-152](https://peerplays.atlassian.net/browse/SON-152) | [Verify newly added cli\_wallet options](https://peerplays.atlassian.net/browse/SON-152) | DONE |
 
   
-**In Progress**
+**Failed**
 
 \*\*\*\*[**https://peerplays.atlassian.net/browse/SON-264**](https://peerplays.atlassian.net/browse/SON-264)\*\*\*\*
 
