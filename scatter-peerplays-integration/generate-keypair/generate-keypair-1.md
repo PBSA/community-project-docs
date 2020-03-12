@@ -8,7 +8,7 @@ To generate a Scatter keypair:
 * Navigate to the Settings screen
 * Click on "Edit Accounts" in the Peerplays row \(Figure 3.2.1\)
 
-![Figure 3.2.1: Scatter settings screen](../../.gitbook/assets/image%20%2848%29.png)
+![Figure 3.2.1: Scatter settings screen](../../.gitbook/assets/image%20%2852%29.png)
 
 * Click the + button in the top right of the modal that displays after clicking "Edit Accounts" \(Figure 3.2.2\)
 
