@@ -41,6 +41,7 @@
   * [Generate Keypair](scatter-peerplays-integration/generate-keypair/generate-keypair-1.md)
   * [Create Peerplays Account](scatter-peerplays-integration/generate-keypair/create-peerplays-account.md)
   * [Import Peerplays Keys](scatter-peerplays-integration/generate-keypair/import-peerplays-keys.md)
+  * [Support for PPY Asset/Retreive PPY Balance](scatter-peerplays-integration/generate-keypair/support-for-ppy-asset-retreive-ppy-balance.md)
 * [Questions \(QA\)](scatter-peerplays-integration/questions-qa.md)
 * [QA Scope and Environment](scatter-peerplays-integration/qa-and-environment.md)
 * [Project Scope](scatter-peerplays-integration/project-scope.md)
