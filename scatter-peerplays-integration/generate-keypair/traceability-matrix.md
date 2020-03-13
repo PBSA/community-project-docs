@@ -19,7 +19,7 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
     <tr>
       <td style="text-align:left">Claim ICO tokens (pre-login &amp; post-login)</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">NO</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -31,61 +31,56 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
     <tr>
       <td style="text-align:left">Login to Peerplays GUI Wallet</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Balance Claims</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Under Settings if logged in else, can be accessed from login screen</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">Under Settings if logged in else, can be accessed from login screen. Balance
+        retrieval</td>
     </tr>
     <tr>
       <td style="text-align:left">Send funds from a user specified currency</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Yes</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Assigning a Proxy to for votes</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Exporter</td>
     </tr>
     <tr>
       <td style="text-align:left">Voting for Witnesses</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Exporter</td>
     </tr>
     <tr>
       <td style="text-align:left">Voting for Advisors/Committee members</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Exporter</td>
     </tr>
     <tr>
       <td style="text-align:left">Show the logged in users&apos; recent actions/transactions</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Filters: Transactions, Tournaments</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Show the logged in users&apos; balances</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Core, UIA&#x2019;s, other cryptos (SON&#x2019;s)</td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Not required</td>
     </tr>
     <tr>
       <td style="text-align:left">Help/FAQ</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">Thorough Help section viewable within a modal that covers our terminology</td>
     </tr>
     <tr>
       <td style="text-align:left">Notices</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">no</td>
       <td style="text-align:left">When configured, can post notices to all wallet users using memo/transfer
         system.</td>
     </tr>
@@ -122,8 +117,8 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
         </ul>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Exporter</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -140,7 +135,7 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
         </ul>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
       <td style="text-align:left">
         <ul>
           <li>account username search (&apos;mcs2&apos;)</li>
@@ -156,7 +151,7 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
         </ul>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -170,8 +165,8 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
         </ul>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Exporter</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -181,11 +176,12 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
         </ul>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
       <td style="text-align:left">
         <ul>
           <li>starts the procedure for creating/withdrawing a gpos type vesting balance</li>
           <li>is how voting system is accessed</li>
+          <li>Exporter</li>
         </ul>
       </td>
     </tr>
@@ -199,7 +195,7 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
         </ul>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
       <td style="text-align:left">vesting_balance_create</td>
     </tr>
     <tr>
@@ -213,25 +209,27 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
         </ul>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
       <td style="text-align:left">vesting_balance_withdraw</td>
     </tr>
     <tr>
       <td style="text-align:left">Manual transaction signing</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Requires wallet to be unlocked by the user to providing their login password</td>
+      <td style="text-align:left">OOB</td>
+      <td style="text-align:left">Requires wallet to be unlocked by the user to providing their login password. <b>Check if NA</b>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">Automatic transaction signing</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">No</td>
       <td style="text-align:left">
         <p>On login, required data is generated from login form value to allow background
           transaction signing</p>
         <ul>
           <li>ultimately, background wallet unlock</li>
           <li>used for GPOS power up/down</li>
+          <li>Exporter</li>
         </ul>
       </td>
     </tr>
@@ -239,11 +237,13 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
       <td style="text-align:left">peerplaysjs-lib integration to allow communication with the blockchain</td>
       <td
       style="text-align:left"></td>
-        <td style="text-align:left"></td>
+        <td style="text-align:left">Yes</td>
         <td style="text-align:left">
           <p>Initiates the connection using websocket technologies on application launch.</p>
           <ul>
             <li>several other items included that make the wallet work from the libSC</li>
+            <li><b>Done. Check</b>
+            </li>
           </ul>
         </td>
     </tr>
