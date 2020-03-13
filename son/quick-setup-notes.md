@@ -35,21 +35,9 @@ unzip -j artifacts.zip programs/witness_node/witness_node -d ./`
 
 ### Building Peerplays SON \(optional\)
 
-These steps can be used if you want to build and deploy the SON
+To build Peerplays from source, refer to the README.md file:
 
-```text
-cd $HOME/src
-export BOOST_ROOT=$HOME/src/boost_1_67_0
-git clone https://github.com/peerplays-network/peerplays.git
-cd peerplays
-git checkout feature/SONs-base# --> replace with most recent tag
-git submodule update --init --recursive
-git submodule sync --recursive
-cmake -DBOOST_ROOT="$BOOST_ROOT" -DCMAKE_BUILD_TYPE=Release
-make -j$(nproc)
-
-make install # this can install the executable files under /usr/local
-```
+{% embed url="https://github.com/peerplays-network/peerplays/blob/feature/SONs-base/README.md" %}
 
 ### Create  Peerplays Accounts
 
