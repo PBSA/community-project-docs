@@ -10,7 +10,13 @@ sudo apt-get -y install gcc g++ cmake make\
  openssl libreadline-dev autoconf libtool git
 ```
 
-### Building Peerplays SON
+### Download SON executable
+
+TODO Download a latest JOBID from Gitlab
+
+### Building Peerplays SON \(optional\)
+
+These steps can be used if you want to build and deploy the SON
 
 ```text
 cd $HOME/src
