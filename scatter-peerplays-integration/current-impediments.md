@@ -6,7 +6,7 @@ At the moment, attempting to use ScatterDesktop in conjunction with the UI \(Bri
 
 ## Seed issue.
 
-Using ScatterDesktop with the UI \(ScatterBridge\) leads to an issue in which the seed used for decryption is incorrect. The seed should be a value derived from the user's Scatter password, but is observed to be the boolean value `true`. This is an issue I faced locally in my environment but may not be consistent across all setups.
+Using ScatterDesktop with the UI \(ScatterBridge\) leads to an issue in which the seed used for decryption is incorrect. `VUE_APP_NO_WALLET=` should be set within the `.env` file in the Bridge directory. The seed should be a value derived from the user's Scatter password, but is observed to be the boolean value `true`. This is an issue I faced locally in my environment but may not be consistent across all setups.
 
 
 
