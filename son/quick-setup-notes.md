@@ -122,13 +122,262 @@ bitcoin-private-key = ["02d0f137e717fb3aab7aff99904001d49a0a636c5e1342f8927a4ba2
 
 Becomming a SON is very similar to becoming a witness. You will need:
 
-* Active user account which will be the owner of SON account
+* Active user account, upgraded to lifetime member, which will be the owner of SON account
 * Create two vesting balances \(types son and normal\) of 50 core assets, and get its IDs
 * Create Bitcoin address for SON account in shared SON wallet
 * Create SON account, and get its ID
 * Set the signing key for a son account \(usually, its a signing key of owner account\)
 * Set the bitcoin address as a sidechain address for a SON account
-* Restart the witness with peerplays\_sidechain plugin enabled
+* Update your config file with values obtained in previous steps, and restart the witness with peerplays\_sidechain plugin enabled
+
+Example:
+
+```text
+# ================================================================================
+# Active user account, upgraded to lifetime member, which will be the owner of SON account
+unlocked >>> get_account account07
+get_account account07
+{
+  "id": "1.2.58",
+  "membership_expiration_date": "2106-02-07T06:28:15",
+  "registrar": "1.2.58",
+  "referrer": "1.2.58",
+  "lifetime_referrer": "1.2.58",
+  "network_fee_percentage": 2000,
+  "lifetime_referrer_fee_percentage": 8000,
+  "referrer_rewards_percentage": 0,
+  "name": "account07",
+  "owner": {
+    "weight_threshold": 1,
+    "account_auths": [],
+    "key_auths": [[
+        "TEST86obxk1fqh8cmDkRdgyVkzHtcmqcByva7tk9DYAjCpLPkxqeCC",
+        1
+      ]
+    ],
+    "address_auths": []
+  },
+  "active": {
+    "weight_threshold": 1,
+    "account_auths": [],
+    "key_auths": [[
+        "TEST7SUmjftH3jL5L1YCTdMo1hk5qpZrhbo4MW6N2wWyQpjXkT7ByB",
+        1
+      ]
+    ],
+    "address_auths": []
+  },
+...
+}
+# ================================================================================
+
+# ================================================================================
+# Create two vesting balances (types son and normal) of 50 core assets, and get its IDs
+unlocked >>> create_vesting_balance account07 50 TEST son true
+create_vesting_balance account07 50 TEST son true
+{
+  "ref_block_num": 3977,
+  "ref_block_prefix": 145563165,
+  "expiration": "2020-03-13T17:08:45",
+  "operations": [[
+      32,{
+...
+}
+
+unlocked >>> create_vesting_balance account07 50 TEST normal true
+create_vesting_balance account07 50 TEST normal true
+{
+  "ref_block_num": 3979,
+  "ref_block_prefix": 1838302122,
+  "expiration": "2020-03-13T17:08:51",
+  "operations": [[
+      32,{
+...
+}
+
+unlocked >>> get_vesting_balances account07
+get_vesting_balances account07
+[{
+    "id": "1.13.79",
+    "owner": "1.2.58",
+...
+  },{
+    "id": "1.13.80",
+    "owner": "1.2.58",
+...
+  }
+]
+# ================================================================================
+
+# ================================================================================
+# Create Bitcoin address for SON account in shared SON wallet
+bitcoin-core.cli -rpcconnect=99.79.189.95 -rpcport=22222 -rpcuser=1 -rpcpassword=1 -rpcwallet="son-wallet" getnewaddress
+2NCGVYMNjSSwYrxGAFv53WQP6i7xu8XHEVn
+
+bitcoin-core.cli -rpcconnect=99.79.189.95 -rpcport=22222 -rpcuser=1 -rpcpassword=1 -rpcwallet="son-wallet" walletpassphrase 9da115c9fa6fe7fd09390841ac91aee4 60
+
+bitcoin-core.cli -rpcconnect=99.79.189.95 -rpcport=22222 -rpcuser=1 -rpcpassword=1 -rpcwallet="son-wallet" dumpprivkey 2NCGVYMNjSSwYrxGAFv53WQP6i7xu8XHEVn
+cSmQ517iJaAT94SMAsLhtyicZcFggY54gg5aLCUDuwUA3ECftP24
+
+bitcoin-core.cli -rpcconnect=99.79.189.95 -rpcport=22222 -rpcuser=1 -rpcpassword=1 -rpcwallet="son-wallet" getaddressinfo 2NCGVYMNjSSwYrxGAFv53WQP6i7xu8XHEVn
+{
+  "address": "2NCGVYMNjSSwYrxGAFv53WQP6i7xu8XHEVn",
+  "scriptPubKey": "a914d0a7c9ec2c89c67df9c1d8dce8d786ec9a0afcac87",
+  "ismine": true,
+  "solvable": true,
+  "desc": "sh(wpkh([c9cc7580/0'/0'/3']03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2))#4g9d62sg",
+  "iswatchonly": false,
+  "isscript": true,
+  "iswitness": false,
+  "script": "witness_v0_keyhash",
+  "hex": "0014d244cd683056c918a4d8f5cb1adce7a86558e253",
+  "pubkey": "03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2",
+...
+}
+# ================================================================================
+
+# ================================================================================
+# Create SON account, and get its ID
+unlocked >>> create_son account07 "http://www.account07.com" 1.13.79 1.13.80 [[bitcoin, 03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2]] true
+create_son account07 "http://www.account07.com" 1.13.79 1.13.80 [[bitcoin, 03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2]] true
+{
+  "ref_block_num": 4171,
+  "ref_block_prefix": 2156837961,
+  "expiration": "2020-03-13T17:20:06",
+  "operations": [[
+      82,{
+        "fee": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "owner_account": "1.2.58",
+        "url": "http://www.account07.com",
+        "deposit": "1.13.79",
+        "signing_key": "TEST71FaAsTFbKyoGM7USqzS9uG78jjRv7wJnTytxyXr7CTnrHeAHJ",
+        "sidechain_public_keys": [[
+            "bitcoin",
+            "03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2"
+          ]
+        ],
+        "pay_vb": "1.13.80"
+      }
+    ]
+  ],
+  "extensions": [],
+  "signatures": [
+    "1f03b014fadc66110bef63125967a93da577cdd598ca8a1ffebf36b7e21fdfc3b85587e7f3e5604b336c6fc0dd3ab3d109022c1996b77a13a374349ecc9e1e1fdd"
+  ]
+}
+
+unlocked >>> get_son account07
+get_son account07
+{
+  "id": "1.27.16",
+  "son_account": "1.2.58",
+  "vote_id": "3:54",
+  "total_votes": 0,
+  "url": "http://www.account07.com",
+  "deposit": "1.13.79",
+  "signing_key": "TEST71FaAsTFbKyoGM7USqzS9uG78jjRv7wJnTytxyXr7CTnrHeAHJ",
+  "pay_vb": "1.13.80",
+  "statistics": "2.24.16",
+  "status": "inactive",
+  "sidechain_public_keys": [[
+      "bitcoin",
+      "03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2"
+    ]
+  ]
+}
+# ================================================================================
+
+# ================================================================================
+# Set the signing key for a son account (usually, its a signing key of owner account)
+# Set the bitcoin address as a sidechain address for a SON account
+
+unlocked >>> get_private_key TEST7SUmjftH3jL5L1YCTdMo1hk5qpZrhbo4MW6N2wWyQpjXkT7ByB
+get_private_key TEST7SUmjftH3jL5L1YCTdMo1hk5qpZrhbo4MW6N2wWyQpjXkT7ByB
+"5JKvPJkerMNVEubsbKN8Xd8wGaU1ifhv7xAwy9gFJP6yMEoTkSd"
+
+unlocked >>> update_son account07 "" "TEST7SUmjftH3jL5L1YCTdMo1hk5qpZrhbo4MW6N2wWyQpjXkT7ByB" [[bitcoin, 03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2]] true
+update_son account07 "" "TEST7SUmjftH3jL5L1YCTdMo1hk5qpZrhbo4MW6N2wWyQpjXkT7ByB" [[bitcoin, 03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2]] true
+{
+  "ref_block_num": 4210,
+  "ref_block_prefix": 4294628244,
+  "expiration": "2020-03-13T17:22:21",
+  "operations": [[
+      83,{
+        "fee": {
+          "amount": 0,
+          "asset_id": "1.3.0"
+        },
+        "son_id": "1.27.16",
+        "owner_account": "1.2.58",
+        "new_signing_key": "TEST7SUmjftH3jL5L1YCTdMo1hk5qpZrhbo4MW6N2wWyQpjXkT7ByB",
+        "new_sidechain_public_keys": [[
+            "bitcoin",
+            "03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2"
+          ]
+        ]
+      }
+    ]
+  ],
+  "extensions": [],
+  "signatures": [
+    "1f43fccecb7994fbb6138fd85ccb1b462d4ffeaa696cbe0738e0a3eaf99d1eb65c4c8e995db5c39a293d8f3056757ab199eb8b99a2972b0a9b56057e875ea4c790"
+  ]
+}
+# ================================================================================
+
+# ================================================================================
+# Update your config file with values obtained in previous steps, and restart the witness with peerplays_sidechain plugin enabled
+# ================================================================================
+
+# Open your config file, and find options plugins
+
+# Space-separated list of plugins to activate
+plugins = witness account_history market_history accounts_list affiliate_stats bookie
+
+# Update the line, and add peerplays_sidechain to the list of enabled plugins
+
+# Space-separated list of plugins to activate
+plugins = witness account_history market_history accounts_list affiliate_stats bookie peerplays_sidechain
+
+
+# Set son-id parameter to the ID of your SON
+son-id = "1.27.16"
+
+# Set son-ids parameter to empty array
+son-ids = []
+
+# Set peerplays-private-key to the key pair belonging to the SON owner account
+peerplays-private-key = ["TEST6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV", "5KQwrPbwdL6PhXujxW37FSSQZ1JiwsST4cqQzDeyXtP79zkvFD3"]
+
+# Leave default value
+bitcoin-node-ip = 99.79.189.95
+
+# Leave default value
+bitcoin-node-zmq-port = 11111
+
+# Leave default value
+bitcoin-node-rpc-port = 22222
+
+# Leave default value
+bitcoin-node-rpc-user = 1
+
+# Leave default value
+bitcoin-node-rpc-password = 1
+
+# Leave default value
+bitcoin-wallet = son-wallet
+
+# Leave default value
+bitcoin-wallet-password = 9da115c9fa6fe7fd09390841ac91aee4
+
+# Set bitcoin-private-key to the keypair of the bitcoin address you created for a SON in shared wallet
+bitcoin-private-key = ["03eac07563aa5280a6c1db50724ffc51edca1458d3ed9a61c7455fb16f35ddccd2","cSmQ517iJaAT94SMAsLhtyicZcFggY54gg5aLCUDuwUA3ECftP24"]
+
+# Restat the node with new configuration
+```
 
 ### Starting the node
 
