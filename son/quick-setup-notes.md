@@ -118,9 +118,9 @@ bitcoin-private-key = ["02d0f137e717fb3aab7aff99904001d49a0a636c5e1342f8927a4ba2
 
 ```
 
-### Becomming a SON
+### Becoming a SON
 
-Becomming a SON is very similar to becoming a witness. You will need:
+Becoming a SON is very similar to becoming a witness. You will need:
 
 * Active user account, upgraded to lifetime member, which will be the owner of SON account
 * Create two vesting balances \(types son and normal\) of 50 core assets, and get its IDs
