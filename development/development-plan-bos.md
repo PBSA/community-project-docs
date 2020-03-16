@@ -143,7 +143,7 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">graphenecommon/blockchainobjt.py, line 175, getfromcache error, investiagate</td>
+      <td style="text-align:left">graphenecommon/blockchainobject.py, line 175, getfromcache error, investiagate</td>
       <td
       style="text-align:left">Progressing</td>
         <td style="text-align:left">bos-auto #12</td>
