@@ -244,31 +244,4 @@
       <td style="text-align:left">bos-auto #12</td>
     </tr>
   </tbody>
-</table>### For March 2020
-
-1. **Yam/Statscore, finish/progress issue**
-   1. Category: Dataproxy 
-   2. Ticket: BOS-213, The ticket is in JIRA
-   3. 32 hrs spent out of 80 hrs estimated
-   4. Comments: The issue is still not reproduced, Experimenting on the production server
-   5. Nature of the Task
-      1. It's a probabilistic bug. Happens at times.
-      2. I can not debug this issue on machines other than production server. Debugging on production server!
-      3. Possible root cause
-         1. Statscore not sending the incidents.
-         2. Yam can't translate sent incident to BOS normalized form.
-      4. There is no documentation about the dataproxy \(how it works, how is it designed\). What is the format of input data and what ought to be the format of output data
-   6. Task splits:
-      1. Identify the cases where other dataproxies have sent progress and finish and Yam has not sent: 8 hrs
-      2. Make the bug reproducible: 16 hrs
-      3. Learn the code flow reading the code: 32 hrs 
-      4. Understand Statscore data format and protocol: 12 hrs
-      5. Make sure the code works as understood with debug messages: 16 hrs
-2. **Timeout when creating proposal**
-   1. Category: BOS-AUTO
-   2. Ticket: BOS-208 \(JIRA\), \#12 in github, [https://github.com/peerplays-network/bos-auto/issues/12](https://github.com/peerplays-network/bos-auto/issues/12)
-   3. Sub tasks
-      1. Basket ball, proposals, No operations pending message and proposal approval failure: 12 hrs
-      2. Make the code work consistently for single event proposal and approval: 8 hrs
-      3. Explicit sequential execution of approval-proposal-approval: 4 hrs
-3. 
+</table>
