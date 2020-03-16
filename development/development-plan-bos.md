@@ -4,6 +4,20 @@
 
 #### Development Plan, March 2020
 
+| **Date** | **Dev Activities** | **Remarks** | **Github/JIRA issue** |
+| :--- | :--- | :--- | :--- |
+|  | Uncaught exception timeout, bos-auto | Progressing | bos-auto \#12 |
+|  | Yam statscore finish/progress issues | To do | BOS-213 |
+|  | bower, js icons and font issues in MINT | Need discussion before creating ticket |  |
+|  | Faucet Stress Testing | Need discussion before creating ticket |  |
+|  | BM Resolution | Need discussion before creating ticket |  |
+| 10 Mar | 30 seconds timeout of mint\_auto | Done | bos-utils \#4 |
+| 18 Mar | Detailed manual for mint\_auto | To do | bos-utils \#6 |
+| 12 Mar | Yam to MINT configuration in Elizabeth | Done | BOS-216 |
+| 17 Mar | graphenecommon/blockchainobjt.py, line 175, getfromcache error, investiagate | Progressing | bos-auto \#12 |
+
+#### Development Plan, March 2020
+
 <table>
   <thead>
     <tr>
