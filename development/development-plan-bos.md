@@ -20,6 +20,65 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">10 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">30 seconds timeout of mint_auto</td>
+      <td style="text-align:left">Done</td>
+      <td style="text-align:left">bos-utils #4</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">12 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Yam to MINT configuration in Elizabeth</td>
+      <td style="text-align:left">Done</td>
+      <td style="text-align:left">BOS-216</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">17 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">graphenecommon/blockchainobject.py, line 175, getfromcache error, investiagate</td>
+      <td
+      style="text-align:left">Progressing</td>
+        <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">18 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Detailed manual for mint_auto</td>
+      <td style="text-align:left">To do</td>
+      <td style="text-align:left">bos-utils #6</td>
+    </tr>
+    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left">
         <p></p>
@@ -90,202 +149,17 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">10 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">30 seconds timeout of mint_auto</td>
-      <td style="text-align:left">Done</td>
-      <td style="text-align:left">bos-utils #4</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">18 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Detailed manual for mint_auto</td>
-      <td style="text-align:left">To do</td>
-      <td style="text-align:left">bos-utils #6</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">12 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Yam to MINT configuration in Elizabeth</td>
-      <td style="text-align:left">Done</td>
-      <td style="text-align:left">BOS-216</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">17 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">graphenecommon/blockchainobject.py, line 175, getfromcache error, investiagate</td>
-      <td
-      style="text-align:left">Progressing</td>
-        <td style="text-align:left">bos-auto #12</td>
-    </tr>
-  </tbody>
-</table>#### Development Plan, March 2020
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Sl No:</b>
-      </th>
-      <th style="text-align:left"><b>Issue Descirption</b>
-      </th>
-      <th style="text-align:left"><b>Category</b>
-      </th>
-      <th style="text-align:left"><b>Status</b>
-      </th>
-      <th style="text-align:left"><b>Effort in hrs</b>
-      </th>
-      <th style="text-align:left"><b>Target Date</b>
-      </th>
-      <th style="text-align:left"><b>Ticket</b>
-      </th>
-      <th style="text-align:left"><b>Comments</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Yam/Statscore Finish Progress Issues</li>
-        </ul>
-      </td>
-      <td style="text-align:left">dataproxy</td>
-      <td style="text-align:left">Progressing</td>
-      <td style="text-align:left">40</td>
-      <td style="text-align:left">2020/03/13</td>
-      <td style="text-align:left">BOS-213</td>
-      <td style="text-align:left">
-        <p>The issue is still not reproduced,
-          <br />Experimenting on the production server,</p>
-        <p>32 hrs spent</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">
-        <ul>
-          <li>BOS-208 proposal timeout</li>
-        </ul>
-      </td>
-      <td style="text-align:left">BOS-AUTO</td>
-      <td style="text-align:left">On hold</td>
-      <td style="text-align:left">80</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p>#12</p>
-        <p>BOS-208</p>
-      </td>
-      <td style="text-align:left">
-        <p>It needs a larger understanding of the system.
-          <br />The issue takes time to reproduce each time (waiting time). And once the
-          issue is noticed, it takes time to clear things in the queue.</p>
-        <p>120 hrs spent.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Faucet stress testing</li>
-        </ul>
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">2020/03/20</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Yet to study the system and issues to make an estimate</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">bower, js, icons and font issues in MINT</td>
-      <td style="text-align:left">BOS-MINT</td>
-      <td style="text-align:left">Yet to decide</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">5</td>
-      <td style="text-align:left">BM resolution</td>
-      <td style="text-align:left">BOS-AUTO</td>
-      <td style="text-align:left">Yet to decide</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">Test for betting market resolution by placing bets for non-sequential
-        betting market ids case.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">6</td>
-      <td style="text-align:left">
-        <ul>
-          <li><a href="https://github.com/peerplays-network/bos-utils/issues/4">https://github.com/peerplays-network/bos-utils/issues/4</a>
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">BOS-UTILS</td>
-      <td style="text-align:left">Progressing</td>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">2020/03/09</td>
-      <td style="text-align:left">#4</td>
-      <td style="text-align:left">30 Seconds timeout</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">7</td>
-      <td style="text-align:left">
-        <ul>
-          <li>Make detailed manual for bos-utils</li>
-        </ul>
-      </td>
-      <td style="text-align:left">BOS-UTILS</td>
-      <td style="text-align:left">Progressing</td>
-      <td style="text-align:left">2</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">#6</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">8</td>
-      <td style="text-align:left">Add Yam to MINT configuration</td>
-      <td style="text-align:left">BOS-MINT task
-        <br />BOS-216</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">BOS-216</td>
       <td style="text-align:left"></td>
     </tr>
   </tbody>
@@ -294,124 +168,80 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b>Sl #</b>
+      <th style="text-align:left"><b>Date</b>
       </th>
-      <th style="text-align:left"><b>Issue description</b>
+      <th style="text-align:left">Status</th>
+      <th style="text-align:left"><b>Dev Activities</b>
       </th>
-      <th style="text-align:left"><b>Category / Ticket</b>
+      <th style="text-align:left"><b>Remarks</b>
       </th>
-      <th style="text-align:left"><b>Status</b>
-      </th>
-      <th style="text-align:left"><b>Development effort</b>
-      </th>
-      <th style="text-align:left"><b>Target date</b>
-      </th>
-      <th style="text-align:left"><b>Comments</b>
+      <th style="text-align:left"><b>Github/JIRA issue</b>
       </th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1</td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
-        <ul>
-          <li><a href="https://peerplays.atlassian.net/browse/BOS-208">https://peerplays.atlassian.net/browse/BOS-208</a>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
-      <td style="text-align:left">
-        <p>BOS-AUTO</p>
-        <p>BOS-208</p>
-      </td>
-      <td style="text-align:left">On hold</td>
-      <td style="text-align:left">20 hrs</td>
-      <td style="text-align:left">2020-02-21</td>
-      <td style="text-align:left">Need further knowledge of the bos-auto eco system.</td>
+      <td style="text-align:left">mint_auto update as per witness requirements and release to witness community</td>
+      <td
+      style="text-align:left">Done</td>
+        <td style="text-align:left">bos-mint #26</td>
     </tr>
     <tr>
-      <td style="text-align:left">2</td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
-        <ul>
-          <li>Perform stress testing on Faucet</li>
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
         </ul>
       </td>
-      <td style="text-align:left">Faucet</td>
-      <td style="text-align:left">Open</td>
-      <td style="text-align:left">4 hrs</td>
-      <td style="text-align:left">2020-02-21</td>
+      <td style="text-align:left">PR29 merge and release to the witness community</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left">bos-mint #29</td>
     </tr>
     <tr>
-      <td style="text-align:left">3</td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
-        <ul>
-          <li>Resolve generic DP issues:</li>
-        </ul>
-        <p>Target 1: resolve the issues on statscore</p>
-      </td>
-      <td style="text-align:left">DataProxy</td>
-      <td style="text-align:left">open</td>
-      <td style="text-align:left">16 - 24 hrs</td>
-      <td style="text-align:left">2020-02-26</td>
-      <td style="text-align:left">The effort might vary based on issues found in statscore specific code</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">
-        <ul>
-          <li>mint_auto update as per witness requirements and release to witness community</li>
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
         </ul>
       </td>
-      <td style="text-align:left">
-        <p>BOS-MINT
-          <br />
-        </p>
-        <p>#26</p>
-      </td>
-      <td style="text-align:left">In progress</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">create and release bos-utils</td>
+      <td style="text-align:left">created</td>
+      <td style="text-align:left">bos-mint #26</td>
     </tr>
     <tr>
-      <td style="text-align:left">5</td>
+      <td style="text-align:left"></td>
       <td style="text-align:left">
-        <ul>
-          <li>PR29 merge and release to the witness community</li>
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
         </ul>
       </td>
-      <td style="text-align:left">BOS-MINT
-        <br />#29</td>
-      <td style="text-align:left">In progress</td>
+      <td style="text-align:left">Time issue</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"><b>Unplanned Developments</b>
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <ul>
-          <li>BOS-UTILS</li>
-        </ul>
-      </td>
-      <td style="text-align:left">Created new repo with the script.
-        <br />BOS-MINT #26,
-        <br />
-      </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Second release for betting market conflicts.</td>
+      <td style="text-align:left">bos-auto #12</td>
     </tr>
   </tbody>
 </table>### For March 2020
