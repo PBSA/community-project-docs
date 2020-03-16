@@ -37,7 +37,7 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
     <tr>
       <td style="text-align:left">Balance Claims</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">Yes</td>
+      <td style="text-align:left">No</td>
       <td style="text-align:left">Under Settings if logged in else, can be accessed from login screen. Balance
         retrieval</td>
     </tr>
@@ -45,7 +45,7 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
       <td style="text-align:left">Send funds from a user specified currency</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Partially. Only supports PPY (check custom networks and other currencies)</td>
     </tr>
     <tr>
       <td style="text-align:left">Assigning a Proxy to for votes</td>
@@ -215,21 +215,20 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
     <tr>
       <td style="text-align:left">Manual transaction signing</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">OOB</td>
-      <td style="text-align:left">Requires wallet to be unlocked by the user to providing their login password. <b>Check if NA</b>
-      </td>
+      <td style="text-align:left">No</td>
+      <td style="text-align:left">Requires wallet to be unlocked by the user to providing their login password.
+        Done.</td>
     </tr>
     <tr>
       <td style="text-align:left">Automatic transaction signing</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">No</td>
+      <td style="text-align:left">Yes</td>
       <td style="text-align:left">
         <p>On login, required data is generated from login form value to allow background
           transaction signing</p>
         <ul>
           <li>ultimately, background wallet unlock</li>
-          <li>used for GPOS power up/down</li>
-          <li>Exporter</li>
+          <li>Used for any transaction</li>
         </ul>
       </td>
     </tr>
@@ -242,7 +241,7 @@ description: Requirements tractability matrix comparing PPY wallet to SC Walle
           <p>Initiates the connection using websocket technologies on application launch.</p>
           <ul>
             <li>several other items included that make the wallet work from the libSC</li>
-            <li><b>Done. Check</b>
+            <li><b>Done</b>
             </li>
           </ul>
         </td>
