@@ -6,7 +6,7 @@
 
 | **Date** | **Dev Activities** | **Remarks** | **Github/JIRA issue** |
 | :--- | :--- | :--- | :--- |
-|  | Uncaught exception timeout, bos-auto | Progressing | bos-auto \#12 |
+| \[\]\* | \[\]\*  Uncaught exception timeout, bos-auto | Progressing | bos-auto \#12 |
 |  | Yam statscore finish/progress issues | To do | BOS-213 |
 |  | bower, js icons and font issues in MINT | Need discussion before creating ticket |  |
 |  | Faucet Stress Testing | Need discussion before creating ticket |  |
