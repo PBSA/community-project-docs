@@ -181,7 +181,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">14 Feb</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -197,7 +197,7 @@
         <td style="text-align:left">bos-mint #26</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">21 Feb</td>
       <td style="text-align:left">
         <p></p>
         <p></p>
@@ -213,7 +213,7 @@
       <td style="text-align:left">bos-mint #29</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">28 Feb</td>
       <td style="text-align:left">
         <p></p>
         <p></p>
