@@ -4,19 +4,152 @@
 
 #### Development Plan, March 2020
 
-| **Date** | **Dev Activities** | **Remarks** | **Github/JIRA issue** |
-| :--- | :--- | :--- | :--- |
-| \[\]\* | \[\]\*  Uncaught exception timeout, bos-auto | Progressing | bos-auto \#12 |
-|  | Yam statscore finish/progress issues | To do | BOS-213 |
-|  | bower, js icons and font issues in MINT | Need discussion before creating ticket |  |
-|  | Faucet Stress Testing | Need discussion before creating ticket |  |
-|  | BM Resolution | Need discussion before creating ticket |  |
-| 10 Mar | 30 seconds timeout of mint\_auto | Done | bos-utils \#4 |
-| 18 Mar | Detailed manual for mint\_auto | To do | bos-utils \#6 |
-| 12 Mar | Yam to MINT configuration in Elizabeth | Done | BOS-216 |
-| 17 Mar | graphenecommon/blockchainobjt.py, line 175, getfromcache error, investiagate | Progressing | bos-auto \#12 |
-
-#### Development Plan, March 2020
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Date</b>
+      </th>
+      <th style="text-align:left">Status</th>
+      <th style="text-align:left"><b>Dev Activities</b>
+      </th>
+      <th style="text-align:left"><b>Remarks</b>
+      </th>
+      <th style="text-align:left"><b>Github/JIRA issue</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Uncaught exception timeout, bos-auto</td>
+      <td style="text-align:left">Progressing</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Yam statscore finish/progress issues</td>
+      <td style="text-align:left">To do</td>
+      <td style="text-align:left">BOS-213</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">bower, js icons and font issues in MINT</td>
+      <td style="text-align:left">Need discussion before creating ticket</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Faucet Stress Testing</td>
+      <td style="text-align:left">Need discussion before creating ticket</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">BM Resolution</td>
+      <td style="text-align:left">Need discussion before creating ticket</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">30 seconds timeout of mint_auto</td>
+      <td style="text-align:left">Done</td>
+      <td style="text-align:left">bos-utils #4</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">18 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Detailed manual for mint_auto</td>
+      <td style="text-align:left">To do</td>
+      <td style="text-align:left">bos-utils #6</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">12 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Yam to MINT configuration in Elizabeth</td>
+      <td style="text-align:left">Done</td>
+      <td style="text-align:left">BOS-216</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">17 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">graphenecommon/blockchainobjt.py, line 175, getfromcache error, investiagate</td>
+      <td
+      style="text-align:left">Progressing</td>
+        <td style="text-align:left">bos-auto #12</td>
+    </tr>
+  </tbody>
+</table>#### Development Plan, March 2020
 
 <table>
   <thead>
