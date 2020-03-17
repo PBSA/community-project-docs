@@ -70,13 +70,45 @@
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
       <td style="text-align:left">Detailed manual for mint_auto</td>
       <td style="text-align:left">To do</td>
       <td style="text-align:left">bos-utils #6</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">20 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Try out the performance of bos-auto on a two core machine</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">24 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Show the id of the recently settled proposal without time delay</td>
+      <td
+      style="text-align:left">Create Ticket</td>
+        <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
