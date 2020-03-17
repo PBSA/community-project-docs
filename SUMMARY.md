@@ -36,6 +36,7 @@
 
 ## Scatter Peerplays Integration
 
+* [Project Scope](scatter-peerplays-integration/project-scope.md)
 * [Functional Requirements](scatter-peerplays-integration/generate-keypair/README.md)
   * [Traceability Matrix](scatter-peerplays-integration/generate-keypair/traceability-matrix.md)
   * [Connect to Peerplays blockchain](scatter-peerplays-integration/generate-keypair/connect-to-peerplays-blockchain.md)
@@ -45,12 +46,15 @@
   * [Support for PPY Asset/Retreive PPY Balance](scatter-peerplays-integration/generate-keypair/support-for-ppy-asset-retreive-ppy-balance.md)
   * [Send PPY](scatter-peerplays-integration/generate-keypair/send-ppy.md)
   * [Receive PPY](scatter-peerplays-integration/generate-keypair/receive-ppy.md)
-* [Questions \(QA\)](scatter-peerplays-integration/questions-qa.md)
-* [QA Scope and Environment](scatter-peerplays-integration/qa-and-environment.md)
-* [Project Scope](scatter-peerplays-integration/project-scope.md)
-* [Scatter wallet Acceptance Criteria](scatter-peerplays-integration/scatter-wallet-acceptance-criteria-non-functional.md)
-* [Scatter Wallet Peerplays Plugin Development Activities Plan](scatter-peerplays-integration/scatter-wallet-peerplays-plugin-development-activities-plan.md)
-* [Current Impediments](scatter-peerplays-integration/current-impediments.md)
+* [Design Specification](scatter-peerplays-integration/design-specification/README.md)
+  * [Low Level](scatter-peerplays-integration/design-specification/low-level.md)
+  * [High Level](scatter-peerplays-integration/design-specification/high-level.md)
+* [Development](scatter-peerplays-integration/development/README.md)
+  * [Current Impediments](scatter-peerplays-integration/development/current-impediments.md)
+  * [Scatter wallet Acceptance Criteria](scatter-peerplays-integration/development/scatter-wallet-acceptance-criteria-non-functional.md)
+  * [Scatter Wallet Peerplays Plugin Development Activities Plan](scatter-peerplays-integration/development/scatter-wallet-peerplays-plugin-development-activities-plan.md)
+* [QA](scatter-peerplays-integration/qa-and-environment/README.md)
+  * [Questions \(QA\)](scatter-peerplays-integration/qa-and-environment/questions-qa.md)
 
 ## Project Management
 

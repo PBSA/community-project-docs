@@ -1,10 +1,10 @@
 ---
 description: >-
-  This document outlines the Quality Assurance (QA) Minimum Viable Product (MVP)
-  and Environment needed for QA to operate.
+  This document outlines the Quality Assurance (QA) scope and Environment needed
+  for QA to operate.
 ---
 
-# QA Scope and Environment
+# QA
 
 The Quality Assurance team will be testing the Scatter Peerplays plugin via a hosted develop-mode environment. This is due to lack of various pieces of information on how to produce the binaries for the various Scatter code bases \(several are needed to produce a single binary under certain conditions\). As such, the MVP will not be the MVP for Scatter as a whole but rather, just for the Peerplays plugin itself with two accompanying custom forms.
 
