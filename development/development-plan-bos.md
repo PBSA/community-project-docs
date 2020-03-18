@@ -170,18 +170,21 @@
       <td style="text-align:left">BOS-213</td>
     </tr>
     <tr>
-      <td style="text-align:left">17 April</td>
+      <td style="text-align:left"><del>17 April</del>
+      </td>
       <td style="text-align:left">
-        <p></p>
+        <p>&lt;del&gt;&lt;/del&gt;</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />&lt;del&gt;&lt;/del&gt;</li>
         </ul>
       </td>
-      <td style="text-align:left">Faucet Stress Testing</td>
-      <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">faucet #1</td>
+      <td style="text-align:left"><del>Faucet Stress Testing</del>
+      </td>
+      <td style="text-align:left"><del>40 hrs</del>
+      </td>
+      <td style="text-align:left"><del>faucet #1</del>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">24 April</td>
