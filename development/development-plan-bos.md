@@ -236,9 +236,10 @@
     <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
+      <td style="text-align:left">Experiment with all new version of libraries and see if cache issue is
+        resolved.</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-auto #12</td>
     </tr>
   </tbody>
 </table>#### Development Plan, February 2020
