@@ -194,7 +194,7 @@
       </td>
       <td style="text-align:left">Uncaught exception timeout, bos-auto</td>
       <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">bos-auto</td>
+      <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
       <td style="text-align:left">1 May</td>
