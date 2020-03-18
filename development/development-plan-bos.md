@@ -111,34 +111,6 @@
         <td style="text-align:left">bos-utils #7</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Uncaught exception timeout, bos-auto</td>
-      <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Yam statscore finish/progress issues</td>
-      <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">BOS-213</td>
-    </tr>
-    <tr>
       <td style="text-align:left">27 Mar</td>
       <td style="text-align:left">
         <p></p>
@@ -164,7 +136,7 @@
       </td>
       <td style="text-align:left">bower installation not mentioned in the installation procedure</td>
       <td
-      style="text-align:left">2</td>
+      style="text-align:left">2 hrs</td>
         <td style="text-align:left">bos-mint #37</td>
     </tr>
     <tr>
@@ -179,8 +151,23 @@
       </td>
       <td style="text-align:left">bower installation asking users to decide on a few js libraries and throwing
         up version conflict.</td>
-      <td style="text-align:left">16</td>
+      <td style="text-align:left">16 hrs</td>
       <td style="text-align:left">bos-mint #38</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Yam statscore finish/progress issues</td>
+      <td style="text-align:left">40 hrs</td>
+      <td style="text-align:left">BOS-213</td>
     </tr>
     <tr>
       <td style="text-align:left">17 April</td>
@@ -195,6 +182,19 @@
       <td style="text-align:left">Faucet Stress Testing</td>
       <td style="text-align:left">40 hrs</td>
       <td style="text-align:left">faucet #1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">24 April</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Uncaught exception timeout, bos-auto</td>
+      <td style="text-align:left">40 hrs</td>
+      <td style="text-align:left">bos-auto</td>
     </tr>
     <tr>
       <td style="text-align:left">1 May</td>
@@ -214,20 +214,6 @@
       </td>
       <td style="text-align:left">40 hrs</td>
       <td style="text-align:left">bos-auto #15</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>#### Development Plan, February 2020
