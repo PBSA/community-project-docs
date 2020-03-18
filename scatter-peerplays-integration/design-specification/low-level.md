@@ -30,7 +30,7 @@ The memo key is used to encrypt messages sent with a balance transfer. Only the 
 
 Most blockchains support account imports into other wallets or client application by having the end user account holder input their accounts private key into the client application. However, things are different for some blockchains, graphene blockchains like Peerplays.
 
-To "import" an account on the Peerplays blockchain into a GUI dapp, the end user account holder simply has to input their accounts `name` and accounts password into a familiar login/register form. As mentioned in the Account section above, these parameters have specific requirements.
+To "import" an account on the Peerplays blockchain into a GUI dapp, the end user account holder simply has to input their accounts `name` and accounts password into a familiar login/register form. As mentioned in the [Account](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/design-specification/low-level#account) section above, these parameters have specific requirements.
 
 Once an account owner has submitted their data and submitted the login/register form, the rest is behind the scenes in the code. The pseudo code below outlines the process:
 
@@ -83,7 +83,7 @@ Keypair = {
 
 ### Import
 
-The official Scatter application supports importing of various blockchain accounts via user input. The end-user is required to input a single private key associated with the blockchain account they are importing.
+The official Scatter application supports importing of various blockchain accounts via user input. The end-user is required to input a single private key associated with the blockchain account they are importing. This is not compatible with the Peerplays account system out of the box as Peerplays accounts make use of three keys with varying authorization levels. Proceed to the next section for the solution to this problem.
 
 ## **Scatter + Peerplays**
 
@@ -111,7 +111,7 @@ Keypair = {
 
 `Keypair.privateKey` contains all three authority level keys in WIF for a Peerplays account \(owner, active, memo\) in an encoded format using `hex` :`Buffer.from('stringtexthere').toString('hex')`
 
-`Keypair.publicKeys[0].key` is the active public key which is just a required item for a Scatter wallet keypair object.
+`Keypair.publicKeys[0].key` is the active public key which is just a required item for a Scatter wallet keypair object. In the case of the Peerplays plugin, we set the Active public key for the account in question in this parameter.
 
 Assuming everything has proceeded with valid form data, the Scatter UI will call a low-level function which will:
 
