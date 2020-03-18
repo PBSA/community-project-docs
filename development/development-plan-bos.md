@@ -318,7 +318,7 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Time issue</td>
+      <td style="text-align:left">Timeout issue when proposing new event for soccer.</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
