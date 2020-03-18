@@ -31,7 +31,7 @@
         </ul>
       </td>
       <td style="text-align:left">30 seconds timeout of mint_auto</td>
-      <td style="text-align:left">Done</td>
+      <td style="text-align:left">4 hrs</td>
       <td style="text-align:left">bos-utils #4</td>
     </tr>
     <tr>
@@ -46,7 +46,7 @@
         </ul>
       </td>
       <td style="text-align:left">Yam to MINT configuration in Elizabeth</td>
-      <td style="text-align:left">Done</td>
+      <td style="text-align:left">4 hrs</td>
       <td style="text-align:left">BOS-216</td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@
       </td>
       <td style="text-align:left">graphenecommon/blockchainobject.py, line 175, getfromcache error, investiagate</td>
       <td
-      style="text-align:left">Progressing</td>
+      style="text-align:left">16 hrs</td>
         <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
@@ -76,7 +76,7 @@
         </ul>
       </td>
       <td style="text-align:left">Detailed manual for mint_auto</td>
-      <td style="text-align:left">To do</td>
+      <td style="text-align:left">2 hrs</td>
       <td style="text-align:left">bos-utils #6</td>
     </tr>
     <tr>
@@ -91,7 +91,7 @@
         </ul>
       </td>
       <td style="text-align:left">Try out the performance of bos-auto on a two core machine</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">16 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
@@ -107,7 +107,7 @@
       </td>
       <td style="text-align:left">Show the id of the recently settled proposal without time delay</td>
       <td
-      style="text-align:left">Create Ticket</td>
+      style="text-align:left">8 hrs</td>
         <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -121,7 +121,7 @@
         </ul>
       </td>
       <td style="text-align:left">Uncaught exception timeout, bos-auto</td>
-      <td style="text-align:left">Progressing</td>
+      <td style="text-align:left">40 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
@@ -135,7 +135,7 @@
         </ul>
       </td>
       <td style="text-align:left">Yam statscore finish/progress issues</td>
-      <td style="text-align:left">To do</td>
+      <td style="text-align:left">40 hrs</td>
       <td style="text-align:left">BOS-213</td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@
         </ul>
       </td>
       <td style="text-align:left">bower, js icons and font issues in MINT</td>
-      <td style="text-align:left">Need discussion before creating ticket</td>
+      <td style="text-align:left">24 hrs</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -163,7 +163,7 @@
         </ul>
       </td>
       <td style="text-align:left">Faucet Stress Testing</td>
-      <td style="text-align:left">Need discussion before creating ticket</td>
+      <td style="text-align:left">40 hrs</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -177,7 +177,7 @@
         </ul>
       </td>
       <td style="text-align:left">BM Resolution</td>
-      <td style="text-align:left">Need discussion before creating ticket</td>
+      <td style="text-align:left">40 hrs</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
