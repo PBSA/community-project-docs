@@ -121,7 +121,7 @@
         </ul>
       </td>
       <td style="text-align:left">Icons and font issues in MINT</td>
-      <td style="text-align:left">24 hrs</td>
+      <td style="text-align:left">4 hrs</td>
       <td style="text-align:left">bos-mint #36</td>
     </tr>
     <tr>
