@@ -32,12 +32,12 @@ Constraints:
 
 | Requirement | User Story |
 | :--- | :--- |
-| Connect to Peerplays blockchain | As a user I should be able to connect to the Peerplays main net. |
-| Generate keypair | As a user I should be able to generate a Peerplays keypair. |
-| Create Peerplays account | The user must be directed to a faucet to create the peerplays account |
-| Import Peerplays Keys | A Given Peerplays private key should be imported by Scatter wallet |
-| Support for PPY asset | As a user I should have PPY asset support within the Scatter wallet. |
-| Retrieve PPY Balance | As a user I should be able to see my PPY balance within the Scatter wallet. |
-| Send PPY | As a user I should be able to send PPY via the Scatter wallet. |
-| Receive PPY | As a user I should be able to receive PPY via the Scatter wallet. |
+| [Connect to Peerplays blockchain](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair/connect-to-peerplays-blockchain) | As a user I should be able to connect to the Peerplays main net. |
+| [Generate keypair](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair/generate-keypair-1) | As a user I should be able to generate a Peerplays keypair. |
+| [Create Peerplays account](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair/create-peerplays-account) | The user must be directed to a faucet to create the peerplays account |
+| [Import Peerplays Keys](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair/import-peerplays-keys) | A Given Peerplays private key should be imported by Scatter wallet |
+| [Support for PPY asset](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair/support-for-ppy-asset-retreive-ppy-balance) | As a user I should have PPY asset support within the Scatter wallet. |
+| [Retrieve PPY Balance](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair/support-for-ppy-asset-retreive-ppy-balance) | As a user I should be able to see my PPY balance within the Scatter wallet. |
+| [Send PPY](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair/send-ppy) | As a user I should be able to send PPY via the Scatter wallet. |
+| [Receive PPY](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair/receive-ppy) | As a user I should be able to receive PPY via the Scatter wallet. |
 

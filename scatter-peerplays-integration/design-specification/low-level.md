@@ -95,7 +95,7 @@ As an example, user "login" on the Peerplays Core GUI wallet is done by comparin
 
 As another example, to send a transfer of funds on the Peerplays blockchain, you are required to have both the active private key and the memo private key. 
 
-To accomplish a valid keypair generation for use within the Scatter application, we use the import method described in the Peerplays section above to get the keys needed.
+To accomplish a valid keypair generation for use within the Scatter application, we use the [import](https://app.gitbook.com/@peerplays/s/community-project-docs/scatter-peerplays-integration/design-specification/low-level#import) method described in the Peerplays section above to get the keys needed.
 
 To circumvent the requirement for multiple keys but only the ability to store one private key, and its public key counterpart, the Peerplays Scatter plugin will encode all three keys into a single new "master" key for exclusive use within Scatter. The result will be a Scatter keypair with the following format:
 
@@ -118,5 +118,5 @@ Assuming everything has proceeded with valid form data, the Scatter UI will call
 1. store the data necessary and encrypt it
 2. update the GUI to reflect a successful "import" of a Peerplays account
 
-The Peerplays plugin is more than a plugin at this point due to the lack of the required Login and Register forms to accomplish what has been discussed thus far. See the Functional Requirements section for the details on the additional GUI elements that must be added to Scatter.
+The Peerplays plugin is more than a plugin at this point due to the lack of the required Login and Register forms to accomplish what has been discussed thus far. See the [Functional Requirements](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair) section for the details on the additional GUI elements that must be added to Scatter.
 
