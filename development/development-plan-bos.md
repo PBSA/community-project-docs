@@ -272,7 +272,7 @@
       </td>
       <td style="text-align:left">mint_auto update as per witness requirements and release to witness community</td>
       <td
-      style="text-align:left">Done</td>
+      style="text-align:left">16 hrs</td>
         <td style="text-align:left">bos-mint #26</td>
     </tr>
     <tr>
@@ -288,7 +288,7 @@
         </ul>
       </td>
       <td style="text-align:left">PR29 merge and release to the witness community</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">48 hrs</td>
       <td style="text-align:left">bos-mint #29</td>
     </tr>
     <tr>
@@ -304,7 +304,7 @@
         </ul>
       </td>
       <td style="text-align:left">create and release bos-utils</td>
-      <td style="text-align:left">created</td>
+      <td style="text-align:left">40 hrs</td>
       <td style="text-align:left">bos-mint #26</td>
     </tr>
     <tr>
