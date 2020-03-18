@@ -108,7 +108,7 @@
       <td style="text-align:left">Show the id of the recently settled proposal without time delay</td>
       <td
       style="text-align:left">8 hrs</td>
-        <td style="text-align:left"></td>
+        <td style="text-align:left">bos-utils #7</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -139,7 +139,7 @@
       <td style="text-align:left">BOS-213</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">27 Mar</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -148,12 +148,42 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">bower, js icons and font issues in MINT</td>
+      <td style="text-align:left">Icons and font issues in MINT</td>
       <td style="text-align:left">24 hrs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-mint #36</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">30 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">bower installation not mentioned in the installation procedure</td>
+      <td
+      style="text-align:left">2</td>
+        <td style="text-align:left">bos-mint #37</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">bower installation asking users to decide on a few js libraries and throwing
+        up version conflict.</td>
+      <td style="text-align:left">16</td>
+      <td style="text-align:left">bos-mint #38</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">17 April</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -164,10 +194,10 @@
       </td>
       <td style="text-align:left">Faucet Stress Testing</td>
       <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">faucet #1</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">1 May</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -176,9 +206,14 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">BM Resolution</td>
+      <td style="text-align:left">
+        <p>Betting Markets are not explicitly linked to corresponding resolution
+          rule.</p>
+        <p>Place a few bets, with non-serials betting market id, resolve and verify
+          that betting markets are resolved promptly as expected visually.</p>
+      </td>
       <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-auto #15</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
