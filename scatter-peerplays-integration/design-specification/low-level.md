@@ -120,3 +120,11 @@ Assuming everything has proceeded with valid form data, the Scatter UI will call
 
 The Peerplays plugin is more than a plugin at this point due to the lack of the required Login and Register forms to accomplish what has been discussed thus far. See the [Functional Requirements](https://app.gitbook.com/@peerplays/s/community-project-docs/~/drafts/-M2il8u16nIr5ISkorpf/scatter-peerplays-integration/generate-keypair) section for the details on the additional GUI elements that must be added to Scatter.
 
+### Sequence Diagrams
+
+> Replace these with proper digitized versions
+
+![Sequence Figure: Scatter\_x\_Peerplays Keypair Generation](../../.gitbook/assets/scatterxppy__login-register.png)
+
+![Sequence Figure: Scatter\_x\_Peerplays Login/Register](../../.gitbook/assets/scatterxppy__login-register%20%281%29.png)
+
