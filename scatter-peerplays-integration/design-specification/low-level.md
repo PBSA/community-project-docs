@@ -124,7 +124,9 @@ The Peerplays plugin is more than a plugin at this point due to the lack of the 
 
 > Replace these with proper digitized versions
 
-![Sequence Figure: Scatter\_x\_Peerplays Keypair Generation](../../.gitbook/assets/scatterxppy__login-register.png)
+![Sequence Figure: Scatter\_x\_Peerplays Keypair Generation](../../.gitbook/assets/ppy-x-scatter__keypair-gen.png)
 
 ![Sequence Figure: Scatter\_x\_Peerplays Login/Register](../../.gitbook/assets/scatterxppy__login-register%20%281%29.png)
+
+
 
