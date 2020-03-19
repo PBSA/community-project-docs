@@ -8,12 +8,21 @@ Release details :[ https://peerplays.atlassian.net/projects/SON/versions/10126/t
 
 | P | T | Key | Summary | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-49](https://peerplays.atlassian.net/browse/SON-49) | [If there is any error on the part of the SON in reporting a bitcoin transaction, it should be visible in his profile.](https://peerplays.atlassian.net/browse/SON-49) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-127](https://peerplays.atlassian.net/browse/SON-127) | [\[Development\] As an advisor, I should be able to propose a change in the percentage amount and daily\_max\_reward paid to SONs for providing their services](https://peerplays.atlassian.net/browse/SON-127) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-168](https://peerplays.atlassian.net/browse/SON-168) | [Committee proposal is not going through](https://peerplays.atlassian.net/browse/SON-168) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-269](https://peerplays.atlassian.net/browse/SON-269) | [Move the SON deregistration responsibility to SONs from witnesses](https://peerplays.atlassian.net/browse/SON-269) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-275](https://peerplays.atlassian.net/browse/SON-275) | [SON ZMQ Crash on exit](https://peerplays.atlassian.net/browse/SON-275) | DONE |
+| ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-276](https://peerplays.atlassian.net/browse/SON-276) | [SON Block replay errors](https://peerplays.atlassian.net/browse/SON-276) | DONE |
 
+**In Progress**
 
+| P | T | Key | Summary | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| ![Low](https://peerplays.atlassian.net/images/icons/priorities/low.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-118](https://peerplays.atlassian.net/browse/SON-118) | [\[Development\] Implement changes for the SON budget](https://peerplays.atlassian.net/browse/SON-118) | TESTING |
 
+  
+**New Defects**
 
+[https://peerplays.atlassian.net/browse/SON-297](https://peerplays.atlassian.net/browse/SON-297)
 
