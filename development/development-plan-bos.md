@@ -241,6 +241,14 @@
       <td style="text-align:left">16 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">env/lib/python3.6/site-packages/bookied_sync/particiants.py, None Type
+        object is not iterable</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
   </tbody>
 </table>#### Development Plan, February 2020
 
