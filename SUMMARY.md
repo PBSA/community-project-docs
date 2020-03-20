@@ -17,6 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
+  * [SON Rewards LLD](son/low-level-designs/son-rewards-lld.md)
   * [SON Claiming Vesting Amount](son/low-level-designs/untitled-2.md)
   * [SON De-Register/Down Scenarios and Bitcoin PW Address Change](son/low-level-designs/untitled.md)
   * [Wallet Commands for SON](son/low-level-designs/wallet-commands-for-son.md)
