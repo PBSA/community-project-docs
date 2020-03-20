@@ -17,6 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
+  * [BTC address scripting mechanism](son/low-level-designs/btc-address-scripting-mechanism.md)
   * [Refund BTC Mechanism](son/low-level-designs/refund-btc-mechanism.md)
   * [Bitcoin operations DRAFT](son/low-level-designs/bitcoin-operations-draft.md)
   * [SON Deregister Proposals LLD](son/low-level-designs/son-de-register-proposals-lld.md)
