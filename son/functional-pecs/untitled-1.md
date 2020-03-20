@@ -25,7 +25,7 @@ The SON operators will be paid in PPY from the payment pool set up specifically 
 
 ## Flow Diagram
 
-![C:\6576f0bc3d3de8c50be5af38593bbd1d](../../.gitbook/assets/0%20%282%29.png)
+![C:\6576f0bc3d3de8c50be5af38593bbd1d](../../.gitbook/assets/0%20%283%29.png)
 
 ## **Payment Pool creation and distribution of SON fees**
 

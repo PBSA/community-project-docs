@@ -17,7 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
-  * [Untitled](son/low-level-designs/untitled-1.md)
+  * [Bitcoin Multi Signature Wallet - LLD](son/low-level-designs/untitled-1.md)
   * [SON Consensus, Communication and Transaction Signing - On Chain LLD](son/low-level-designs/son-consensus-communication-and-transaction-signing-on-chain-lld.md)
 * [Functional Specifications](son/functional-pecs/README.md)
   * [Functional Specifications - SON Multisig Bitcoin Wallet](son/functional-pecs/son-multisig-bitcoin.md)
