@@ -17,6 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
+  * [Comparison between scenarios for handling deposits and withdrawals](son/low-level-designs/comparison-between-scenarios-for-handling-deposits-and-withdrawals.md)
   * [Generic Sidechain High Level Design](son/low-level-designs/generic-sidechain-high-level-design.md)
   * [Exchange rate list](son/low-level-designs/exchange-rate-list.md)
   * [User sidechain addresses mapping](son/low-level-designs/user-sidechain-addresses-mapping.md)
