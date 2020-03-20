@@ -36,7 +36,7 @@ Link to [draw.io](http://draw.io/) file:
 
 [https://drive.google.com/file/d/1ErmQfeaWa9m67si4hb0RZs54WVYWR0pC/view?usp=sharing](https://drive.google.com/file/d/1ErmQfeaWa9m67si4hb0RZs54WVYWR0pC/view?usp=sharing)
 
-![C:\46e144db9f26ae7322951811101ad253](../../.gitbook/assets/0%20%288%29.png)
+![C:\46e144db9f26ae7322951811101ad253](../../.gitbook/assets/0%20%289%29.png)
 
 ## Sequence diagram
 

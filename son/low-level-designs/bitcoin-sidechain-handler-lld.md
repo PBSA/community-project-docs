@@ -13,7 +13,7 @@ Link to [draw.io](http://draw.io/) file:
 
 [https://drive.google.com/file/d/1ErmQfeaWa9m67si4hb0RZs54WVYWR0pC/view?usp=sharing](https://drive.google.com/file/d/1ErmQfeaWa9m67si4hb0RZs54WVYWR0pC/view?usp=sharing)
 
-![C:\3315814f5ab0306a0ec5e7078a3b4ed9](../../.gitbook/assets/0%20%2811%29.png)
+![C:\3315814f5ab0306a0ec5e7078a3b4ed9](../../.gitbook/assets/0%20%2812%29.png)
 
 ## Sequence diagram
 

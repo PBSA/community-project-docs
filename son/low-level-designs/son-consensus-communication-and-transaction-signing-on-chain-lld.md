@@ -534,7 +534,7 @@ It can be found [here.](https://github.com/peerplays-network/peerplays/blob/feat
 
 ### 11.4 son\_deactivate\_operation
 
-![C:\8674e003c375a0abceecfe7ed03e0af4](../../.gitbook/assets/0%20%283%29.png)
+![C:\8674e003c375a0abceecfe7ed03e0af4](../../.gitbook/assets/0%20%284%29.png)
 
 ## 12. SON changes during Maintenance
 

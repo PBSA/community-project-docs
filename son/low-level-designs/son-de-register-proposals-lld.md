@@ -56,5 +56,5 @@ i.e. The proposals can be used for Bitcoin-related proposals, to notify various 
 
 All the new data structures and helper functions can be found in the UML diagram below.
 
-![C:\29cf83c901956726bb71f1b7c2b022ff](../../.gitbook/assets/0%20%282%29.png)
+![C:\29cf83c901956726bb71f1b7c2b022ff](../../.gitbook/assets/0%20%283%29.png)
 

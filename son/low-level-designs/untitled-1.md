@@ -286,7 +286,7 @@ Even if any SON signature is not available, we have to add a dummy signature in 
 
 ## 7. Design Changes
 
-![C:\d505ebe0828e594f508e5f3621c230de](../../.gitbook/assets/0%20%285%29.png)
+![C:\d505ebe0828e594f508e5f3621c230de](../../.gitbook/assets/0%20%286%29.png)
 
 ## 8. Change of scenario of SONs
 
