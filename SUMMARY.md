@@ -17,6 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
+  * [Bitcoin Deposit Handling LLD](son/low-level-designs/bitcoin-deposit-handling-lld.md)
   * [Bitcoin Withdrawal Handling LLD](son/low-level-designs/bitcoin-withdrawal-handling-lld.md)
   * [Bitcoin sidechain Multisig Bitcoin Wallet and Bitcoin addresses \(PW\)](son/low-level-designs/bitcoin-sidechain-multisig-bitcoin-wallet-and-bitcoin-addresses-pw.md)
   * [BTC address scripting mechanism](son/low-level-designs/btc-address-scripting-mechanism.md)
