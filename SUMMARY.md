@@ -17,6 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
+  * [Generic Sidechain Deposit HLD](son/low-level-designs/generic-sidechain-deposit-hld.md)
   * [Generic Sidechain Withdrawal HLD](son/low-level-designs/generic-sidechain-withdrawal-hld.md)
   * [Bitcoin Sidechain Handler LLD](son/low-level-designs/bitcoin-sidechain-handler-lld.md)
   * [Bitcoin Deposit Handling LLD](son/low-level-designs/bitcoin-deposit-handling-lld.md)
