@@ -20,7 +20,7 @@ Link to [draw.io](http://draw.io/) file
 
 [https://drive.google.com/file/d/14HFGLqD8IV3ics1ojFcZ2xC6hRtFXLck/view?usp=sharing](https://drive.google.com/file/d/14HFGLqD8IV3ics1ojFcZ2xC6hRtFXLck/view?usp=sharing)
 
-![C:\77aab932eab11fe57891536a9f9d201a](../../.gitbook/assets/0%20%288%29.png)
+![C:\77aab932eab11fe57891536a9f9d201a](../../.gitbook/assets/0%20%289%29.png)
 
 ## Description
 

@@ -24,7 +24,7 @@ Link to [draw.io](http://draw.io/) file
 
 [https://drive.google.com/file/d/1qSWvcxfWVEwJV2nZA-xTApTSi5rH\_1uv/view?usp=sharing](https://drive.google.com/file/d/1qSWvcxfWVEwJV2nZA-xTApTSi5rH_1uv/view?usp=sharing)
 
-![C:\e2b9ca18ef785ac5b9b227b2d29e06a1](../../.gitbook/assets/0%20%285%29.png)
+![C:\e2b9ca18ef785ac5b9b227b2d29e06a1](../../.gitbook/assets/0%20%286%29.png)
 
 ## Description
 

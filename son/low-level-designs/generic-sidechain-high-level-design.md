@@ -18,7 +18,7 @@ Link to [Draw.io](http://draw.io/) file
 
 [https://drive.google.com/file/d/1BXeRwK\_2PNt6wMnzIl8M6OMRnuM5CumQ/view?usp=sharing](https://drive.google.com/file/d/1BXeRwK_2PNt6wMnzIl8M6OMRnuM5CumQ/view?usp=sharing)
 
-![C:\99739f5dd710deba02e9ebdbc06c4e24](../../.gitbook/assets/0%20%282%29.png)
+![C:\99739f5dd710deba02e9ebdbc06c4e24](../../.gitbook/assets/0%20%283%29.png)
 
 ## Description
 
@@ -43,7 +43,7 @@ Link to [draw.io](http://draw.io/) file
 
 For the simplicity, sequence diagram shows interactions between components in a single sidechain handler.
 
-![C:\51e9e3c09a9f0bef4f704cdc49f2b62a](../../.gitbook/assets/1%20%284%29.png)
+![C:\51e9e3c09a9f0bef4f704cdc49f2b62a](../../.gitbook/assets/1%20%285%29.png)
 
 ## Suggested implementation
 
