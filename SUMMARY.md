@@ -16,6 +16,7 @@
 
 ## SON
 
+* [Low Level Designs](son/low-level-designs.md)
 * [Functional Specifications](son/functional-pecs/README.md)
   * [Functional Specifications - SON Multisig Bitcoin Wallet](son/functional-pecs/son-multisig-bitcoin.md)
   * [Functional Specification - SON Configuration](son/functional-pecs/son-configuration.md)
