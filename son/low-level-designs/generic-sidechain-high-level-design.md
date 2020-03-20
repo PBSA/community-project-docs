@@ -43,7 +43,7 @@ Link to [draw.io](http://draw.io/) file
 
 For the simplicity, sequence diagram shows interactions between components in a single sidechain handler.
 
-![C:\51e9e3c09a9f0bef4f704cdc49f2b62a](../../.gitbook/assets/1%20%285%29.png)
+![C:\51e9e3c09a9f0bef4f704cdc49f2b62a](../../.gitbook/assets/1%20%286%29.png)
 
 ## Suggested implementation
 

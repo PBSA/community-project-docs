@@ -25,7 +25,7 @@ The Peerplays blockchain will allow the node operators to enable/disable the Sid
 
 ## 6. Flow Diagram
 
-![C:\65c0b62195fc8c78bd150b273f09cb2d](../../.gitbook/assets/0%20%2815%29.png)
+![C:\65c0b62195fc8c78bd150b273f09cb2d](../../.gitbook/assets/0%20%2816%29.png)
 
 ## **7. SON Commands**
 
