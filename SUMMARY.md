@@ -17,6 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
+  * [SON De-Register/Down Scenarios and Bitcoin PW Address Change](son/low-level-designs/untitled.md)
   * [Wallet Commands for SON](son/low-level-designs/wallet-commands-for-son.md)
   * [SON Wallet list\_sons LLD](son/low-level-designs/son-wallet-list_sons-lld.md)
   * [Comparison between scenarios for handling deposits and withdrawals](son/low-level-designs/comparison-between-scenarios-for-handling-deposits-and-withdrawals.md)
