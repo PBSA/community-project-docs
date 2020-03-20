@@ -17,6 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
+  * [SON Configuration](son/low-level-designs/son-configuration.md)
   * [SON Objects and Operators](son/low-level-designs/son-objects-and-operators.md)
   * [SON Voting LLD](son/low-level-designs/son-voting-lld.md)
   * [SON Rewards LLD](son/low-level-designs/son-rewards-lld.md)
