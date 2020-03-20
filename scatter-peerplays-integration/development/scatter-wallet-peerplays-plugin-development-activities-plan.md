@@ -361,12 +361,13 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Update documentation for QA (c.1)</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />Update documentation for QA (c.1)</li>
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />Scatter Desktop integration (production client encryption) (c.2)</li>
           <li
           class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />Add PPY icon to Scatter Bridge UI (#57)</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled /> <del>Add PPY icon to Scatter Bridge UI </del>(#57)</li>
             <li class="task-list-item">
               <input type="checkbox" class="task-list-item-checkbox" disabled />Update Unit Tests (#58)</li>
             <li class="task-list-item">
