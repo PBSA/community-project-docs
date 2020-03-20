@@ -17,6 +17,7 @@
 ## SON
 
 * [Low Level Designs](son/low-level-designs/README.md)
+  * [Exchange rate list](son/low-level-designs/exchange-rate-list.md)
   * [User sidechain addresses mapping](son/low-level-designs/user-sidechain-addresses-mapping.md)
   * [Generic Sidechain Listener HLD](son/low-level-designs/generic-sidechain-listener-hld.md)
   * [Generic Sidechain Deposit HLD](son/low-level-designs/generic-sidechain-deposit-hld.md)
