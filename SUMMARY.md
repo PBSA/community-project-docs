@@ -23,6 +23,7 @@
   * [Functional Specifications - SON Voting and Consensus](son/functional-pecs/untitled-1-1.md)
   * [Functional Specification - SONs switchover scenarios](son/functional-pecs/untitled-1-2.md)
   * [Functional Specifications - SON Smart Contracts](son/functional-pecs/untitled-1-3.md)
+  * [Functional Specification - Bitcoin Deposit Handling](son/functional-pecs/functional-specification-bitcoin-deposit-handling.md)
 * [How To](son/how-to.md)
 * [Quick Setup notes](son/quick-setup-notes.md)
 * [QA - SON](son/untitled/README.md)
