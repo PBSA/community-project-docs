@@ -46,7 +46,7 @@ Link to [draw.io](http://draw.io/) file
 
 Sequence diagram shows sidechain listener interactions with the rest of the sidechain components.
 
-![C:\549d14e43db2423a0c888309f1c27965](../../.gitbook/assets/1%20%282%29.png)
+![C:\549d14e43db2423a0c888309f1c27965](../../.gitbook/assets/1%20%283%29.png)
 
 ## Suggested implementation
 

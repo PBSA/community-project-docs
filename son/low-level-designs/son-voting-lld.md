@@ -64,5 +64,5 @@ New SONs are elected via '**database::sort\_votable\_objects\`** - a method to s
 
 A similar approach can be found in the witness voting tally code in **perform\_chain\_maintenance**.
 
-![C:\c647f646dd7e4bc89d57cff3823d1656](../../.gitbook/assets/1.png)
+![C:\c647f646dd7e4bc89d57cff3823d1656](../../.gitbook/assets/1%20%281%29.png)
 
