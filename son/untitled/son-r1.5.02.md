@@ -15,12 +15,6 @@ Release details :[ https://peerplays.atlassian.net/projects/SON/versions/10126/t
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-275](https://peerplays.atlassian.net/browse/SON-275) | [SON ZMQ Crash on exit](https://peerplays.atlassian.net/browse/SON-275) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-276](https://peerplays.atlassian.net/browse/SON-276) | [SON Block replay errors](https://peerplays.atlassian.net/browse/SON-276) | DONE |
 
-**In Progress**
-
-| P | T | Key | Summary | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| ![Low](https://peerplays.atlassian.net/images/icons/priorities/low.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-118](https://peerplays.atlassian.net/browse/SON-118) | [\[Development\] Implement changes for the SON budget](https://peerplays.atlassian.net/browse/SON-118) | TESTING |
-
   
 **New Defects**
 
