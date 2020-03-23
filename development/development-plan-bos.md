@@ -281,6 +281,20 @@
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Broadcast after each BMG to minimize progressive time issue</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
   </tbody>
 </table>#### Development Plan, February 2020
 
