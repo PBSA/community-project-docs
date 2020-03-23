@@ -31,5 +31,12 @@ description: This document is under development. You are welcome to share your t
 1. Ensure that approval is called before and after an event proposal
 2. How about increasing timeout to 12 minutes?
 
+## Notes on completed development tasks
+
+1. graphenecommon/blockchainobject.py, line 175, getfromcache error, investiagate:  
+   1. The issue is found to be not repeating when all libraries are new version.
+2. Running a two core machine looks better.
+   1. 
+
 
 
