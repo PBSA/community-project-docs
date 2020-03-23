@@ -113,6 +113,36 @@
         <td style="text-align:left">bos-utils #7</td>
     </tr>
     <tr>
+      <td style="text-align:left">25 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Try out BOS with latest libraries and ensure that proposals are created
+        with 180 seconds and multiple attempts by scheduler</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">26 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Verify the approve_pre, approve_post (dependson) solution for Approval
+        pending issue</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
       <td style="text-align:left">27 Mar</td>
       <td style="text-align:left">
         <p></p>
