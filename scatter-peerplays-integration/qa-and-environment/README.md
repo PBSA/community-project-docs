@@ -44,9 +44,11 @@ For adequate testing of the Peerplays Scatter plugin, three codebases are requir
 
 1. [walletpack](https://github.com/GetScatter/walletpack)
 2. [Bridge](https://github.com/GetScatter/Bridge)
-3. ~~~~[ScatterDesktop](https://github.com/GetScatter/ScatterDesktop)
+3. ~~~~[~~ScatterDesktop~~](https://github.com/GetScatter/ScatterDesktop)~~~~
 
 ScatterBridge will point to a local location of walletpack until it has been published on NPM.
+
+To run the Scatter wallet without the Desktop container, you may need to configure some fake data. Replace your `src > util > WalletTalk.js` file with [this](https://gist.github.com/mseaward/1001f608127f807d1f86099f809e5e2a) one. 
 
 ### Instruction for Compiling
 
