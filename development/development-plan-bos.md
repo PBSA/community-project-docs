@@ -291,6 +291,13 @@
     <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
+      <td style="text-align:left">Approve after each BMG and reduce time.</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
