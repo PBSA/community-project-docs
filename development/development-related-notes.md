@@ -49,6 +49,8 @@ In scheduler, bookied/scheduler.py, check for "midway" events and add them to rq
 
 add approval prior and after each work.process and ensure they are called in order with depends\_on argument of rq.
 
+Trigger the flask server with --scheduler option
+
 It works!
 
 
