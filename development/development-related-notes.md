@@ -36,7 +36,20 @@ description: This document is under development. You are welcome to share your t
 1. graphenecommon/blockchainobject.py, line 175, getfromcache error, investiagate:  
    1. The issue is found to be not repeating when all libraries are new version.
 2. Running a two core machine looks better.
-   1. 
+
+### BOS-AUTO \#12 and Reducing time taken per proposal
+
+There is a for loop in method createBmgs in bookied/triggers/create.py
+
+Check time taken for each BMG creation and exit createBmg for loop and trigger if time exceeds, say 10 seconds.
+
+Upon exiting createBmgs, set\_incident\_status to "midway"
+
+In scheduler, bookied/scheduler.py, check for "midway" events and add them to rq queue for work.process.
+
+add approval prior and after each work.process and ensure they are called in order with depends\_on argument of rq.
+
+It works!
 
 
 
