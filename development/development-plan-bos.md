@@ -298,6 +298,16 @@
     <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>Exploerer scheduler, there is a trick to improve time per</p>
+        <p>job</p>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
