@@ -36,6 +36,10 @@ A refer to the [Functional Requirements](https://app.gitbook.com/@peerplays/s/co
 {% endtab %}
 
 {% tab title="Environment" %}
+### Pre-requisite
+
+In order for the Peerplays Scatter plugin to get data from the Peerplays blockchain, all witness API node server configurations need to be updated to allow cross origin resource sharing \(CORS\).
+
 ### What to Compile
 
 The Scatter project\(s\) are numerous and only specific ones are required in order to test/develop a plugin. In light of recent conversations, the ScatterBridge project is to be favoured over the ScatterEmbed one.
