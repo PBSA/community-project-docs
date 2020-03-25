@@ -96,6 +96,16 @@ If a match is found, deposit is confirmed. If a match is not found, new deposit 
 
 SON must start conversion of deposit amount from bitcoin into peerplay tokens following deposit confirmation. Conversion operation must calculate btc to ppy conversion using 1:1 rate. Conversion is completed by sending funds from bitcoin address \(sidechain user address for deposits\) to primary wallet \(bitcoin multisig address\). Upon completion, bitcoin transaction must be signed and sent to bitcoin node. User will receive peerplays core assets matching the amount of depoisted bitcoin. Lastly, scheduled SON must mark **son\_wallet\_deposit\_object** as processed
 
+### CLI Examples:
+
+sending 100 BTC to deposit address:
+
+`bitcoin-core.cli -rpcuser=1 -rpcpassword=1 -rpcwallet= sendtoaddress 2NDN7cDH3E57E1B8TwTYvBgF7CndL4FTBPL 100;`
+
+cli wallet command:
+
+`transfer sonaccount01 son-account 100 TEST "" true`
+
 ## 8. Glossary
 
 **pBTC**​ is a peerplay Blockchain Asset, which represents users’ balances in Bitcoin on PeerPlays blockchain. Having a balance of 1 pBTC would mean having it backed by the same amount of Bitcoin on a Witness-controlled Multisig Wallet. New pBTC are NOT ISSUED by OWNER with ​issue ​operation. New pBTC are issued strictly in relation with ​Deposit​ operations.

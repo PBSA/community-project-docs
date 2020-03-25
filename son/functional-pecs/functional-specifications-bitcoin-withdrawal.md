@@ -13,7 +13,7 @@ Specific functions covered include:
 * monitor transactions to a designated sidechain user address
 * handle withdrawal via creation of sidechain event data
 * create & confirm object proposals
-* conversion of BTC to pBTC based on defined exchange rate, with applicable fees
+* conversion of pBTC to BTC based on defined exchange rate, with applicable fees
 * sign transactions
 * withdraw bitcoin for conversion into peerplay tokens
 
