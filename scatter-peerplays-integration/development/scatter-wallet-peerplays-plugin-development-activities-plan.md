@@ -208,8 +208,7 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" checked disabled
             />Spike Integration of ScatterDesktop (#46)</li>
             <li class="task-list-item">
-              <input type="checkbox" class="task-list-item-checkbox" disabled /> <del>Get QA Environment Configured (#40)</del>
-            </li>
+              <input type="checkbox" class="task-list-item-checkbox" disabled />Get QA Environment Configured (#40)</li>
         </ul>
         <p></p>
       </td>
