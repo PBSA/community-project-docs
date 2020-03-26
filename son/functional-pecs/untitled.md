@@ -40,7 +40,9 @@ The Peerplays blockchain will allow the node operators to enable/disable the Sid
 
 ## 6. Flow Diagram
 
-\[TBD\]
+{% file src="../../.gitbook/assets/son-status-monitoring.xml" caption="Draw.io - SON Status Monitoring XML " %}
+
+![SON Status Monitoring Process Flow](../../.gitbook/assets/son-status-monitoring.jpg)
 
 ## **7. Requirements**
 
