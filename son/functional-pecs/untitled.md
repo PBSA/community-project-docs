@@ -40,6 +40,8 @@ The Peerplays blockchain will allow the node operators to enable/disable the Sid
 
 SON monitoring is required because only active SONs can participate in blockchain transactions.
 
+Note that new SON's start in inactive status then become active during first maintenance block and begin send
+
 ### **7.1. SON Status monitoring and statistics \(Heartbeat\)**
 
 System must include an automated heartbeat check that monitors status of registered SONs per each 180 second interval \(heartbeat interval\). This interval must be configurable via **chain\_parameters** in **extensions.son\_heartbeat\_frequency**, and set to 180 seconds by default. \(Other configuration may be possible via genesis.json\). Note that this interval may be different in production, but for testing purposes it should be within 3 minutes.
@@ -64,8 +66,7 @@ Statistics for active SONs must be updated after every heartbeat where SON is ac
 
 System must include a wallet command which requests SON to be placed in maintenance mode. Requesting SON maintenance must be available to SONs in active status. Once request SON maintenance is initiated, target SON must be set to **in\_maintenance** at the upcoming chain maintenance interval.
 
-\[TBD/INACCURATE. TO CONFIRM WITH SATYA  
-SONs in maintenance modes can be changed to active or inactive mode via voting process described in SON Voting and Consensus requirements. Voting and change of status must be initiated by sending a heartbeat.\]
+SONs in maintenance modes can be changed to active or inactive mode via sending a heartbeat.
 
 System must allow cancelling of maintenance request via **cancel\_request\_son\_maintenance** command. System must restrict this command to SONs in request\_maintenance status.
 
