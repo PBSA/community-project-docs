@@ -367,16 +367,27 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
             <input type="checkbox" class="task-list-item-checkbox" disabled />Scatter Desktop integration (production client encryption) (c.2)</li>
           <li
           class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled /> <del>Add PPY icon to Scatter Bridge UI </del>(#57)</li>
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Add PPY icon to Scatter Bridge UI (#57)</li>
             <li class="task-list-item">
               <input type="checkbox" class="task-list-item-checkbox" disabled />Update Unit Tests (#58)</li>
             <li class="task-list-item">
               <input type="checkbox" class="task-list-item-checkbox" disabled />Update CD to account for Scatter Desktop integration(#40)</li>
         </ul>
       </td>
-      <td style="text-align:left">Scatter Desktop is indeed required to properly emulate the Peerplays plugin
-        within a production environment. Currently, the plugin is not compatible
-        with Desktop so this is a high priority dev. task.</td>
+      <td style="text-align:left">
+        <p>Scatter Desktop is indeed required to properly emulate the Peerplays plugin
+          within a production environment. <del>Currently, the plugin is not compatible with Desktop so this is a high priority dev. task.</del>
+        </p>
+        <p>Meeting with Nathan shed light on long-withstanding issues with Desktop
+          codebase, have since been resolved and remaining dev activities can be
+          completed.</p>
+        <p><b>PPY Icon</b>
+        </p>
+        <ul>
+          <li>refer to icomoon and modify existing icomoon lib to include PPY icon</li>
+          <li>other code modifications will be required to complete icon</li>
+        </ul>
+      </td>
       <td style="text-align:left">
         <p><a href="https://github.com/orgs/peerplays-network/projects/1#card-33953859">c.1</a>
         </p>
@@ -389,6 +400,50 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
         <p><a href="https://github.com/peerplays-network/getscatter-walletpack/issues/40">#40</a>
         </p>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">
+        <p>Complete in order listed:</p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />alias imports (<code>import thing as t</code>) not supported by Scatter
+            compilation, refactor to not require them</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Refactor transfer function to use signerWithPopup</li>
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />verify transfer functions as expected with memo&apos;s provided</li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <p>signerWithPopup function should be called</p>
+        <ul>
+          <li>refer to gitter comments for more details on relevant changes required
+            for this refactor: <a href="https://gitter.im/GetScatter-Peerplays-Integration/community?at=5e7b89b1e822ec79eb85b7ca">https://gitter.im/GetScatter-Peerplays-Integration/community?at=5e7b89b1e822ec79eb85b7ca</a>
+          </li>
+        </ul>
+        <p>Verify transfer</p>
+        <ul>
+          <li>verified a transfer function during call with nathan but not verified
+            it works with memos</li>
+        </ul>
+        <p>Alias import syntax within the walletpack plugin files need to be refactored/removed,
+          once compiled they lose the references they are meant to alias</p>
+      </td>
+      <td style="text-align:left">TBD</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />Update walletpack, bridge, and desktop codebase with official repositories</li>
+        </ul>
+      </td>
+      <td style="text-align:left">Ensure our code is up-to-date with the official codebase and verify any
+        updates that may exist have not broken any plugin/ui functionality</td>
+      <td
+      style="text-align:left">TBD</td>
     </tr>
   </tbody>
 </table>## High-Level
