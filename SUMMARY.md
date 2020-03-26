@@ -5,6 +5,8 @@
 
 ## Projects
 
+* [5050](5050/README.md)
+  * [Extending Sweeps](5050/extending-sweeps.md)
 * [BOS](bos.md)
 * [Development](development/README.md)
   * [Development Notes BOS](development/development-related-notes.md)
