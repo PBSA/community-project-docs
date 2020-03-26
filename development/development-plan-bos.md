@@ -175,7 +175,7 @@
       <td style="text-align:left">bos-auto #16</td>
     </tr>
     <tr>
-      <td style="text-align:left">29 Mar</td>
+      <td style="text-align:left">30 Mar</td>
       <td style="text-align:left">
         <p></p>
         <p></p>
@@ -191,7 +191,7 @@
       <td style="text-align:left">bos-auto #17</td>
     </tr>
     <tr>
-      <td style="text-align:left">30 Mar</td>
+      <td style="text-align:left">31 Mar</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -234,6 +234,20 @@
       <td style="text-align:left">Yam statscore finish/progress issues</td>
       <td style="text-align:left">40 hrs</td>
       <td style="text-align:left">BOS-213</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">13 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">remote_controls to utils</td>
+      <td style="text-align:left">1 hrs</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">14 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">eventCounter to utils</td>
+      <td style="text-align:left">1 hrs</td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"><del>17 April</del>
