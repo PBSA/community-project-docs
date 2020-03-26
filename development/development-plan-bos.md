@@ -118,7 +118,8 @@
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
@@ -133,7 +134,8 @@
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
@@ -155,6 +157,38 @@
       <td style="text-align:left">Icons and font issues in MINT</td>
       <td style="text-align:left">4 hrs</td>
       <td style="text-align:left">bos-mint #36</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">28 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">yaml.load() deprecated</td>
+      <td style="text-align:left">1 hr</td>
+      <td style="text-align:left">bos-auto #16</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">29 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">q.dequeue() error with worker cli</td>
+      <td style="text-align:left">2 hrs</td>
+      <td style="text-align:left">bos-auto #17</td>
     </tr>
     <tr>
       <td style="text-align:left">30 Mar</td>
@@ -223,7 +257,8 @@
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
@@ -251,59 +286,122 @@
       <td style="text-align:left">bos-auto #15</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">26 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Experiment on performance by after job option with approval in rq,</td>
       <td
       style="text-align:left">8 hrs</td>
         <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">19 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Experiment on performance with limited queue length on rq,</td>
       <td style="text-align:left">16 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">20 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Experiment with all new version of libraries and see if cache issue is
         resolved.</td>
       <td style="text-align:left">16 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">23 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">env/lib/python3.6/site-packages/bookied_sync/particiants.py, None Type
         object is not iterable</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">24 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Broadcast after each BMG to minimize progressive time issue</td>
       <td style="text-align:left">8 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">25 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Approve after each BMG and reduce time.</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p>Exploerer scheduler, there is a trick to improve time per</p>
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <p>Explore scheduler, there is a trick to improve time per</p>
         <p>job</p>
       </td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
