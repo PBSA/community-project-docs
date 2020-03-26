@@ -25,8 +25,14 @@ Described here is the process of SON status reporting \(heartbeat\) and maintena
    1. Active and Request Maintenance SONs will respond to heartbeat
       1. Update statistics with last active timestamp and transactions signed updates
    2. In maintenance and inactive SONs will not respond to heartbeat
-      1. inactive flow
+      1. not responding
+         1. check if last active timestamp exceeds heartbeet frequency by factor of 2
+            1. if yes - set state to inactive
+            2. if no, do nothing
       2. in maintenance flow
+         1. check current interval downtime
+            1. if less than 12 hrs, do nothing
+            2. if more than or equal to 12 hrs - deregister SON
 
 ## 5. Context
 
