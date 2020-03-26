@@ -48,8 +48,8 @@ Heartbeats must be sent by SONs who are in **active**, or **request\_maintenance
 
 The following other statistics must be tracked and logged as part of heartbeat monitoring:
 
-* number of transactions signed - number of transactions signed by SON. This value must be updated each time a transaction is signed.
-* total downtime - compounded time that SON was down represented in HH:MM:SS format. This value must be updated to include current interval downtime \[TBD\]
+* number of transactions signed - number of transactions signed by SON. This value must be updated each time a transaction is signed. This counter is reset during SON rewards
+* total downtime - compounded time that SON was down represented in HH:MM:SS format. This value must be updated to compound all current interval downtime values.
 * current interval downtime - Time since last transition to in\_maintenance
 * last down timestamp - timestamp of last transition to in\_maintenance status
 * last active timestamp - timestamp of last transition to active status, or last heartbeat where status is active or request\_maintenance.
