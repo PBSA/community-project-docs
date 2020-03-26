@@ -98,6 +98,12 @@ Before continuing, ensure you have completed the above two sections \(walletpack
 {% endhint %}
 
 1. Inside the Bridge project, update an entry within the `.env` file; `VUE_APP_NO_WALLET=` should be the new line text \(remove the `1` you added earlier\)
+2. Run the command `npm run start`
+3. In the Desktop repository, run `electron .` 
+
+This will run the code in a dev electron environment with Desktop encryption container. 
+
+To build production binaries, refer to the README.md in codebase you are trying to build production code for. If those README.md files are still insufficient, contact nathan for specific configurations if required.
 {% endtab %}
 {% endtabs %}
 
