@@ -37,7 +37,15 @@ description: This document is under development. You are welcome to share your t
 1. graphenecommon/blockchainobject.py, line 175, getfromcache error, investiagate:  
    1. The issue is found to be not repeating when all libraries are new version.
 2. Running a two core machine looks better.
+3. Solved BOS-AUTO \#12, \#16, \#17 which are timout and time taken more than 180 seconds, yaml.load deprecation, and q.dequeue error.
 
+### BOS analysis
+
+1. Experimental setup: Need 3 machines
+2. Analyse data on the blocks.
+3. Look at settled bets on the block
+4. Meeting in with Paul, Pravin and Bob in the last week of March or first week of April 2020.
+5. 
 ### BOS-AUTO \#12 and Reducing time taken per proposal
 
 There is a for loop in method createBmgs in bookied/triggers/create.py
