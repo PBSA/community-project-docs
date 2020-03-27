@@ -6,10 +6,11 @@ description: This document is under development. You are welcome to share your t
 
 ## Issues
 
-1. JobTimeoutException when trying to approve proposals:
-   1. This issue is already open in Github, issue \#12, bos-auto and BOS-208 in JIRA
-   2. The issue can be solved by making sure that no proposals are pending approval by the witness when the witness starts proposing or approving a new incident.
-2. BOS-AUTO takes about 12 minutes to propose soccer events: 
+1. JobTimeoutException when trying to approve proposals: Solved
+   1. The issue is solved and details are given below under the heading BOS-AUTO\#12
+   2. This issue is already open in Github, issue \#12, bos-auto and BOS-208 in JIRA
+   3. The issue can be solved by making sure that no proposals are pending approval by the witness when the witness starts proposing or approving a new incident.
+2. BOS-AUTO takes about 12 minutes to propose soccer events: Solved
    1. Soccer has 8 betting market groups
    2. And with TEST and BTF coins, it \(soccer\) has 34 betting markets. 
    3. The time taken for betting market increases with each created betting market in a proposal. For example it takes 1 second for creating the first betting market, where as it takes about 30 seconds for creating the 34th betting market.
@@ -17,7 +18,7 @@ description: This document is under development. You are welcome to share your t
    1. _Details to be reproduced and added._
    2. This is a bos-sync issue.
 4. There is a cache error, occurring at times.
-5. Through out a proposal creating the CPU usage is 100%. 
+5. Through out a proposal creating the CPU usage is 100%. : Discarded
 
 ## Root cause exploration
 
