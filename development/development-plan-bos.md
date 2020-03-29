@@ -495,55 +495,6 @@
         <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left">23 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">env/lib/python3.6/site-packages/bookied_sync/particiants.py, None Type
-        object is not iterable</td>
-      <td style="text-align:left">8 hrs</td>
-      <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">24 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Broadcast after each BMG to minimize progressive time issue</td>
-      <td style="text-align:left">8 hrs</td>
-      <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">25 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Approve after each BMG and reduce time.</td>
-      <td style="text-align:left">8 hrs</td>
-      <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
