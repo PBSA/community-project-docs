@@ -81,6 +81,22 @@
       <td style="text-align:left">bos-utils #6</td>
     </tr>
     <tr>
+      <td style="text-align:left">19 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Experiment on performance with limited queue length on rq,</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
       <td style="text-align:left">20 Mar</td>
       <td style="text-align:left">
         <p></p>
@@ -93,6 +109,23 @@
         </ul>
       </td>
       <td style="text-align:left">Try out the performance of bos-auto on a two core machine</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">20 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Experiment with all new version of libraries and see if cache issue is
+        resolved.</td>
       <td style="text-align:left">16 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
@@ -336,22 +369,6 @@
       <td
       style="text-align:left">8 hrs</td>
         <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">19 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Experiment on performance with limited queue length on rq,</td>
-      <td style="text-align:left">16 hrs</td>
-      <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
       <td style="text-align:left">20 Mar</td>
