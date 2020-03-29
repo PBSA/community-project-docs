@@ -545,25 +545,6 @@
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <p>Explore scheduler, there is a trick to improve time per</p>
-        <p>job</p>
-      </td>
-      <td style="text-align:left">16 hrs</td>
-      <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
