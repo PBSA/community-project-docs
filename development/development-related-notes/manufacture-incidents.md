@@ -4,7 +4,7 @@ The corresponding code shall be made available in bos-utils
 
 ### Working Remotes
 
-#### ScorePro / BLKCHND
+#### ScorePro / BLKCHND Not working now
 
 {% embed url="https://174.138.14.239:8010" %}
 
