@@ -48,5 +48,30 @@ d28654530fb07360f051c713bdd749bb
 
 
 
+### Working Events
 
+```text
+"_Soccer__SerieA__Bologna__Cagliari_",
+"_Soccer__Epl__Chelsea__Brighton_",
+"_Soccer__SerieA__Lazio__Parma_",
+"_Basketball__NBA Playoffs__Orlando Magic__Toronto Raptors_",
+
+```
+
+### Events with Normalisation Error
+
+```text
+"_basketball__nba-regular-season__Booklyn-Nets__Detroit-Pistons_",
+"_Basketball__NBA Playoffs__Orlando Magic__Toronto Raptors_",
+"_Basketball__NBA Playoffs__Orlando Magic__Toronto Raptors_",
+"_Baseball__MLB__Los Angeles Angels__Oakland Athletics_",
+"_Baseball__MLB__San Francisco Giants__Arizona Diamondbacks_",
+"_Baseball__MLB__Los Angeles Angels__Oakland Athletics_"
+```
+
+### Wrong Event
+
+```text
+"_mlb-regular-season__tampa-bay-rays__new-york-yankees_",
+```
 
