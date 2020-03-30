@@ -8,7 +8,7 @@ The corresponding code shall be made available in bos-utils
 
 {% embed url="https://174.138.14.239:8010" %}
 
-**7903ac4b2b8c6486f2a56c7313e4d80b**
+7903ac4b2b8c6486f2a56c7313e4d80b
 
 #### Lsports / Omin
 
@@ -22,7 +22,7 @@ The corresponding code shall be made available in bos-utils
 
 #### Enetpulse
 
-95.216.13.245:8010
+{% embed url="https://95.216.13.245:8010" %}
 
 d28654530fb07360f051c713bdd749bb
 
