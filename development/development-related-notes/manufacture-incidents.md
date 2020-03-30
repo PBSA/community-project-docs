@@ -1,5 +1,9 @@
 # Manufacture Incidents
 
+### Important
+
+1. Dataproxy, BLKCHND: We don't own it. We have limited access.
+
 The corresponding code shall be made available in bos-utils
 
 ### Working Remotes
