@@ -10,7 +10,7 @@ The corresponding code shall be made available in bos-utils
 
 7903ac4b2b8c6486f2a56c7313e4d80b
 
-#### Lsports / Omin
+#### Lsports / Omni
 
 149.56.89.138:8010
 
