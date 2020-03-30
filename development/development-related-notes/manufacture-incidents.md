@@ -28,7 +28,7 @@ d28654530fb07360f051c713bdd749bb
 
 ### Create event \(atleast 2 required\)
 
-[http://174.138.14.239:8010/replay?token=pbsabookie&restrict\_witness\_group=elizabeth&manufacture=2020-04-01T20:00:00Z\_\_Soccer\_\_SerieA\_\_Bologna\_\_Cagliari\_\_create\_\_2020](http://174.138.14.239:8010/replay?token=pbsabookie&restrict_witness_group=elizabeth&manufacture=2020-04-01T20:00:00Z__Soccer__SerieA__Bologna__Cagliari__create__2020) working, blkchnd
+[http://174.138.14.239:8010/replay?token=pbsabookie&restrict\_witness\_group=elizabeth&manufacture=2020-04-01T20:00:00Z\_\_Soccer\_\_SerieA\_\_Bologna\_\_Cagliari\_\_create\_\_2020](http://174.138.14.239:8010/replay?token=pbsabookie&restrict_witness_group=elizabeth&manufacture=2020-04-01T20:00:00Z__Soccer__SerieA__Bologna__Cagliari__create__2020) 
 
 [http://149.56.89.138:8010/replay?token=pbsabookie&restrict\_witness\_group=elizabeth&manufacture=2020-04-01T20:00:00Z\_\_Soccer\_\_SerieA\_\_Bologna\_\_Cagliari\_\_create\_\_2020](http://149.56.89.138:8010/replay?token=pbsabookie&restrict_witness_group=elizabeth&manufacture=2020-04-01T20:00:00Z__Soccer__SerieA__Bologna__Cagliari__create__2020) 
 
