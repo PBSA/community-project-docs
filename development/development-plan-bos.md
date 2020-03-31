@@ -367,10 +367,18 @@
       <td style="text-align:left">bos-utils #8</td>
     </tr>
     <tr>
+      <td style="text-align:left">03 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Release &amp; install packages for bos-auto #12 solved</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
       <td style="text-align:left">04 April</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">Look at get participants None issue</td>
-      <td style="text-align:left">16</td>
+      <td style="text-align:left">Look at get participants None issue. <a href="https://github.com/peerplays-network/bos-sync/pull/6">https://github.com/peerplays-network/bos-sync/pull/6</a>
+      </td>
+      <td style="text-align:left">8 hrs</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
