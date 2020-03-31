@@ -1,8 +1,254 @@
 # development plan - BOS
 
-### 
+### Development Plan April 2020
 
-#### Development Plan, March 2020
+
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>Date</b>
+      </td>
+      <td style="text-align:left"><b>Check</b>
+      </td>
+      <td style="text-align:left"><b>Task</b>
+      </td>
+      <td style="text-align:left"><b>Effort</b>
+      </td>
+      <td style="text-align:left"><b>Ticket</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Differed Tasks</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Feb</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left"><b>Timeout issue when proposing new event for soccer. Not included in progress chart</b>
+      </td>
+      <td style="text-align:left">80 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">24 April</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <p>Uncaught exception timeout, bos-auto,</p>
+        <p>Finished early.</p>
+      </td>
+      <td style="text-align:left">40 hrs</td>
+      <td style="text-align:left">bos-auto</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">01 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Yam dataproxy, trouble shoot and start remote</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">02 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Manufacture incidents for all sports</td>
+      <td style="text-align:left">24 hrs</td>
+      <td style="text-align:left">bos-utils #8</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">03 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Release &amp; install packages for bos-auto #12 solved</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">04 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Look at get participants None issue. <a href="https://github.com/peerplays-network/bos-sync/pull/6">https://github.com/peerplays-network/bos-sync/pull/6</a>
+      </td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">bower installation asking users to decide on a few js libraries and throwing
+        up version conflict.</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-mint #38</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Yam statscore finish/progress issues</td>
+      <td style="text-align:left">40 hrs</td>
+      <td style="text-align:left">BOS-213</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">13 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">remote_controls to utils</td>
+      <td style="text-align:left">1 hrs</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">14 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">eventCounter to utils</td>
+      <td style="text-align:left">1 hrs</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><del>17 April</del>
+      </td>
+      <td style="text-align:left">
+        <p>&lt;del&gt;&lt;/del&gt;</p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />&lt;del&gt;&lt;/del&gt;</li>
+        </ul>
+      </td>
+      <td style="text-align:left"><del>Faucet Stress Testing</del>
+      </td>
+      <td style="text-align:left"><del>40 hrs</del>
+      </td>
+      <td style="text-align:left"><del>faucet #1</del>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">24 April</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Uncaught exception timeout, bos-auto</td>
+      <td style="text-align:left">40 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">1 May</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">
+        <p>Betting Markets are not explicitly linked to corresponding resolution
+          rule.</p>
+        <p>Place a few bets, with non-serials betting market id, resolve and verify
+          that betting markets are resolved promptly as expected visually.</p>
+      </td>
+      <td style="text-align:left">40 hrs</td>
+      <td style="text-align:left">bos-auto #15</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>#### Development Plan, March 2020
 
 <table>
   <thead>
@@ -348,139 +594,9 @@
     <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">Yam dataproxy, trouble shoot and start remote</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">02 April</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Manufacture incidents for all sports</td>
-      <td style="text-align:left">24 hrs</td>
-      <td style="text-align:left">bos-utils #8</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">03 April</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Release &amp; install packages for bos-auto #12 solved</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">04 April</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Look at get participants None issue. <a href="https://github.com/peerplays-network/bos-sync/pull/6">https://github.com/peerplays-network/bos-sync/pull/6</a>
-      </td>
-      <td style="text-align:left">8 hrs</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3 April</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">bower installation asking users to decide on a few js libraries and throwing
-        up version conflict.</td>
-      <td style="text-align:left">16 hrs</td>
-      <td style="text-align:left">bos-mint #38</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">10 April</td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Yam statscore finish/progress issues</td>
-      <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">BOS-213</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">13 April</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">remote_controls to utils</td>
-      <td style="text-align:left">1 hrs</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">14 April</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">eventCounter to utils</td>
-      <td style="text-align:left">1 hrs</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><del>17 April</del>
-      </td>
-      <td style="text-align:left">
-        <p>&lt;del&gt;&lt;/del&gt;</p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />&lt;del&gt;&lt;/del&gt;</li>
-        </ul>
-      </td>
-      <td style="text-align:left"><del>Faucet Stress Testing</del>
-      </td>
-      <td style="text-align:left"><del>40 hrs</del>
-      </td>
-      <td style="text-align:left"><del>faucet #1</del>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">24 April</td>
-      <td style="text-align:left">
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Uncaught exception timeout, bos-auto</td>
-      <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">1 May</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <p>Betting Markets are not explicitly linked to corresponding resolution
-          rule.</p>
-        <p>Place a few bets, with non-serials betting market id, resolve and verify
-          that betting markets are resolved promptly as expected visually.</p>
-      </td>
-      <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">bos-auto #15</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
