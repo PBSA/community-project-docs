@@ -1,5 +1,14 @@
 # Manufacture Incidents
 
+```text
+"_Baseball__MLB__New York Yankees__Minnesota Twins_": 
+All eventgroups finished before 2020. 
+Add a new event group in bookie sports
+
+```
+
+### 
+
 ### Important
 
 1. Remotes are dumb. As long as format matches, they will produce incidents. It's the responsibility of bookiesports to makesure whether such an incidents is possible.
@@ -66,7 +75,8 @@ d28654530fb07360f051c713bdd749bb
 ### Events with Normalisation Error
 
 ```text
-"_basketball__nba-regular-season__Booklyn-Nets__Detroit-Pistons_",
+"_Baseball__MLB__New York Yankees__Minnesota Twins_": 
+"_basketball__nba-regular-season__Booklyn-Nets__Detroit-Pistons_", 
 "_Basketball__NBA Playoffs__Orlando Magic__Toronto Raptors_",
 "_Basketball__NBA Playoffs__Orlando Magic__Toronto Raptors_",
 "_Baseball__MLB__Los Angeles Angels__Oakland Athletics_",
