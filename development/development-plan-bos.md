@@ -559,9 +559,17 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Timeout issue when proposing new event for soccer.</td>
+      <td style="text-align:left"><b>Timeout issue when proposing new event for soccer. Not included in progress chart</b>
+      </td>
       <td style="text-align:left">80 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
