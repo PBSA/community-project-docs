@@ -139,6 +139,20 @@
       <td style="text-align:left">bos-utils #11</td>
     </tr>
     <tr>
+      <td style="text-align:left">10 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">bos-auto #12 release, publish and install package</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Hold</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Look at get participants None issue. <a href="https://github.com/peerplays-network/bos-sync/pull/6">https://github.com/peerplays-network/bos-sync/pull/6</a>
