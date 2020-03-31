@@ -1,5 +1,13 @@
 # development plan - BOS
 
+### Priorities April 2020
+
+1. Couch Potato, payment anlytics
+2. Experimental Elizabeth setup with 3 nodes
+3. Make remote work on Yam
+
+
+
 ### Development Plan April 2020
 
 <table>
