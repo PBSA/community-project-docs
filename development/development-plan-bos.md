@@ -336,7 +336,8 @@
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
@@ -366,10 +367,10 @@
       <td style="text-align:left">bos-utils #8</td>
     </tr>
     <tr>
+      <td style="text-align:left">04 April</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Look at get participants None issue</td>
+      <td style="text-align:left">16</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
