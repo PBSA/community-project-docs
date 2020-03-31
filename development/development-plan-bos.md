@@ -331,9 +331,23 @@
         <td style="text-align:left">bos-mint #37</td>
     </tr>
     <tr>
+      <td style="text-align:left">31 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Investigate reason for normalization error of a few events</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-utils #8</td>
+    </tr>
+    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">Yam dataproxy, set up</td>
+      <td style="text-align:left">Yam dataproxy, trouble shoot and start remote</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>

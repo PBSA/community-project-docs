@@ -88,6 +88,15 @@ d28654530fb07360f051c713bdd749bb
 
 ```text
 "_mlb-regular-season__tampa-bay-rays__new-york-yankees_",
+Error is missing sport in the constructor.
+```
+
+### Corrected Events
+
+```text
+"-baseball__mlb-regular-season__tampa-bay-rays__new-york-yankees_",
+"_basketball__nba__Booklyn__Detroit_", 
+
 
 ```
 
