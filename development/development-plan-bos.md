@@ -100,7 +100,7 @@
       <td style="text-align:left"></td>
       <td style="text-align:left">Yam dataproxy, trouble shoot and start remote</td>
       <td style="text-align:left">8 hrs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-utils #8</td>
     </tr>
     <tr>
       <td style="text-align:left">02 April</td>
@@ -124,7 +124,22 @@
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left">04 April</td>
+      <td style="text-align:left">6 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Analytics on datafeed from bos-incidents, review bos-incidents</td>
+      <td
+      style="text-align:left">8 hrs</td>
+        <td style="text-align:left">bos-utils #10</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Experimental Elizabeth setup with 3 nodes</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #11</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Hold</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Look at get participants None issue. <a href="https://github.com/peerplays-network/bos-sync/pull/6">https://github.com/peerplays-network/bos-sync/pull/6</a>
       </td>
@@ -139,7 +154,14 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">3 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Hold</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -154,7 +176,7 @@
       <td style="text-align:left">bos-mint #38</td>
     </tr>
     <tr>
-      <td style="text-align:left">10 April</td>
+      <td style="text-align:left">Hold</td>
       <td style="text-align:left">
         <p></p>
         <p></p>
