@@ -2,8 +2,6 @@
 
 ### Development Plan April 2020
 
-
-
 <table>
   <thead>
     <tr>
