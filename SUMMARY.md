@@ -110,5 +110,5 @@
 
 ## PUBLIC GITLAB
 
-* [Untitled](public-gitlab/untitled.md)
+* [Development Plan - GitLab](public-gitlab/untitled.md)
 
