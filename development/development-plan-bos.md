@@ -97,7 +97,14 @@
     </tr>
     <tr>
       <td style="text-align:left">01 April</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Yam dataproxy, trouble shoot and start remote</td>
       <td style="text-align:left">8 hrs</td>
       <td style="text-align:left">bos-utils #8</td>
@@ -118,25 +125,60 @@
     </tr>
     <tr>
       <td style="text-align:left">03 April</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Release &amp; install packages for bos-auto #12 solved</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
       <td style="text-align:left">6 April</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Analytics on datafeed from bos-incidents, review bos-incidents</td>
       <td
       style="text-align:left">8 hrs</td>
         <td style="text-align:left">bos-utils #10</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">7 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Experimental Elizabeth setup with 3 nodes</td>
       <td style="text-align:left">8 hrs</td>
       <td style="text-align:left">bos-utils #11</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Update bookiesports, coordinate with Roshan</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #12</td>
     </tr>
     <tr>
       <td style="text-align:left">10 April</td>
@@ -154,7 +196,14 @@
     </tr>
     <tr>
       <td style="text-align:left">Hold</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Look at get participants None issue. <a href="https://github.com/peerplays-network/bos-sync/pull/6">https://github.com/peerplays-network/bos-sync/pull/6</a>
       </td>
       <td style="text-align:left">8 hrs</td>
@@ -193,7 +242,6 @@
       <td style="text-align:left">Hold</td>
       <td style="text-align:left">
         <p></p>
-        <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />
@@ -206,14 +254,28 @@
     </tr>
     <tr>
       <td style="text-align:left">13 April</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">remote_controls to utils</td>
       <td style="text-align:left">1 hrs</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">14 April</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">eventCounter to utils</td>
       <td style="text-align:left">1 hrs</td>
       <td style="text-align:left"></td>
