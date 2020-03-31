@@ -10,6 +10,7 @@
 * [BOS](bos.md)
 * [Development](development/README.md)
   * [Development Notes BOS](development/development-related-notes/README.md)
+    * [Infrastructure Notes](development/development-related-notes/infrastructure-notes.md)
     * [Manufacture Incidents](development/development-related-notes/manufacture-incidents.md)
   * [development plan - BOS](development/development-plan-bos.md)
 * [QA](qa-1.md)
