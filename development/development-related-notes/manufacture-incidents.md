@@ -2,7 +2,8 @@
 
 ### Important
 
-1. Dataproxy, BLKCHND: We don't own it. We have limited access.
+1. Remotes are dumb. As long as format matches, they will produce incidents. It's the responsibility of bookiesports to makesure whether such an incidents is possible.
+2. Dataproxy, BLKCHND: We don't own it. We have limited access.
 
 The corresponding code shall be made available in bos-utils
 
