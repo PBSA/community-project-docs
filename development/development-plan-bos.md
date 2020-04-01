@@ -115,7 +115,8 @@
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
@@ -129,42 +130,28 @@
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Release &amp; install packages for bos-auto #12 solved</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Release branch for testing bos-auto #12</td>
+      <td style="text-align:left">1 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
       <td style="text-align:left">6 April</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Analytics on datafeed from bos-incidents, review bos-incidents</td>
-      <td
-      style="text-align:left">8 hrs</td>
-        <td style="text-align:left">bos-utils #10</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Study of bos-incidents</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #10</td>
     </tr>
     <tr>
-      <td style="text-align:left">7 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Experimental Elizabeth setup with 3 nodes</td>
+      <td style="text-align:left">7 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Study of incidents and data formats</td>
       <td style="text-align:left">8 hrs</td>
-      <td style="text-align:left">bos-utils #11</td>
+      <td style="text-align:left">bos-utils #10</td>
     </tr>
     <tr>
       <td style="text-align:left">8 Mar</td>
@@ -182,6 +169,34 @@
       <td style="text-align:left">bos-utils #12</td>
     </tr>
     <tr>
+      <td style="text-align:left">8 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Anaytics experiments</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #10</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Code and Test</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #10</td>
+    </tr>
+    <tr>
       <td style="text-align:left">10 April</td>
       <td style="text-align:left">
         <p></p>
@@ -191,8 +206,37 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">bos-auto #12 release, publish and install package</td>
+      <td style="text-align:left">Documentation and Release</td>
       <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #10</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">13 Mar</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Experimental Elizabeth setup with 3 nodes</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #11</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">14 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">bos-auto #12 publish new version, merge to master and install package
+        release</td>
+      <td style="text-align:left">2 hrs</td>
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
