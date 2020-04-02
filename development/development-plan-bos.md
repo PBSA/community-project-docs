@@ -13,88 +13,14 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
+      <th style="text-align:left">Date</th>
+      <th style="text-align:left">Check</th>
+      <th style="text-align:left">Task</th>
+      <th style="text-align:left">Effort</th>
+      <th style="text-align:left">Ticket</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td style="text-align:left"><b>Date</b>
-      </td>
-      <td style="text-align:left"><b>Check</b>
-      </td>
-      <td style="text-align:left"><b>Task</b>
-      </td>
-      <td style="text-align:left"><b>Effort</b>
-      </td>
-      <td style="text-align:left"><b>Ticket</b>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">Differed Tasks</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Feb</td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left"><b>Timeout issue when proposing new event for soccer. Not included in progress chart</b>
-      </td>
-      <td style="text-align:left">80 hrs</td>
-      <td style="text-align:left">bos-auto #12</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">24 April</td>
-      <td style="text-align:left">
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" checked disabled
-            />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <p>Uncaught exception timeout, bos-auto,</p>
-        <p>Finished early.</p>
-      </td>
-      <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">bos-auto</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
     <tr>
       <td style="text-align:left">01 April</td>
       <td style="text-align:left">
