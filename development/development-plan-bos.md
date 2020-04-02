@@ -181,21 +181,6 @@
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left">Hold</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Look at get participants None issue. <a href="https://github.com/peerplays-network/bos-sync/pull/6">https://github.com/peerplays-network/bos-sync/pull/6</a>
-      </td>
-      <td style="text-align:left">8 hrs</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -210,33 +195,11 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Hold</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">bower installation asking users to decide on a few js libraries and throwing
-        up version conflict.</td>
-      <td style="text-align:left">16 hrs</td>
-      <td style="text-align:left">bos-mint #38</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Hold</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Yam statscore finish/progress issues</td>
-      <td style="text-align:left">40 hrs</td>
-      <td style="text-align:left">BOS-213</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">13 April</td>
@@ -317,11 +280,69 @@
       <td style="text-align:left">bos-auto #15</td>
     </tr>
     <tr>
+      <td style="text-align:left">1 June</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Icons and font issues in MINT, Deprioritised,</td>
+      <td style="text-align:left">4 hrs</td>
+      <td style="text-align:left">bos-mint #36</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">1 June</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">bower installation not mentioned in the installation procedure, Deprioritised</td>
+      <td
+      style="text-align:left">2 hrs</td>
+        <td style="text-align:left">bos-mint #37</td>
+    </tr>
+    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Hold</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">bower installation asking users to decide on a few js libraries and throwing
+        up version conflict.</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-mint #38</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Hold</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Yam statscore finish/progress issues</td>
+      <td style="text-align:left">40 hrs</td>
+      <td style="text-align:left">BOS-213</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -335,6 +356,21 @@
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Hold</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Look at get participants None issue. <a href="https://github.com/peerplays-network/bos-sync/pull/6">https://github.com/peerplays-network/bos-sync/pull/6</a>
+      </td>
+      <td style="text-align:left">8 hrs</td>
       <td style="text-align:left"></td>
     </tr>
   </tbody>
@@ -615,7 +651,7 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Icons and font issues in MINT</td>
+      <td style="text-align:left">Icons and font issues in MINT, Deprioritised</td>
       <td style="text-align:left">4 hrs</td>
       <td style="text-align:left">bos-mint #36</td>
     </tr>
@@ -661,7 +697,7 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">bower installation not mentioned in the installation procedure</td>
+      <td style="text-align:left">bower installation not mentioned in the installation procedure, Deprioritised</td>
       <td
       style="text-align:left">2 hrs</td>
         <td style="text-align:left">bos-mint #37</td>
