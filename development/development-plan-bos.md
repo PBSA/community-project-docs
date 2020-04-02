@@ -181,6 +181,20 @@
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
+      <td style="text-align:left">15 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Events counter for testing bulk proposals</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-auto #12</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Hold</td>
       <td style="text-align:left">
         <p></p>
