@@ -18,6 +18,10 @@ Release details : [https://peerplays.atlassian.net/projects/SON/versions/10134/t
 
 **New Defects**
 
-\*\*\*\*[**https://peerplays.atlassian.net/browse/SON-328**](https://peerplays.atlassian.net/browse/SON-328)  
+\*\*\*\*[https://peerplays.atlassian.net/browse/SON-328](https://peerplays.atlassian.net/browse/SON-328)
+
+[https://peerplays.atlassian.net/browse/SON-336](https://peerplays.atlassian.net/browse/SON-336)
+
+[https://peerplays.atlassian.net/browse/SON-337](https://peerplays.atlassian.net/browse/SON-337)  
 
 
