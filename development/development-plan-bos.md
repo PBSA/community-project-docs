@@ -213,7 +213,7 @@
       </td>
       <td style="text-align:left">remote_controls to utils</td>
       <td style="text-align:left">1 hrs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-utils #8</td>
     </tr>
     <tr>
       <td style="text-align:left">14 April</td>
@@ -227,7 +227,7 @@
       </td>
       <td style="text-align:left">eventCounter to utils</td>
       <td style="text-align:left">1 hrs</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
       <td style="text-align:left"><del>17 April</del>
