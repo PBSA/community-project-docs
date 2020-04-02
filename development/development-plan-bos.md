@@ -280,6 +280,41 @@
       <td style="text-align:left">bos-auto #15</td>
     </tr>
     <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>MINT is a tool to be used when BOS auto is not working properly. Solving
+          bos-auto #12 is a major milestone in this regard. Which has been achieved
+          making bos proposal creation streamlined without any timeout or exceptions.</p>
+        <p></p>
+        <p>Moreover, the target time for a soccer proposal(with 34 bms) was 3 minutes.
+          But with the new dev and fixes we have managed to reduce proposal creation
+          to less than a minute.</p>
+        <p></p>
+        <p>The next issue is with dataproxies, which fails at times for certain incidents.
+          I am confident of fixing them given sufficient time. One dataproxy issues
+          are also solved, we will have clean and streamlined BOS. No missing events
+          and bms. And no more replays.</p>
+        <p></p>
+        <p>Dataproxy issues can be reproduced only when we have feeds from the providers.
+          We will have to wait till the end of Coronal lockdown to start getting
+          feeds from providers (as of now all sport evnts are cancelled). Hence data
+          proxy tasks are better kept on hold till the end of the lockdown.</p>
+        <p></p>
+        <p>Once BOS is stremlined, we don&apos;t need MINT. That&apos;s the reason
+          for deprioritising MINT tasks.</p>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">1 June</td>
       <td style="text-align:left">
         <p></p>
@@ -309,14 +344,7 @@
         <td style="text-align:left">bos-mint #37</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Hold</td>
+      <td style="text-align:left">1 June</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -331,7 +359,7 @@
       <td style="text-align:left">bos-mint #38</td>
     </tr>
     <tr>
-      <td style="text-align:left">Hold</td>
+      <td style="text-align:left">1 June</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -354,12 +382,13 @@
     <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">This issue needs to be looked further when we have new event groups scheduled.
+        All events are cancelled as of now.</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">Hold</td>
+      <td style="text-align:left">1 June</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
