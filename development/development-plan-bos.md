@@ -373,6 +373,22 @@
       <td style="text-align:left">BOS-213</td>
     </tr>
     <tr>
+      <td style="text-align:left">1 June</td>
+      <td style="text-align:left">
+        <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Show the id of the recently settled proposal without time delay</td>
+      <td
+      style="text-align:left">8 hrs</td>
+        <td style="text-align:left">bos-utils #7</td>
+    </tr>
+    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -571,20 +587,11 @@
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left">24 Mar</td>
-      <td style="text-align:left">
-        <p></p>
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Show the id of the recently settled proposal without time delay</td>
-      <td
-      style="text-align:left">8 hrs</td>
-        <td style="text-align:left">bos-utils #7</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">25 Mar</td>
