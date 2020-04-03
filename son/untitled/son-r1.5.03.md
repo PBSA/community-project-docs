@@ -25,3 +25,5 @@ Release details : [https://peerplays.atlassian.net/projects/SON/versions/10134/t
 [https://peerplays.atlassian.net/browse/SON-337](https://peerplays.atlassian.net/browse/SON-337)  
 [https://peerplays.atlassian.net/browse/SON-338](https://peerplays.atlassian.net/browse/SON-338)
 
+[https://peerplays.atlassian.net/browse/SON-340](https://peerplays.atlassian.net/browse/SON-340)
+
