@@ -230,6 +230,14 @@
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Purge bos-incidents storage and observe incidents there after.</td>
+      <td
+      style="text-align:left"></td>
+        <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left"><del>17 April</del>
       </td>
       <td style="text-align:left">
