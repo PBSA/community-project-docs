@@ -86,6 +86,21 @@
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Fix None Type Error for Soccer in Elizabeth for testing.</td>
+      <td style="text-align:left">4 hrs</td>
+      <td style="text-align:left">bos-utils #11</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">7 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />
           </li>
         </ul>
