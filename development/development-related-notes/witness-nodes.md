@@ -14,7 +14,13 @@ description: Notes
 6. See getting approved upon incidents
 7. See account balance changes
 8. See multiple proposal attempts and raise around!
-9. 
+
+
+
+
+
+Search for blocks with transaction
+
 
 
 
