@@ -70,6 +70,7 @@
   * [SON-Mar02-13-R1.5.01](son/untitled/son-mar02-13-r1.5.01.md)
   * [SON-R1.5.02](son/untitled/son-r1.5.02.md)
   * [SON-R1.5.03](son/untitled/son-r1.5.03.md)
+  * [SON-R1.5.04](son/untitled/son-r1.5.04.md)
 
 ## Scatter Peerplays Integration
 
