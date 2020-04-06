@@ -4,6 +4,45 @@ description: This document is under development. You are welcome to share your t
 
 # Development Notes BOS
 
+## Issues Notes From April 2020
+
+1. Participants None to be managed propmptly, Catch this exception and manage properly
+
+```text
+CRITICAL | Uncaught exception: 'NoneType' object is not iterable
+
+Traceback (most recent call last):
+  File "/home/ubuntu/jemshid/bos-auto/bookied/triggers/create.py", line 88, in getIncidentEvent
+    return self.getEvent()
+  File "/home/ubuntu/jemshid/bos-auto/bookied/triggers/trigger.py", line 104, in getEvent
+    raise exceptions.EventDoesNotExistException
+bookied.exceptions.EventDoesNotExistException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/jemshid/bos-auto/bookied/work.py", line 145, in process
+    trigger.trigger(args)
+  File "/home/ubuntu/jemshid/bos-auto/bookied/triggers/trigger.py", line 115, in trigger
+    self._trigger(*args, **kwargs)
+  File "/home/ubuntu/jemshid/bos-auto/bookied/triggers/create.py", line 19, in _trigger
+    self.event = self.getIncidentEvent()
+  File "/home/ubuntu/jemshid/bos-auto/bookied/triggers/create.py", line 97, in getIncidentEvent
+    return self.createEvent()
+  File "/home/ubuntu/jemshid/bos-auto/bookied/triggers/create.py", line 112, in createEvent
+    sport_identifier=self.sport.identifier,
+  File "/home/ubuntu/jemshid/bos-auto/env/lib/python3.6/site-packages/bookied_sync/event.py", line 98, in __init__
+    if not self.test_teams_valid():
+  File "/home/ubuntu/jemshid/bos-auto/env/lib/python3.6/site-packages/bookied_sync/event.py", line 105, in test_teams_valid
+    return all(self.participants.is_participant(t) for t in self["teams"])
+  File "/home/ubuntu/jemshid/bos-auto/env/lib/python3.6/site-packages/bookied_sync/event.py", line 105, in <genexpr>
+    return all(self.participants.is_participant(t) for t in self["teams"])
+  File "/home/ubuntu/jemshid/bos-auto/env/lib/python3.6/site-packages/bookied_sync/participant.py", line 29, in is_participant
+    for team in parties:
+TypeError: 'NoneType' object is not iterable
+
+```
+
 ## Issues
 
 1. JobTimeoutException when trying to approve proposals: Solved
