@@ -7,7 +7,14 @@ description: Notes
 #### Week starting on 6th of April Monday, 2020
 
 1. Add dummy eventgroup and participants in bookie sports for managing participants None error
-2. 
+2.  Setup MINT on 52.62.37.137
+3. Associate accounts with witnesses promptly. Discuss in the channel
+4. Try proposing from different nodes
+5. See pending approval in MINT
+6. See getting approved upon incidents
+7. See account balance changes
+8. See multiple proposal attempts and raise around!
+9. 
 
 
 
