@@ -38,7 +38,7 @@ Search for blocks with transaction
 
 
 
-Wrong conf on peerplays on 52.62.37.137
+~~Wrong conf on peerplays on 52.62.37.137~~
 
 ```text
 from peerplays.blockchain import Blockchain
