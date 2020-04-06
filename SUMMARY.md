@@ -10,6 +10,7 @@
 * [BOS](bos.md)
 * [Development](development/README.md)
   * [Development Notes BOS](development/development-related-notes/README.md)
+    * [Witness Nodes](development/development-related-notes/witness-nodes.md)
     * [bos-incidents Analytics](development/development-related-notes/bos-incidents-analytics.md)
     * [Infrastructure Notes](development/development-related-notes/infrastructure-notes.md)
     * [Manufacture Incidents](development/development-related-notes/manufacture-incidents.md)
