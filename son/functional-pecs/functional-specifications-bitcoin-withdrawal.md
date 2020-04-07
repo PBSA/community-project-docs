@@ -37,16 +37,19 @@ Steps involved:
 
 1. User initiates withdrawal to convert pBTC to BTC
 2. Listener identifies withdrawal type change in the block chain
-3. Listener passes event notification to sidechain handler
-4. Handler receives event data and creates a withdrawal descriptor object
-5. Proposal is blind approved
-6. Withdrawal is checked against active SONs
-7. Withdrawal whose event data finds a match in other active sidechains is approved. Otherwise, withdrawal is rejected
-8. pBTC is converted to BTC using 1:1 rate
-9. Amount is sent from primary wallet \(Bitcoin multisig address controlled by active SONs\) to the a Bitcoin address which is registered as a sidechain user address for withdrawals
-10. Transaction is signed and sent to bitcoin node
-11. User receives BTC amount
-12. Withdrawal is marked as processed
+3. Listener checks the number of active SONs
+   1. If active SONs are &gt; 5, proceed to next step
+   2. If active SONs are &lt; 5, store withdrawal for processing until required number of active SONs is available
+4. Listener passes event notification to sidechain handler
+5. Handler receives event data and creates a withdrawal descriptor object
+6. Proposal is blind approved
+7. Withdrawal is checked against active SONs
+8. Withdrawal whose event data finds a match in other active sidechains is approved. Otherwise, withdrawal is rejected
+9. pBTC is converted to BTC using 1:1 rate
+10. Amount is sent from primary wallet \(Bitcoin multisig address controlled by active SONs\) to the a Bitcoin address which is registered as a sidechain user address for withdrawals
+11. Transaction is signed and sent to bitcoin node
+12. User receives BTC amount
+13. Withdrawal is marked as processed
 
 ## 5. Context
 
@@ -83,7 +86,9 @@ SON must include a Bitcoin event handler which uses information supplied by the 
 
 If a match is found, withdrawal is confirmed. If a match is not found, new withdrawal descriptor object must be created.
 
-SON must start conversion of withdrawal amount from peerplay tokens into Bitcoin following withdrawal confirmation. Conversion operation must calculate pBTC to BTC conversion using 1:1 rate. Conversion is completed by sending funds from bitcoin address \(sidechain user address for withdrawals\) to primary wallet \(bitcoin multisig address\). Upon completion, bitcoin transaction must be signed and sent to bitcoin node. User will receive bitcoin corresponding to amount of converted pBTC. Lastly, scheduled SON must mark **son\_wallet\_withdrawal\_object** as processed
+SON must start conversion of withdrawal amount from peerplay tokens into Bitcoin following withdrawal confirmation. Conversion operation must calculate pBTC to BTC conversion using 1:1 rate. Conversion is completed by sending funds from bitcoin address \(sidechain user address for withdrawals\) to primary wallet \(bitcoin multisig address\). Upon completion, bitcoin transaction must be signed and sent to bitcoin node. Note that partial and parallel signing by SONs is supported and signatures must be collected as soon as SON is able to sign it.
+
+User will receive bitcoin corresponding to amount of converted pBTC. Lastly, scheduled SON must mark **son\_wallet\_withdrawal\_object** as processed
 
 ## 8. Glossary
 
