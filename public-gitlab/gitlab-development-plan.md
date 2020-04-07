@@ -18,7 +18,8 @@ Development Plan, April 2020
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
@@ -49,23 +50,8 @@ Development Plan, April 2020
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Infrastructure: PgBouncer</td>
-      <td style="text-align:left">DSN</td>
-      <td style="text-align:left"><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/17
-">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/17</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">April 17</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
@@ -98,23 +84,8 @@ Development Plan, April 2020
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Infrastructure: Consul + Sentinel</td>
-      <td style="text-align:left">DSN</td>
-      <td style="text-align:left"><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/20
-">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/20</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">April 17</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
@@ -138,63 +109,6 @@ Development Plan, April 2020
       <td style="text-align:left">Infrastructure: NFS Server</td>
       <td style="text-align:left">DSN</td>
       <td style="text-align:left"><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/22">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/22</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">April 17</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Infrastructure: Monitoring Node</td>
-      <td style="text-align:left">DSN</td>
-      <td style="text-align:left"><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/23">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/23</a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">April 17</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Infrastructure: External load balancing node</td>
-      <td style="text-align:left">DSN</td>
-      <td style="text-align:left">
-        <p><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/24
-">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/24</a>
-        </p>
-        <p></p>
-        <p><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/3">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/3</a>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">April 17</td>
-      <td style="text-align:left">
-        <p></p>
-        <ul class="contains-task-list">
-          <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
-          </li>
-        </ul>
-      </td>
-      <td style="text-align:left">Infrastructure: Internal load balancing node</td>
-      <td style="text-align:left">DSN</td>
-      <td style="text-align:left">
-        <p><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/25
-">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/25</a>
-        </p>
-        <p></p>
-        <p><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/3">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/3</a>
-        </p>
       </td>
     </tr>
     <tr>
@@ -297,6 +211,104 @@ Development Plan, April 2020
         previously.</td>
       <td style="text-align:left">Roshan</td>
       <td style="text-align:left"><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/30">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/30</a>
+      </td>
+    </tr>
+  </tbody>
+</table>### TODO after EE license is obtained
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Date</th>
+      <th style="text-align:left">Status</th>
+      <th style="text-align:left">Activities</th>
+      <th style="text-align:left">Remarks</th>
+      <th style="text-align:left">Tickets</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Infrastructure: PgBouncer</td>
+      <td style="text-align:left">DSN</td>
+      <td style="text-align:left"><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/17
+">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/17</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Infrastructure: Consul + Sentinel</td>
+      <td style="text-align:left">DSN</td>
+      <td style="text-align:left"><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/20
+">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/20</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Infrastructure: Monitoring Node</td>
+      <td style="text-align:left">DSN</td>
+      <td style="text-align:left"><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/23">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/23</a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Infrastructure: External load balancing node</td>
+      <td style="text-align:left">DSN</td>
+      <td style="text-align:left">
+        <p><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/24
+">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/24</a>
+        </p>
+        <p></p>
+        <p><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/3">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/3</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">TBD</td>
+      <td style="text-align:left">
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Infrastructure: Internal load balancing node</td>
+      <td style="text-align:left">DSN</td>
+      <td style="text-align:left">
+        <p><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/25
+">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/25</a>
+        </p>
+        <p></p>
+        <p><a href="https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/3">https://gitlab.com/PBSA/test-group/gitlabmigration/-/issues/3</a>
+        </p>
       </td>
     </tr>
   </tbody>
