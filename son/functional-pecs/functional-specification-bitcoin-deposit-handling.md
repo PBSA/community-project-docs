@@ -37,16 +37,19 @@ Steps involved:
 
 1. User initiates deposit to convert BTC to pBTC
 2. Listener identifies deposit type change in the block chain
-3. Listener passes event data to handler
-4. Handler receives event data and creates a deposit descriptor object
-5. Proposal is blind approved
-6. Deposit is checked against active SONs
-7. Deposits whose event data finds a match in other active sidechains is approved. Otherwise, deposit is rejected
-8. BTC is converted to pBTC using 1:1 rate
-9. Bitcoin amount is sent from bitcoin address \(sidechain user address for deposits\) to primary wallet \(bitcoin multisig address\)
-10. Transaction is signed and sent to bitcoin node
-11. User receives pBTC amount
-12. Deposit is marked as processed
+3. Listener checks the number of active SONs
+   1. If active SONs are &gt; 5, proceed to next step
+   2. If active SONs are &lt; 5, store deposit for processing until required number of active SONs is available
+4. Listener passes event data to handler
+5. Handler receives event data and creates a deposit descriptor object
+6. Proposal is blind approved
+7. Deposit is checked against active SONs
+8. Deposits whose event data finds a match in other active sidechains is approved. Otherwise, deposit is rejected
+9. BTC is converted to pBTC using 1:1 rate
+10. Bitcoin amount is sent from bitcoin address \(sidechain user address for deposits\) to primary wallet \(bitcoin multisig address\)
+11. Transaction is signed and sent to bitcoin node
+12. User receives pBTC amount
+13. Deposit is marked as processed
 
 ## 5. Context
 
@@ -94,7 +97,9 @@ SON must include a Bitcoin event handler which uses information supplied by the 
 
 If a match is found, deposit is confirmed. If a match is not found, new deposit descriptor object must be created.
 
-SON must start conversion of deposit amount from bitcoin into peerplay tokens following deposit confirmation. Conversion operation must calculate btc to ppy conversion using 1:1 rate. Conversion is completed by sending funds from bitcoin address \(sidechain user address for deposits\) to primary wallet \(bitcoin multisig address\). Upon completion, bitcoin transaction must be signed and sent to bitcoin node. User will receive peerplays core assets matching the amount of depoisted bitcoin. Lastly, scheduled SON must mark **son\_wallet\_deposit\_object** as processed
+SON must start conversion of deposit amount from bitcoin into peerplay tokens following deposit confirmation. Conversion operation must calculate btc to ppy conversion using 1:1 rate. Conversion is completed by sending funds from bitcoin address \(sidechain user address for deposits\) to primary wallet \(bitcoin multisig address\). Upon completion, bitcoin transaction must be signed and sent to bitcoin node. Note that partial and parallel signing by SONs is supported and signatures must be collected as soon as SON is able to sign it.
+
+ User will receive peerplays core assets matching the amount of depoisted bitcoin. Lastly, scheduled SON must mark **son\_wallet\_deposit\_object** as processed
 
 ### CLI Examples:
 
