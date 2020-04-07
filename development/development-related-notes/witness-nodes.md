@@ -4,6 +4,10 @@ description: Notes
 
 # Witness Nodes
 
+#### Elizabeth seed witness is dead, not starting
+
+#### 
+
 #### Week starting on 6th of April Monday, 2020
 
 1. Add dummy eventgroup and participants in bookie sports for managing participants None error
