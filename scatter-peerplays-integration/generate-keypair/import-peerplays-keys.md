@@ -10,7 +10,7 @@ If you are choosing to import an existing Peerplays account, you will have opted
 
 ![Figure 3.4.2: Login to Import Peerplays Account \[filled - errors\]](../../.gitbook/assets/image%20%2812%29.png)
 
-![Figure 3.4.3: Login to Import Peerplays Account \[filled\]](../../.gitbook/assets/image%20%2861%29.png)
+![Figure 3.4.3: Login to Import Peerplays Account \[filled\]](../../.gitbook/assets/image%20%2862%29.png)
 
 Peerplays account importing into Scatter will appear the end-user like any other Peerplays dapp login form:
 

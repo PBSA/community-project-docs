@@ -6,15 +6,15 @@ To start the process of creating a Peerplays account, which results in its keys 
 
 * The first course of action to create a Peerplays account is to click the cog wheel icon in the top right of the ScatterBridge user interface \(UI\).
 
-![Figure 3.3.1: Logged in Scatter user screen](../../.gitbook/assets/image%20%2845%29.png)
+![Figure 3.3.1: Logged in Scatter user screen](../../.gitbook/assets/image%20%2846%29.png)
 
 * From the Scatter settings screen, the Scatter user must then click the "ACCOUNTS" tab header
 
-![Figure 3.3.2: Scatter settings screen](../../.gitbook/assets/image%20%2839%29.png)
+![Figure 3.3.2: Scatter settings screen](../../.gitbook/assets/image%20%2840%29.png)
 
 * If the Peerplays section is greyed out, click the switch to enable Peerplays account\(s\). From this screen, the Scatter user will have to click "Edit Accounts" beside the blockchain they want to alter/add an account to: Peerplays in this case.
 
-![Figure 3.3.3: Scatter Accounts setting screen](../../.gitbook/assets/image%20%2832%29.png)
+![Figure 3.3.3: Scatter Accounts setting screen](../../.gitbook/assets/image%20%2833%29.png)
 
 * A new Scatter user account should see no keys here when they go to create a Peerplays account. From this screen, the Scatter user will have to click the plus \(+\) icon blue button in the top right of the foremost visible window.
 

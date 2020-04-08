@@ -17,7 +17,7 @@ The receive PPY functionality allows a logged in Scatter user to get their Peerp
 
 * If you hover over the PPY entry, you will have access to a button \("Receive"\) that allows you to view your Peerplays address and a QR code that can be scanned to show the same information.
 
-![Figure 3.7.3: Hover view of a connection](../../.gitbook/assets/image%20%2847%29.png)
+![Figure 3.7.3: Hover view of a connection](../../.gitbook/assets/image%20%2848%29.png)
 
 * After clicking the "Receive" button, you will be shown a screen similar to that of Figure 3.7.4 just below. From this modal you can copy your Peerplays address or scan the QR code.
 * 

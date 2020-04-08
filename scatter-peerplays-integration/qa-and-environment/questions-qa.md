@@ -6,7 +6,7 @@ description: QA inputs/questions/comments
 
 1. Does QA team require to run the testing scenarios for Network \(Blockchain\) connectivity as per these requirements: 
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 If yes the requirements \(details\) are missing and should be covered.
 
@@ -22,11 +22,11 @@ If yes the requirements \(details\) are missing and should be covered.
 
  
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
 **5.** Shouldn't it follows that convention: [https://github.com/peerplays-network/peerplays/wiki/Account-Names](https://github.com/peerplays-network/peerplays/wiki/Account-Names)? I am confused
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 6. The error handling coverage for **3.6 Send PPY** section is missing. We could follow the existing one in the wallet \(Send option\): 
 
