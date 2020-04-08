@@ -117,7 +117,7 @@
       <td style="text-align:left">bos-utils #10</td>
     </tr>
     <tr>
-      <td style="text-align:left">7 April</td>
+      <td style="text-align:left">8 April</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -127,7 +127,7 @@
         </ul>
       </td>
       <td style="text-align:left">Faucet Testing</td>
-      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">16 hrs</td>
       <td style="text-align:left">faucet #1</td>
     </tr>
     <tr>
