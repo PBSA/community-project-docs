@@ -6,6 +6,8 @@
 2. Experimental Elizabeth setup with 3 nodes
 3. Make remote work on Yam
 
+## Remote Control to replace DP remotes
+
 
 
 ### Development Plan April 2020
