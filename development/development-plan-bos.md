@@ -248,6 +248,20 @@
           </li>
         </ul>
       </td>
+      <td style="text-align:left">Stress Testing on Streamers Edge Signup</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">faucet #2</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">13 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Experimental Elizabeth setup with 3 nodes</td>
       <td style="text-align:left">8 hrs</td>
       <td style="text-align:left">bos-utils #11</td>
