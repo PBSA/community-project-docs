@@ -12,7 +12,8 @@
 2. Faucet code, time profiling
 3. Faucet speed up, manage parallel connections
 4. Investigate bottleneck in Streamers Edge signup.
-
+5. Efficient sifting through block chain, through prev next.
+6. 
 
 
 ### Development Plan April 2020
