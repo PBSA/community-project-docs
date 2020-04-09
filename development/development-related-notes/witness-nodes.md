@@ -4,7 +4,26 @@ description: Notes
 
 # Witness Nodes
 
-#### Elizabeth seed witness is dead, not starting
+**Elizabeth:Witnesses 5-8: 54.93.116.158 in local 172-31-46-207**
+
+**Elizabeth: Witnesses 9-11: 52.62.37.137 172-31-10-102** 
+
+**99.79.98.229 node, where chain is running and mining.**
+
+**node: ws://ec2-99-79-98-229.ca-central-1.compute.amazonaws.com:8090  
+ubuntu@35.183.41.242**
+
+\*\*\*\*
+
+**python3 cli.py api --host 0.0.0.0 --port 8010 --scheduler**
+
+**Python3 cli.py worker**  
+  
+
+
+#### ~~~~
+
+#### ~~Elizabeth seed witness is dead, not starting~~
 
 #### 
 
