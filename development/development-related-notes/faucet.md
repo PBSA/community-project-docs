@@ -12,6 +12,10 @@ app/views.py, line 40,41, \#prevent massive account regisration is commented out
 
 ### Grafana Metrics
 
+[http://localhost:3001/d/fsLXrY2Wz/dick?orgId=1](http://localhost:3001/d/fsLXrY2Wz/dick?orgId=1)   Dick chain
+
+[http://localhost:3001/d/rYdddlPWk/dick-faucet?orgId=1](http://localhost:3001/d/rYdddlPWk/dick-faucet?orgId=1) Dick faucet
+
 Monitroning servers with Grafana, look at the following link.
 
 {% embed url="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/347439128/Monitoring+Servers+with+Grafana" %}
