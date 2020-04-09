@@ -13,7 +13,8 @@
 3. Faucet speed up, manage parallel connections
 4. Investigate bottleneck in Streamers Edge signup.
 5. Efficient sifting through block chain, through prev next.
-6. 
+6. Blockchain to story. Summary, DB, json logs
+
 
 
 ### Development Plan April 2020
