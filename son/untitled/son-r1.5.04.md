@@ -16,17 +16,20 @@ Release details :[https://peerplays.atlassian.net/projects/SON/versions/10140/ta
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype) | [SON-311](https://peerplays.atlassian.net/browse/SON-311) | [Refactor create\_son to create vesting balances inside the call](https://peerplays.atlassian.net/browse/SON-311) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype) | [SON-312](https://peerplays.atlassian.net/browse/SON-312) | [Refactor create\_son to assign owner account public key as a signing\_key](https://peerplays.atlassian.net/browse/SON-312) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype) | [SON-313](https://peerplays.atlassian.net/browse/SON-313) | [Prevent some SON processing if there are less than 5 active SONs](https://peerplays.atlassian.net/browse/SON-313) | DONE |
+| ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Sub-task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype) | [SON-318](https://peerplays.atlassian.net/browse/SON-318) | [Implement check for approving son\_report\_down proposal](https://peerplays.atlassian.net/browse/SON-318) | DONE |
+| ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Sub-task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype) | [SON-319](https://peerplays.atlassian.net/browse/SON-319) | [Implement check for approving son\_delete\_operation proposal](https://peerplays.atlassian.net/browse/SON-319) | DONE |
+| ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Sub-task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype) | [SON-321](https://peerplays.atlassian.net/browse/SON-321) | [Implement check for approving son\_wallet\_deposit\_create\_operation proposal](https://peerplays.atlassian.net/browse/SON-321) | DONE |
+| ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Sub-task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10316&avatarType=issuetype) | [SON-323](https://peerplays.atlassian.net/browse/SON-323) | [Implement check for approving son\_wallet\_withdraw\_create\_operation proposal](https://peerplays.atlassian.net/browse/SON-323) | DONE |
 | ![Low](https://peerplays.atlassian.net/images/icons/priorities/low.svg) | ![Story](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype) | [SON-11](https://peerplays.atlassian.net/browse/SON-11) | [\[Development\] The number of SONs on the Peerplays blockchain should be changeable just like any other chain parameter.](https://peerplays.atlassian.net/browse/SON-11) | DONE |
-
-**Testing In Progress**
-
-[https://peerplays.atlassian.net/browse/SON-321](https://peerplays.atlassian.net/browse/SON-321)
 
 **New Defects**
 
-\*\*\*\*[https://peerplays.atlassian.net/browse/SON-344](https://peerplays.atlassian.net/browse/SON-344)
-
-[https://peerplays.atlassian.net/browse/SON-346](https://peerplays.atlassian.net/browse/SON-346)
-
-[https://peerplays.atlassian.net/browse/SON-347](https://peerplays.atlassian.net/browse/SON-347)
+| T | Key | Summary |
+| :--- | :--- | :--- |
+| [![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype)](https://peerplays.atlassian.net/browse/SON-351) | [SON-351](https://peerplays.atlassian.net/browse/SON-351) | [Withdraw transaction fee is deducted from PW](https://peerplays.atlassian.net/browse/SON-351) |
+| [![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype)](https://peerplays.atlassian.net/browse/SON-350) | [SON-350](https://peerplays.atlassian.net/browse/SON-350) | [Withdraw unhandled when PW has not enough balance to pay](https://peerplays.atlassian.net/browse/SON-350) |
+| [![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype)](https://peerplays.atlassian.net/browse/SON-349) | [SON-349](https://peerplays.atlassian.net/browse/SON-349) | [Fees not considered on BTC asset payout](https://peerplays.atlassian.net/browse/SON-349) |
+| [![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype)](https://peerplays.atlassian.net/browse/SON-347) | [SON-347](https://peerplays.atlassian.net/browse/SON-347) | [sidechain\_transaction \_object with object id "0.0.0"](https://peerplays.atlassian.net/browse/SON-347) |
+| [![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype)](https://peerplays.atlassian.net/browse/SON-346) | [SON-346](https://peerplays.atlassian.net/browse/SON-346) | [Sidechain transaction marked as complete even though current\_weight &lt; threshold](https://peerplays.atlassian.net/browse/SON-346) |
+| [![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype)](https://peerplays.atlassian.net/browse/SON-344) | [SON-344](https://peerplays.atlassian.net/browse/SON-344) | [BTC asset is created with wrong quote asset id](https://peerplays.atlassian.net/browse/SON-344) |
 
