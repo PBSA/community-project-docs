@@ -69,6 +69,9 @@ For Testing
 **D-Chain Faucet: ubuntu@35.183.10.250**
 
 Two core faucet: ubuntu@35.182.6.94  
+**In env, python3** [**manage.py**](http://manage.py/) **install**
+
+**sudo systemctl restart faucet**  
 
 
 urlBase = '[https://dick-faucet.peerplays.download](https://dick-faucet.peerplays.download)' 
