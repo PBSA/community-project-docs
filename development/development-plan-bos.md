@@ -196,6 +196,22 @@
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Setup a scheme for triggering 3rd Elizabeth node as remotes are net sending
+        incidents to the third witness</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-utils #14</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />
           </li>
         </ul>
