@@ -6,7 +6,12 @@
 2. Experimental Elizabeth setup with 3 nodes
 3. Make remote work on Yam
 
-## Remote Control to replace DP remotes
+## Tasks to be scheduled
+
+1. Remote Control to replace DP remotes
+2. Faucet code, time profiling
+3. Faucet speed up, manage parallel connections
+4. Investigate bottleneck in Streamers Edge signup.
 
 
 
