@@ -188,6 +188,22 @@
           </li>
         </ul>
       </td>
+      <td style="text-align:left">Faucet, StreamersEdge, teseting co-ordination with Aslam, Roshan and Bobinson</td>
+      <td
+      style="text-align:left">8 hrs</td>
+        <td style="text-align:left">fauct #1</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Code and Test</td>
       <td style="text-align:left">8 hrs</td>
       <td style="text-align:left">bos-utils #10</td>
