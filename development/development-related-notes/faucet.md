@@ -10,6 +10,16 @@ app/views.py, line 40,41, \#prevent massive account regisration is commented out
 
 
 
+### Grafana Metrics
+
+Monitroning servers with Grafana, look at the following link.
+
+{% embed url="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/347439128/Monitoring+Servers+with+Grafana" %}
+
+
+
+
+
 ### Peformance
 
 ![10 parallel processes, 600 calls, 0.66 seconds per account creation on an average.](../../.gitbook/assets/image%20%2830%29.png)
