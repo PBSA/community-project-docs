@@ -66,7 +66,9 @@ For Testing
 
 **D-Chain Blockchain: ubuntu@35.182.93.168**
 
-**D-Chain Faucet: ubuntu@35.183.10.250**  
+**D-Chain Faucet: ubuntu@35.183.10.250**
+
+Two core faucet: ubuntu@35.182.6.94  
 
 
 urlBase = '[https://dick-faucet.peerplays.download](https://dick-faucet.peerplays.download)' 
