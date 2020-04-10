@@ -28,7 +28,7 @@ Streamers Edge, AWS metrics
 
 
 
-### Peformance
+### Performance
 
 ![10 parallel processes, 600 calls, 0.66 seconds per account creation on an average.](../../.gitbook/assets/image%20%2830%29.png)
 
