@@ -20,6 +20,10 @@ Monitroning servers with Grafana, look at the following link.
 
 {% embed url="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/347439128/Monitoring+Servers+with+Grafana" %}
 
+Streamers Edge, AWS metrics
+
+[https://us-east-1.signin.aws.amazon.com/oauth?response\_type=code&client\_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fcloudwatch&redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fcloudwatch%2F%3F%26isauthcode%3Dtrue&forceMobileLayout=0&forceMobileApp=0](https://us-east-1.signin.aws.amazon.com/oauth?response_type=code&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fcloudwatch&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fcloudwatch%2F%3F%26isauthcode%3Dtrue&forceMobileLayout=0&forceMobileApp=0)
+
 
 
 
