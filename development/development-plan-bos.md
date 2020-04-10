@@ -277,6 +277,21 @@
       <td style="text-align:left">14 April</td>
       <td style="text-align:left">
         <p></p>
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Time profiling and scope for speedup of Faucet</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">faucet #3</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">14 April</td>
+      <td style="text-align:left">
+        <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
             <input type="checkbox" class="task-list-item-checkbox" disabled />
