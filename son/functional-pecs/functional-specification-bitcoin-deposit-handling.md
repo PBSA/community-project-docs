@@ -73,7 +73,9 @@ To facilitate conversion of bitcoin in to peerplays tokens, SON must include an 
 
 ## 6. Flow Diagram
 
-\[TBD\]
+{% file src="../../.gitbook/assets/btc-deposit.xml" caption="Draw.io Diagram - BTC Deposit Handling" %}
+
+![BTC Deposit Handling](../../.gitbook/assets/btc-deposit.jpg)
 
 ## 7. Requirements
 
@@ -103,19 +105,23 @@ Listener must be able to recognize a change that signifies a deposit event and c
 
 ### 7.3 Handler
 
-SON must include a Bitcoin event handler which uses information supplied by the Listener to perform a specific operation that’s based on transaction type submitted by listener. When handler receives notification of Deposit transaction from the Listener, **sidechain\_event\_data** must be received and passed to **sidechain\_event\_data\_received**. Received sidechain event data must then be used to create proposal for a deposit descriptor object **son\_wallet\_deposit\_object**.
+Detailed end-to-end functional specifications for handling and signing BTC transactions are posted in the[ Functional Specifications - BTC Transaction Processing & Signing](https://peerplays.atlassian.net/wiki/spaces/PIX/pages/650674177) spec. In summary, this occurs as follows:
 
-\[Q1: How does proposal get approved. A1: Current design does blind approve on all proposals \]
+SON must include a Bitcoin event handler which uses information supplied by the Listener to perform a specific operation that’s based on transaction type submitted by listener. When handler receives notification of Deposit transaction from the Listener, **sidechain\_event\_data** must be received and passed to **sidechain\_event\_data\_received**.
 
-\[Q2: Can proposals get rejected and what happens. A2: Transaction is verified against active SONs and is rejected if information does not match. **list\_active\_sons** is used to determine active SONs to verify against \]
+System must then create a SON Wallet Deposit Object, which upon creation will be processed by all available SONs to verify its data. To verify object, system must check local data of each SON against object data on the side chain. Object must be deemed valid when its data is confirmed, and rejected when its data cannot be confirmed. Transaction terminates if object data is not confirmed during this check.
 
-* Approved deposits must be checked against SON network to determine if deposit using same sidechain event data has been created. System must check the following data for matches: **std::string sidechain\_transaction\_id; std::string sidechain\_from; std::string sidechain\_to; std::string sidechain\_currency; safe&lt;int64\_t&gt; sidechain\_amount;**
+Successful object verification results in issuance of transaction create proposal that is based on confirmed object and includes some of its data \(specifically, a reference to the object\). Created sidechain transaction object must contain reference to the sidechain where it should be processed, reference to the object it is created for, sidechain transaction body, list of expected signers, list of received signatures, and the helper fields for calculating signature weights.
 
-If a match is found, deposit is confirmed. If a match is not found, new deposit descriptor object must be created.
+This proposal must be verified by SONs, which is performed by verifying referred object against locally re-created transaction data. If data does not match, proposal will be deleted from proposal list and transaction won’t be completed. If data matches, system must approve the proposal. Approved proposals must result in object being published on the chain.
 
-SON must start conversion of deposit amount from bitcoin into peerplay tokens following deposit confirmation. Conversion operation must calculate btc to ppy conversion using 1:1 rate. Conversion is completed by sending funds from bitcoin address \(sidechain user address for deposits\) to primary wallet \(bitcoin multisig address\). Upon completion, bitcoin transaction must be signed and sent to bitcoin node. Note that partial and parallel signing by SONs is supported and signatures must be collected as soon as SON is able to sign it.
+When the object is published on the chain, SONs specified on the list of expected signers must begin processing it in parallel. Note that SONs specified as signers must sign the transaction as long as they are online, disregarding their status \(thus SON in any status must sign the transaction\). Once enough signatures hve been collected, transaction is marked as ‘Completed’.
 
- User will receive peerplays core assets matching the amount of depoisted bitcoin. Lastly, scheduled SON must mark **son\_wallet\_deposit\_object** as processed
+When scheduled SON detects that a sidechain transaction object has been completed, it must collect all data from the sidechain transaction object, compile it, convert to a format that is ready for transmission to Bitcoin network, and send this transaction to the Bitcoin network.
+
+SON must start conversion of deposit amount from bitcoin into peerplay tokens following deposit confirmation. Conversion operation must calculate btc to ppy conversion using 1:1 rate. Conversion is completed by sending funds from bitcoin address \(sidechain user address for deposits\) to primary wallet \(bitcoin multisig address\).
+
+User will receive peerplays core assets matching the amount of depoisted bitcoin.
 
 ### CLI Examples:
 
