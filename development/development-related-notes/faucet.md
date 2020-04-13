@@ -50,7 +50,7 @@ Issue \#1 faucet
 
 Nginx,
 
-Debug python3 manage.py runserver -h 0.0.0.0 -p 3000
+Debug python3 manage.py runserver -h 0.0.0.0 -p 5000
 
 ### 
 
