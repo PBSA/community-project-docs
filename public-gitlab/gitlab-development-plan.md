@@ -14,7 +14,7 @@ Development Plan, April 2020
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">April 17</td>
+      <td style="text-align:left">April 10</td>
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
@@ -29,7 +29,7 @@ Development Plan, April 2020
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">April 17</td>
+      <td style="text-align:left">April 10</td>
       <td style="text-align:left">
         <ul class="contains-task-list">
           <li class="task-list-item">
@@ -45,7 +45,7 @@ Development Plan, April 2020
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">April 17</td>
+      <td style="text-align:left">April 10</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -62,7 +62,7 @@ Development Plan, April 2020
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">April 17</td>
+      <td style="text-align:left">April 10</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -79,7 +79,7 @@ Development Plan, April 2020
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">April 17</td>
+      <td style="text-align:left">April 10</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -96,7 +96,7 @@ Development Plan, April 2020
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">April 17</td>
+      <td style="text-align:left">April 10</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
@@ -112,12 +112,13 @@ Development Plan, April 2020
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">April 17</td>
+      <td style="text-align:left">April 10</td>
       <td style="text-align:left">
         <p></p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
           </li>
         </ul>
       </td>
