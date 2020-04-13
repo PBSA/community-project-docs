@@ -2,6 +2,8 @@
 
 ### Important Note:
 
+faucet machine, two, rq approach, removed ip repeate call check line, model.Active, re-insert in production
+
 The config file and code at ubuntu@35.183.10.250 are edited for load test. Set them back.
 
 config.yaml: time diff between call from same ip set to 0, to be set to 1
