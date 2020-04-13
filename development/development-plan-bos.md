@@ -2,16 +2,16 @@
 
 ### Priorities April 2020
 
-1. Couch Potato, payment anlytics
-2. Experimental Elizabeth setup with 3 nodes
+1. Couch Potato, payment anlytics : done
+2. Experimental Elizabeth setup with 3 nodes : done
 3. Make remote work on Yam
 
 ## Tasks to be scheduled
 
-1. Remote Control to replace DP remotes
-2. Faucet code, time profiling
-3. Faucet speed up, manage parallel connections
-4. Investigate bottleneck in Streamers Edge signup.
+1. Remote Control to replace DP remotes : done
+2. Faucet code, time profiling : done
+3. Faucet speed up, manage parallel connections : done
+4. Investigate bottleneck in Streamers Edge signup. : done
 5. Efficient sifting through block chain, through prev next.
 6. Blockchain to story. Summary, DB, json logs
 
