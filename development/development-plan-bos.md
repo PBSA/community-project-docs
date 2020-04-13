@@ -285,9 +285,24 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Time profiling and scope for speedup of Faucet</td>
-      <td style="text-align:left">16 hrs</td>
-      <td style="text-align:left">faucet #3</td>
+      <td style="text-align:left">Time profiling and scope for speedup of Faucet, test on beatrice</td>
+      <td
+      style="text-align:left">16 hrs</td>
+        <td style="text-align:left">faucet #3</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">16 April</td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" disabled />
+          </li>
+        </ul>
+      </td>
+      <td style="text-align:left">Faucet improve response time</td>
+      <td style="text-align:left">24 hrs</td>
+      <td style="text-align:left">faucet #4</td>
     </tr>
     <tr>
       <td style="text-align:left">14 April</td>
