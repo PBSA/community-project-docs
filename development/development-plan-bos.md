@@ -303,7 +303,8 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Faucet improve response time</td>
+      <td style="text-align:left">Faucet improve response time, worker, account check, public key check,
+        testing. documentation.</td>
       <td style="text-align:left">24 hrs</td>
       <td style="text-align:left">faucet #4</td>
     </tr>
