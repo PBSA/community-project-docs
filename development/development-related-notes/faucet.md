@@ -1,5 +1,7 @@
 # Faucet
 
+### Add validation of all three public keys
+
 ### Important Note:
 
 faucet machine, two, rq approach, removed ip repeate call check line, model.Active, re-insert in production
@@ -9,6 +11,83 @@ The config file and code at ubuntu@35.183.10.250 are edited for load test. Set t
 config.yaml: time diff between call from same ip set to 0, to be set to 1
 
 app/views.py, line 40,41, \#prevent massive account regisration is commented out for testing. Enable it soon.
+
+
+
+## Asynchronous Speedup Solution: 
+
+### Solution
+
+The major operations in the faucet signup are
+
+1. Validation of usernames,
+2. Validation of keys
+3. Make sure there is no username duplication.
+4. Create account
+5. Initialise funds in the account if required.
+6. Email if balance is below the threshold for the registrar
+
+### Problem
+
+It takes 1 second to create an account on dickchain and 5 seconds for an account on beatrice.
+
+Expects a quick response from the faucet.
+
+### Root cause
+
+All block chain interactions take time.
+
+### Proposed Approach
+
+Keep the peerplays connection initialized. Do not intend to create upon receiving a call from the client.
+
+When a request for user creation is received, 
+
+1. Validate incoming request parameters.
+2. Check if user exists on the chain.
+3. Validate public keys \(Note done\)
+4. If all okay, move the actual account creation to an worker queue.
+5. Return a positive confirmation to the client.
+
+### Impact Discussion
+
+Issue 1: Assume the actual account creation takes 10 seconds. What happens if two repeat request to create same user name is received. 
+
+Solutions:
+
+1. How about if there is time restriction of 10 seconds between two signup calls from same IP
+2. How about having a cache of all the user ids registered on the chain and user ids from new  requests and do the check for existing user id with the cache. This approach completely eliminates user id duplication. In addition this approach speeds up account creation further as one more blockchain interaction is reduced.
+
+Issue 2: What happens to the peerplays connection which is initialized in the starting of the faucet server, in case of a network failure for say, 5 minutes.
+
+
+
+1. 
+
+
+
+
+1. What if there are repea
+
+
+
+
+
+
+
+### Pros and Cons
+
+#### Pros:
+
+It reduces the response time for account 
+
+
+
+
+
+
+
+
 
 
 
