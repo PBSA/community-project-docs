@@ -62,27 +62,6 @@ Issue 2: What happens to the peerplays connection which is initialized in the st
 
 
 
-1. 
-
-
-
-
-1. What if there are repea
-
-
-
-
-
-
-
-### Pros and Cons
-
-#### Pros:
-
-It reduces the response time for account 
-
-
-
 
 
 
@@ -101,7 +80,7 @@ Monitroning servers with Grafana, look at the following link.
 
 {% embed url="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/347439128/Monitoring+Servers+with+Grafana" %}
 
-Streamers Edge, AWS metrics
+### Streamers Edge, AWS metrics
 
 [https://us-east-1.signin.aws.amazon.com/oauth?response\_type=code&client\_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fcloudwatch&redirect\_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fcloudwatch%2F%3F%26isauthcode%3Dtrue&forceMobileLayout=0&forceMobileApp=0](https://us-east-1.signin.aws.amazon.com/oauth?response_type=code&client_id=arn%3Aaws%3Aiam%3A%3A015428540659%3Auser%2Fcloudwatch&redirect_uri=https%3A%2F%2Fconsole.aws.amazon.com%2Fcloudwatch%2F%3F%26isauthcode%3Dtrue&forceMobileLayout=0&forceMobileApp=0)
 
@@ -119,21 +98,7 @@ It took me 960 seconds to create 800 accounts with 80 parallel calls.
 
 ### 
 
-### Python Load Test
-
-### 
-
-### Try on Fred
-
-Issue \#1 faucet
-
-Nginx,
-
 Debug python3 manage.py runserver -h 0.0.0.0 -p 5000
-
-### 
-
-### 
 
 ### Create account 
 
@@ -147,7 +112,7 @@ Debug python3 manage.py runserver -h 0.0.0.0 -p 5000
 
 
 
-For Testing
+### For Testing
 
 **D-Chain Blockchain: ubuntu@35.182.93.168**
 
@@ -157,15 +122,13 @@ Two core faucet: ubuntu@35.182.6.94
 **In env, python3** [**manage.py**](http://manage.py/) **install**
 
 **sudo systemctl restart faucet**  
-
-
 urlBase = '[https://dick-faucet.peerplays.download](https://dick-faucet.peerplays.download)' 
 
 api = '/api/v1/accounts'
 
 
 
-Confluence notes on testing Faucet by Manu
+### Confluence notes on testing Faucet by Manu
 
 {% embed url="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/121143389/Create+bookie+user+account+using+faucet+through+postman" %}
 
