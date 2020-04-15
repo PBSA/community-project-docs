@@ -8,6 +8,7 @@ Release details: [https://peerplays.atlassian.net/projects/SON/versions/10146/ta
 
 | P | T | Key | Summary | Status |
 | :--- | :--- | :--- | :--- | :--- |
+| ![High](https://peerplays.atlassian.net/images/icons/priorities/high.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-339](https://peerplays.atlassian.net/browse/SON-339) | [SON Scheduler crash](https://peerplays.atlassian.net/browse/SON-339) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-291](https://peerplays.atlassian.net/browse/SON-291) | [Primary wallet address is showing empty](https://peerplays.atlassian.net/browse/SON-291) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-305](https://peerplays.atlassian.net/browse/SON-305) | [Asset involved in bitcoin transactions is not correct](https://peerplays.atlassian.net/browse/SON-305) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Task](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10318&avatarType=issuetype) | [SON-308](https://peerplays.atlassian.net/browse/SON-308) | [On deposit, issue BTC instead of core asset](https://peerplays.atlassian.net/browse/SON-308) | DONE |
@@ -20,13 +21,18 @@ Release details: [https://peerplays.atlassian.net/projects/SON/versions/10146/ta
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-341](https://peerplays.atlassian.net/browse/SON-341) | [Test "son\_cli/cli\_list\_active\_sons": check deposits.size\(\) == 2 has failed](https://peerplays.atlassian.net/browse/SON-341) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-342](https://peerplays.atlassian.net/browse/SON-342) | [Test "son\_cli/maintenance\_test": check deposits.size\(\) == 2 has failed](https://peerplays.atlassian.net/browse/SON-342) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-344](https://peerplays.atlassian.net/browse/SON-344) | [BTC asset is created with wrong quote asset id](https://peerplays.atlassian.net/browse/SON-344) | DONE |
+| ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-346](https://peerplays.atlassian.net/browse/SON-346) | [Sidechain transaction marked as complete even though current\_weight &lt; threshold](https://peerplays.atlassian.net/browse/SON-346) | DONE |
 | ![Medium](https://peerplays.atlassian.net/images/icons/priorities/medium.svg) | ![Bug](https://peerplays.atlassian.net/secure/viewavatar?size=medium&avatarId=10303&avatarType=issuetype) | [SON-348](https://peerplays.atlassian.net/browse/SON-348) | [Transaction hash not saved after Bitcoin transaction is sent](https://peerplays.atlassian.net/browse/SON-348) | DONE |
 
 **Re-opened**
 
 \*\*\*\*[**https://peerplays.atlassian.net/browse/SON-328**](https://peerplays.atlassian.net/browse/SON-328)\*\*\*\*
 
-**New defect**
+\*\*\*\*[**https://peerplays.atlassian.net/browse/SON-353**](https://peerplays.atlassian.net/browse/SON-353)\*\*\*\*
+
+**New defects**
 
 \*\*\*\*[**https://peerplays.atlassian.net/browse/SON-353**](https://peerplays.atlassian.net/browse/SON-353)\*\*\*\*
+
+\*\*\*\*[**https://peerplays.atlassian.net/browse/SON-354**](https://peerplays.atlassian.net/browse/SON-354)\*\*\*\*
 
