@@ -14,7 +14,7 @@
     * [Witness Nodes](development/development-related-notes/witness-nodes.md)
     * [bos-incidents Analytics](development/development-related-notes/bos-incidents-analytics.md)
     * [Infrastructure Notes](development/development-related-notes/infrastructure-notes.md)
-    * [Manufacture Incidents](development/development-related-notes/manufacture-incidents.md)
+    * [Remote Control](development/development-related-notes/manufacture-incidents.md)
   * [development plan - BOS](development/development-plan-bos.md)
 * [QA](qa-1.md)
 * [Release Management & DevOps](release-management-and-devops/README.md)

@@ -1,4 +1,8 @@
-# Manufacture Incidents
+# Remote Control
+
+{% embed url="https://174.138.14.239:8010/" %}
+
+
 
 ```text
 "_Baseball__MLB__New York Yankees__Minnesota Twins_": 
