@@ -6,11 +6,11 @@ The following outline the flow of importing keys into a Scatter account if the e
 
 If you are choosing to import an existing Peerplays account, you will have opted for this route and will see this modal in front of you. Fill in this form with your Peerplays account name and password. If any errors exist within the form, they will be displayed \(Figure 3.4.2\). A valid form will look like Figure 3.4.3.
 
-![Figure 3.4.1: Login to Import Peerplays Account \[empty\]](../../.gitbook/assets/image%20%288%29.png)
+![Figure 3.4.1: Login to Import Peerplays Account \[empty\]](../../.gitbook/assets/image%20%289%29.png)
 
-![Figure 3.4.2: Login to Import Peerplays Account \[filled - errors\]](../../.gitbook/assets/image%20%2812%29.png)
+![Figure 3.4.2: Login to Import Peerplays Account \[filled - errors\]](../../.gitbook/assets/image%20%2813%29.png)
 
-![Figure 3.4.3: Login to Import Peerplays Account \[filled\]](../../.gitbook/assets/image%20%2862%29.png)
+![Figure 3.4.3: Login to Import Peerplays Account \[filled\]](../../.gitbook/assets/image%20%2865%29.png)
 
 Peerplays account importing into Scatter will appear the end-user like any other Peerplays dapp login form:
 
