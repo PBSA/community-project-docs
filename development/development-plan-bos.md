@@ -8,12 +8,16 @@
 
 ## Tasks to be scheduled
 
-1. Remote Control to replace DP remotes : done
-2. Faucet code, time profiling : done
-3. Faucet speed up, manage parallel connections : done
-4. Investigate bottleneck in Streamers Edge signup. : done
-5. Efficient sifting through block chain, through prev next.
-6. Blockchain to story. Summary, DB, json logs
+1. Review faucet on other chains.
+2. Faucet, signup time profile comparison between, beatrics and dickchain.
+3. Faucet, signup time profiling in the chain.
+4. Fuacet, time profiling in peerplays.
+5. Remote Control to replace DP remotes : done
+6. Faucet code, time profiling : done
+7. Faucet speed up, manage parallel connections : done
+8. Investigate bottleneck in Streamers Edge signup. : done
+9. Efficient sifting through block chain, through prev next.
+10. Blockchain to story. Summary, DB, json logs
 
 
 
