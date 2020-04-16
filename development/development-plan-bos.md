@@ -110,9 +110,17 @@
     </tr>
     <tr>
       <td style="text-align:left">7 April</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p></p>
+        <ul class="contains-task-list">
+          <li class="task-list-item">
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />
+          </li>
+        </ul>
+      </td>
       <td style="text-align:left">Setup MINT on 52.62.37.137</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">1 hrs</td>
       <td style="text-align:left">bos-utils #11</td>
     </tr>
     <tr>
