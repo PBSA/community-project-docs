@@ -36,3 +36,5 @@ Release details: [https://peerplays.atlassian.net/projects/SON/versions/10146/ta
 
 \*\*\*\*[**https://peerplays.atlassian.net/browse/SON-354**](https://peerplays.atlassian.net/browse/SON-354)\*\*\*\*
 
+\*\*\*\*[**https://peerplays.atlassian.net/browse/SON-355**](https://peerplays.atlassian.net/browse/SON-355)\*\*\*\*
+
