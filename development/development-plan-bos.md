@@ -238,7 +238,7 @@
           </li>
         </ul>
       </td>
-      <td style="text-align:left">Setup a scheme for triggering 3rd Elizabeth node as remotes are net sending
+      <td style="text-align:left">Setup a scheme for triggering 3rd Elizabeth node as remotes are not sending
         incidents to the third witness</td>
       <td style="text-align:left">16 hrs</td>
       <td style="text-align:left">bos-utils #14</td>
