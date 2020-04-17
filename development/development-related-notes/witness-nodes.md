@@ -4,11 +4,11 @@ description: Notes
 
 # Witness Nodes
 
-All the three chains are found empty, Why.
+./witness\_node --replay-blockchain
 
-Ping Roshan
 
-See if Manu can start creating sport and test.
+
+Synchonize with bookie sports, from mint
 
 \*\*\*\*
 
