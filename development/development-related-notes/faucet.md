@@ -129,6 +129,8 @@ Debug python3 manage.py runserver -h 0.0.0.0 -p 5000
 
 **D-Chain Faucet: ubuntu@35.183.10.250**
 
+New IP 35.183.11.136
+
 Two core faucet: ubuntu@35.182.6.94  
 **In env, python3** [**manage.py**](http://manage.py/) **install**
 
