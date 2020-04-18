@@ -6,6 +6,14 @@ description: Notes
 
 ./witness\_node --replay-blockchain
 
+### Witness startup tasks
+
+{% embed url="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/61276172/TestNet+Creation+Startup+Tasks" %}
+
+
+
+
+
 
 
 Synchonize with bookie sports, from mint
