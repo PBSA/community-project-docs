@@ -8,17 +8,25 @@
 
 ## Tasks to be scheduled
 
-1. Review faucet on other chains.
-2. Faucet, signup time profile comparison between, beatrics and dickchain.
-3. Faucet, signup time profiling in the chain.
-4. Fuacet, time profiling in peerplays.
-5. Remote Control to replace DP remotes : done
-6. Faucet code, time profiling : done
-7. Faucet speed up, manage parallel connections : done
-8. Investigate bottleneck in Streamers Edge signup. : done
-9. Efficient sifting through block chain, through prev next.
-10. Blockchain to story. Summary, DB, json logs
+1. Look at mismatch between blockchains on 229 and 158
+2. Review faucet on other chains.
+3. Faucet, signup time profile comparison between, beatrics and dickchain.
+4. Faucet, signup time profiling in the chain.
+5. Fuacet, time profiling in peerplays.
+6. Remote Control to replace DP remotes : done
+7. Faucet code, time profiling : done
+8. Faucet speed up, manage parallel connections : done
+9. Investigate bottleneck in Streamers Edge signup. : done
+10. Efficient sifting through block chain, through prev next.
+11. Blockchain to story. Summary, DB, json logs
 
+
+
+### Task Notes, Add to plan
+
+1. MINT setup on 137, not working 16 hrs
+2. Witness resynching, startup and balance issues.
+3. 
 
 
 ### Development Plan April 2020
@@ -401,7 +409,7 @@
       <td style="text-align:left">bos-auto #12</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">17 April</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -422,7 +430,8 @@
         <p>&lt;del&gt;&lt;/del&gt;</p>
         <ul class="contains-task-list">
           <li class="task-list-item">
-            <input type="checkbox" class="task-list-item-checkbox" disabled />&lt;del&gt;&lt;/del&gt;</li>
+            <input type="checkbox" class="task-list-item-checkbox" checked disabled
+            />&lt;del&gt;&lt;/del&gt;</li>
         </ul>
       </td>
       <td style="text-align:left"><del>Faucet Stress Testing</del>
@@ -431,6 +440,13 @@
       </td>
       <td style="text-align:left"><del>faucet #1</del>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">24 April</td>
