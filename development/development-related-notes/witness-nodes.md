@@ -6,6 +6,12 @@ description: Notes
 
 ./witness\_node --replay-blockchain
 
+
+
+**There is a mismatch between the blockchain contents on 229 and 158**
+
+
+
 ### Witness startup tasks
 
 {% embed url="https://peerplays.atlassian.net/wiki/spaces/PROJECTS/pages/61276172/TestNet+Creation+Startup+Tasks" %}
