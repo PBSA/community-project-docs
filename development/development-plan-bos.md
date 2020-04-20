@@ -24,9 +24,13 @@
 
 ### Task Notes, Add to plan
 
-1. MINT setup on 137, not working 16 hrs
+1. ~~MINT setup on 137, not working 16 hrs~~
 2. Witness resynching, startup and balance issues.
-3. 
+3. Better remotes with create to settle
+4. Remote from bookie sports
+5. Elastic search for faucet
+6. Peerplays, better 
+7. 
 
 
 ### Development Plan April 2020
