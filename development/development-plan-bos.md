@@ -411,9 +411,23 @@
     <tr>
       <td style="text-align:left">17 April</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left">Install and run MINT on 3rd Elizabeth node</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #11</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">20 April</td>
       <td style="text-align:left"></td>
+      <td style="text-align:left">Identifying bottleneck in achieving 20K users</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">faucet #5</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">21 April</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Install MINT in 3rd Elizabeth Node</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #11</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
