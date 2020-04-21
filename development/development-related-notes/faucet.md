@@ -2,6 +2,10 @@
 
 ### Add validation of all three public keys
 
+Test Machine Client
+
+ssh qa@96.46.49.25
+
 ### Important Note:
 
 faucet machine, two, rq approach, removed ip repeate call check line, model.Active, re-insert in production
