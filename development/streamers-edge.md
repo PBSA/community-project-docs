@@ -9,3 +9,13 @@ username
 password  
 repeatPassword
 
+
+
+
+
+### Bugs / Scope for Improvement
+
+The email and username are marked as used even if the account creation is failed.
+
+
+
