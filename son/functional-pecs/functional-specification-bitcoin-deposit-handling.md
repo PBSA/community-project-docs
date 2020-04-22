@@ -81,6 +81,9 @@ To facilitate conversion of bitcoin in to peerplays tokens, SON must include an 
 
 ### 7.1 Wallet information
 
+Current deposit address implementation is **Timelocked-one-or-weighted-multisig**
+
+  
 SON must be able to create/update Peerplays multisig account, and create/re-create Bitcoin multisig address controlled by active SONs.
 
 The SONs may change at any maintenance interval when the votes are tallied and the existing SONs are voted out. Since, the bitcoin public keys of the SONs will be used to create the multisig bitcoin wallet, their public keys will have to be changed in order to operate the multisig bitcoin wallet. System must transfer the funds from the old wallet to the new wallet every time an SON changes and incur associated bitcoin transaction fees.
@@ -122,6 +125,31 @@ When scheduled SON detects that a sidechain transaction object has been complete
 SON must start conversion of deposit amount from bitcoin into peerplay tokens following deposit confirmation. Conversion operation must calculate btc to ppy conversion using 1:1 rate. Conversion is completed by sending funds from bitcoin address \(sidechain user address for deposits\) to primary wallet \(bitcoin multisig address\).
 
 User will receive peerplays core assets matching the amount of depoisted bitcoin.
+
+### 7.3 Refund Scenario
+
+In some cases a transaction will not be processed by SONs \(such as when active SONs threshold is not met\), which will cause funds to wait until required number of active SONs become available. System must allow users to initiate refunds of their transactions.
+
+Refund scenario must adhere to same rules as regular bitcoin transaction:
+
+1. User needs transaction id for the transaction they wish to refund
+2. User creates another transaction using transaction id of transaction they want to refund to move funds to their own address
+3. User signs the transaction using a private key that matches the public key he provided in sidechain address mapping
+4. Transaction is pushed to bitcoin network and user is refunded once transaction is processed
+
+### 7.4 Deposit Address - **One-or-weighted-multisig**
+
+This deposit address implementation type allows to send funds from this address with 2/3 weights of SON votes \(like in Primary Wallet\) or with single user signature. To create such address we need:
+
+**1\)** user public key
+
+**2\)** all SONs public keys
+
+**3\)** every SON weight
+
+**Note:** This is the current implementation of the Deposit address.
+
+This address type is implemented by btc\_one\_or\_weighted\_multisig\_address class.
 
 ### CLI Examples:
 
