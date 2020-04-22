@@ -79,7 +79,7 @@ Listener must be able to recognize a change that signifies a bitcoin transaction
 
 Following identifying a transaction, Listener must check the number of active SONs to verify that a minimum of 5 SONs are active. If minimum is not met, deposit transaction must be stored for processing until minimum number of active SONs becomes available.
 
-### 7.1 Event Handler
+### 7.2 Event Handler
 
 SON must include a Bitcoin event handler which uses information supplied by the Listener to perform a specific operation that’s based on transaction type submitted by listener. Event handler’s purpose is to perform a series of actions such as operation creation, verification checks, transaction signing leading up to packing of transaction data and sending it to bitcoin network.
 
@@ -112,6 +112,62 @@ Each SON that signs a transaction must sign with its own key and add its signatu
 When adding each signature, sidechain transaction sign operation evaluator must check whether or not this signature is the last one required to complete sidechain transaction signing. If it’s not the last required signature, check is performed again when next signature is processed. If it is the last expected signature, system must mark sidechain transaction object as completed \(set helper field complete to true\). Note that transactions in ‘Completed’ state will not accept any more signatures, and it is possible that some SONs will continue sending signatures which will not be accepted \(because enough signatures have been recorded\). This is because SONs work and send their signatures in parallel and are unaware of incoming signatures from other SONs.
 
 Lastly, when scheduled SON detects that a sidechain transaction object has been completed, it must collect all data from the sidechain transaction object, compile it, convert to a format that is ready for transmission to Bitcoin network, and send this transaction to the Bitcoin network.
+
+### 7.3 Refund
+
+In some cases a transaction will not be processed by SONs \(such as when active SONs threshold is not met\), which will cause funds to wait until required number of active SONs become available. System must allow users to initiate refunds of their transactions.
+
+Refund scenario must adhere to same rules as regular bitcoin transaction:
+
+1. User needs transaction id for the transaction they wish to refund
+2. User creates another transaction using transaction id of transaction they want to refund to move funds to their own address
+3. User signs the transaction using a private key that matches the public key he provided in sidechain address mapping
+4. Transaction is pushed to bitcoin network and user is refunded once transaction is processed
+
+### 7.4 Deposit Address Implementation Options
+
+**One-or-m-of-n**
+
+This deposit address implementation type allows to send funds with m-of-n SONs signatures or with single user signature. To create such address, system needs:
+
+1. user public key
+2. n represented by active SONs public keys
+3. m represented by minimal required SONs signatures number.
+
+When funds are being sent from this address, system must first check signature and complete transaction if signature check is successful. Otherwise system uses public keys of active SONs until minimum number of signature has been collected.
+
+This address type is implemented by btc\_one\_or\_m\_of\_n\_multisig\_address class.
+
+#### **Current Deposit Address Implementation - One-or-weighted-multisig** <a id="7.4-Current-Deposit-Address-Implementation---One-or-weighted-multisig"></a>
+
+This deposit address implementation type allows to send funds from this address with 2/3 weights of SON votes \(like in Primary Wallet\) or with single user signature. To create such address we need:
+
+1.  user public key
+2.  all SONs public keys
+3.  every SON weight
+
+When funds are being sent from this address, system must first check if user signature is correct. When signature is correct, system completes the transaction. Otherwise, when signature is incorrect, system checks for 2/3 weights of SON votes to complete the transaction.
+
+**Note:** This is the current implementation of the Deposit address.
+
+This address type is implemented by btc\_one\_or\_weighted\_multisig\_address class.
+
+**Timelocked-one-or-weighted-multisig**
+
+This deposit address implementation type allows to send funds from this address with 2/3 weights of SON votes \(like in Primary Wallet\) or with single user signature after some latency. To create such address system needs:
+
+1. user public key,
+2. used latency
+3. all SONs public keys
+4. every SON weight
+
+When funds are being sent from this address, system must first check if user signature is correct. When signature is correct, system waits until latency is passed to complete the transaction. This differentiates this implementation option from simply **one-or-weighted-multisig** type. Otherwise, when signature is incorrect, system checks for 2/3 weights of SON votes to complete the transaction.
+
+note: nSquence must be greater than or equal to latency
+
+This address type is implemented by btc\_timelocked\_one\_or\_weighted\_multisig\_address class.
+
+
 
 ## 8 Examples
 
