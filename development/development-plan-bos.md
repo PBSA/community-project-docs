@@ -434,6 +434,27 @@
       <td style="text-align:left">bos-utils #11</td>
     </tr>
     <tr>
+      <td style="text-align:left">22 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Faucet testing</td>
+      <td style="text-align:left">4 hrs</td>
+      <td style="text-align:left">faucet #5</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">22 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">SE testing</td>
+      <td style="text-align:left">4 hrs</td>
+      <td style="text-align:left">STRM-1128</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">23 April</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">Faucet, with transaction states</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">faucet #4</td>
+    </tr>
+    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Purge bos-incidents storage and observe incidents there after.</td>
