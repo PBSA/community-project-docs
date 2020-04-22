@@ -83,11 +83,11 @@ Payout must be determined by the number of transactions verified by a node. High
 
 SONs are paid based on % ratio between total\_transactons\_per\_day and SONS\_DAILY\_MAX\_REWARD, where SON's % share of daily transactions determines what % of SONS\_DAILY\_MAX\_REWARD is paid.
 
-Payout must occur once during every 24 hr \(86,400 seconds\) period.
+Payout happens only during SON maintenance interval, therefore payout is configurable based on the payment interval and can be configured to happen once every x maintenance intervals.
 
-**7.2 Payment Pool**
+**7.3 Payment Pool**
 
-The rewards-pool must be created along with the creation of the new asset pBTC. Funds must be allotted by the advisors to be paid out as **SONs\_REWARD\_POOL.** The pool is created every year by moving \`NUMBER\_OF\_DAYS\_OF\_THE\_YEAR\` x \`SONS\_DAILY\_MAX\_REWARD\` from the reserve & will be dispersed to SONs proportional to the number of transactions they sign on a particular sidechain. 
+Payments to SONs are stored inside son\_budget which functions similarly to witness\_budget. Specifically, son\_budget accumulates transaction fees collected by peerplays network. As described above, payout happens during the maintenance interval .
 
 SONS\_DAILY\_MAX\_REWARD must initially be set to 200 PPY. We may to have to change this as per market realities etc. Currently BTC is the only supported cryptocurrency.
 
