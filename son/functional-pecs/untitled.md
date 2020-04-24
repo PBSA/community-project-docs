@@ -1,4 +1,4 @@
-# Untitled
+# Functional Specification - BTC Refunds
 
 ## 1. Purpose
 

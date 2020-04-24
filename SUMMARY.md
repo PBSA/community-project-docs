@@ -62,7 +62,7 @@
   * [Functional Specifications - SON Smart Contracts](son/functional-pecs/untitled-1-3.md)
   * [Functional Specifications - SON Proposals](son/functional-pecs/son-proposals.md)
   * [Functional Specification - Bitcoin Deposit Handling](son/functional-pecs/functional-specification-bitcoin-deposit-handling.md)
-  * [Untitled](son/functional-pecs/untitled.md)
+  * [Functional Specification - BTC Refunds](son/functional-pecs/untitled.md)
   * [Functional Specifications - Bitcoin Withdrawal](son/functional-pecs/functional-specifications-bitcoin-withdrawal.md)
 * [How To](son/how-to.md)
 * [Quick Setup notes](son/quick-setup-notes.md)
