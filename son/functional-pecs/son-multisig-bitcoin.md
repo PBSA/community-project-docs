@@ -21,7 +21,7 @@ Described here is the process to create the mutlisig bitcoin wallet with the SON
 
 ## Context
 
-In the sidechain implementation, at the beginning of the sidechain fork, a multisig bitcoin wallet called the Primary Wallet is created on the bitcoin blockchain to store the funds transferred by the users to their pBTC accounts. This multisig bitcoin wallet should be created by using the bitcoin public keys of the SONs instead of the public keys of the witnesses. We will also have to use the Hash Time Locked Contracts \(HTLC\) for this address so that if a user transfers the funds to their pBTC accounts and due to some error/downtime, the funds cannot be accepted into the multisig bitcoin address, they should be returned to the user.
+In the sidechain implementation, at the beginning of the sidechain fork, a multisig bitcoin wallet called the Primary Wallet is created on the bitcoin blockchain to store the funds transferred by the users to their pBTC accounts. This multisig bitcoin wallet should be created by using the bitcoin public keys of the SONs instead of the public keys of the witnesses. 
 
 The below scenarios related to the multisig bitcoin wallet need to be handled in the implementation:
 
