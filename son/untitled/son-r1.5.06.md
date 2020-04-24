@@ -26,7 +26,7 @@ Release details: [https://peerplays.atlassian.net/projects/SON/versions/10158/ta
 
 [https://peerplays.atlassian.net/browse/SON-328](https://peerplays.atlassian.net/browse/SON-328)
 
-**New Defect**
+\*\*\*\*
 
-[https://peerplays.atlassian.net/browse/SON-359](https://peerplays.atlassian.net/browse/SON-359)
+
 
