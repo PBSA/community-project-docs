@@ -485,8 +485,8 @@
       <td style="text-align:left">28 April</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">Script for cancelling events including all betting markets</td>
-      <td style="text-align:left">16 hrs</td>
-      <td style="text-align:left">bos-utils #14</td>
+      <td style="text-align:left">8 hrs</td>
+      <td style="text-align:left">bos-utils #15</td>
     </tr>
     <tr>
       <td style="text-align:left">24 April</td>
