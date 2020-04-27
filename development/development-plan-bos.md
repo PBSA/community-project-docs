@@ -19,6 +19,7 @@
 9. Investigate bottleneck in Streamers Edge signup. : done
 10. Efficient sifting through block chain, through prev next.
 11. Blockchain to story. Summary, DB, json logs
+12. Script to delete specific betting markets
 
 
 
@@ -481,11 +482,11 @@
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">28 April</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Script for cancelling events including all betting markets</td>
+      <td style="text-align:left">16 hrs</td>
+      <td style="text-align:left">bos-utils #14</td>
     </tr>
     <tr>
       <td style="text-align:left">24 April</td>
