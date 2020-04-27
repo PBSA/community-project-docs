@@ -19,7 +19,7 @@
 9. Investigate bottleneck in Streamers Edge signup. : done
 10. Efficient sifting through block chain, through prev next.
 11. Blockchain to story. Summary, DB, json logs
-12. Script to delete specific betting markets
+12. Script to delete specific betting markets, bos-utils \#16
 
 
 
