@@ -59,7 +59,6 @@
   * [Functional Specifications - SON Voting and Consensus](son/functional-pecs/voting--and-consensus.md)
   * [Functional Specification - SONs switchover scenarios](son/functional-pecs/son-switchover.md)
   * [Functional Specification - SON Status Operations & Monitoring](son/functional-pecs/heartbeatmonitoring.md)
-  * [Functional Specifications - SON Smart Contracts](son/functional-pecs/son-smart-contracts.md)
   * [Functional Specifications - SON Proposals](son/functional-pecs/son-proposals.md)
   * [Functional Specification - Bitcoin Deposit Handling](son/functional-pecs/functional-specification-bitcoin-deposit-handling.md)
   * [Functional Specification - BTC Refunds](son/functional-pecs/btc-refunds.md)
