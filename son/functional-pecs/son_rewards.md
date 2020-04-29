@@ -68,7 +68,7 @@ Fee collection is determined by transaction type:
 
 In a scenario where user has 0 PPY, fee must be collected from **fee\_pool**.
 
-**7.2 Determining payout**
+**7.3 Determining payout**
 
 Payout must be determined by the number of transactions verified by a node. Higher availability nodes participate in more transactions and therefore receive higher payout.
 
@@ -76,7 +76,7 @@ SONs are paid based on % ratio between total\_transactons\_per\_day and SONS\_DA
 
 Payout happens only during SON maintenance interval, therefore payout is configurable based on the payment interval and can be configured to happen once every x maintenance intervals.
 
-**7.3 Payment Pool**
+**7.4 Payment Pool**
 
 Payments to SONs are stored inside son\_budget which functions similarly to witness\_budget. Specifically, son\_budget accumulates transaction fees collected by peerplays network. As described above, payout happens during the maintenance interval .
 
