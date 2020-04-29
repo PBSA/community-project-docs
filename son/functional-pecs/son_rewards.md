@@ -25,24 +25,37 @@ N/A
 
 ## **6. Context**
 
-The SON operators will be paid in PPY from the payment pool set up specifically for payments to SONs. This pool will be replenished by depositing a percentage of all the transaction on the Peerplays network. This percentage should be a chain parameter so that it can be changed. The fee will be distributed at the Maintenance intervals based on transactions signed and weight of voting for each SON. Recommended SON payment is 200 PPY daily \( \`SONS\_DAILY\_MAX\_REWARD\`\).
+The SON operators will be paid in PPY from the payment pool set up specifically for payments to SONs. This pool will be replenished by depositing a percentage of all the transaction on the Peerplays network. This percentage should be a chain parameter so that it can be changed. The fee will be distributed at the Maintenance intervals based on transactions signed and weight of voting for each SON. Recommended SON payment is 200 PPY daily \(this limit is controlled by \`SONS\_DAILY\_MAX\_REWARD\`\).
 
 ## **7. Requirements**
 
 **7.1 Supported Transaction Types**
 
-1. **Transfer of crypto from Deposit Address to PW Address**
-   1. SONs are to be paid for signed transactions, miner fee is also required
-2. **Transfer of crypto from old PW Address to New PW Address**
-   1. SONs are to be paid for signed transactions, miner fee is also required
-3. **Transfer User Issued Asset \(pBTC\) from one account to another**
-   1. On-chain transaction. SONs do not sign transactions and do not get paid. Witness fee is applicable
+All operations performed by SONs must be tallied and paid according to budget and defined payout procedure \(as described in sections below\).
 
-**7.2 Paying Witnesses**
+System must include a library \(global parameters\) of configurable fee amounts fee amounts associated with each operation. Library must track each operation, its type, fee amount and currency in which fee is charged \(PPY by default\). Fees are set and amendable by committee members in accordance with committee member procedures to update global parameters.
 
-Whenever a witness generates a new block, reward amount must be immediately deposited into witness account's vesting balance.
+Operations commonly performed by SONs are as follows:
 
-The amount must be withdrawn from witness\_budget
+* asset\_issue\_operation
+* asset\_reserve\_operation
+* proposal\_create\_operation
+* proposal\_update\_operation
+* proposal\_delete\_operation
+* son\_create\_operation
+* son\_update\_operation
+* son\_delete\_operation
+* son\_heartbeat\_operation
+* son\_report\_down\_operation
+* son\_maintenance\_operation
+* son\_wallet\_recreate\_operation
+* son\_wallet\_update\_operation
+* son\_wallet\_deposit\_create\_operation
+* son\_wallet\_deposit\_process\_operation
+* son\_wallet\_withdraw\_create\_operation
+* son\_wallet\_withdraw\_process\_operation
+
+See Risks section for considerations regarding fee amounts and their implications on financial viability of SON.
 
 **7.2 Collecting Fees**
 
@@ -54,28 +67,6 @@ Fee collection is determined by transaction type:
 2. UIA \(pBTC\) transaction fees are converted to core asset using base exchange rate \(note: bBTC to BTC is 1:1\)fee mus
 
 In a scenario where user has 0 PPY, fee must be collected from **fee\_pool**.
-
-**7.2 Calculating budget**
-
-The equation for calculating SON budget is as follows:
-
-**current\_supply = current\_supply + \(required\_witness\_budget + required\_worker\_budget + required\_son\_budget - leftover\_worker\_funds - core\_accumulated\_fee - leftover\_witness\_budget - leftover\_son\_budget\)**
-
-**reserve\_supply = max\_supply - current\_supply**
-
-* required\_witness\_budget - required witness budget till next maintenance interval 
-* required\_worker\_budget - required worker budget till next maintenance interval 
-* required\_son\_budget - reserved SON budget to be paid out in the next maintenance interval = \(chain\_parameters.son\_pay\_max\)
-* leftover\_worker\_funds - Remaining funds from previous worker payout
-* core\_accumulated\_fee - Accumulated fee \(after all the cuts removed from it\),  since the last maintenance interval.
-* leftover\_witness\_budget -  Leftover funds from previous witness budget \( happens if any block is missed in between \)
-* leftover\_son\_budget - Leftover funds from previous son budget \( happens if there are no SON transactions on the network \)
-
-other required variables:
-
-* total\_transactons\_per\_day - tracks number of transactions SON participated in
-* SONs\_REWARD\_POOL - stores SON reward amounts
-* SONS\_DAILY\_MAX\_REWARD - configurable variable which sets maximum size of reward
 
 **7.2 Determining payout**
 
