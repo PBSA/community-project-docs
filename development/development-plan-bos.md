@@ -31,7 +31,15 @@
 4. Remote from bookie sports
 5. Elastic search for faucet
 6. Peerplays, better 
-7. 
+
+
+
+### Tasks 
+
+1. Dependency issue and pull request to gitlab repo
+2. Cancel Event to repo
+3. Cancel bet
+4. 
 
 
 ### Development Plan April 2020
