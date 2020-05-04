@@ -10,6 +10,7 @@
 * [BOS](bos.md)
 * [Development](development/README.md)
   * [Development Notes BOS](development/development-related-notes/README.md)
+    * [Python-Peerplays](development/development-related-notes/python-peerplays.md)
     * [Streamers Edge](development/development-related-notes/streamers-edge.md)
     * [Faucet](development/development-related-notes/faucet.md)
     * [Witness Nodes](development/development-related-notes/witness-nodes.md)

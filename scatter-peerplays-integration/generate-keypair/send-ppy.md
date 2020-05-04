@@ -1,6 +1,6 @@
 # Send PPY
 
-![Figure 3.6.1 Send PPY Screen](../../.gitbook/assets/image%20%2848%29.png)
+![Figure 3.6.1 Send PPY Screen](../../.gitbook/assets/image%20%2849%29.png)
 
 The Send PPY screen is accessed by hovering over the PPY asset and pressing send.‌
 

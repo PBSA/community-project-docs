@@ -72,7 +72,7 @@ Issue 2: What happens to the peerplays connection which is initialized in the st
 
 ![](../../.gitbook/assets/image%20%288%29.png)
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2840%29.png)
 
 With no load, no account creation and no validation, 12 K out of 20 K simultaneous signups are processed.  
   
@@ -105,7 +105,7 @@ Monitroning servers with Grafana, look at the following link.
 
 ### Performance
 
-![10 parallel processes, 600 calls, 0.66 seconds per account creation on an average.](../../.gitbook/assets/image%20%2832%29.png)
+![10 parallel processes, 600 calls, 0.66 seconds per account creation on an average.](../../.gitbook/assets/image%20%2833%29.png)
 
 It took me 960 seconds to create 800 accounts with 80 parallel calls.
 
