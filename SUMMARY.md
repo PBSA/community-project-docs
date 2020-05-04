@@ -25,7 +25,6 @@
 
 ## SON
 
-* [Changes to Peerplaysjs-lib](son/changes-to-peerplaysjs-lib.md)
 * [Low Level Designs](son/low-level-designs/README.md)
   * [SON Configuration](son/low-level-designs/son-configuration.md)
   * [SON Objects and Operators](son/low-level-designs/son-objects-and-operators.md)
@@ -79,6 +78,7 @@
   * [SON-R1.5.04](son/untitled/son-r1.5.04.md)
   * [SON-R1.5.05](son/untitled/son-r1.5.05.md)
   * [SON-R1.5.06](son/untitled/son-r1.5.06.md)
+* [Changes to Peerplaysjs-lib](son/changes-to-peerplaysjs-lib.md)
 
 ## Scatter Peerplays Integration
 
