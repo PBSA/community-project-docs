@@ -25,6 +25,7 @@
 
 ## SON
 
+* [Changes to Peerplaysjs-lib](son/changes-to-peerplaysjs-lib.md)
 * [Low Level Designs](son/low-level-designs/README.md)
   * [SON Configuration](son/low-level-designs/son-configuration.md)
   * [SON Objects and Operators](son/low-level-designs/son-objects-and-operators.md)
