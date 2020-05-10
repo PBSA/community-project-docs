@@ -14,6 +14,15 @@ It looks like there is a difference between the faucet connected chain and the w
 
 
 
+block = dict\(Block\(k\).items\(\)\)
+
+from peerplays.block import Block  
+
+
+
+
+
+
 
 
 
