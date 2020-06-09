@@ -115,10 +115,6 @@
   * [release v1.5.4-alpha](peerplays-wallet/wallet-qa/release-v1.5.4-alpha.md)
   * [GPOS Patch 3, release v1.5.3-alpha](peerplays-wallet/wallet-qa/gpos-patch-3-release-v1.5.3-alpha.md)
 
-## QA
-
-* [Home-QA](qa/home-qa.md)
-
 ## PUBLIC GITLAB
 
 * [Development Plan - GitLab](public-gitlab/gitlab-development-plan.md)
