@@ -158,7 +158,9 @@ copy of GPOS GUI - Power Up/Power Down : [https://peerplays.atlassian.net/wiki/s
       </td>
     </tr>
   </tbody>
-</table>### **Functional Testing**
+</table>
+
+### **Functional Testing**
 
 ### **Validate content of GPOS Panel**
 
@@ -376,7 +378,9 @@ copy of GPOS GUI - Power Up/Power Down : [https://peerplays.atlassian.net/wiki/s
       </td>
     </tr>
   </tbody>
-</table>### **Getting Started/Power Up**
+</table>
+
+### **Getting Started/Power Up**
 
 **Pre-requisite** : new wallet account or account without GPOS vesting balance
 
@@ -644,7 +648,9 @@ copy of GPOS GUI - Power Up/Power Down : [https://peerplays.atlassian.net/wiki/s
       </td>
     </tr>
   </tbody>
-</table>### **Participate/Power Up**
+</table>
+
+### **Participate/Power Up**
 
 **Pre-requisite** : Peerplays account with GPOS vesting balance
 
@@ -912,7 +918,9 @@ copy of GPOS GUI - Power Up/Power Down : [https://peerplays.atlassian.net/wiki/s
       </td>
     </tr>
   </tbody>
-</table>### **Participate/Power Down**
+</table>
+
+### **Participate/Power Down**
 
 **Pre-requisite** : Peerplays account with GPOS vesting balance
 
@@ -1192,6 +1200,8 @@ copy of GPOS GUI - Power Up/Power Down : [https://peerplays.atlassian.net/wiki/s
     </tr>
   </tbody>
 </table>
+
+
 
 
 

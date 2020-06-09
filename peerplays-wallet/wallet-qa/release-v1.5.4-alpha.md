@@ -140,7 +140,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       <td style="text-align:left">Pass</td>
     </tr>
   </tbody>
-</table>## \*\*\*\*
+</table>
+
+## \*\*\*\*
 
 ### **Vote**
 
@@ -239,7 +241,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       <td style="text-align:left">Pass</td>
     </tr>
   </tbody>
-</table>## \*\*\*\*
+</table>
+
+## \*\*\*\*
 
 ## **Functional Testing**
 
@@ -427,7 +431,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       <td style="text-align:left">Pass</td>
     </tr>
   </tbody>
-</table>### **Getting Started/Power Up**
+</table>
+
+### **Getting Started/Power Up**
 
 **Pre-requisite** : new wallet account or account without GPOS vesting balance
 
@@ -646,7 +652,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       <td style="text-align:left">Pass</td>
     </tr>
   </tbody>
-</table>### **Participate/Power Up**
+</table>
+
+### **Participate/Power Up**
 
 **Pre-requisite** : Peerplays account with GPOS vesting balance
 
@@ -860,7 +868,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       <td style="text-align:left">Pass</td>
     </tr>
   </tbody>
-</table>### **Participate/Power Down**
+</table>
+
+### **Participate/Power Down**
 
 **Pre-requisite** : Peerplays account with GPOS vesting balance
 
@@ -1093,6 +1103,8 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
 
 
 
+
+
 ### **Vote for Proxy**
 
 **Pre-requisite**: Valid Peerplays wallet account with GPOS balance
@@ -1280,7 +1292,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       <td style="text-align:left">Pass</td>
     </tr>
   </tbody>
-</table>### **Vote for Witness** 
+</table>
+
+### **Vote for Witness** 
 
 **Pre-requisite**: Valid Peerplays wallet account with GPOS balance
 
@@ -1482,7 +1496,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       <td style="text-align:left">Pass</td>
     </tr>
   </tbody>
-</table>### **Vote for Advisors**
+</table>
+
+### **Vote for Advisors**
 
 **Pre-requisite**: Valid Peerplays wallet account with GPOS balance
 
@@ -1683,6 +1699,8 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
   </tbody>
 </table>
 
+
+
 ## Wallet 1.5 other enhancements
 
 ### Display wallet build version 
@@ -1727,7 +1745,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       </td>
     </tr>
   </tbody>
-</table>### Pending Balances 
+</table>
+
+### Pending Balances 
 
 <table>
   <thead>
@@ -1811,7 +1831,9 @@ This build has the GPOS features and is the first Wallet code base with GPOS to 
       <td style="text-align:left">Pass</td>
     </tr>
   </tbody>
-</table>## New Bugs Reported
+</table>
+
+## New Bugs Reported
 
 [https://peerplays.atlassian.net/browse/GPOS-65](https://peerplays.atlassian.net/browse/GPOS-65)
 

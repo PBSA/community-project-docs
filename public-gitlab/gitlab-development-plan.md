@@ -221,7 +221,9 @@ Development Plan, April 2020
       </td>
     </tr>
   </tbody>
-</table>### TODO after EE license is obtained
+</table>
+
+### TODO after EE license is obtained
 
 <table>
   <thead>
@@ -320,3 +322,4 @@ Development Plan, April 2020
     </tr>
   </tbody>
 </table>
+

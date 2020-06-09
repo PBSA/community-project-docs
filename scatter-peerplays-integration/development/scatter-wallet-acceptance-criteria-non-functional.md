@@ -90,7 +90,9 @@ Electron version: v5.0.6^ \(bumped to latest minor version\).
       </td>
     </tr>
   </tbody>
-</table>### 3. Screen Resolutions Support
+</table>
+
+### 3. Screen Resolutions Support
 
 The Electron window can be resized and the elements within should be responsive.
 

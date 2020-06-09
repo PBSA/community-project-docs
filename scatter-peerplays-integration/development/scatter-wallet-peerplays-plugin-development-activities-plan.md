@@ -445,7 +445,9 @@ All tasks/issues status' can be viewed on the GitHub project** [**here**](https:
       style="text-align:left">TBD</td>
     </tr>
   </tbody>
-</table>## High-Level
+</table>
+
+## High-Level
 
 ### Data Layer
 
@@ -684,7 +686,9 @@ These functions are tested via a unit test suite provided by Nathan. This does n
     </tr>
   </thead>
   <tbody></tbody>
-</table>#### Port from `peerplays-core-gui` and/or `peerplaysjs-lib`
+</table>
+
+#### Port from `peerplays-core-gui` and/or `peerplaysjs-lib`
 
 **\[**[**3.2**](https://app.gitbook.com/@peerplays/s/community-project-docs/v/master/scatter-peerplays-integration/functional-requirements#3-1-connect-to-peerplays-blockchain)**\] Handling multiple Peerplays keys within a single Scatter KeyPair**
 
