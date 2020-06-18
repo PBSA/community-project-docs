@@ -6,6 +6,9 @@
 ## Projects
 
 * [Blockchain](blockchain/README.md)
+  * [Beatrice](blockchain/beatrice/README.md)
+    * [Setting up the chain and using the CLI wallet through downloadable binaries](blockchain/beatrice/setting-up-the-chain-and-using-the-cli-wallet-through-downloadable-binaries.md)
+    * [Setting up the faucet](blockchain/beatrice/setting-up-the-faucet.md)
   * [RBAC](blockchain/rbac/README.md)
     * [Role-Based Custom Permissions LLD](blockchain/rbac/role-based-custom-permissions-lld.md)
 * [5050](5050/README.md)
