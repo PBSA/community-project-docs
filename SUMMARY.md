@@ -5,6 +5,8 @@
 
 ## Projects
 
+---
+
 * [Blockchain](blockchain/README.md)
   * [Beatrice](blockchain/beatrice/README.md)
     * [Setting up the chain and using the CLI wallet through downloadable binaries](blockchain/beatrice/setting-up-the-chain-and-using-the-cli-wallet-through-downloadable-binaries.md)
@@ -71,7 +73,8 @@
   * [Functional Specification - BTC Refunds](son/functional-pecs/btc-refunds.md)
   * [Functional Specifications - Bitcoin Withdrawal](son/functional-pecs/functional-specifications-bitcoin-withdrawal.md)
 * [How To](son/how-to.md)
-* [Quick Setup notes](son/quick-setup-notes.md)
+* [Quick Setup notes](son/quick-setup-notes/README.md)
+  * [Connecting to PBSA's Gladiator Testnet](son/quick-setup-notes/connecting-to-pbsas-gladiator-testnet.md)
 * [QA - SON](son/untitled/README.md)
   * [Installing Block Exploerer](son/untitled/installing-block-exploerer.md)
   * [SON-FEB3-FEB14-Peerplays-Release0.2Build1](son/untitled/son-feb3-feb14-peerplays-release0.2build1.md)
