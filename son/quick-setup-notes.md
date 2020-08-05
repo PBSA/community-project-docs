@@ -30,8 +30,8 @@ To download executables, click Download button on the right side of the Job page
 
 To unpack executables in current folder:
 
-`unzip -j artifacts.zip programs/cli_wallet/cli_wallet -d ./  
-unzip -j artifacts.zip programs/witness_node/witness_node -d ./`
+`unzip -j artifacts.zip build/programs/cli_wallet/cli_wallet -d ./  
+unzip -j artifacts.zip build/programs/witness_node/witness_node -d ./`
 
 ### Building Peerplays SON \(optional\)
 
