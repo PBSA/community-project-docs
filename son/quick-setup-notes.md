@@ -34,8 +34,12 @@ wget --content-disposition --show-progress https://gitlab.com/PBSA/peerplays/-/j
 
 To unpack executables in current folder:
 
-`unzip -j artifacts.zip build/programs/cli_wallet/cli_wallet -d ./  
-unzip -j artifacts.zip build/programs/witness_node/witness_node -d ./`
+```text
+unzip -j artifacts.zip build/programs/cli_wallet/cli_wallet -d ./
+unzip -j artifacts.zip build/programs/witness_node/witness_node -d ./
+```
+
+\`\`
 
 ### Building Peerplays SON \(optional\)
 
