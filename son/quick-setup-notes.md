@@ -26,7 +26,7 @@ Example of such a job has ID 467332251:
 {% embed url="https://gitlab.com/PBSA/peerplays/-/jobs/467332251" %}
 
 To download executables, click Download button on the right side of the Job page, or execute the following command:  
-`wget --content-disposition --show-progress` [`https://gitlab.com/PBSA/peerplays/-/jobs/467332251/artifacts/download`](https://gitlab.com/PBSA/peerplays/-/jobs/467332251/artifacts/download)\`\`
+`wget --content-disposition --show-progress` [`https://gitlab.com/PBSA/peerplays/-/jobs/538784707/artifacts/download`](https://gitlab.com/PBSA/peerplays/-/jobs/538784707/artifacts/download)\`\`
 
 To unpack executables in current folder:
 
@@ -59,6 +59,10 @@ seed-nodes=["96.46.49.1:9777", "96.46.49.2:9777", "96.46.49.3:9777", "96.46.49.4
 
 {% hint style="danger" %}
 In order to sync with PBSA's Gladiator Testnet, the genesis file must be exactly the same as used by the witness nodes. This file can be downloaded here: [https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing](https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing)
+
+```text
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r' -O genesis.json
+```
 
 Move the `genesis.json` file to the root of the project directory alongside the `witness_node` binary.
 {% endhint %}
