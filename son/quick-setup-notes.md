@@ -83,7 +83,7 @@ genesis-json = genesis.json
 
 Start the `witness_node` and the blocks should start syncing.
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 If blocks have already been seeded during the initial startup, it may be necessary to reset the `blockchain` and `p2p` directories. Removing them is fine for this case.
 
 ```text
