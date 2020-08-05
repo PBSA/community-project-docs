@@ -39,6 +39,40 @@ To build Peerplays from source, refer to the README.md file:
 
 {% embed url="https://github.com/peerplays-network/peerplays/blob/feature/SONs-base/README.md" %}
 
+### Getting Started
+
+Execute the `witness_node` binary which will create the necessary files and folders under `witness_node_data_dir`
+
+```text
+./witness_node
+```
+
+Stop the node \(`CTRL + c` \)  and edit `config.ini` to configure the node.
+
+### Connecting to PBSA's Gladiator Testnet
+
+Inside `config.ini`, set the `seed-nodes` to:
+
+```text
+seed-nodes=["96.46.49.1:9777", "96.46.49.2:9777", "96.46.49.3:9777", "96.46.49.4:9777", "96.46.49.5:9777", "96.46.49.6:9777", "96.46.49.7:9777", "96.46.49.8:9777", "96.46.49.9:9777", "96.46.49.10:9777", "96.46.49.11:9777", "96.46.49.12:9777", "96.46.49.13:9777", "96.46.49.14:9777", "96.46.49.15:9777", "96.46.49.16:9777"]
+```
+
+{% hint style="danger" %}
+In order to sync with PBSA's Gladiator Testnet, the genesis file must be exactly the same as used by the witness nodes. This file can be downloaded here: [https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing](https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing)
+{% endhint %}
+
+Inside `config.ini`, specify the `genesis.json` 
+
+```text
+genesis-json = genesis.json
+```
+
+Start the `witness_node` and the blocks should start syncing.
+
+{% hint style="danger" %}
+If blocks have already been seeded during the initial startup, it may be necessary to reset the `blockchain` and `p2p` directories. Removing them is fine for this case.
+{% endhint %}
+
 ### SON configuration
 
 #### Prerequisites
@@ -387,21 +421,5 @@ witness_node
 # witness_node 2>&1 peerplays.log
 ```
 
-### Connecting to PBSA's Gladiator Testnet
-
-Inside `config.ini`, set the `seed-nodes` to:
-
-```text
-seed-nodes=["96.46.49.1:9777", "96.46.49.2:9777", "96.46.49.3:9777", "96.46.49.4:9777", "96.46.49.5:9777", "96.46.49.6:9777", "96.46.49.7:9777", "96.46.49.8:9777", "96.46.49.9:9777", "96.46.49.10:9777", "96.46.49.11:9777", "96.46.49.12:9777", "96.46.49.13:9777", "96.46.49.14:9777", "96.46.49.15:9777", "96.46.49.16:9777"]
-```
-
-{% hint style="danger" %}
-In order to sync with PBSA's Gladiator Testnet, the genesis file must be exactly the same as used by the witness nodes. This file can be downloaded here: [https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing](https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing)
-{% endhint %}
-
-Inside `config.ini`, specify the `genesis.json` 
-
-```text
-genesis-json = genesis.json
-```
+### 
 
