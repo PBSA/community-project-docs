@@ -26,7 +26,11 @@ Example of such a job has ID 467332251:
 {% embed url="https://gitlab.com/PBSA/peerplays/-/jobs/467332251" %}
 
 To download executables, click Download button on the right side of the Job page, or execute the following command:  
-`wget --content-disposition --show-progress` [`https://gitlab.com/PBSA/peerplays/-/jobs/538784707/artifacts/download`](https://gitlab.com/PBSA/peerplays/-/jobs/538784707/artifacts/download)\`\`
+
+
+```text
+wget --content-disposition --show-progress https://gitlab.com/PBSA/peerplays/-/jobs/538784707/artifacts/download
+```
 
 To unpack executables in current folder:
 
