@@ -59,6 +59,8 @@ seed-nodes=["96.46.49.1:9777", "96.46.49.2:9777", "96.46.49.3:9777", "96.46.49.4
 
 {% hint style="danger" %}
 In order to sync with PBSA's Gladiator Testnet, the genesis file must be exactly the same as used by the witness nodes. This file can be downloaded here: [https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing](https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing)
+
+Move the `genesis.json` file to the root of the project directory alongside the `witness_node` binary.
 {% endhint %}
 
 Inside `config.ini`, specify the `genesis.json` 
