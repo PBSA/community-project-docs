@@ -1,4 +1,8 @@
-# Quick Setup notes for SONs
+---
+description: Setup SONs and join GLADIATOR public TESTNET
+---
+
+# Quick Setup notes joinig GLADIATOR
 
 This is a quick document which assumes that the user has experience in setting up various Graphene blockchains before. The following link can be a good refresher: [https://www.peerplays.tech/witnesses/becoming-a-witness](https://www.peerplays.tech/witnesses/becoming-a-witness)
 
@@ -64,7 +68,7 @@ seed-nodes=["96.46.49.1:9777", "96.46.49.2:9777", "96.46.49.3:9777", "96.46.49.4
 In order to sync with PBSA's Gladiator Testnet, the genesis file must be exactly the same as used by the witness nodes. This file can be downloaded here: [https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing](https://drive.google.com/file/d/1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r/view?usp=sharing)
 
 ```text
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r' -O genesis.json
+wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1YmDbwUB-5D5vGzc9vYEva8yLkTkwva8r' -O SONs_genesis.json
 ```
 
 Move the `genesis.json` file to the root of the project directory alongside the `witness_node` binary.
@@ -78,6 +82,10 @@ genesis-json = genesis.json
 
 Start the `witness_node` and the blocks should start syncing.
 
+```text
+./witness_node --gensis-file SONs_genesis.json
+```
+
 {% hint style="warning" %}
 If blocks have already been seeded during the initial startup, it may be necessary to reset the `blockchain` and `p2p` directories. Removing them is fine for this case.
 
@@ -86,6 +94,8 @@ rm -rf witness_node_data_dir/blockchain
 rm -rf witness_node_data_dir/p2p
 ```
 {% endhint %}
+
+At this point you will be able download a copy of the blockchain. Additional steps are required to run the cli\_wallet and also become a SON.
 
 ### SON configuration
 
@@ -126,6 +136,8 @@ Options:
 
 These parameters are available from both command line and config file:
 
+Edit add the following to your config.ini file
+
 ```text
 # ==============================================================================
 # peerplays_sidechain plugin options
@@ -164,6 +176,13 @@ bitcoin-wallet-password = 9da115c9fa6fe7fd09390841ac91aee4
 # Tuple of [Bitcoin public key, Bitcoin private key] (may specify multiple times)
 bitcoin-private-key = ["02d0f137e717fb3aab7aff99904001d49a0a636c5e1342f8927a4ba2eaee8e9772","cVN31uC9sTEr392DLVUEjrtMgLA8Yb3fpYmTRj7bomTm6nn2ANPr"]
 
+```
+
+**Edit the config file and add the RPC port**
+
+```text
+# Endpoint for websocket RPC to listen on
+rpc-endpoint = 127.0.0.1:8090
 ```
 
 ### Becoming a SON
