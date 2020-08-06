@@ -1,8 +1,10 @@
-# Quick Setup notes
+# Quick Setup notes for SONs
 
 This is a quick document which assumes that the user has experience in setting up various Graphene blockchains before. The following link can be a good refresher: [https://www.peerplays.tech/witnesses/becoming-a-witness](https://www.peerplays.tech/witnesses/becoming-a-witness)
 
-### Prepare the server
+In this document the exectables are downloaded for the Gitlab CI-CD pipeline
+
+### 1. Prepare the server
 
 The following dependencies are necessary for a clean Ubuntu 18.04 LTS
 
@@ -13,7 +15,7 @@ sudo apt-get install autoconf bash build-essential ca-certificates cmake \
      wget
 ```
 
-### Download SON executable
+### 2. Download SON executable
 
 Go to [https://gitlab.com/PBSA/peerplays/-/jobs](https://gitlab.com/PBSA/peerplays/-/jobs) and find the job ID for the build you want to use. Build should have the following properties
 
@@ -29,7 +31,8 @@ To download executables, click Download button on the right side of the Job page
 
 
 ```text
-wget --content-disposition --show-progress https://gitlab.com/PBSA/peerplays/-/jobs/538784707/artifacts/download
+wget --content-disposition --show-progress\
+ https://gitlab.com/PBSA/peerplays/-/jobs/538784707/artifacts/download
 ```
 
 To unpack executables in current folder:
@@ -39,15 +42,7 @@ unzip -j artifacts.zip build/programs/cli_wallet/cli_wallet -d ./
 unzip -j artifacts.zip build/programs/witness_node/witness_node -d ./
 ```
 
-\`\`
-
-### Building Peerplays SON \(optional\)
-
-To build Peerplays from source, refer to the README.md file:
-
-{% embed url="https://github.com/peerplays-network/peerplays/blob/feature/SONs-base/README.md" %}
-
-### Getting Started
+### 
 
 Execute the `witness_node` binary which will create the necessary files and folders under `witness_node_data_dir`
 
