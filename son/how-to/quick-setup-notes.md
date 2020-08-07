@@ -454,5 +454,73 @@ witness_node
 # witness_node 2>&1 peerplays.log
 ```
 
-### 
+## Using the CLI wallet
+
+In the terminal execute the CLI wallet:
+
+```text
+# In the local terminal
+./cli_wallet
+```
+
+{% hint style="warning" %}
+I**f an exception is thrown** and contains `Remote server gave us an unexpected chain_id`, then copy the `remote_chain_id` that is provided by it. 
+
+Pass the chain ID to the CLI wallet:
+
+```text
+# In the local terminal
+./cli_wallet --chain-id=<CHAIN-ID>
+```
+{% endhint %}
+
+{% hint style="info" %}
+There is optionally a flag that can be passed in to connect to a remote rpc endpoint. 
+
+```text
+./cli_wallet --server-rpc-endpoint ws://96.46.49.3:8090 -u '' -p ''
+```
+{% endhint %}
+
+Enter a password for the CLI wallet:
+
+```text
+# In the CLI wallet
+set_password <YOUR-WALLET-PASSWORD>
+```
+
+Unlock the CLI wallet by providing the password set earlier:
+
+```text
+# In the CLI wallet
+unlock <YOUR-WALLET-PASSWORD>
+```
+
+{% hint style="info" %}
+The CLI wallet will show `unlocked >>>` when successfully unlocked
+{% endhint %}
+
+The CLI wallet is now ready to be used.
+
+### Creating a Peerplays account
+
+Use the CLI wallet to suggest a brain key:
+
+```text
+# In the CLI wallet
+suggest_brain_key
+```
+
+{% hint style="warning" %}
+Make sure to backup the information that is output
+{% endhint %}
+
+Create an account using the brain key generated:
+
+```text
+# In the CLI wallet
+create_account_with_brain_key <BRAIN-KEY> <YOUR-ACCOUNT-NAME> nathan nathan true
+```
+
+## 
 
