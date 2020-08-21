@@ -1,6 +1,6 @@
 # Setting up the Explorer
 
-1\) clone the repo: `git clone git@github.com:PBSA/exeblock-exechain-exe-explorer.git`  
+1\) clone the repo: `git clone git@github.com:peerplays-network/Block-Exporter.git`  
 \(2\) cd into repo + npm i  
 \(3\) switch to security-fixes branch  
 \(4\) open server/config/main.js and replace `const BLOCKCHAIN_URL = 'wss://charlie.peerplays.download/api';`  
