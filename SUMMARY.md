@@ -8,6 +8,8 @@
 ---
 
 * [Blockchain](blockchain/README.md)
+  * [NFT](blockchain/nft.md)
+  * [Non-fungible token HLD](blockchain/non-fungible-token-hld.md)
   * [Beatrice](blockchain/beatrice/README.md)
     * [Setting up the chain and using the CLI wallet through downloadable binaries](blockchain/beatrice/setting-up-the-chain-and-using-the-cli-wallet-through-downloadable-binaries.md)
     * [Setting up the faucet](blockchain/beatrice/setting-up-the-faucet.md)
