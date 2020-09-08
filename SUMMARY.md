@@ -9,6 +9,7 @@
 
 * [Blockchain](blockchain/README.md)
   * [NFT](blockchain/nft/README.md)
+    * [Ethereum RPC vs Peerplays RPC](blockchain/nft/ethereum-rpc-vs-peerplays-rpc.md)
     * [Non-fungible token HLD](blockchain/nft/non-fungible-token-hld.md)
     * [NFT  LLD](blockchain/nft/nft-lld.md)
   * [Beatrice](blockchain/beatrice/README.md)
