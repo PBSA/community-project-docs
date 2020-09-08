@@ -9,9 +9,9 @@
 
 * [Blockchain](blockchain/README.md)
   * [NFT](blockchain/nft/README.md)
-    * [Ethereum RPC vs Peerplays RPC](blockchain/nft/ethereum-rpc-vs-peerplays-rpc.md)
     * [Non-fungible token HLD](blockchain/nft/non-fungible-token-hld.md)
     * [NFT  LLD](blockchain/nft/nft-lld.md)
+    * [Ethereum RPC vs Peerplays RPC](blockchain/nft/ethereum-rpc-vs-peerplays-rpc.md)
   * [Beatrice](blockchain/beatrice/README.md)
     * [Setting up the chain and using the CLI wallet through downloadable binaries](blockchain/beatrice/setting-up-the-chain-and-using-the-cli-wallet-through-downloadable-binaries.md)
     * [Setting up the faucet](blockchain/beatrice/setting-up-the-faucet.md)
