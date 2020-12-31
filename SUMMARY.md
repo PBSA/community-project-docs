@@ -8,6 +8,7 @@
 ---
 
 * [Blockchain](blockchain/README.md)
+  * [Installation script overview](blockchain/installation-script-overview.md)
   * [NFT](blockchain/nft/README.md)
     * [Non-fungible token HLD](blockchain/nft/non-fungible-token-hld.md)
     * [Non-fungible token  LLD](blockchain/nft/nft-lld.md)
