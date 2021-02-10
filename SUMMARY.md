@@ -20,6 +20,7 @@
   * [RBAC](blockchain/rbac/README.md)
     * [Role-Based Custom Permissions LLD](blockchain/rbac/role-based-custom-permissions-lld.md)
 * [5050](5050/README.md)
+  * [GungoHo Raffle](5050/gungoho-raffle.md)
   * [Extending Sweeps](5050/extending-sweeps.md)
 * [BOS](bos/README.md)
   * [Development](bos/development/README.md)
