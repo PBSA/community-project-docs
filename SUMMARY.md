@@ -9,6 +9,7 @@
 
 * [Hive-SONs](son/hive-sons.md)
 * [Bitcoin-SONs](son/bitcoin-sons/README.md)
+  * [SON Requirements Specification](son/bitcoin-sons/son-requirements-specification.md)
   * [Changes to Peerplaysjs-lib](son/bitcoin-sons/changes-to-peerplaysjs-lib.md)
   * [QA - SON](son/bitcoin-sons/untitled/README.md)
     * [Installing Block Exploerer](son/bitcoin-sons/untitled/installing-block-exploerer.md)
@@ -63,7 +64,6 @@
     * [SON Deregister Proposals LLD](son/bitcoin-sons/low-level-designs/son-de-register-proposals-lld.md)
     * [Bitcoin Multi Signature Wallet - LLD](son/bitcoin-sons/low-level-designs/untitled-1.md)
     * [SON Consensus, Communication and Transaction Signing - On Chain LLD](son/bitcoin-sons/low-level-designs/son-consensus-communication-and-transaction-signing-on-chain-lld.md)
-  * [SON Requirements Specification](son/bitcoin-sons/son-requirements-specification.md)
 
 ---
 
