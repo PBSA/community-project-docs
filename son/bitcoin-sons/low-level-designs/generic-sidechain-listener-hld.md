@@ -36,7 +36,7 @@ Link to [draw.io](http://draw.io/) file:
 
 [https://drive.google.com/file/d/1ErmQfeaWa9m67si4hb0RZs54WVYWR0pC/view?usp=sharing](https://drive.google.com/file/d/1ErmQfeaWa9m67si4hb0RZs54WVYWR0pC/view?usp=sharing)
 
-![C:\46e144db9f26ae7322951811101ad253](../../.gitbook/assets/0%20%2811%29.png)
+![C:\46e144db9f26ae7322951811101ad253](../../../.gitbook/assets/0%20%2811%29.png)
 
 ## Sequence diagram
 
@@ -46,7 +46,7 @@ Link to [draw.io](http://draw.io/) file
 
 Sequence diagram shows sidechain listener interactions with the rest of the sidechain components.
 
-![C:\549d14e43db2423a0c888309f1c27965](../../.gitbook/assets/1%20%283%29.png)
+![C:\549d14e43db2423a0c888309f1c27965](../../../.gitbook/assets/1%20%283%29.png)
 
 ## Suggested implementation
 

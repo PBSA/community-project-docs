@@ -130,7 +130,7 @@ This way during maintenance we can calculate payouts faster for each SON.
 
 A new chain parameter to change the max daily rewards is also required.
 
-![C:\452e3a037fb7af377f8c3249f6de9b4d](../../.gitbook/assets/0%20%2818%29.png)
+![C:\452e3a037fb7af377f8c3249f6de9b4d](../../../.gitbook/assets/0%20%2818%29.png)
 
 ### 6.1 parameter\_extension.**son\_pay\_daily\_max**
 

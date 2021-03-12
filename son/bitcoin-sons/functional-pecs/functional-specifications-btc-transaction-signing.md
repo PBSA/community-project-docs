@@ -55,9 +55,9 @@ Steps involved:
 
 ## 5. Flow Diagram
 
-![draw.io source file](../../.gitbook/assets/0%20%2812%29.png)
+![draw.io source file](../../../.gitbook/assets/0%20%2812%29.png)
 
-![BTC Transaction signing process flow](../../.gitbook/assets/btc-transaction-signing.jpg)
+![BTC Transaction signing process flow](../../../.gitbook/assets/btc-transaction-signing.jpg)
 
 ## 6. Context
 

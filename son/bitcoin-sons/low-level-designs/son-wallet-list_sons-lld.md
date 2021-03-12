@@ -40,7 +40,7 @@ We can even further extend the types of data with the information stored in son\
 
 This can be done by introducing a new structure \(son\_info in the UML below\) that can collate the information in database\_api and send it to the wallet.
 
-![C:\195a8205e5b9b6e3d4d94451b7f42262](../../.gitbook/assets/0.png)
+![C:\195a8205e5b9b6e3d4d94451b7f42262](../../../.gitbook/assets/0.png)
 
-![C:\cc5ae9614fa3f8e7598b6293ef760de6](../../.gitbook/assets/1%20%285%29.png)
+![C:\cc5ae9614fa3f8e7598b6293ef760de6](../../../.gitbook/assets/1%20%285%29.png)
 

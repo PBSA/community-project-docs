@@ -61,7 +61,7 @@ They can ask for votes from other users to be selected as top N SON operators. \
 * Prospective SON operator's accounts should have a minimum amount of core asset \(PPY\) that needs to be vested in order to join the SONs. \(50 PPY proposed currently\)
 * SON Operator cannot reclaim the vested assets till after 2 days of deregistration of the node.
 
-![C:\1cf7865a328f76afcdb3be78175db205](../../.gitbook/assets/1.png)
+![C:\1cf7865a328f76afcdb3be78175db205](../../../.gitbook/assets/1.png)
 
 ### 5. Design Changes Suggested
 
@@ -131,21 +131,21 @@ Later if the count has to be changed it can be done through _**committee\_member
 
 ### 6. UML and Sequence Diagrams
 
-![C:\454c88c31f37378ffb7aca8609019484](../../.gitbook/assets/2.png)
+![C:\454c88c31f37378ffb7aca8609019484](../../../.gitbook/assets/2.png)
 
-![C:\eb1a0caa98f98fbbd2963af55e913274](../../.gitbook/assets/3%20%281%29.png)
+![C:\eb1a0caa98f98fbbd2963af55e913274](../../../.gitbook/assets/3%20%281%29.png)
 
-![C:\487caa7ef431fb2f47dae359a6d8d7c0](../../.gitbook/assets/4.png)
+![C:\487caa7ef431fb2f47dae359a6d8d7c0](../../../.gitbook/assets/4.png)
 
-![C:\66a44461e4145b231d1e471a24611ace](../../.gitbook/assets/5.png)
+![C:\66a44461e4145b231d1e471a24611ace](../../../.gitbook/assets/5.png)
 
-![C:\e8a867750eac08ac79d70d223c1d804e](../../.gitbook/assets/6.png)![C:\0a9e03bbab0e7be2bd7b25077d3de4a1](../../.gitbook/assets/7.png)
+![C:\e8a867750eac08ac79d70d223c1d804e](../../../.gitbook/assets/6.png)![C:\0a9e03bbab0e7be2bd7b25077d3de4a1](../../../.gitbook/assets/7.png)
 
 ### 7. CLI Wallet Commands
 
 Following are the CLI Wallet commands to realize the functionality shown above,
 
-![C:\be1bfd0d4849a86b7ebf3ff6f2b15189](../../.gitbook/assets/8.png)
+![C:\be1bfd0d4849a86b7ebf3ff6f2b15189](../../../.gitbook/assets/8.png)
 
 ### 7.1 Node Startup with SON Enabled
 

@@ -40,7 +40,7 @@ Users can vote for SONs in a similar way they vote for a witness.
 
 Below is the sequence of how to vote for an SON.
 
-![C:\d8259df9b2fced0e6a79c1e3bf25a1b0](../../.gitbook/assets/0%20%286%29.png)
+![C:\d8259df9b2fced0e6a79c1e3bf25a1b0](../../../.gitbook/assets/0%20%286%29.png)
 
 ## 6. Tallying Votes for SONs
 
@@ -64,5 +64,5 @@ New SONs are elected via '**database::sort\_votable\_objects\`** - a method to s
 
 A similar approach can be found in the witness voting tally code in **perform\_chain\_maintenance**.
 
-![C:\c647f646dd7e4bc89d57cff3823d1656](../../.gitbook/assets/1%20%281%29.png)
+![C:\c647f646dd7e4bc89d57cff3823d1656](../../../.gitbook/assets/1%20%281%29.png)
 
