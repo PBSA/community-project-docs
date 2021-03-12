@@ -8,6 +8,7 @@
 ## SON
 
 * [Hive-SONs](son/hive-sons.md)
+* [Requirements Specification](son/requirements-specification.md)
 * [Bitcoin-SONs](son/bitcoin-sons/README.md)
   * [SON Requirements Specification](son/bitcoin-sons/son-requirements-specification.md)
   * [Changes to Peerplaysjs-lib](son/bitcoin-sons/changes-to-peerplaysjs-lib.md)
