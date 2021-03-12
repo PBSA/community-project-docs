@@ -7,6 +7,8 @@
 
 ## SON
 
+* [Bitcoin-SONs](son/bitcoin-sons.md)
+* [Hive-SONs](son/hive-sons.md)
 * [SON Requirements Specification](son/son-requirements-specification.md)
 * [Low Level Designs](son/low-level-designs/README.md)
   * [SON Configuration](son/low-level-designs/son-configuration.md)
