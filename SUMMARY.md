@@ -5,40 +5,6 @@
 
 ## Projects
 
----
-
-* [Blockchain](blockchain/README.md)
-  * [Deployment](blockchain/deployment/README.md)
-    * [Installation script overview](blockchain/deployment/installation-script-overview.md)
-  * [NFT](blockchain/nft/README.md)
-    * [Non-fungible token HLD](blockchain/nft/non-fungible-token-hld.md)
-    * [Non-fungible token  LLD](blockchain/nft/nft-lld.md)
-    * [Ethereum RPC vs Peerplays RPC](blockchain/nft/ethereum-rpc-vs-peerplays-rpc.md)
-  * [Beatrice](blockchain/beatrice/README.md)
-    * [Setting up the chain and using the CLI wallet through downloadable binaries](blockchain/beatrice/setting-up-the-chain-and-using-the-cli-wallet-through-downloadable-binaries.md)
-    * [Setting up the faucet](blockchain/beatrice/setting-up-the-faucet.md)
-  * [RBAC](blockchain/rbac/README.md)
-    * [Role-Based Custom Permissions LLD](blockchain/rbac/role-based-custom-permissions-lld.md)
-* [5050](5050/README.md)
-  * [GungoHo Raffle](5050/gungoho-raffle.md)
-  * [Extending Sweeps](5050/extending-sweeps.md)
-* [BOS](bos/README.md)
-  * [Development](bos/development/README.md)
-    * [Development Notes BOS](bos/development/development-related-notes/README.md)
-      * [Python-Peerplays](bos/development/development-related-notes/python-peerplays.md)
-      * [Streamers Edge](bos/development/development-related-notes/streamers-edge.md)
-      * [Faucet](bos/development/development-related-notes/faucet.md)
-      * [Witness Nodes](bos/development/development-related-notes/witness-nodes.md)
-      * [bos-incidents Analytics](bos/development/development-related-notes/bos-incidents-analytics.md)
-      * [Infrastructure Notes](bos/development/development-related-notes/infrastructure-notes.md)
-      * [Remote Control](bos/development/development-related-notes/manufacture-incidents.md)
-    * [development plan - BOS](bos/development/development-plan-bos.md)
-* [QA](qa-1.md)
-* [Release Management & DevOps](release-management-and-devops/README.md)
-  * [Release Strategy](release-management-and-devops/release-strategy.md)
-* [Block Explorer](block-explorer/README.md)
-  * [Setting up the Explorer](block-explorer/setting-up-the-explorer.md)
-
 ## SON
 
 * [SON Requirements Specification](son/son-requirements-specification.md)
@@ -96,6 +62,40 @@
   * [SON-R1.5.05](son/untitled/son-r1.5.05.md)
   * [SON-R1.5.06](son/untitled/son-r1.5.06.md)
 * [Changes to Peerplaysjs-lib](son/changes-to-peerplaysjs-lib.md)
+
+---
+
+* [Blockchain](blockchain/README.md)
+  * [Deployment](blockchain/deployment/README.md)
+    * [Installation script overview](blockchain/deployment/installation-script-overview.md)
+  * [NFT](blockchain/nft/README.md)
+    * [Non-fungible token HLD](blockchain/nft/non-fungible-token-hld.md)
+    * [Non-fungible token  LLD](blockchain/nft/nft-lld.md)
+    * [Ethereum RPC vs Peerplays RPC](blockchain/nft/ethereum-rpc-vs-peerplays-rpc.md)
+  * [Beatrice](blockchain/beatrice/README.md)
+    * [Setting up the chain and using the CLI wallet through downloadable binaries](blockchain/beatrice/setting-up-the-chain-and-using-the-cli-wallet-through-downloadable-binaries.md)
+    * [Setting up the faucet](blockchain/beatrice/setting-up-the-faucet.md)
+  * [RBAC](blockchain/rbac/README.md)
+    * [Role-Based Custom Permissions LLD](blockchain/rbac/role-based-custom-permissions-lld.md)
+* [5050](5050/README.md)
+  * [GungoHo Raffle](5050/gungoho-raffle.md)
+  * [Extending Sweeps](5050/extending-sweeps.md)
+* [BOS](bos/README.md)
+  * [Development](bos/development/README.md)
+    * [Development Notes BOS](bos/development/development-related-notes/README.md)
+      * [Python-Peerplays](bos/development/development-related-notes/python-peerplays.md)
+      * [Streamers Edge](bos/development/development-related-notes/streamers-edge.md)
+      * [Faucet](bos/development/development-related-notes/faucet.md)
+      * [Witness Nodes](bos/development/development-related-notes/witness-nodes.md)
+      * [bos-incidents Analytics](bos/development/development-related-notes/bos-incidents-analytics.md)
+      * [Infrastructure Notes](bos/development/development-related-notes/infrastructure-notes.md)
+      * [Remote Control](bos/development/development-related-notes/manufacture-incidents.md)
+    * [development plan - BOS](bos/development/development-plan-bos.md)
+* [QA](qa-1.md)
+* [Release Management & DevOps](release-management-and-devops/README.md)
+  * [Release Strategy](release-management-and-devops/release-strategy.md)
+* [Block Explorer](block-explorer/README.md)
+  * [Setting up the Explorer](block-explorer/setting-up-the-explorer.md)
 
 ## Scatter Peerplays Integration
 
