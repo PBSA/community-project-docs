@@ -7,8 +7,8 @@
 
 ## SON
 
-* [Hive-SONs](son/hive-sons.md)
-* [Requirements Specification](son/requirements-specification.md)
+* [Hive-SONs](son/hive-sons/README.md)
+  * [Requirements Specification](son/hive-sons/requirements-specification.md)
 * [Bitcoin-SONs](son/bitcoin-sons/README.md)
   * [SON Requirements Specification](son/bitcoin-sons/son-requirements-specification.md)
   * [Changes to Peerplaysjs-lib](son/bitcoin-sons/changes-to-peerplaysjs-lib.md)
@@ -68,6 +68,10 @@
 
 ---
 
+* [Peerplays Dex](peerplays-dex/README.md)
+  * [Functional Specs](peerplays-dex/functional-specs/README.md)
+    * [Login / Account Creation](peerplays-dex/functional-specs/login-account-creation.md)
+    * [Dashboard](peerplays-dex/functional-specs/dashboard.md)
 * [Blockchain](blockchain/README.md)
   * [Deployment](blockchain/deployment/README.md)
     * [Installation script overview](blockchain/deployment/installation-script-overview.md)
