@@ -10,6 +10,7 @@
 * [Hive-SONs](son/hive-sons/README.md)
   * [Functional Specs](son/hive-sons/functional-specs/README.md)
     * [HIVE Deposit Handling](son/hive-sons/functional-specs/hive-deposit-handling.md)
+    * [Hive Withdrawal Handling](son/hive-sons/functional-specs/hive-withdrawal-handling.md)
   * [Requirements Specification](son/hive-sons/requirements-specification.md)
 * [Bitcoin-SONs](son/bitcoin-sons/README.md)
   * [SON Requirements Specification](son/bitcoin-sons/son-requirements-specification.md)
