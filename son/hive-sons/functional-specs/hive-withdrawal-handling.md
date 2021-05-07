@@ -10,7 +10,7 @@ The purpose of this document is to outline functional specifications for monitor
 
 ## 2. Scope
 
-Sidechain operating node will monitor Hive network for events of interest, namely transfer of assets to a Peerplays controlled Hive address. When transfer happens, sidechain will process it, in order to pick up information needed to handle it. Handling withdrawals will create certain amount of tokens on a Peerplays network. This amount will match the amount of assets on target sidechain by predefined exchange rate.
+Sidechain operating node will monitor Hive network for events of interest, namely transfer of assets to a Peerplays controlled Hive address. When transfer happens, sidechain logic will process it, in order to pick up information needed to handle it. Handling withdrawals will create certain amount of tokens on a Peerplays network. This amount will match the amount of assets on target sidechain by predefined exchange rate \( In this case 1:1\).
 
 Specific functions covered include:
 
