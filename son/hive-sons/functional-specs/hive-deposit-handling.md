@@ -85,11 +85,13 @@ The deposit address implementation should be a **one-or-weighted-multisig** addr
 
 SON must be able to create/update Peerplays multisig account, and create/re-create Hive multisig address controlled by active SONs.
 
-The SONs may change at any maintenance interval when the votes are tallied and the existing SONs are voted out. Since, the Hive public keys of the SONs will be used to create the multisig Hive wallet, their public keys will have to be changed in order to operate the multisig Hive wallet. System must transfer the funds from the old wallet to the new wallet every time a SON changes and incur associated Hive transaction fees.
+The SONs may change at any maintenance interval when the votes are tallied and the existing SONs are voted out. Since, the Hive public keys of the SONs will be used to create the multisig Hive wallet, their public keys will have to be changed in order to operate the multisig Hive wallet. System must transfer the funds from the old wallet to the new wallet every time a SON changes and incur associated Hive transaction fees. The transaction fees on the Hive network consist of Resource Credits which are generated based on the account's Hive Power. It will be necessary to maintain a minimum of 100 Hive Power in this Primary Wallet for the sake of covering transaction fees with Resource Credits.
 
 To reduce this additional cost, an m-of-n multisig Hive wallet will be created with signatures of 2/3rd SONs required for a Hive transaction. Change of public key for the SON in the multisig Hive wallet is not needed until 1/3rd of the SONs changes. Once, 1/3rd of the initial SONs changes, we must create a new multisig Hive wallet with the public keys of the current SONs and transfer the funds from the previous wallet to the newly created multisig Hive wallet.
 
 Requirements below assume use of multi-signature primary wallet controlled by SON network, holding all the funds. All transfers are made to and from this multi-signature wallet.
+
+A minimum of 5 SONs must be active to enable the HIVE-SON sidechain. The Hive network supports up to 40 weighted keys for each authority role per wallet. So for the "Active" role, up to 40 SONs can be added to the primary wallet to supply their signing of transactions. The number of signatures required to complete a transaction can be configured when the wallet is created. To do so, a threshold value is set. When each SON signs the transaction their weight is added to the transaction. When the total combined weight becomes greater than or equal to the threshold value, the transaction will become valid and can be completed. The threshold value should be set by Peerplays advisors.
 
 SON must be able to keep the history records of active primary wallets, duration of activity period, and the SONs who control the wallet at the time of creation.
 
