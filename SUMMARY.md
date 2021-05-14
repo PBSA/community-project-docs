@@ -72,6 +72,7 @@
 ---
 
 * [Peerplays Dex](peerplays-dex/README.md)
+  * [Requirements Specification](peerplays-dex/requirements-specification.md)
   * [Functional Specs](peerplays-dex/functional-specs/README.md)
     * [Login / Account Creation](peerplays-dex/functional-specs/login-account-creation.md)
     * [Dashboard](peerplays-dex/functional-specs/dashboard.md)
