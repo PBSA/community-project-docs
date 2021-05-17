@@ -63,7 +63,7 @@ Steps involved:
        1. If no, repeat this step after each SON's signature
        2. If yes, mark transaction object as ‘Completed' \(helper field complete = true\)
 13. Scheduled SON detects completed transaction object
-14. Transaction is converted to a readable format and sent to the Hive network
+14. Transaction is converted to a readable format and sent to the Peerplays network
 15. User receives pHIVE amount
 16. Deposit is marked as processed
 
@@ -73,9 +73,9 @@ To facilitate conversion of Hive into Peerplays tokens, SON must include an even
 
 ## 6. Flow Diagram
 
-{% file src="../../../.gitbook/assets/hive-deposit.xml" %}
+{% file src="../../../.gitbook/assets/hive-deposit \(1\).xml" %}
 
-![Hive Deposit Flow](../../../.gitbook/assets/hive-deposit.png)
+![](../../../.gitbook/assets/hive-deposit%20%281%29.png)
 
 ## 7. Requirements
 
@@ -119,7 +119,7 @@ This proposal must be verified by SONs, which is performed by verifying referred
 
 When the object is published on the chain, SONs specified on the list of expected signers must begin processing it in parallel. Note that SONs specified as signers must sign the transaction as long as they are online, disregarding their status \(thus SON in any status must sign the transaction\). Once enough signatures hve been collected, transaction is marked as ‘Completed'.
 
-When scheduled SON detects that a sidechain transaction object has been completed, it must collect all data from the sidechain transaction object, compile it, convert to a format that is ready for transmission to Hive network, and send this transaction to the Hive network.
+When scheduled SON detects that a sidechain transaction object has been completed, it must collect all data from the sidechain transaction object, compile it, convert to a format that is ready for transmission to Peerplays network, and send this transaction to the Peerplays network.
 
 SON must start conversion of deposit amount from Hive into Peerplays tokens following deposit confirmation. Conversion operation must calculate HIVE to PPY conversion using 1:1 rate. Conversion is completed by sending funds from Hive address \(sidechain user address for deposits\) to primary wallet \(Hive multisig address\).
 
