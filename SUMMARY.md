@@ -74,6 +74,7 @@
 * [Peerplays Dex](peerplays-dex/README.md)
   * [Requirements Specification](peerplays-dex/requirements-specification.md)
   * [Functional Specs](peerplays-dex/functional-specs/README.md)
+    * [Asset Info Page and Asset Lists](peerplays-dex/functional-specs/asset-info-page-and-asset-lists.md)
     * [Voting Page](peerplays-dex/functional-specs/voting-page.md)
     * [Exchange Page](peerplays-dex/functional-specs/exchange-page.md)
     * [Login / Account Creation](peerplays-dex/functional-specs/login-account-creation.md)
