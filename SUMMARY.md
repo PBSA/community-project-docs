@@ -78,6 +78,7 @@
     * [Voting Page](peerplays-dex/functional-specs/voting-page.md)
     * [Exchange Page](peerplays-dex/functional-specs/exchange-page.md)
     * [Login / Account Creation](peerplays-dex/functional-specs/login-account-creation.md)
+    * [User Account Page](peerplays-dex/functional-specs/user-account-page.md)
     * [Dashboard](peerplays-dex/functional-specs/dashboard.md)
 * [Blockchain](blockchain/README.md)
   * [Deployment](blockchain/deployment/README.md)
