@@ -45,6 +45,8 @@ The keyword `shall` indicates a requirement statement.
 
 The Dex must provide a central location for user account management. This is where users can edit their profile, view their orders and transactions, and change the app settings.
 
+Users should also be able to keep track of other users that they frequently interact with. For the purpose of creating a user friendly experience, a contacts list feature would allow a user to quickly find the profiles of people they often send/receive tokens from or engage in discussions with. This would give them easy access to social links and transaction histories of the users that matter most to them.
+
 ## 5. Design Wire-frames
 
 ![](../../.gitbook/assets/wireframes-user-account-page.png)
