@@ -45,7 +45,7 @@ The keyword `shall` indicates a requirement statement.
 
 The Dex must provide a central location for user account management. This is where users can edit their profile, view their orders and transactions, and change the app settings.
 
-## 5. Design Wireframes
+## 5. Design Wire-frames
 
 ![](../../.gitbook/assets/wireframes-user-account-page.png)
 
